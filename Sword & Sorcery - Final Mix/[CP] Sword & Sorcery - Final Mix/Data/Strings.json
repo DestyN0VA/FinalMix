@@ -1,0 +1,13 @@
+{
+    "Changes": [
+// VANILLA 
+		{
+			"LogName": "Map Strings",
+			"Action": "EditData",
+			"Target": "strings/StringsFromMaps",
+			"Entries": {
+				"HailAndWellMet": "{{i18n:Strings.HailAndWellMet}}",
+			}
+		},
+    ]
+}

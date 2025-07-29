@@ -18,6 +18,22 @@
                 },
             }
         },
+        {
+            "LogName": "S&S Music",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "DN.DeepDarkLingering": {
+                    "ID": "DN.DeepDarkLingering",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/DeepDark_Lingering.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+            }
+        },
         // Outdoor Locations
         {
             "LogName": "S&S Music",
@@ -181,6 +197,27 @@
             }
         },
         // SOUNDS
+        {
+            "LogName": "Duskspire Laugh",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "DN.ArdenRoar": {
+                    "ID": "DN.ArdenRoar",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/ArdenRoar.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.NimfearRoar": {
+                    "ID": "DN.NimfearRoar",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/NimfearRoar.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
         // JUKEBOX DATA 
     ]
 }

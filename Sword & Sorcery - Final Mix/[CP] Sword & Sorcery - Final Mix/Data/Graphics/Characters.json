@@ -64,7 +64,7 @@
             "PatchMode": "Overlay",
             "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Scars.png",
-            "When": { "HasSeenEvent": "DN.Val.?", "Disable Portrait Assets": false }
+            "When": { "HasSeenEvent": "DN.Val.6", "Disable Portrait Assets": false }
         },
         {
             "LogName": "Overlay Val Under Outfit Scars",
@@ -73,7 +73,7 @@
             "PatchMode": "Overlay",
             "Target": "Portraits/DN.Val/Seasonal, Portraits/DN.Val/Bonus, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Underscars.png",
-            "When": { "HasSeenEvent": "DN.Val.?", "Disable Portrait Assets": false }
+            "When": { "HasSeenEvent": "DN.Val.6", "Disable Portrait Assets": false }
         },
 
 

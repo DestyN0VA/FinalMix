@@ -29,17 +29,65 @@
       "Target": "Maps/DN.SnS_ESBoat, Maps/DN.SnS_Festivals, Maps/DN.SNS_MountainBackground, Maps/DN.SnS_VioletMoon_Booths",
       "FromFile": "Assets/Tilesheets/Violet Moon/{{TargetWithoutPath}}.png"
     },
-    //MAP LOADS
+    // Deep Dark 
+    {
+      "LogName": "Deep Dark Tilesheets",
+      "Action": "Load",
+      "Target": "maps/DeepDarkTiles_1, maps/DeepDarkTiles_2, maps/DeepDarkTiles_3, maps/custommush1_animation, maps/DeepDark-algaesheet, maps/DeepDark-bubbles, maps/DeepDark-cobwebs, maps/DeepDark-Fires, maps/DeepDark-fog, maps/DeepDark-fog_cyan, maps/DeepDark-rocks, maps/DeepDark-roots, maps/DeepDark-watercaustics, maps/DeepDark-watercaustics_fading, maps/DeepDark-waterfall",
+      "FromFile": "Assets/Tilesheets/DeepDark/{{TargetWithoutPath}}.png"
+    },
+    //MAP LOADS (PERMANENT) 
     {
       "Action": "Load",
       "Target": "Maps/EastScarp_CoastBeyond, Maps/EastScarp_TwilightOverlook, Maps/EastScarp_ArtificerHouse, Maps/EastScarp_BardHouse, Maps/EastScarp_DruidTower, Maps/EastScarp_ThiefTreehouse, Maps/EastScarp_SorcererHouse, Maps/EastScarp_RangerTower, Maps/EastScarp_YggdrasilGrove",
       "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
     },
+    //MAP LOADS (TEMPORARY)
+    {
+      "Action": "Load",
+      "Target": "Maps/Val6H_Mine",
+      "FromFile": "Assets/TemporaryLocations/{{TargetWithoutPath}}.tmx"
+    },
     //PATCH LOADS
     {
       "Action": "Load",
-      "Target": "Patches/DN.SnS_ArtificerHouseExterior, Patches/DN.SnS_BardHouseExterior, Patches/DN.SnS_DeepMountainsNorthwest",
+      "Target": "Patches/DN.SnS_ArtificerHouseExterior, Patches/DN.SnS_BardHouseExterior, Patches/DN.SnS_DeepMountainsNorthwest, Patches/DN.SnS_HiddenWaterfall",
       "FromFile": "Assets/Patches/{{TargetWithoutPath}}.tmx"
+    },
+    // VANILLA: WATERFALL SHORTCUT 
+    {
+      "LogName": "Waterfall Cave Patch",
+      "Action": "EditMap",
+      "Target": "Maps/Forest",
+      "FromFile": "assets/Patches/DN.SnS_HiddenWaterfall.tmx",
+      "ToArea": {
+        "X": 50,
+        "Y": 98,
+        "Width": 8,
+        "Height": 17
+      },
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 53,
+            "Y": 110
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp EastScarp_CoastBeyond 19 48"
+          }
+        },
+        {
+          "Position": {
+            "X": 54,
+            "Y": 110
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp EastScarp_CoastBeyond 19 48"
+          }
+        }
+      ]
     },
     //EAST SCARP: ARTIFICER HOUSE 
     // Exterior 
@@ -346,6 +394,16 @@
           "SetProperties": {
             "TouchAction": "MagicWarp EastScarp_CoastBeyond 55 44"
           }
+        },
+        { // Vanilla Forest
+          "Position": {
+            "X": 18,
+            "Y": 48
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp Forest 51 111"
+          }
         }
       ]
     },
@@ -463,6 +521,25 @@
         "22 69 EastScarp_DeepMountains 31 9",
         "23 69 EastScarp_DeepMountains 31 9",
       ]
+    },
+    // TEMPORARY LOCATIONS 
+    {
+      "LogName": "Val 6H: Mine",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Val6H_Mine": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.Val6H_Mine}}",
+          "CreateOnLoad": {
+            "MapPath": "Maps/Val6H_Mine"
+          },
+          "DefaultArrivalTile": {
+            "X": 25,
+            "Y": 20
+          },
+          "ExcludeFromNpcPathfinding": true,
+        }
+      }
     },
   ]
 }
