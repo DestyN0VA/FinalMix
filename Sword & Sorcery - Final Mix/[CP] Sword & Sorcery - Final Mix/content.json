@@ -24,6 +24,9 @@
     { "Name": "FestivalYearCheck", "Value": "_y2",
         "When": { "Query: {{Year}} % 2 = 1": false } },
 
+    { "Name": "TimeOfDayCheck", "Value": "day" },
+    { "Name": "TimeOfDayCheck", "Value": "night", "When": { "Time": "{{Range:1800,2600}}"} },
+
     //GAMEPLAY
     { "Name": "CountForFarmingAchievements", "Value": "true" },
     { "Name": "CountForFarmingAchievements", "Value": "false",
