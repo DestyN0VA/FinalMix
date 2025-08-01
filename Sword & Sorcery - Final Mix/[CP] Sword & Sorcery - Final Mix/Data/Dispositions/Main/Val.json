@@ -92,7 +92,7 @@
                             
                         },
                         {
-                            "ID": "Beach", "Precedence": -20, "Weight": 1,
+                            "ID": "Shirtless", "Precedence": -20, "Weight": 1,
                             "Portrait": "Portraits/DN.Val/Shirtless",
                             "Sprite": "Characters/DN.Val/Shirtless",
                             "Condition": "EVENT_ID festival_summer11"
