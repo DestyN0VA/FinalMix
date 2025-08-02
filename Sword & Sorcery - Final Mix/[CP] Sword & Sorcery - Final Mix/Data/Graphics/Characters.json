@@ -45,6 +45,7 @@
         {
             "LogName": "Overlay Hair",
             "Action": "EditImage",
+            "Priority": "Early",
             "PatchMode": "Overlay",
             "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Hair_Brown.png", // "Weather|Contains=Rain, Storm, GreenRain": false
@@ -61,19 +62,19 @@
         {
             "LogName": "Overlay Val Scars",
             "Action": "EditImage",
+            "Priority": "Early",
             "PatchMode": "Overlay",
             "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Scars.png",
             "When": { "HasSeenEvent": "DN.Val.6", "Disable Portrait Assets": false }
         },
         {
-            "LogName": "Overlay Val Under Outfit Scars",
+            "LogName": "Overlay Val EyePatch",
             "Action": "EditImage",
-            "Priority": "Early",
             "PatchMode": "Overlay",
-            "Target": "Portraits/DN.Val/Seasonal, Portraits/DN.Val/Bonus, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
-            "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Underscars.png",
-            "When": { "HasSeenEvent": "DN.Val.6", "Disable Portrait Assets": false }
+            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
+            "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Eyepatch.png",
+            "When": { "HasSeenEvent": "DN.Val.6", "Random: {{Range: 1, 4}}|Key=VPO}}": 1, "Disable Portrait Assets": false }
         },
 
 
