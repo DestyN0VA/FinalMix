@@ -46,7 +46,7 @@
             "LogName": "Overlay Hair",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
+            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Hair_Brown.png", // "Weather|Contains=Rain, Storm, GreenRain": false
             "When": { "Disable Portrait Assets": false }
         },
@@ -54,7 +54,7 @@
             "LogName": "Overlay Hair",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
+            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Hair_Wet.png",
             "When": { "Disable Portrait Assets": false, "Weather": "Rain, Storm, GreenRain" }
         },*/
@@ -62,7 +62,7 @@
             "LogName": "Overlay Val Scars",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
+            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Scars.png",
             "When": { "HasSeenEvent": "DN.Val.6", "Disable Portrait Assets": false }
         },
@@ -71,7 +71,7 @@
             "Action": "EditImage",
             "Priority": "Early",
             "PatchMode": "Overlay",
-            "Target": "Portraits/DN.Val/Seasonal, Portraits/DN.Val/Bonus, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
+            "Target": "Portraits/DN.Val/Seasonal, Portraits/DN.Val/Bonus, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Underscars.png",
             "When": { "HasSeenEvent": "DN.Val.6", "Disable Portrait Assets": false }
         },
