@@ -52,7 +52,7 @@
             "Action": "EditImage",
             "PatchMode": "Overlay",
             "Target": "Characters/DN.Val/Bandages",
-            "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Bandages.png"
+            "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Outfits/Bandages.png"
         },
         /*{
             "LogName": "Overlay Hair",
