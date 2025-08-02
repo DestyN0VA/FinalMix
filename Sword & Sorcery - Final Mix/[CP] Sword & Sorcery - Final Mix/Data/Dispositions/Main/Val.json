@@ -99,7 +99,7 @@
                             
                         },
                         {
-                            "ID": "Bandages", "Precedence": -20, "Weight": 1,
+                            "ID": "Bandages", "Precedence": -30, "Weight": 1,
                             "Portrait": "Portraits/DN.Val/Bandages",
                             "Sprite": "Characters/DN.Val/Bandages",
                             
