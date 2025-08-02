@@ -13,7 +13,7 @@
             "LogName": "Load Default Base",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Portraits/DN.Val/Shirtless, Characters/DN.Val/Beach, Characters/DN.Val/Shirtless",
+            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Portraits/DN.Val/Shirtless, Characters/DN.Val/Beach, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Base.png"
         },
     // OUTFIT OVERLAYS
@@ -37,7 +37,7 @@
             "LogName": "Overlay Special Outfits",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Festival_Spirit, Portraits/DN.Val/Festival_Flower, Characters/DN.Val/Festival_Flower",
+            "Target": "Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Festival_Spirit, Portraits/DN.Val/Festival_Flower, Characters/DN.Val/Festival_Flower, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Outfits/{{TargetWithoutPath}}.png",
             "When": { "Disable Portrait Assets": false }
         },

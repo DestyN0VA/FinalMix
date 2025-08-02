@@ -98,6 +98,12 @@
                             "Condition": "EVENT_ID festival_summer11"
                             
                         },
+                        {
+                            "ID": "Bandages", "Precedence": -20, "Weight": 1,
+                            "Portrait": "Portraits/DN.Val/Bandages",
+                            "Sprite": "Characters/DN.Val/Bandages",
+                            
+                        },
                         //Armor
                         {
                             "ID": "Armor", "Precedence": -20, "Weight": 1,
