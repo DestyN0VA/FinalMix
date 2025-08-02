@@ -79,8 +79,14 @@
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Eyepatch.png",
             "When": { "HasSeenEvent": "DN.Val.6H", "Random: {{Range: 1, 4}}|Key=VPO": 1 }
         },
-
-
+        {
+            "LogName": "Overlay Val Aetherite",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Characters/DN.Val/Seasonal, Characters/DN.Val/Bonus,Characters/DN.Val/Armor, Characters/DN.Val/Festival, Characters/DN.Val/Beach, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages",
+            "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Aetherite.png",
+            "When": { "HasSeenEvent": "DN.Val.5H" }
+        },
 
         //Default Patch
         {
