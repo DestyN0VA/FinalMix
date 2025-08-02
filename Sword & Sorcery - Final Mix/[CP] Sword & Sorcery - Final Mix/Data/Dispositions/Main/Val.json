@@ -102,7 +102,7 @@
                             "ID": "Bandages", "Precedence": -10, "Weight": 1,
                             "Portrait": "Portraits/DN.Val/Bandages",
                             "Sprite": "Characters/DN.Val/Bandages",
-                            "Condition": "NULL"
+                            "Condition": "EVENT_ID NULL"
                             
                         },
                         //Armor
