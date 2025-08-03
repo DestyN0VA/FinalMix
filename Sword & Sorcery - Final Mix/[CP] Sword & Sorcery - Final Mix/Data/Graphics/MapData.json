@@ -2,6 +2,7 @@
   "Changes": [
     //MAP TILESHEET LOADS
     //Custom Doors
+    /*
     {
         "LogName": "Val Doors",
         "Action": "EditImage",
@@ -22,6 +23,7 @@
         "ToArea": { "X": 384, "Y": 16, "Width": 16, "Height": 48 },
         "When":  { "LocationName": "EastScarp_ArtificerHouse" }
     },
+    */
     //Buildings
     {
       "LogName": "Loads Building Tilesheets",
