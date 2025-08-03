@@ -38,7 +38,7 @@
             "Target": "Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Festival_Spirit, Portraits/DN.Val/Festival_Flower, Characters/DN.Val/Festival_Flower, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Outfits/{{TargetWithoutPath}}.png"
         },
-    // FEATURE LOADS
+    // FEATURE OVERLAYS
         {
             "LogName": "Overlay Hair",
             "Action": "EditImage",
@@ -77,7 +77,7 @@
             "PatchMode": "Overlay",
             "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Eyepatch.png",
-            "When": { "HasSeenEvent": "DN.Val.6H", "Random: {{Range: 1, 4}}|Key=VPO": 1 }
+            "When": { /*"HasSeenEvent": "DN.Val.6H",*/ "Random: {{Range: 1, 1}}|Key=VPO": 1 }
         },
         {
             "LogName": "Overlay Val Aetherite",
