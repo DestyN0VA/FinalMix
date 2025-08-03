@@ -2,26 +2,27 @@
   "Changes": [
     //MAP TILESHEET LOADS
     //Custom Doors
-    {
-        "LogName": "Val Doors",
-        "Action": "EditImage",
-        "Target": "LooseSprites/cursors",
-        "Update": "OnLocationChange",
-        "FromFile": "Assets/Tilesheets/Interiors/DN.SnS_FinalMixInteriors.png",
-        "FromArea": { "X": 64, "Y": 464, "Width": 64, "Height": 48 },
-        "ToArea": { "X": 512, "Y": 144, "Width": 64, "Height": 48 },
-        "When":  { "LocationName": "EastScarp_ArtificerHouse" }
-    },
-    {
-        "LogName": "Val Doors",
-        "Action": "EditImage",
-        "Target": "Maps/townInterior",
-        "Update": "OnLocationChange",
-        "FromFile": "Assets/Tilesheets/Interiors/DN.SnS_FinalMixInteriors.png",
-        "FromArea": { "X": 0, "Y": 672, "Width": 16, "Height": 48 },
-        "ToArea": { "X": 384, "Y": 16, "Width": 16, "Height": 48 },
-        "When":  { "LocationName": "EastScarp_ArtificerHouse" }
-    },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_ArtificerHouse",
+            "MapTiles": [
+                { "Position": { "X": 10, "Y": 16 }, "Layer": "Buildings",
+                    "SetProperties": { "Action": "MineSign You need at least 2 hearts with Val to enter their room." } } ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_ArtificerHouse",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+
+                { "Position": { "X": 10, "Y": 16 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 10, "Y": 16 }, "Layer": "Back1", "SetTileSheet": "DN.SnS_FinalMixInteriors", "SetIndex": "565" },
+                { "Position": { "X": 10, "Y": 15 }, "Layer": "Front", "SetTileSheet": "DN.SnS_FinalMixInteriors", "SetIndex": "547" },
+                { "Position": { "X": 10, "Y": 14 }, "Layer": "Front", "SetTileSheet": "DN.SnS_FinalMixInteriors", "SetIndex": "529"}
+
+            ],
+            "When": { "Hearts:DN.Val": "{{Range: 2, 14}}" }
+        },
     //Buildings
     {
       "LogName": "Loads Building Tilesheets",
