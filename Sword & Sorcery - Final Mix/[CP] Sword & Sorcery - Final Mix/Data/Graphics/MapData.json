@@ -1,6 +1,27 @@
 {
   "Changes": [
     //MAP TILESHEET LOADS
+    //Custom Doors
+    {
+        "LogName": "Val Doors",
+        "Action": "EditImage",
+        "Target": "LooseSprites/cursors",
+        "Update": "OnLocationChange",
+        "FromFile": "Assets/Tilesheets/Interiors/DN.SnS_FinalMixInteriors.png",
+        "FromArea": { "X": 64, "Y": 464, "Width": 64, "Height": 48 },
+        "ToArea": { "X": 512, "Y": 144, "Width": 64, "Height": 48 },
+        "When":  { "LocationName": "EastScarp_ArtificerHouse" }
+    },
+    {
+        "LogName": "Val Doors",
+        "Action": "EditImage",
+        "Target": "Maps/townInterior",
+        "Update": "OnLocationChange",
+        "FromFile": "Assets/Tilesheets/Interiors/DN.SnS_FinalMixInteriors.png",
+        "FromArea": { "X": 0, "Y": 672, "Width": 16, "Height": 48 },
+        "ToArea": { "X": 384, "Y": 16, "Width": 16, "Height": 48 },
+        "When":  { "LocationName": "EastScarp_ArtificerHouse" }
+    },
     //Buildings
     {
       "LogName": "Loads Building Tilesheets",
