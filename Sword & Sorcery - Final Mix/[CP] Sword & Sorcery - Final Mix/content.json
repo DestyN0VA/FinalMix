@@ -96,7 +96,7 @@
       "AllowValues": "Brown, Blond",
       "Default": "Brown",
       "AllowBlank": false,
-      "Description": "Set how many Ancient Sweet Tea Leaves are required to craft the universally loved Ancient Sweet Tea recipe.",
+      "Description": "Sets Val's hair color.",
       "Section": "Gameplay"
     }
   }
