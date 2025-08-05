@@ -1,0 +1,18 @@
+{
+    "Changes": [
+    //Interior: Dragoon Cabin
+    {
+      "LogName": "Pirate Ship - Interior",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_DragoonCabin": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.DragoonCabin}}",
+          //"CreateOnLoad": { "MapPath": "Maps/EastScarp_DragoonCabin" },
+          "DefaultArrivalTile": { "X": 0, "Y": 0 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    }
+  ]
+}

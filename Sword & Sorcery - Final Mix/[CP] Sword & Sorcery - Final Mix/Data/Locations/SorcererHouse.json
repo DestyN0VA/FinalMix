@@ -1,0 +1,17 @@
+{
+    "Changes": [
+    {
+      "LogName": "Sorcerer House - Interior",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": { 
+        "EastScarp_SorcererHouse": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.SorcererHouse}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_SorcererHouse" },
+          "DefaultArrivalTile": { "X": 5, "Y": 26 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+  ]
+}

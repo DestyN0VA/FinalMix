@@ -1,0 +1,17 @@
+{
+    "Changes": [
+    {
+      "LogName": "Val 6H: Mine",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Val6H_Mine": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.Val6H_Mine}}",
+          "CreateOnLoad": { "MapPath": "Maps/Val6H_Mine" },
+          "DefaultArrivalTile": { "X": 25, "Y": 20 },
+          "ExcludeFromNpcPathfinding": true
+        }
+      }
+    }
+  ]
+}

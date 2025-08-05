@@ -1,0 +1,27 @@
+{
+    "Changes": [
+    //Interior: Ranger Tower  
+    {
+      "LogName": "Ranger Tower - Interior",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_RangerTower": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.RangerTower}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_RangerTower" },
+          "DefaultArrivalTile": { "X": 6, "Y": 22 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+    {
+      "LogName": "Ranger House - Ladder",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_RangerTower",
+      "MapTiles": [
+        { "Position": { "X": 8, "Y": 4 }, "Layer": "Buildings", // Ranger Ladder
+          "SetProperties": { "Action": "Warp 9 28 EastScarp_CoastBeyond" } }
+      ]
+    }
+  ]
+}

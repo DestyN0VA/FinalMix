@@ -1,0 +1,57 @@
+{
+    "Changes": [
+        //Buildings
+        {
+            "LogName": "Loads Building Tilesheets",
+            "Action": "Load",
+            "Target": "Maps/spring_DN.SnS_FinalMixBuildings, Maps/summer_DN.SnS_FinalMixBuildings, Maps/fall_DN.SnS_FinalMixBuildings, Maps/winter_DN.SnS_FinalMixBuildings",
+            "FromFile": "Assets/Tilesheets/Buildings/{{TargetWithoutPath}}.png"
+        },
+        //Interiors
+        {
+            "LogName": "Loads Interior Tilesheets",
+            "Action": "Load",
+            "Target": "Maps/DN.SnS_FinalMixInteriors, Maps/DN.SnS_LavaFall, Maps/DN.SnS_mine_backup, Maps/DN.SnS_mine_lava, Maps/DN.SnS_TreehouseInterior, Maps/DN.SnS_volcano_dungeon",
+            "FromFile": "Assets/Tilesheets/Interiors/{{TargetWithoutPath}}.png"
+        },
+        //Exteriors
+        {
+            "LogName": "Loads Exterior Tilesheets",
+            "Action": "Load",
+            "Target": "Maps/spring_DN.SnS_FinalMixExteriors, Maps/summer_DN.SnS_FinalMixExteriors, Maps/fall_DN.SnS_FinalMixExteriors, Maps/winter_DN.SnS_FinalMixExteriors, Maps/spring_DN.SnS_BigFern, Maps/summer_DN.SnS_BigFern, Maps/fall_DN.SnS_BigFern, Maps/winter_DN.SnS_BigFern, Maps/DN.SnS_SideWaterfall, Maps/DN.SnS_CloudyOceanBG, Maps/spring_directwaterfalls_stoutgoi, Maps/summer_directwaterfalls_stoutgoi, Maps/fall_directwaterfalls_stoutgoi, Maps/winter_directwaterfalls_stoutgoi, Maps/DN.SnS_NightSky, Maps/DN.SnS_PurpleOverlay, Maps/DN.SnS_Crops",
+            "FromFile": "Assets/Tilesheets/Exteriors/{{TargetWithoutPath}}.png"
+        },
+        // Violet Moon
+        {
+            "LogName": "Loads Violet Moon Tilesheets",
+            "Action": "Load",
+            "Target": "Maps/DN.SnS_ESBoat, Maps/DN.SnS_Festivals, Maps/DN.SNS_MountainBackground, Maps/DN.SnS_VioletMoon_Booths",
+            "FromFile": "Assets/Tilesheets/Violet Moon/{{TargetWithoutPath}}.png"
+        },
+        // Deep Dark 
+        {
+            "LogName": "Deep Dark Tilesheets",
+            "Action": "Load",
+            "Target": "maps/DeepDarkTiles_1, maps/DeepDarkTiles_2, maps/DeepDarkTiles_3, maps/custommush1_animation, maps/DeepDark-algaesheet, maps/DeepDark-bubbles, maps/DeepDark-cobwebs, maps/DeepDark-Fires, maps/DeepDark-fog, maps/DeepDark-fog_cyan, maps/DeepDark-rocks, maps/DeepDark-roots, maps/DeepDark-watercaustics, maps/DeepDark-watercaustics_fading, maps/DeepDark-waterfall",
+            "FromFile": "Assets/Tilesheets/DeepDark/{{TargetWithoutPath}}.png"
+        },
+        //MAP LOADS (PERMANENT) 
+        {
+            "Action": "Load",
+            "Target": "Maps/EastScarp_CoastBeyond, Maps/EastScarp_TwilightOverlook, Maps/EastScarp_ArtificerHouse, Maps/EastScarp_BardHouse, Maps/EastScarp_DruidTower, Maps/EastScarp_ThiefTreehouse, Maps/EastScarp_SorcererHouse, Maps/EastScarp_RangerTower, Maps/EastScarp_YggdrasilGrove",
+            "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
+        },
+        //MAP LOADS (TEMPORARY)
+        {
+            "Action": "Load",
+            "Target": "Maps/Val6H_Mine",
+            "FromFile": "Assets/TemporaryLocations/{{TargetWithoutPath}}.tmx"
+        },
+        //PATCH LOADS
+        {
+            "Action": "Load",
+            "Target": "Patches/DN.SnS_ArtificerHouseExterior, Patches/DN.SnS_BardHouseExterior, Patches/DN.SnS_DeepMountainsNorthwest, Patches/DN.SnS_HiddenWaterfall",
+            "FromFile": "Assets/Patches/{{TargetWithoutPath}}.tmx"
+        }
+    ]
+}

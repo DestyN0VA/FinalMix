@@ -1,0 +1,31 @@
+{
+    "Changes": [
+  //EAST SCARP: BARD HOUSE
+    //Exterior
+    {
+      "LogName": "Bard House - Exterior",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_Village",
+      "FromFile": "Assets/Patches/DN.SnS_BardHouseExterior.tmx",
+      "ToArea": { "X": 49, "Y": 0, "Width": 17, "Height": 16 },
+      "MapTiles": [ 
+        { "Position": { "X": 54, "Y": 7 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "LockedDoorWarp 8 16 EastScarp_BardHouse 800 2400" } }
+      ]
+    },
+    //Interior
+    {
+      "LogName": "Bard House - Interior",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_BardHouse": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.BardHouse}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_BardHouse" },
+          "DefaultArrivalTile": { "X": 8, "Y": 16 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+    ]
+}

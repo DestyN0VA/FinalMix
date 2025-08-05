@@ -1,0 +1,17 @@
+{
+    "Changes": [
+    {
+      "LogName": "Waterfall Cave Patch",
+      "Action": "EditMap",
+      "Target": "Maps/Forest",
+      "FromFile": "assets/Patches/DN.SnS_HiddenWaterfall.tmx",
+      "ToArea": { "X": 50, "Y": 98, "Width": 8, "Height": 17 },
+      "MapTiles": [
+        { "Position": { "X": 53, "Y": 110 }, "Layer": "Back", 
+          "SetProperties": { "TouchAction": "MagicWarp EastScarp_CoastBeyond 19 48" } },
+        { "Position": { "X": 54, "Y": 110 }, "Layer": "Back",
+          "SetProperties": { "TouchAction": "MagicWarp EastScarp_CoastBeyond 19 48" } }
+      ]
+    }
+  ]
+}

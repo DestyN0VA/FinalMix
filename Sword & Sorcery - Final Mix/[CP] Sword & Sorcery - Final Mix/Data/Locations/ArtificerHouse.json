@@ -1,0 +1,55 @@
+{
+    "Changes": [
+    //EAST SCARP: ARTIFICER HOUSE 
+    // Exterior 
+    {
+      "LogName": "Artificer House - Exterior",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_Village",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Patches/DN.SnS_ArtificerHouseExterior.tmx",
+      "ToArea": { "X": 89, "Y": 85, "Width": 9, "Height": 12 },
+      "MapTiles": [ { "Position": { "X": 93, "Y": 92 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "LockedDoorWarp 11 21 EastScarp_ArtificerHouse 800 2400" } }
+      ]
+    },
+    //Interior 
+    {
+      "LogName": "Artificer House - Interior",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_ArtificerHouse": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.artificerhouse}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_ArtificerHouse" },
+          "DefaultArrivalTile": { "X": 11, "Y": 21 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_ArtificerHouse",
+      "MapTiles": [
+        { "Position": { "X": 19, "Y": 19 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "Warp 24 49 EastScarp_ArtificerHouse" } },
+        { "Position": { "X": 24, "Y": 48 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "Warp 19 20 EastScarp_ArtificerHouse" } },
+        { "Position": { "X": 10, "Y": 16 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "MineSign You need at least 2 hearts with Val to enter their room." } } ]
+    },
+    //Opens doors
+    {
+        "Action": "EditMap",
+        "Target": "Maps/EastScarp_ArtificerHouse",
+        "Update": "OnLocationChange",
+        "MapTiles": [
+            { "Position": { "X": 10, "Y": 16 }, "Layer": "Buildings", "Remove": true },
+            { "Position": { "X": 10, "Y": 16 }, "Layer": "Back1", "SetTileSheet": "DN.SnS_FinalMixInteriors", "SetIndex": "565" },
+            { "Position": { "X": 10, "Y": 15 }, "Layer": "Front", "SetTileSheet": "DN.SnS_FinalMixInteriors", "SetIndex": "547" },
+            { "Position": { "X": 10, "Y": 14 }, "Layer": "Front", "SetTileSheet": "DN.SnS_FinalMixInteriors", "SetIndex": "529"}
+        ],
+        "When": { "Hearts:DN.Val": "{{Range: 2, 14}}" }
+    },
+    ]
+}

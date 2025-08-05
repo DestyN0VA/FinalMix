@@ -1,0 +1,28 @@
+{
+    "Changes": [
+    // YGGDRASIL GROVE
+    {
+      "LogName": "Yggdrasil Grove",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_YggdrasilGrove": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.YggdrasilGrove}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_YggdrasilGrove" },
+          "DefaultArrivalTile": { "X": 21, "Y": 68 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+    {
+      "LogName": "Yggdrasil Grove Warps",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_YggdrasilGrove",
+      "AddWarps": [
+        "21 69 EastScarp_DeepMountains 31 9",
+        "22 69 EastScarp_DeepMountains 31 9",
+        "23 69 EastScarp_DeepMountains 31 9"
+      ]
+    }   
+  ]
+}

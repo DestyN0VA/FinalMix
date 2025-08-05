@@ -1,0 +1,18 @@
+{
+    "Changes": [
+    //Interior: Thief Treehouse 
+    {
+      "LogName": "Thief Treehouse - Interior",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_ThiefTreehouse": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.ThiefTreehouse}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_ThiefTreehouse" },
+          "DefaultArrivalTile": { "X": 3, "Y": 7 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    }   
+  ]
+}

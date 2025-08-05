@@ -1,0 +1,27 @@
+{
+    "Changes": [
+    {
+      "LogName": "Druid Tower, Thief Treehouse, Sorcerer House - Exteriors",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_DeepMountains",
+      "FromFile": "Assets/Patches/DN.SnS_DeepMountainsNorthwest.tmx",
+      "ToArea": { "X": 0, "Y": 0, "Width": 50, "Height": 29 },
+      "AddWarps": [
+        "20 0 EastScarp_CoastBeyond 6 49",
+        "21 0 EastScarp_CoastBeyond 6 49",
+        "32 8 EastScarp_YggdrasilGrove 21 68",
+        "31 8 EastScarp_YggdrasilGrove 21 68"
+      ],
+      "MapTiles": [
+        { "Position": { "X": 8, "Y": 15 }, "Layer": "Buildings", // Druid Tower
+          "SetProperties": { "Action": "LockedDoorWarp 14 30 EastScarp_DruidTower 800 2400" }  }, // Druid Greenhouse
+        { "Position": { "X": 11, "Y": 15 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "LockedDoorWarp 27 30 EastScarp_DruidTower 800 2400" } }, 
+        { "Position": { "X": 23, "Y": 13 }, "Layer": "Buildings", // Thief Treehouse
+          "SetProperties": { "Action": "LockedDoorWarp 3 7 EastScarp_ThiefTreehouse 800 2400" } },
+        {  "Position": { "X": 40, "Y": 14 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "LockedDoorWarp 5 26 EastScarp_SorcererHouse 800 2400" } }
+      ]
+    }
+  ]
+}

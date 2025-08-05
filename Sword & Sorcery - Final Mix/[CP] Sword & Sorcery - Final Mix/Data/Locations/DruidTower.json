@@ -1,0 +1,17 @@
+{
+    "Changes": [
+    {
+      "LogName": "Druid Tower - Interior",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_DruidTower": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.DruidTower}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_DruidTower" },
+          "DefaultArrivalTile": { "X": 14, "Y": 30 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    }
+  ]
+}

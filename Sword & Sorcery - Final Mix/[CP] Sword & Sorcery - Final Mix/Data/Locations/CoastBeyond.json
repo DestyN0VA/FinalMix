@@ -1,0 +1,40 @@
+{
+    "Changes": [
+    //COAST BEYOND: RANGER TOWER, DRAGOON CABIN 
+    //Exterior: Ranger Tower, Dragoon Cabin
+    {
+      "LogName": "Coast Beyond (Ranger Tower, Dragoon Cabin)",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_CoastBeyond": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.CoastBeyond}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_CoastBeyond" },
+          "DefaultArrivalTile": { "X": 6, "Y": 49 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+    {
+      "LogName": "Ranger House, Dragoon Cabin",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_CoastBeyond",
+      "AddWarps": [
+        "3 49 EastScarp_DeepMountains 21 3",
+        "3 50 EastScarp_DeepMountains 21 3",
+        "30 68 EastScarp_TwilightOverlook 38 85",
+        "31 68 EastScarp_TwilightOverlook 38 85"
+      ],
+      "MapTiles": [
+        { "Position": { "X": 9, "Y": 37 }, "Layer": "Buildings", // Ranger House
+          "SetProperties": { "Action": "LockedDoorWarp 6 22 EastScarp_RangerTower 800 2400" } },
+        { "Position": { "X": 9, "Y": 27 }, "Layer": "Buildings", // Ranger Trap Door
+          "SetProperties": { "Action": "Warp 8 5 EastScarp_RangerTower" } },
+        { "Position": { "X": 43, "Y": 33 }, "Layer": "Back", // Dragoon Cabin
+          "SetProperties": { "TouchAction": "MagicWarp EastScarp_CoastBeyond 55 44" } },
+        { "Position": { "X": 18, "Y": 48 }, "Layer": "Back",
+          "SetProperties": { "TouchAction": "MagicWarp Forest 51 111" } }
+      ]
+    }  
+  ]
+}

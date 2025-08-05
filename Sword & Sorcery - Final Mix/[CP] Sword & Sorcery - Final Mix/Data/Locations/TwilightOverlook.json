@@ -1,0 +1,27 @@
+{
+    "Changes": [
+    // TWILIGHT OVERLOOK
+    {
+      "LogName": "Twilight Overlook (Violet Moon)",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_TwilightOverlook": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.TwilightOverlook}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_TwilightOverlook" },
+          "DefaultArrivalTile": { "X": 38, "Y": 85 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+    {
+      "LogName": "Twilight Overlook Warps",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_TwilightOverlook",
+      "AddWarps": [
+        "37 87 EastScarp_CoastBeyond 30 66",
+        "38 87 EastScarp_CoastBeyond 30 66"
+      ]
+    }   
+  ]
+}
