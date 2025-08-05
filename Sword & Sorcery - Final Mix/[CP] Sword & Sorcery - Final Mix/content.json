@@ -27,6 +27,22 @@
     { "Name": "TimeOfDayCheck", "Value": "day" },
     { "Name": "TimeOfDayCheck", "Value": "night", "When": { "Time": "{{Range:1800,2600}}"} },
 
+    {"Name": "V", "Value": "DN.SnS_Val"},
+    {"Name": "H", "Value": "DN.SnS_Hector"},
+    {"Name": "C", "Value": "DN.SnS_Coriander"},
+    {"Name": "L", "Value": "DN.SnS_Lorin"},
+    {"Name": "R", "Value": "DN.SnS_Roslin"},
+    {"Name": "D", "Value": "DN.SnS_Dandelion"},
+    {"Name": "S", "Value": "DN.SnS_Solomon"},
+    {"Name": "A", "Value": "DN.SnS_Arden"},
+    {"Name": "O", "Value": "DN.SnS_Odelia"},
+    {"Name": "E", "Value": "DN.SnS_Emeritus"},
+    {"Name": "W", "Value": "DN.SnS_Winston"},
+    {"Name": "T", "Value": "DN.SnS_Tom"},
+    {"Name": "N", "Value": "DN.SnS_Nimfear"},
+    {"Name": "G", "Value": "DN.SnS_Gunther"},
+    {"Name": "M", "Value": "DN.SnS_Marlon"},
+    
     //GAMEPLAY
     { "Name": "CountForFarmingAchievements", "Value": "true" },
     { "Name": "CountForFarmingAchievements", "Value": "false",
