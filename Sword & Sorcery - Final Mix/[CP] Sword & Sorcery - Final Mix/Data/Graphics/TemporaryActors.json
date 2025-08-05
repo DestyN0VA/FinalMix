@@ -16,7 +16,7 @@
         {
             "Action": "Load",
             "Target": "Characters/DN.SnS_Gunther, Characters/DN.SnS_Marlon, Portraits/DN.SnS_Gunther, Portraits/DN.SnS_Marlon",
-            "FromFile": "Assets/Models/Temporary/Characters/{{TargetWithoutPath}}/{{season}}.png"
+            "FromFile": "Assets/Models/Temporary/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{season}}.png"
         },
         // EMERITUS
         {
@@ -27,8 +27,8 @@
         // MONSTERS 
         {
             "Action": "Load",
-            "Target": "Characters/Val.Crab",
-            "FromFile": "Assets/Models/Temporary/Characters/Val.Crab.png"
+            "Target": "Characters/StygiumCrab.Mob",
+            "FromFile": "Assets/Models/Temporary/Characters/StygiumCrab.Mob.png"
         },
         {
             "Action": "Load",
