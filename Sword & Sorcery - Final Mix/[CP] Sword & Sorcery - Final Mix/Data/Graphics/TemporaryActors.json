@@ -3,7 +3,7 @@
         // VAL
         {
             "Action": "Load",
-            "Target": "Characters/ValInjury, Characters/ValSmithing, Characters/ValSwordSwing",
+            "Target": "Characters/ValInjury, Characters/ValSwordSwing",
             "FromFile": "Assets/Models/Main/Characters/DN.Val/Actors/{{TargetWithoutPath}}.png"
         },
         // SEN
@@ -17,6 +17,17 @@
             "Action": "Load",
             "Target": "Characters/DN.Gunther, Characters/DN.Marlon",
             "FromFile": "Assets/Models/Temporary/Characters/{{TargetWithoutPath}}/{{season}}.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/DN.Gunther, Portraits/DN.Marlon",
+            "FromFile": "Assets/Models/Temporary/Portraits/{{TargetWithoutPath}}/{{season}}.png"
+        },
+        // EMERITUS
+        {
+            "Action": "Load",
+            "Target": "Characters/DN.Emeritus, Characters/EmeritusHatching, Character/EmeritusPumpkin",
+            "FromFile": "Assets/Models/Temporary/Characters/DN.Emeritus/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
