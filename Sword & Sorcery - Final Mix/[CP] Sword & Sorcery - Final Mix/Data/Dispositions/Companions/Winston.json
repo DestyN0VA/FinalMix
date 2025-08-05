@@ -7,7 +7,7 @@
                 "{{ModId}}.Winston": {
                     "DisplayName": "Winston",
                     "House": "Barn",
-                    "Texture": "Characters/DN.Winston",
+                    "Texture": "Characters/DN.SnS_Winston",
                     "SpriteWidth": 19,
                     "SpriteHeight": 15,
                     "SleepFrame": 24,
@@ -27,7 +27,7 @@
                     "Age": 1,
                     "LocationId": "EastScarp_Village",
                     "DisplayName": "Winston",
-                    "PortraitTexture": "Portraits/DN.Winston",
+                    "PortraitTexture": "Portraits/DN.SnS_Winston",
                     "PetMessage": [ "Meep" ],
                     "HomeTileX": 95,
                     "HomeTileY": 100

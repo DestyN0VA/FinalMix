@@ -7,7 +7,7 @@
                 "{{ModId}}.Nimfear": {
                     "DisplayName": "Nimfear",
                     "House": "Barn",
-                    "Texture": "Characters/DN.Nimfear",
+                    "Texture": "Characters/DN.SnS_Nimfear",
                     "SpriteWidth": 16,
                     "SpriteHeight": 32,
                     "SleepFrame": 24,
@@ -27,7 +27,7 @@
                     "Age": 1,
                     "LocationId": "EastScarp_Village",
                     "DisplayName": "Nimfear",
-                    "PortraitTexture": "Portraits/DN.Nimfear",
+                    "PortraitTexture": "Portraits/DN.SnS_Nimfear",
                     "PetMessage": [ "Meep" ],
                     "HomeTileX": 94,
                     "HomeTileY": 101

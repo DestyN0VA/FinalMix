@@ -3,8 +3,8 @@
         // VAL
         {
             "Action": "Load",
-            "Target": "Characters/ValInjury, Characters/ValSwordSwing",
-            "FromFile": "Assets/Models/Main/Characters/DN.Val/Actors/{{TargetWithoutPath}}.png"
+            "Target": "Characters/Val.Injury, Characters/Val.SwordSwing",
+            "FromFile": "Assets/Models/Main/Characters/DN.SnS_Val/Actors/{{TargetWithoutPath}}.png"
         },
         // SEN
         {
@@ -15,30 +15,20 @@
         // GUNTHER & MARLON
         {
             "Action": "Load",
-            "Target": "Characters/DN.Gunther, Characters/DN.Marlon",
+            "Target": "Characters/DN.SnS_Gunther, Characters/DN.SnS_Marlon, Portraits/DN.SnS_Gunther, Portraits/DN.SnS_Marlon",
             "FromFile": "Assets/Models/Temporary/Characters/{{TargetWithoutPath}}/{{season}}.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Portraits/DN.Gunther, Portraits/DN.Marlon",
-            "FromFile": "Assets/Models/Temporary/Portraits/{{TargetWithoutPath}}/{{season}}.png"
         },
         // EMERITUS
         {
             "Action": "Load",
-            "Target": "Characters/DN.Emeritus, Characters/EmeritusHatching, Character/EmeritusPumpkin",
-            "FromFile": "Assets/Models/Temporary/Characters/DN.Emeritus/{{TargetWithoutPath}}.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Portraits/DN.Gunther, Portraits/DN.Marlon",
-            "FromFile": "Assets/Models/Temporary/Portraits/{{TargetWithoutPath}}/{{season}}.png"
+            "Target": "Characters/Emeritus.Hatching, Characters/Emeritus.MEEP, Characters/Emeritus.Baby",
+            "FromFile": "Assets/Models/Companions/Characters/DN.SnS_Emeritus/{{TargetWithoutPath}}.png"
         },
         // MONSTERS 
         {
             "Action": "Load",
-            "Target": "Characters/ValCrab",
-            "FromFile": "Assets/Models/Monsters/StygiumCrab_Event.png"
+            "Target": "Characters/Val.Crab",
+            "FromFile": "Assets/Models/Temporary/Characters/Val.Crab.png"
         },
         {
             "Action": "Load",
@@ -64,6 +54,6 @@
             "Action": "Load",
             "Target": "Characters/StygiumMiner2",
             "FromFile": "Assets/Models/Monsters/StygiumMiner.png"
-        },
+        }
     ]
 }

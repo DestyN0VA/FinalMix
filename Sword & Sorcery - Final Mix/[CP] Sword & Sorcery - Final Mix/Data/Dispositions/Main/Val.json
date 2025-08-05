@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "DN.Val": {
+                "DN.SnS_Val": {
                     "DisplayName": "{{i18n:Val.Name}}",
                     "Gender": "Female",
                     "Age": "Adult",
@@ -32,10 +32,10 @@
                         98
                     ],
                     /*"SpouseRoom": {
-                        "MapAsset": "{{DN.ValSpouseRoomOnOff}}"
+                        "MapAsset": "{{DN.SnS_ValSpouseRoomOnOff}}"
                     },
                     "SpousePatio": {
-                        "MapAsset": "{{DN.ValSpousePatioOnOff}}"
+                        "MapAsset": "{{DN.SnS_ValSpousePatioOnOff}}"
                     */
                     "Home": [
                         {
@@ -53,64 +53,64 @@
                         {
                             "ID": "Default",
                             "Precedence": -10, "Weight": 1,
-                            "Portrait": "Portraits/DN.Val/Seasonal",
-                            "Sprite": "Characters/DN.Val/Seasonal"
+                            "Portrait": "Portraits/DN.SnS_Val/Seasonal",
+                            "Sprite": "Characters/DN.SnS_Val/Seasonal"
                         },
                         {
                             "ID": "Bonus",
                             "Precedence": -10, "Weight": 1,
-                            "Portrait": "Portraits/DN.Val/Bonus",
-                            "Sprite": "Characters/DN.Val/Bonus"
+                            "Portrait": "Portraits/DN.SnS_Val/Bonus",
+                            "Sprite": "Characters/DN.SnS_Val/Bonus"
                         },
                         // Festivals
                         {
                             "ID": "Festival Seasonal",
                             "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.Val/Festival",
-                            "Sprite": "Characters/DN.Val/Festival",
+                            "Portrait": "Portraits/DN.SnS_Val/Festival",
+                            "Sprite": "Characters/DN.SnS_Val/Festival",
                             "Condition": "ANY \"EVENT_ID festival_spring13\" \"EVENT_ID festival_summer28\" \"EVENT_ID festival_fall16\" \"EVENT_ID festival_winter8\" \"EVENT_ID festival_winter25\""
                             
                         },
                         {
                             "ID": "Festival Flower", "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.Val/Festival_Flower",
-                            "Sprite": "Characters/DN.Val/Festival_Flower",
+                            "Portrait": "Portraits/DN.SnS_Val/Festival_Flower",
+                            "Sprite": "Characters/DN.SnS_Val/Festival_Flower",
                             "Condition": "EVENT_ID festival_spring24"
                             
                         },
                         {
                             "ID": "Festival Spirit", "Precedence": -20, "Weight": 1,
-                            "Sprite": "Characters/DN.Val/Festival_Spirit",
+                            "Sprite": "Characters/DN.SnS_Val/Festival_Spirit",
                             "Condition": "EVENT_ID festival_fall27"
                             
                         },
                         {
                             "ID": "Beach", "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.Val/Shirtless",
-                            "Sprite": "Characters/DN.Val/Beach",
+                            "Portrait": "Portraits/DN.SnS_Val/Shirtless",
+                            "Sprite": "Characters/DN.SnS_Val/Beach",
                             "Condition": "EVENT_ID festival_summer11"
                             
                         },
                         {
                             "ID": "Shirtless", "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.Val/Shirtless",
-                            "Sprite": "Characters/DN.Val/Shirtless",
+                            "Portrait": "Portraits/DN.SnS_Val/Shirtless",
+                            "Sprite": "Characters/DN.SnS_Val/Shirtless",
                             "Condition": "EVENT_ID festival_summer11"
                             
                         },
                         {
                             "ID": "Bandages", "Precedence": -10, "Weight": 1,
-                            "Portrait": "Portraits/DN.Val/Bandages",
-                            "Sprite": "Characters/DN.Val/Bandages",
+                            "Portrait": "Portraits/DN.SnS_Val/Bandages",
+                            "Sprite": "Characters/DN.SnS_Val/Bandages",
                             "Condition": "EVENT_ID NULL"
                             
                         },
                         //Armor
                         {
                             "ID": "Armor", "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.Val/Armor",
-                            "Sprite": "Characters/DN.Val/Armor",
-                            "Condition": "ANY \"IS_EVENT DN.Val.0H\" \"IS_EVENT DN.Val.4H\" \"IS_EVENT DN.Val.5H\" \"IS_EVENT DN.Val.6H\""
+                            "Portrait": "Portraits/DN.SnS_Val/Armor",
+                            "Sprite": "Characters/DN.SnS_Val/Armor",
+                            "Condition": "ANY \"IS_EVENT DN.SnS_Val.0H\" \"IS_EVENT DN.SnS_Val.4H\" \"IS_EVENT DN.SnS_Val.5H\" \"IS_EVENT DN.SnS_Val.6H\""
                             
                         }
                     ]

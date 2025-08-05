@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "DN.Hector": {
+                "DN.SnS_Hector": {
                     "DisplayName": "{{i18n:Hector.Name}}",
                     "Gender": "Male",
                     "Age": "Adult",
@@ -32,10 +32,10 @@
                         98
                     ],
                     /*"SpouseRoom": {
-                        "MapAsset": "{{DN.HectorSpouseRoomOnOff}}"
+                        "MapAsset": "{{DN.SnS_HectorSpouseRoomOnOff}}"
                     },
                     "SpousePatio": {
-                        "MapAsset": "{{DN.HectorSpousePatioOnOff}}"
+                        "MapAsset": "{{DN.SnS_HectorSpousePatioOnOff}}"
                     */
                     "ItemDeliveryQuests": false,
                     "Home": [
@@ -55,8 +55,8 @@
                             "ID": "Default",
                             "Precedence": -10,
                             "Weight": 1,
-                            "Portrait": "Portraits/DN.Hector",
-                            "Sprite": "Characters/DN.Hector"
+                            "Portrait": "Portraits/DN.SnS_Hector",
+                            "Sprite": "Characters/DN.SnS_Hector"
                         }
                     ]
                 }

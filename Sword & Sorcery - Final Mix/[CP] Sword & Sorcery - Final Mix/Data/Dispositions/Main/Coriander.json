@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "DN.Coriander": {
+                "DN.SnS_Coriander": {
                     "DisplayName": "{{i18n:Coriander.Name}}",
                     "Gender": "Female",
                     "Age": "Adult",
@@ -32,10 +32,10 @@
                         98
                     ],
                     /*"SpouseRoom": {
-                        "MapAsset": "{{DN.CorianderSpouseRoomOnOff}}"
+                        "MapAsset": "{{DN.SnS_CorianderSpouseRoomOnOff}}"
                     },
                     "SpousePatio": {
-                        "MapAsset": "{{DN.CorianderSpousePatioOnOff}}"
+                        "MapAsset": "{{DN.SnS_CorianderSpousePatioOnOff}}"
                     */
                     "Home": [
                         {
@@ -54,8 +54,8 @@
                             "ID": "Default",
                             "Precedence": -10,
                             "Weight": 1,
-                            "Portrait": "Portraits/DN.Coriander",
-                            "Sprite": "Characters/DN.Coriander"
+                            "Portrait": "Portraits/DN.SnS_Coriander",
+                            "Sprite": "Characters/DN.SnS_Coriander"
                         }
                     ]
                 }

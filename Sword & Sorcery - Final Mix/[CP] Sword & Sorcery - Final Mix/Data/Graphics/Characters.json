@@ -6,14 +6,14 @@
             "LogName": "Load Default Base",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.Val, Portraits/DN.Val",
+            "Target": "Characters/DN.SnS_Val, Portraits/DN.SnS_Val",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/{{TargetWithoutPath}}/SocialMenu.png"
         },
         {
             "LogName": "Load Default Base",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Portraits/DN.Val/Shirtless, Characters/DN.Val/Beach, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Beach, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Base.png"
         },
     // OUTFIT OVERLAYS
@@ -21,21 +21,21 @@
             "LogName": "Overlay Seasonal Outfits",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Outfits/Season_{{Season}}.png"
         },
         {
             "LogName": "Overlay Festival Outfits - Seasonal",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Festival, Portraits/DN.Val/Festival",
+            "Target": "Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Outfits/Festival_{{Season}}.png"
         },
         {
             "LogName": "Overlay Special Outfits",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Festival_Spirit, Portraits/DN.Val/Festival_Flower, Characters/DN.Val/Festival_Flower, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Festival_Spirit, Portraits/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Outfits/{{TargetWithoutPath}}.png"
         },
     // FEATURE OVERLAYS
@@ -44,21 +44,21 @@
             "Action": "EditImage",
             "Priority": "Early",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Hair_{{Val Hair Color}}.png" // "Weather|Contains=Rain, Storm, GreenRain": false
         },
         {
             "LogName": "Overlay Val Sprite fix", //Find a way to tidy this later
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Outfits/Bandages.png"
         },
         /*{
             "LogName": "Overlay Hair",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Hair_Wet.png",
             "When": { "Disable Portrait Assets": false, "Weather": "Rain, Storm, GreenRain" }
         },*/
@@ -67,25 +67,25 @@
             "Action": "EditImage",
             "Priority": "Early",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless, Characters/DN.Val/Bandages, Portraits/DN.Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Scars.png",
-            "When": { "HasSeenEvent": "DN.Val.6H" }
+            "When": { "HasSeenEvent": "DN.SnS_Val.6H" }
         },
         {
             "LogName": "Overlay Val EyePatch",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Seasonal, Portraits/DN.Val/Seasonal, Characters/DN.Val/Bonus, Portraits/DN.Val/Bonus, Characters/DN.Val/Armor, Portraits/DN.Val/Armor, Characters/DN.Val/Festival, Portraits/DN.Val/Festival, Characters/DN.Val/Beach, Portraits/DN.Val/Shirtless, Characters/DN.Val/Shirtless",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Eyepatch.png",
-            "When": { "HasSeenEvent": "DN.Val.6H", "Random: {{Range: 1, 3}}|Key=VPO": 1 }
+            "When": { "HasSeenEvent": "DN.SnS_Val.6H", "Random: {{Range: 1, 3}}|Key=VPO": 1 }
         },
         {
             "LogName": "Overlay Val Aetherite",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.Val/Armor",
+            "Target": "Characters/DN.SnS_Val/Armor",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Aetherite.png",
-            "When": { "HasSeenEvent": "DN.Val.5H" }
+            "When": { "HasSeenEvent": "DN.SnS_Val.5H" }
         },
 
         //Default Patch
@@ -93,14 +93,14 @@
             "LogName": "Load Main Character Art Default",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.Hector, Characters/DN.Lorin, Characters/DN.Coriander, Characters/DN.Roslin, Characters/DN.Dandelion, Characters/DN.Arden",
+            "Target": "Characters/DN.SnS_Hector, Characters/DN.SnS_Lorin, Characters/DN.SnS_Coriander, Characters/DN.SnS_Roslin, Characters/DN.SnS_Dandelion, Characters/DN.SnS_Arden",
             "FromFile": "Assets/Models/Main/Characters/{{TargetWithoutPath}}/Other/Armor.png"
         },
         {
             "LogName": "Load Main Portrait Art Default",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/DN.Hector, Portraits/DN.Lorin, Portraits/DN.Coriander, Portraits/DN.Roslin, Portraits/DN.Dandelion, Portraits/DN.Arden",
+            "Target": "Portraits/DN.SnS_Hector, Portraits/DN.SnS_Lorin, Portraits/DN.SnS_Coriander, Portraits/DN.SnS_Roslin, Portraits/DN.SnS_Dandelion, Portraits/DN.SnS_Arden",
             "FromFile": "Assets/Models/Main/Portraits/{{TargetWithoutPath}}/Other/Armor.png"
         },
         //Main Cast
@@ -109,14 +109,14 @@
             "LogName": "Load Main Character Art",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.Hector, Characters/DN.Lorin, Characters/DN.Coriander, Characters/DN.Roslin, Characters/DN.Dandelion, Characters/DN.Arden",
+            "Target": "Characters/DN.SnS_Hector, Characters/DN.SnS_Lorin, Characters/DN.SnS_Coriander, Characters/DN.SnS_Roslin, Characters/DN.SnS_Dandelion, Characters/DN.SnS_Arden",
             "FromFile": "Assets/Models/Main/Characters/{{TargetWithoutPath}}/Seasonals/{{Season}}.png"
         },
         {
             "LogName": "Load Main Portrait Art",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/DN.Hector, Portraits/DN.Lorin, Portraits/DN.Coriander, Portraits/DN.Roslin, Portraits/DN.Dandelion, Portraits/DN.Arden",
+            "Target": "Portraits/DN.SnS_Hector, Portraits/DN.SnS_Lorin, Portraits/DN.SnS_Coriander, Portraits/DN.SnS_Roslin, Portraits/DN.SnS_Dandelion, Portraits/DN.SnS_Arden",
             "FromFile": "Assets/Models/Main/Portraits/{{TargetWithoutPath}}/Seasonals/{{Season}}.png"
         },
             //Armor
@@ -124,14 +124,14 @@
             "LogName": "Load Main Character Art Armor",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.Hector/Armor, Characters/DN.Lorin/Armor, Characters/DN.Coriander/Armor, Characters/DN.Roslin/Armor, Characters/DN.Dandelion/Armor, Characters/DN.Arden/Armor",
+            "Target": "Characters/DN.SnS_Hector/Armor, Characters/DN.SnS_Lorin/Armor, Characters/DN.SnS_Coriander/Armor, Characters/DN.SnS_Roslin/Armor, Characters/DN.SnS_Dandelion/Armor, Characters/DN.SnS_Arden/Armor",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Other/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "Load Main Portrait Art Armor",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/DN.Hector/Armor, Portraits/DN.Lorin/Armor, Portraits/DN.Coriander/Armor, Portraits/DN.Roslin/Armor, Portraits/DN.Dandelion/Armor, Portraits/DN.Arden/Armor",
+            "Target": "Portraits/DN.SnS_Hector/Armor, Portraits/DN.SnS_Lorin/Armor, Portraits/DN.SnS_Coriander/Armor, Portraits/DN.SnS_Roslin/Armor, Portraits/DN.SnS_Dandelion/Armor, Portraits/DN.SnS_Arden/Armor",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Other/{{TargetWithoutPath}}.png"
         },
         //Companions
@@ -139,14 +139,14 @@
             "LogName": "Load Companion Character Art",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.Emeritus, Characters/DN.Tom, Characters/DN.Odelia, Characters/DN.Winston, Characters/DN.Nimfear, Characters/DN.Solomon",
+            "Target": "Characters/DN.SnS_Emeritus, Characters/DN.SnS_Tom, Characters/DN.SnS_Odelia, Characters/DN.SnS_Winston, Characters/DN.SnS_Nimfear, Characters/DN.SnS_Solomon",
             "FromFile": "Assets/Models/Companions/Characters/{{TargetWithoutPath}}/Default.png"
         },
         {
             "LogName": "Load Nimfear Flight Art",
             "Action": "EditImage",
             "Update": "OnLocationChange",
-            "Target": "Characters/DN.Nimfear",
+            "Target": "Characters/DN.SnS_Nimfear",
             "FromFile": "Assets/Models/Companions/Characters/{{TargetWithoutPath}}/Flight.png",
             "When": {
                 "IsOutdoors": true
@@ -156,7 +156,7 @@
             "LogName": "Load Companion Portrait Art",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/DN.Emeritus, Portraits/DN.Tom, Portraits/DN.Odelia, Portraits/DN.Winston, Portraits/DN.Nimfear, Portraits/DN.Solomon",
+            "Target": "Portraits/DN.SnS_Emeritus, Portraits/DN.SnS_Tom, Portraits/DN.SnS_Odelia, Portraits/DN.SnS_Winston, Portraits/DN.SnS_Nimfear, Portraits/DN.SnS_Solomon",
             "FromFile": "Assets/Models/Companions/Portraits/{{TargetWithoutPath}}/Default.png"
         }
     ]

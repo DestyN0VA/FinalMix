@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "DN.Arden": {
+                "DN.SnS_Arden": {
                     "DisplayName": "{{i18n:Arden.Name}}",
                     "Gender": "Female",
                     "Age": "Adult",
@@ -33,10 +33,10 @@
                     ],
                     "ItemDeliveryQuests": false,
                     /*"SpouseRoom": {
-                        "MapAsset": "{{DN.ArdenSpouseRoomOnOff}}"
+                        "MapAsset": "{{DN.SnS_ArdenSpouseRoomOnOff}}"
                     },
                     "SpousePatio": {
-                        "MapAsset": "{{DN.ArdenSpousePatioOnOff}}"
+                        "MapAsset": "{{DN.SnS_ArdenSpousePatioOnOff}}"
                     */
                     "Home": [
                         {
@@ -55,8 +55,8 @@
                             "ID": "Default",
                             "Precedence": -10,
                             "Weight": 1,
-                            "Portrait": "Portraits/DN.Arden",
-                            "Sprite": "Characters/DN.Arden"
+                            "Portrait": "Portraits/DN.SnS_Arden",
+                            "Sprite": "Characters/DN.SnS_Arden"
                         }
                     ]
                 }
