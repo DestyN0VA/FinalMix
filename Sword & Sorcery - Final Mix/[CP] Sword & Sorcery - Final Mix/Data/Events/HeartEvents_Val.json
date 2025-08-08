@@ -1,5 +1,13 @@
 {
   "Changes": [
+        {
+      "LogName": "Testing grounds", //Plz don't delete, use this event for testing animations quickly
+      "Action": "EditData",
+      "Target": "Data/Events/EastScarp_Village",
+      "Entries": {
+        "DN.DEBUG/gameStateQuery NULL": "{{season}}_day_ambient/49 80/farmer 49 79 0 {{V}} 49 77 0/skippable/pause 250/speak {{V}} \"Yeehaw\"/emote farmer 244/speak {{V}} \"Haweey\"/pause 250/end"
+      }
+    },
     {
       "LogName": "Val's 0 Heart Event",
       "Action": "EditData",
@@ -105,19 +113,37 @@ y = how many tiles move in y axis (+ = down, - = up)
 z = direction face upon reaching destination (1=right, 2=down, 3=left, 4=up)
 t = duration in milliseconds how long to stay in that spot (must be >= 10000ms)
 
-4- empty can
-8- question mark
-12- angry
-16- exclamation
-20- heart
-24- sleep
-28- sad
-32- happy
-36- x
-40- pause
-52- video game
-56- music note
-60- blush 
+4   - empty can
+8   - question mark
+12  - angry
+16  - exclamation
+20  - heart
+24  - sleep
+28  - sad
+32  - happy
+36  - x
+40  - pause
+52  - video game
+56  - music note
+60  - blush
+212 - Thumbs Up
+216 - Thumbs Down
+220 - Poisoned
+224 - Laugh (Joy)
+228 - Shock
+232 - Raise hand/Reach
+236 - Laugh (Evil)
+240 - Smug/Annoyed
+244 - Lightbulb
+248 - Harp/Lyre
+252 - J...jar.
+256 - Orange heart
+260 - Purple heart
+264 - Green heart
+268 - Yellow heart
+272 - Blue heart
+276 - Sunset Heart
+280 - Shadow heart
 
 /--can comment with a double dash/
 temporaryAnimatedSprite TexturePath x-startposition y-endposition Width-px Height-px FrameDuration FrameCount #OfAnimationLoops SpawnTileX SpawnTileY Flicker Flip LayerDepth AlphaFade Scale ScaleChange Rotation RotationChange AdvancedFlags
