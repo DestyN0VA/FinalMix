@@ -1,12 +1,35 @@
 {
     "Changes": [
         {
-            "Logname": "Inject Missing Multiplayer Emotes",
+            "Logname": "Inject New Emotes",
             "Action": "EditImage",
+            "Priority": "Late",
             "PatchMode": "Replace",
             "Target": "TileSheets/emotes",
-            "FromFile": "Assets/Misc/MultiplayerEmotes.png",
-            "ToArea": { "X": 0, "Y": 848, "Width": 64, "Height": 304 }
+            "FromFile": "Assets/Misc/ExtendedEmotes.png",
+            "ToArea": { "X": 0, "Y": 848, "Width": 64, "Height": 320 }
         }
+            /*
+            212 - Thumbs Up
+            216 - Thumbs Down
+            220 - Poisoned
+            224 - Laugh (Joy)
+            228 - Shock
+            232 - Raise hand/Reach
+            236 - Laugh (Evil)
+            240 - Smug/Annoyed
+            244 - Lightbulb
+            248 - Harp/Lyre
+            252 - J...jar.
+            256 - Orange heart
+            260 - Purple heart
+            264 - Green heart
+            268 - Yellow heart
+            272 - Blue heart
+            276 - Sunset Heart
+            280 - Shadow heart
+            284 - Gray heart
+            288 - Pink heart
+            */
     ]
 }
