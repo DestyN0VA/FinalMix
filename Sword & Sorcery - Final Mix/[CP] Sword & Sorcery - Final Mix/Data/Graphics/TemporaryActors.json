@@ -27,8 +27,8 @@
         // MONSTERS 
         {
             "Action": "Load",
-            "Target": "Characters/StygiumCrab.Mob",
-            "FromFile": "Assets/Models/Temporary/Characters/StygiumCrab.Mob.png"
+            "Target": "Characters/StygiumCrab.Mob, Characters/MundaneCrab.Mob",
+            "FromFile": "Assets/Models/Temporary/Characters/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Load",
