@@ -24,11 +24,22 @@
             "Target": "Characters/Emeritus.Hatching, Characters/Emeritus.MEEP, Characters/Emeritus.Pumpkin, Characters/Emeritus.Adult",
             "FromFile": "Assets/Models/Companions/Characters/DN.SnS_Emeritus/{{TargetWithoutPath}}.png"
         },
+        // FARMER
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer.SwordSwing",
+            "FromFile": "Assets/Models/Temporary/Characters/Farmer.SwordSwing.png"
+        },
         // MONSTERS 
         {
             "Action": "Load",
             "Target": "Characters/StygiumCrab.Mob, Characters/MundaneCrab.Mob",
             "FromFile": "Assets/Models/Temporary/Characters/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/StygiumCrab.Boss",
+            "FromFile": "Assets/Models/Monsters/StygiumCrab_Boss.png"
         },
         {
             "Action": "Load",

@@ -198,21 +198,34 @@
         },
         // SOUNDS
         {
-            "LogName": "Duskspire Laugh",
+            "LogName": "S&S Sound Effects",
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
                 "DN.ArdenRoar": {
                     "ID": "DN.ArdenRoar",
                     "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/ArdenRoar.ogg}}" ],
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/ArdenRoar.ogg}}"
+                    ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
                 "DN.NimfearRoar": {
                     "ID": "DN.NimfearRoar",
                     "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/NimfearRoar.ogg}}" ],
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/NimfearRoar.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
+                "DN.BossCrabRoar": {
+                    "ID": "DN.BossCrabRoar",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/BossCrabRoar.ogg}}"
+                    ],
                     "StreamedVorbis": true,
                     "Looped": false
                 }
