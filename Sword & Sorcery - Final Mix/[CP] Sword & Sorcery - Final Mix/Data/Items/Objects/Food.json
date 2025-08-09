@@ -694,6 +694,28 @@
             "color_dark_cyan"
           ]
         },
+        "{{ModID}}_ChocolateOrange": {
+          "Name": "{{ModID}}_ChocolateOrange",
+          "DisplayName": "Chocolate Orange",
+          "Description": "Overflowing with chocolatey citrus goodness.",
+          "Type": "Cooking",
+          "Category": -7,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 550, 
+          "Edibility": 50,
+          "IsDrink": false,
+          "Buffs": null,
+          "Texture": "DN.Objects/Food",
+          "SpriteIndex": 28,
+          "ContextTags": [
+            "color_brown",
+            "food_nonvegan",
+            "allergen_dairy",
+            "allergen_gluten",
+            "food_sweet"
+          ]
+        },
 
         //GINGER BEERS
          "{{ModID}}_orangegingerbeer": {
