@@ -1,0 +1,47 @@
+{
+	"Changes": [
+		// LETTERS
+		{
+			"LogName": "S&S Mail",
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"Val.Mail.3HGift": "{{i18n:Val.Mail.3HGift}}",
+				"Val.Mail.6HGift": "{{i18n:Val.Mail.6HGift}}",
+				"Val.Mail.9HGift": "{{i18n:Val.Mail.9HGift}}",
+			}
+		},
+		// TRIGGER ACTIONS
+		{
+			"LogName": "S&S Mail Triggers",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"Val.TriggerAction.3HGift": {
+					"Id": "Val.TriggerAction.3HGift",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.3H",
+					"Actions": [
+						"AddMail Current Val.Mail.3HGift now",
+					]
+				},
+				"Val.TriggerAction.6HGift": {
+					"Id": "Val.TriggerAction.6HGift",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.6H",
+					"Actions": [
+						"AddMail Current Val.Mail.6HGift now"
+					]
+				},
+				"Val.TriggerAction.9HGift": {
+					"Id": "Val.TriggerAction.9HGift",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.9H",
+					"Actions": [
+						"AddMail Current Val.Mail.9HGift now"
+					]
+				},
+			}
+		}
+	]
+}

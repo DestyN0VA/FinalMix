@@ -21,7 +21,7 @@
         // EMERITUS
         {
             "Action": "Load",
-            "Target": "Characters/Emeritus.Hatching, Characters/Emeritus.MEEP, Characters/Emeritus.Baby",
+            "Target": "Characters/Emeritus.Hatching, Characters/Emeritus.MEEP, Characters/Emeritus.Pumpkin, Characters/Emeritus.Adult",
             "FromFile": "Assets/Models/Companions/Characters/DN.SnS_Emeritus/{{TargetWithoutPath}}.png"
         },
         // MONSTERS 

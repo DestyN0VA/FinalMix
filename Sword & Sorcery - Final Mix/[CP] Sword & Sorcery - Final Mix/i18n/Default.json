@@ -15,5 +15,9 @@
     "Playername.2": "Excellent timing as always, {{Name}}!",
     "Playername.3": "To {{Name}}!",
     // Strings 
-    "Strings.HailAndWellMet": "Do not abandon Hope, for she is infinite, and unwilling to stand by in the presence of Evil."
+    "Strings.HailAndWellMet": "Do not abandon Hope, for she is infinite, and unwilling to stand by in the presence of Evil.",
+    // Mail 
+    "Val.Mail.3HGift": "Hail and well-met, @!^^A friend named Billie owns a brewery back in the Fern Islands. Best booze that side of the Salish Sea. Here's the recipe for their special Bourbon.^^It's a well-kept secret. Or, was, until I told you.^^Sincerely,^Val%item cookingRecipe DN.SnS_salishbourbon%%[#]Salish Bourbon Recipe",
+    "Val.Mail.6HGift": "Hail and well-met, @!^^Here's one of my favorite treats from Josa; sure am glad Rosa stocks them!^^Thanks again for wrapping me up after I got hurt. Not sure what I would have done without you...^^Sincerely,^Val%item id DN.SnS_ChocolateOrange 1%%[#]Chocolate Orange",
+    "Val.Mail.9HGift": "Hail and well-met, @!^^I hopped the train to Zuzu to get some supplies and saw this in a bin at the market... Everyone deserves a cute Pepper Rex, most of all you.^^So I brought it back on the train with me. Enjoy!^^Sincerely,^Val%item id DN.SnS_PepperRexPillow 1%%[#]Pepper Rex Pillow",
 }
