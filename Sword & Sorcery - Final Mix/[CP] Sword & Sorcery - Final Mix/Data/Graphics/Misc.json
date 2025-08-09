@@ -3,7 +3,7 @@
         {
             "Logname": "Inject Missing Multiplayer Emotes",
             "Action": "EditImage",
-            "PatchMode": "Overlay",
+            "PatchMode": "Replace",
             "Target": "TileSheets/emotes",
             "FromFile": "Assets/Misc/MultiplayerEmotes.png",
             "ToArea": { "X": 0, "Y": 848, "Width": 64, "Height": 304 }
