@@ -109,7 +109,7 @@
       "Section": "Gameplay"
     },
     "Val Hair Color": {
-      "AllowValues": "Brown, Blond",
+      "AllowValues": "Brown, Blonde",
       "Default": "Brown",
       "AllowBlank": false,
       "Description": "Sets Val's hair color.",
