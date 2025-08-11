@@ -1,6 +1,6 @@
 {
-    "Changes": [
-// VANILLA 
+	"Changes": [
+		// VANILLA MAPS
 		{
 			"LogName": "Map Strings",
 			"Action": "EditData",
@@ -9,5 +9,24 @@
 				"HailAndWellMet": "{{i18n:Strings.HailAndWellMet}}",
 			}
 		},
-    ]
+		// SOCIAL MENU
+		{
+			"LogName": "Val - Gender Neutral Social Page Fix",
+			"Action": "EditData",
+			"Target": "strings/StringsFromCSFiles",
+			"Entries": {
+				"SocialPage_Relationship_Single_Female": "{{i18n:Val.SocialMenu.11635}}",
+				"SocialPage_Relationship_Single_Male": "{{i18n:Val.SocialMenu.11635}}",
+				"SocialPage_Relationship_Husband": "{{i18n:Val.SocialMenu.11636}}",
+				"SocialPage_Relationship_Wife": "{{i18n:Val.SocialMenu.11637}}",
+				"SocialPage_Relationship_Boyfriend": "{{i18n:Val.SocialMenu.11639}}",
+				"SocialPage_Relationship_Girlfriend": "{{i18n:Val.SocialMenu.11640}}",
+				"SocialPage_Relationship_ExHusband": "{{i18n:Val.SocialMenu.11642}}",
+				"SocialPage_Relationship_ExWife": "{{i18n:Val.SocialMenu.11643}}",
+			},
+            "When": {
+                "HasFlag: |contains=Dating_Val": true,
+            }
+		},
+	]
 }
