@@ -414,8 +414,8 @@ namespace SwordAndSorcerySMAPI
             texture = Game1.menuTexture;
             if (__instance.QualifiedItemId == "(W)DN.SnS_longlivetheking_gun")
                 sourceRect = Game1.getSourceRectForStandardTileSheet(Game1.menuTexture, __instance.attachments[slot] != null ? 10 : (slot != 0 ? 70 : 43));
-            else
-                sourceRect = Game1.getSourceRectForStandardTileSheet(Game1.menuTexture, __instance.attachments[0] == null ? 43 : 10);
+            else 
+                sourceRect = Game1.getSourceRectForStandardTileSheet(Game1.menuTexture, (__instance.AttachmentSlotsCount > 0 && __instance.attachments[0] == null) ? 43 : 10);
         }
     }
 

@@ -8,11 +8,8 @@ using StardewValley.Objects;
 using SwordAndSorcerySMAPI.Framework.NEA.Utils;
 using System;
 
-#pragma warning disable IDE0130 // Namespace does not match folder structure
 namespace SwordAndSorcerySMAPI.Framework.NEA
-#pragma warning restore IDE0130 // Namespace does not match folder structure
 {
-
     /// <inheritdoc/>
     internal sealed class ModNEA(IMonitor monitor, IManifest manifest, IModHelper helper, Harmony harmony)
     {
