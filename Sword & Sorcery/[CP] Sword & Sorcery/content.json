@@ -363,7 +363,7 @@
       "AllowValues": "true,false",
       "Default": "true",
       "AllowBlank": false,
-      "Description": "Recolors the Equipment Menu added by Spacecore to match Bog's Forest UI, DaisyNiko's Earthy UI, Enteis' Natural Dark Wood UI, Nom0ri's Vintage UI V2 for 1.6, Shinchan's Purple UI, SQBR's StarryBlue UI, TheFrenchDodo's Sakura Interface Redux, VinillaBean's Lavender Dreams UI, Silvermoonchan's Purple Galaxy UI, notbelovely's Cozy Accent Interface or justaslime1's Cherry Blossom UI.",
+      "Description": "Recolors the Equipment Menu added by Spacecore to match Bog's Forest UI, DaisyNiko's Earthy UI, Enteis' Natural Dark Wood UI, Nom0ri's Vintage UI V2 for 1.6, Shinchan's Purple UI, SQBR's StarryBlue UI, TheFrenchDodo's Sakura Interface Redux, VinillaBean's Lavender Dreams UI, Silvermoonchan's Purple Galaxy UI, notbelovely's Cozy Accent Interface, Lita's Unofficial Starblue Valley, SugarSugarRuin's Overgrown Flowery Interface or justaslime1's Cherry Blossom UI.",
       "Section": "Miscellaneous"
     },
     "TimegateConfig": {
@@ -2527,7 +2527,22 @@
       "Name": "SpaceCoreRecolors",
       "Value": "Slime.SlimeUI_equipmentmenu",
       "When": { "HasMod": "Slime.SlimeUI", "EquipmentMenuConfig": true }
-    },    
+    },   
+    {
+      "Name": "SpaceCoreRecolors",
+      "Value": "Maraluna.OvergrownFloweryInterface_equipmentmenu",
+      "When": { "HasMod": "Maraluna.OvergrownFloweryInterface_equipmentmenu", "EquipmentMenuConfig": true }
+    },   
+    {
+      "Name": "SpaceCoreRecolors",
+      "Value": "Lita.StarblueValleyUI_equipmentmenu",
+      "When": { "HasMod": "Lita.StarblueValleyUI, Lita.StarblueValleyUnofficial", "EquipmentMenuConfig": true }
+    },
+    {
+      "Name": "SpaceCoreRecolors",
+      "Value": "medicsun.AdventurersInterface_equipmentmenu",
+      "When": { "HasMod": "medicsun.AdventurersInterface", "EquipmentMenuConfig": true }
+    }, 
     {
       "Name": "GuidebookRecolors",
       "Value": "Tabs"
@@ -2586,6 +2601,21 @@
       "Name": "GuidebookRecolors",
       "Value": "Slime.SlimeUI_tabs",
       "When": { "HasMod": "Slime.SlimeUI" }
+    },
+    {
+      "Name": "GuidebookRecolors",
+      "Value": "Maraluna.OvergrownFloweryInterface_tabs",
+      "When": { "HasMod": "Maraluna.OvergrownFloweryInterface" }
+    },
+    {
+      "Name": "GuidebookRecolors",
+      "Value": "Lita.StarblueValleyUI_tabs",
+      "When": { "HasMod": "Lita.StarblueValleyUI, Lita.StarblueValleyUnofficial" }
+    },
+    {
+      "Name": "GuidebookRecolors",
+      "Value": "medicsun.AdventurersInterface_tabs",
+      "When": { "HasMod": "medicsun.AdventurersInterface" }
     },
     {
       "Name": "BookFormDT",

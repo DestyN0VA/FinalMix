@@ -1183,7 +1183,10 @@ namespace SwordAndSorcerySMAPI
                 "silvermoonchan.PurpleGalaxyUI",
                 "ManaKirel.VintageInterface2",
                 "notbelovely.CAccent",
-                "Slime.SlimeUI"
+                "Slime.SlimeUI",
+                "Maraluna.OvergrownFloweryInterface",
+                "Lita.StarblueValleyUI",
+                "Lita.StarblueValleyUnofficial"
             ];
 
             if (e.NameWithoutLocale.IsEquivalentTo("DN.SnS/ArmorSlot"))
