@@ -1,0 +1,36 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Val Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Val.Generic.{{Random: {{Range:  1, {{ValDialogueMax}}}}}}}}"
+      },
+      "When": { "HasFlag |contains=ValOverrideSeenToday": false }
+    },
+    {
+      "LogName": "Load Val Spring Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Val.{{Season}}.{{Random: {{Range:  1, 5}}|key=VSD{{Time}}}}}}##$action AddMail Current ValOverrideSeenToday received"
+      },
+      "When": {
+        "Query: {{Random: {{Range: 1, 10}}|key=VSD}}": 1,
+        "HasFlag |contains=ValOverrideSeenToday": false
+      }
+    },
+    {
+      "LogName": "Load Val Dialogue Static",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Entries": {
+        "Introduction": "",
+        "Blah": ""
+      }
+    }
+  ]
+}

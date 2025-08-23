@@ -28,10 +28,8 @@
                     "CanVisitIsland": false,
                     "WinterStarParticipant": false,
                     "IsDarkSkinned": true,
-                    "ShakePortraits": [
-                        99,
-                        98
-                    ],
+                    "ShakePortraits": [ 99, 98 ],
+                    "Appearance": [],
                     /*"SpouseRoom": {
                         "MapAsset": "{{DN.SnS_ValSpouseRoomOnOff}}"
                     },
@@ -42,77 +40,8 @@
                         {
                             "ID": "Val - Spawn",
                             "Location": "EastScarp_ArtificerHouse",
-                            "Tile": {
-                                "X": 14,
-                                "Y": 9
-                            },
+                            "Tile": { "X": 14, "Y": 9 },
                             "Direction": "Down"
-                        }
-                    ],
-                    "Appearance": [
-                        // Default, regular seasonals directly loaded to Val's game assets, do not need to be listed here.
-                        {
-                            "ID": "Default",
-                            "Precedence": -10, "Weight": 1,
-                            "Portrait": "Portraits/DN.SnS_Val/Seasonal",
-                            "Sprite": "Characters/DN.SnS_Val/Seasonal"
-                        },
-                        {
-                            "ID": "Bonus",
-                            "Precedence": -10, "Weight": 1,
-                            "Portrait": "Portraits/DN.SnS_Val/Bonus",
-                            "Sprite": "Characters/DN.SnS_Val/Bonus"
-                        },
-                        // Festivals
-                        {
-                            "ID": "Festival Seasonal",
-                            "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.SnS_Val/Festival",
-                            "Sprite": "Characters/DN.SnS_Val/Festival",
-                            "Condition": "ANY \"EVENT_ID festival_spring13\" \"EVENT_ID festival_summer28\" \"EVENT_ID festival_fall16\" \"EVENT_ID festival_winter8\" \"EVENT_ID festival_winter25\""
-                            
-                        },
-                        {
-                            "ID": "Festival Flower", "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.SnS_Val/Festival_Flower",
-                            "Sprite": "Characters/DN.SnS_Val/Festival_Flower",
-                            "Condition": "EVENT_ID festival_spring24"
-                            
-                        },
-                        {
-                            "ID": "Festival Spirit", "Precedence": -20, "Weight": 1,
-                            "Sprite": "Characters/DN.SnS_Val/Festival_Spirit",
-                            "Condition": "EVENT_ID festival_fall27"
-                            
-                        },
-                        {
-                            "ID": "Beach", "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.SnS_Val/Shirtless",
-                            "Sprite": "Characters/DN.SnS_Val/Beach",
-                            "Condition": "EVENT_ID festival_summer11"
-                            
-                        },
-                        {
-                            "ID": "Shirtless", "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.SnS_Val/Shirtless",
-                            "Sprite": "Characters/DN.SnS_Val/Shirtless",
-                            "Condition": "EVENT_ID festival_summer11"
-                            
-                        },
-                        {
-                            "ID": "Bandages", "Precedence": -10, "Weight": 1,
-                            "Portrait": "Portraits/DN.SnS_Val/Bandages",
-                            "Sprite": "Characters/DN.SnS_Val/Bandages",
-                            "Condition": "EVENT_ID NULL"
-                            
-                        },
-                        //Armor
-                        {
-                            "ID": "Armor", "Precedence": -20, "Weight": 1,
-                            "Portrait": "Portraits/DN.SnS_Val/Armor",
-                            "Sprite": "Characters/DN.SnS_Val/Armor",
-                            "Condition": "ANY \"IS_EVENT DN.Val.0H\" \"IS_EVENT DN.Val.4H\" \"IS_EVENT DN.Val.5H\" \"IS_EVENT DN.Val.6H\" \"IS_EVENT DN.Val.10H"
-                            
                         }
                     ]
                 }
@@ -154,6 +83,6 @@
                     "9": "-80 -81 -26 -6 -74"
                 }
             }
-        },
+        }
     ]
 }

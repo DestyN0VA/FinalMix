@@ -4,25 +4,9 @@
         {
             "LogName": "Load Main Character Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/DN.SnS_Val, Characters/Dialogue/DN.SnS_Hector, Characters/Dialogue/DN.SnS_Lorin, Characters/Dialogue/DN.SnS_Coriander, Characters/Dialogue/DN.SnS_Roslin, Characters/Dialogue/DN.SnS_Dandelion, Characters/Dialogue/DN.SnS_Arden",
+            "Target": "Characters/Dialogue/DN.SnS_Hector, Characters/Dialogue/DN.SnS_Lorin, Characters/Dialogue/DN.SnS_Coriander, Characters/Dialogue/DN.SnS_Roslin, Characters/Dialogue/DN.SnS_Dandelion, Characters/Dialogue/DN.SnS_Arden",
             "Entries":  {
                 "{{WeekDay}}": "Hello I am test dialogue"
-            }
-        },
-        {
-            "LogName": "Load Val Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/DN.SnS_Val",
-            "Entries":  {
-                "{{WeekDay}}": "{{i18n:Val.Generic.{{Random: {{Range:  1, {{ValDialogueMax}}}}}}}}"
-            }
-        },
-        {
-            "LogName": "Load Val Spring Override",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/DN.SnS_Val",
-            "Entries":  {
-                "{{WeekDay}}": "{{i18n:Val.{{Season}}.{{Random: {{Range:  1, 5}}}}}}"
             }
         }
     ]
