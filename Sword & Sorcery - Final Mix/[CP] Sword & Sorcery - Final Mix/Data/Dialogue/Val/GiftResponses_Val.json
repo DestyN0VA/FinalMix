@@ -7,6 +7,8 @@
       "Entries": {
         // STARDROP TEA 
         "AcceptGift_(O)StardropTea": "{{i18n:Val.GiftReaction.StardropTea}}",
+        // RUBY RING 
+        "RejectItem_(O)EastScarp_Vintage_Ruby_Ring": "{{i18n.Val.GiftReaction.ESRubyRing}}",
         // CATEGORIES  
         "AcceptGift_category_artisan_goods": "{{i18n:Val.GiftReaction.ArtisanalGoods}}",
         "AcceptGift_category_minerals": "{{i18n:Val.GiftReaction.Minerals}}",
@@ -57,8 +59,8 @@
         "AcceptGift_(O)DTZ.DowntownZuzuCP_JojaCocktail": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
         "AcceptGift_(O)DTZ.DowntownZuzuCP_StrawberryDaiquiri": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
         "AcceptGift_(O)DTZ.DowntownZuzuCP_ZuzuChampagne": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
-        "AcceptGift(O)459": "{{i18n:Val.GiftReaction.Mead}}",
-        "AcceptGift(O){{BF}}_FerskenPeach_Mead_Tankard": "{{i18n:Val.GiftReaction.FerskenPeachMeadTankard}}",
+        "AcceptGift(O)459": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift(O){{BF}}_FerskenPeach_Mead_Tankard": "{{i18n:Val.GiftReaction.FerskenPeachMead}}",
         "AcceptGift(O){{BF}}_FerskenPeach_Mead": "{{i18n:Val.GiftReaction.FerskenPeachMead}}",
         "AcceptGift(O){{BF}}_FerskenPeach_PotentMead": "{{i18n:Val.GiftReaction.FerskenPeachPotentMead}}",
         "AcceptGift(O)334": "{{i18n:Val.GiftReaction.Ingot}}",
