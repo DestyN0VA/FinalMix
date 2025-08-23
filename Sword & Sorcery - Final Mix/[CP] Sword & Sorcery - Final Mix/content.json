@@ -99,10 +99,14 @@
     { "Name": "DruidicsCost10", "Value": "9",
         "When": { "HasProfession": "-197421760" } },
 
-  //Dialogue Pool Caps
+  //NPC Specific
   { "Name": "ValDialogueMax", "Value": 55 },
   { "Name": "ValDialogueMax", "Value": 110,
-        "When": {  "HasSeenEvent": "DN.Val.8H" } }
+        "When": {  "HasSeenEvent": "DN.Val.8H" } },
+
+  { "Name": "ValRomanceSwitch", "Value": "false" },
+  { "Name": "ValRomanceSwitch", "Value": true,
+        "When": {  "HasFlag": "Dating_Val" } }
   ],
 
   "ConfigSchema": {

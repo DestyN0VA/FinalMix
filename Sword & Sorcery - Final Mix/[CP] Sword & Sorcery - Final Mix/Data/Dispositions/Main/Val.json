@@ -16,7 +16,7 @@
                     "BirthSeason": "Fall",
                     "BirthDay": 25,
                     "HomeRegion": "Town",
-                    "CanBeRomanced": "false", //{{HasFlag: |contains=Dating_Val}}
+                    "CanBeRomanced": "{{ValRomanceSwitch}}",
                     "LoveInterest": "Sen",
                     "PerfectionScore": true,
                     "EndSlideShow": "TrailingGroup",
@@ -47,7 +47,6 @@
                 }
             }
         },
-        //GIFT TASTES
         {
             "LogName": "Val's Gift Tastes",
             "Action": "EditData",
