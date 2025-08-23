@@ -27,6 +27,7 @@
     { "Name": "TimeOfDayCheck", "Value": "day" },
     { "Name": "TimeOfDayCheck", "Value": "night", "When": { "Time": "{{Range:1800,2600}}"} },
 
+    //Character Names
     {"Name": "V", "Value": "DN.SnS_Val"},
     {"Name": "H", "Value": "DN.SnS_Hector"},
     {"Name": "C", "Value": "DN.SnS_Coriander"},
@@ -42,6 +43,11 @@
     {"Name": "N", "Value": "DN.SnS_Nimfear"},
     {"Name": "G", "Value": "DN.SnS_Gunther"},
     {"Name": "M", "Value": "DN.SnS_Marlon"},
+
+    //Mod Names
+    {"Name": "BF", "Value": "MadDog.HashtagBearFam"},
+    {"Name": "EnD", "Value": "TenebrousNova.EliDylan.CP"},
+    {"Name": "LitD", "Value": "7thAxis.LitD"},
     
     //GAMEPLAY
     { "Name": "CountForFarmingAchievements", "Value": "true" },

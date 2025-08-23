@@ -1,12 +1,48 @@
 {
     "Changes": [
+      /*  {
+            "LogName": "Val's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Val": "{{i18n:Val.GiftReaction.Love}}/74 253 608 373 746 392 595 731 732 107 DN.SnS_AetheriteBar DN.SnS_MoltenEssence DN.SnS_CherryPie DN.SnS_DinerCoffee DN.SnS_ChocolateOrange DN.SnS_SalishBourbon Daine.TPOChoice_GotoranCoffee MadDog.STW_CalicoWhiskey {{BF}}_Honey_OldFashioned {{BF}}_Citrus_City_Gin_Sour {{BF}}_Zuzu_Mule/{{i18n:Val.GiftReaction.Like}}/-2 -12 276 236 395 433 303 346 348 459 910 378 380 382 834 386 909 96 97 98 99 100 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 334 335 336 337 910 372 394 393 397 718 719 723 722 {{BF}}_FerskenPeach_Mead_Tankard {{BF}}_FerskenPeach_Mead {{BF}}_FerskenPeach_PotentMead {{EnD}}_FrogspawnCoral {{EnD}}_TorchCoral {{EnD}}_DuncanCoral {{EnD}}_Trachyphyllia {{EnD}}_Scolymia {{EnD}}_AcanCoral {{EnD}}_ToadstoolCoral {{EnD}}_CandycaneCoral {{EnD}}_AcroporaCoral {{EnD}}_EleganceCoral {{EnD}}_Gorgonian/{{i18n:Val.GiftReaction.Dislike}}/-4/{{i18n:Val.GiftReaction.Hate}}/717 DN.SnS_StygiumOre/{{i18n:Val.GiftReaction.Neutral}}/-80 -81 -26 -6 -74/"
+            }
+        },*/
         {
             "LogName": "Val's Gift Tastes",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "Val": "{{i18n:Val.GiftReaction.Love}}/74 253 608 373 746 392 595 731 732 107 DN.SnS_AetheriteBar DN.SnS_MoltenEssence DN.SnS_CherryPie DN.SnS_DinerCoffee DN.SnS_ChocolateOrange DN.SnS_SalishBourbon Daine.TPOChoice_GotoranCoffee MadDog.STW_CalicoWhiskey MadDog.HashtagBearFam_Honey_OldFashioned MadDog.HashtagBearFam_Citrus_City_Gin_Sour MadDog.HashtagBearFam_Zuzu_Mule/{{i18n:Val.GiftReaction.Like}}/-2 -12 276 236 395 433 303 346 348 459 910 378 380 382 834 386 909 96 97 98 99 100 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 334 335 336 337 910 372 394 393 397 718 719 723 722 MadDog.HashtagBearFam_FerskenPeach_Mead_Tankard MadDog.HashtagBearFam_FerskenPeach_Mead MadDog.HashtagBearFam_FerskenPeach_PotentMead TenebrousNova.EliDylan.CP_FrogspawnCoral TenebrousNova.EliDylan.CP_TorchCoral TenebrousNova.EliDylan.CP_DuncanCoral TenebrousNova.EliDylan.CP_Trachyphyllia TenebrousNova.EliDylan.CP_Scolymia TenebrousNova.EliDylan.CP_AcanCoral TenebrousNova.EliDylan.CP_ToadstoolCoral TenebrousNova.EliDylan.CP_CandycaneCoral TenebrousNova.EliDylan.CP_AcroporaCoral TenebrousNova.EliDylan.CP_EleganceCoral TenebrousNova.EliDylan.CP_Gorgonian/{{i18n:Val.GiftReaction.Dislike}}/-4/{{i18n:Val.GiftReaction.Hate}}/717 DN.SnS_StygiumOre/{{i18n:Val.GiftReaction.Neutral}}/-80 -81 -26 -6 -74/"
+                "{{V}}": "x/x/x/x/x/x/x/x/x/x/"
             }
         },
+        {
+            "LogName": "Val Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Fields": {
+                "{{V}}": {
+                    //Love
+                    "0": "{{i18n:Val.GiftReaction.Love}}",
+                    "1": "74 253 608 373 746 392 595 731 732 107 DN.SnS_AetheriteBar DN.SnS_MoltenEssence DN.SnS_CherryPie DN.SnS_DinerCoffee DN.SnS_ChocolateOrange DN.SnS_SalishBourbon Daine.TPOChoice_GotoranCoffee MadDog.STW_CalicoWhiskey {{BF}}_Honey_OldFashioned {{BF}}_Citrus_City_Gin_Sour {{BF}}_Zuzu_Mule",
+
+                    //Like
+                    "2": "{{i18n:Val.GiftReaction.Like}}",
+                    "3": "-2 -12 276 236 395 433 303 346 348 459 910 378 380 382 834 386 909 96 97 98 99 100 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 334 335 336 337 910 372 394 393 397 718 719 723 722 {{BF}}_FerskenPeach_Mead_Tankard {{BF}}_FerskenPeach_Mead {{BF}}_FerskenPeach_PotentMead {{EnD}}_FrogspawnCoral {{EnD}}_TorchCoral {{EnD}}_DuncanCoral {{EnD}}_Trachyphyllia {{EnD}}_Scolymia {{EnD}}_AcanCoral {{EnD}}_ToadstoolCoral {{EnD}}_CandycaneCoral {{EnD}}_AcroporaCoral {{EnD}}_EleganceCoral {{EnD}}_Gorgonian",
+
+                    //Dislike
+                    "4": "{{i18n:GiftReaction.Dislike}}",
+                    "5": "-4",
+
+                    //Hate
+                    "6": "{{i18n:GiftReaction.Hate}}",
+                    "7": "717 DN.SnS_StygiumOre",
+
+                    //Neutral
+                    "8": "{{i18n:Val.GiftReaction.Neutral}}",
+                    "9": "-80 -81 -26 -6 -74"
+                }
+            }
+        }
     ]
 }
