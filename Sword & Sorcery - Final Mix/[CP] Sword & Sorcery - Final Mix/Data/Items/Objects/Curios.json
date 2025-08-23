@@ -21,10 +21,10 @@
             "use_reverse_name_for_sorting"
           ]
         },
-        "{{ModID}}_StygiumBar": {
-          "Name": "Stygium Bar",
-          "DisplayName": "{{i18n: object.stygium-bar.name}}",
-          "Description": "{{i18n: object.stygium-bar.description}}",
+        "{{ModID}}_AetheriteBar": {
+          "Name": "Aetherite Bar",
+          "DisplayName": "{{i18n: object.aetherite-bar.name}}",
+          "Description": "{{i18n: object.aetherite-bar.description}}",
           "Type": "Basic",
           "Category": -15,
           "Price": 5000,
@@ -108,8 +108,8 @@
             "color_light_cyan"
           ]
         },
-        "{{ModID}}_FireEssence": {
-          "Name": "{{ModID}}_FireEssence",
+        "{{ModID}}_MoltenEssence": {
+          "Name": "{{ModID}}_MoltenEssence",
           "DisplayName": "{{i18n: witchcraft.fire-essence.name}}",
           "Description": "{{i18n: witchcraft.fire-essence.description}}",
           "Type": "Basic",

@@ -109,8 +109,8 @@
             "color_brown"
           ]
         },
-        "{{ModID}}_salishbourbon": {
-          "Name": "{{ModID}}_salishbourbon",
+        "{{ModID}}_SalishBourbon": {
+          "Name": "{{ModID}}_SalishBourbon",
           "DisplayName": "{{i18n: food.salishbourbon.name}}",
           "Description": "{{i18n: food.salishbourbon.description}}",
           "Type": "Cooking",
