@@ -95,7 +95,12 @@
         
     { "Name": "DruidicsCost10", "Value": "10" },
     { "Name": "DruidicsCost10", "Value": "9",
-        "When": { "HasProfession": "-197421760" } }
+        "When": { "HasProfession": "-197421760" } },
+
+  //Dialogue Pool Caps
+  { "Name": "ValDialogueMax", "Value": 55 },
+  { "Name": "ValDialogueMax", "Value": 110,
+        "When": {  "HasSeenEvent": "DN.Val.8H" } }
   ],
 
   "ConfigSchema": {
