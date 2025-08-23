@@ -1,129 +1,118 @@
 {
   "Changes": [
     {
+      "LogName": "Val Gifts",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/Val",
-      "Entries": { // CUSTOM GIFT DIALOGUE
+      "Target": "Characters/Dialogue/DN.SnS_Val", // "AcceptGift(O)": "{{i18n:Val.GiftReaction.}}",
+      "Entries": {
         // STARDROP TEA 
-        "AcceptGift_(O)StardropTea": "{{i18n:Gifts.Val.GiftReaction.StardropTea}}",
-        // ANCIENT SWEET TEA
-        "AcceptGift_(O){{ModID}}_ancientsweettea": "{{i18n:Gifts.Val.GiftReaction.AncientSweetTea}}",
-        // FISH
-        "AcceptGift_category_fish": "{{i18n:Gifts.Val.GiftReaction.CategoryFish}}",
-        "AcceptGift_(O)397": "{{i18n:Gifts.Val.GiftReaction.SeaUrchin}}",
-        "AcceptGift_(O)717": "{{i18n:Gifts.Val.GiftReaction.Crab}}",
-        "AcceptGift_(O)732": "{{i18n:Gifts.Val.GiftReaction.CrabCakes}}",
-        // ARTISANAL GOODS
-        "AcceptGift_category_artisan_goods": "{{i18n:Gifts.Val.GiftReaction.CategoryArtisanalGoods}}",
-        // TRASH
-        "AcceptGiftCategory_trash": "{{i18n:Gifts.Val.GiftReaction.CategoryTrash}}",
-        // MINERALS & GEMS
-        "AcceptGiftCategory_minerals": "{{i18n:Gifts.Val.GiftReaction.CategoryGemsMinerals}}",
+        "AcceptGift_(O)StardropTea": "{{i18n:Val.GiftReaction.StardropTea}}",
+        // CATEGORIES  
+        "AcceptGift_category_artisan_goods": "{{i18n:Val.GiftReaction.ArtisanalGoods}}",
+        "AcceptGift_category_minerals": "{{i18n:Val.GiftReaction.Minerals}}",
+        "AcceptGift_category_gems": "{{i18n:Val.GiftReaction.Gems}}",
+        "AcceptGift_category_egg": "{{i18n:Val.GiftReaction.Dairy}}",
+        "AcceptGift_category_milk": "{{i18n:Val.GiftReaction.Dairy}}",
+        "AcceptGift_category_fruit": "{{i18n:Val.GiftReaction.Fruit}}",
+        "AcceptGift_category_vegetables": "{{i18n:Val.GiftReaction.Vegetables}}",
+        "AcceptGift_category_flowers": "{{i18n:Val.GiftReaction.Flowers}}",
+        "RejectItem_category_fish": "{{i18n:Val.GiftReaction.Negative}}",
+        "RejectItem_category_trash": "{{i18n:Val.GiftReaction.Negative}}",
+        "RejectItem_category_junk": "{{i18n:Val.GiftReaction.Negative}}",
+        "AcceptGift_book_item": "{{i18n:Val.GiftReaction.Books}}",
+        
         // LOVES
-        "AcceptGift_(O)74": "{{i18n:Gifts.Val.GiftReaction.PrismaticShard.{{ValRomance}}}}",
-        "AcceptGift_(O)276": "{{i18n:Gifts.Val.GiftReaction.Pumpkin.{{ValRomance}}}}",
-        "AcceptGift_(O)746": "{{i18n:Gifts.Val.GiftReaction.JackOLantern.{{ValRomance}}}}",
-        "AcceptGift_(O)373": "{{i18n:Gifts.Val.GiftReaction.GoldenPumpkin.{{ValRomance}}}}",
-        "AcceptGift_(O)595": "{{i18n:Gifts.Val.GiftReaction.FairyRose.{{ValRomance}}}}",
-        "AcceptGift_(O)340": "{{i18n:Gifts.Val.GiftReaction.Honey.{{ValRomance}}}}",
-        "AcceptGift_(O)394": "{{i18n:Gifts.Val.GiftReaction.RainbowShell}}",
-        "AcceptGift_(O)731": "{{i18n:Gifts.Val.GiftReaction.MapleBar}}",
-        "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gifts.Val.GiftReaction.AutographedPhoto}}",
-        "AcceptGift_(O){{ModID}}_salishbourbon": "{{i18n:Gifts.Val.GiftReaction.SalishBourbon}}",
-        "AcceptGift_(O){{ModID}}_autumnalstew": "{{i18n:Gifts.Val.GiftReaction.AutumnalStew}}",
-        "AcceptGift_(O){{ModID}}_ancientwildfairyrose": "{{i18n:Gifts.Val.GiftReaction.AncientFairyRose}}",
-        // LIKES
-        "AcceptGift_(O)236": "{{i18n:Gifts.Val.GiftReaction.PumpkinSoup}}",
-        "AcceptGift_(O)608": "{{i18n:Gifts.Val.GiftReaction.PumpkinPie}}",
-        "AcceptGift_(O)224": "{{i18n:Gifts.Val.GiftReaction.Spaghetti}}",
-        "AcceptGift_(O)372": "{{i18n:Gifts.Val.GiftReaction.Clam}}",
-        // ALCOHOL 
-        "AcceptGift_(O)346": "{{i18n:Gifts.Val.GiftReaction.Beer.{{ValRomance}}}}",
-        "AcceptGift_(O)303": "{{i18n:Gifts.Val.GiftReaction.PaleAle.{{ValRomance}}}}",
-        "AcceptGift_(O)348": "{{i18n:Gifts.Val.GiftReaction.Wine.{{ValRomance}}}}",
+        "AcceptGift_(O)74": "{{i18n:Val.GiftReaction.PrismaticShard}}",
+        "AcceptGift(O)253": "{{i18n:Val.GiftReaction.TripleShotEspresso}}",
+        "AcceptGift(O)608": "{{i18n:Val.GiftReaction.PumpkinPie}}",
+        "AcceptGift(O)373": "{{i18n:Val.GiftReaction.GoldenPumpkin}}",
+        "AcceptGift(O)746": "{{i18n:Val.GiftReaction.JackOLantern}}",
+        "AcceptGift(O)392": "{{i18n:Val.GiftReaction.NautilusShell}}",
+        "AcceptGift(O)595": "{{i18n:Val.GiftReaction.FairyRose}}",
+        "AcceptGift(O)731": "{{i18n:Val.GiftReaction.MapleBar}}",
+        "AcceptGift(O)732": "{{i18n:Val.GiftReaction.CrabCakes}}",
+        "AcceptGift(O)107": "{{i18n:Val.GiftReaction.DinosaurEgg}}",
+        "AcceptGift(O)DN.SnS_SalishBourbon": "{{i18n:Val.GiftReaction.SalishBourbon}}",
+        "AcceptGift(O)DN.SnS_DinerCoffee": "{{i18n:Val.GiftReaction.DinerCoffee}}",
+        "AcceptGift(O)DN.SnS_CherryPie": "{{i18n:Val.GiftReaction.CherryPie}}",
+        "AcceptGift(O)DN.SnS_ChocolateOrange": "{{i18n:Val.GiftReaction.ChocolateOrange}}",
+        "AcceptGift(O)DN.SnS_AetheriteBar": "{{i18n:Val.GiftReaction.AetheriteBar}}",
+        "AcceptGift(O)DN.SnS_MoltenEssence": "{{i18n:Val.GiftReaction.MoltenEssence}}",
+        "AcceptGift(O)MadDog.HashtagBearFam_Honey_OldFashioned": "{{i18n:Val.GiftReaction.HoneyOldFashioned}}",
+        "AcceptGift(O)MadDog.HashtagBearFam_Citrus_City_Gin_Sour": "{{i18n:Val.GiftReaction.CitrusCityGinSour}}",
+        "AcceptGift(O)MadDog.HashtagBearFam_Zuzu_Mule": "{{i18n:Val.GiftReaction.ZuzuMule}}",
+        "AcceptGift(O)MadDog.STW_CalicoWhiskey": "{{i18n:Val.GiftReaction.CalicoWhiskey}}",
+        "AcceptGift(O)Daine.TPOChoice_GotoranCoffee": "{{i18n:Val.GiftReaction.GotoranCoffee}}",
+        // LOVES 
+        "AcceptGift(O)276": "{{i18n:Val.GiftReaction.Pumpkin}}",
+        "AcceptGift(O)236": "{{i18n:Val.GiftReaction.PumpkinSoup}}",
+        "AcceptGift(O)395": "{{i18n:Val.GiftReaction.Coffee}}",
+        "AcceptGift(O)433": "{{i18n:Val.GiftReaction.CoffeeBean}}",
+        "AcceptGift(O)303": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift(O)346": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift(O)348": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_Cider": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_ZuzuSignatureCocktail": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_JojaCocktail": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_StrawberryDaiquiri": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_ZuzuChampagne": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
+        "AcceptGift(O)459": "{{i18n:Val.GiftReaction.Mead}}",
+        "AcceptGift(O)MadDog.HashtagBearFam_FerskenPeach_Mead_Tankard": "{{i18n:Val.GiftReaction.FerskenPeachMeadTankard}}",
+        "AcceptGift(O)MadDog.HashtagBearFam_FerskenPeach_Mead": "{{i18n:Val.GiftReaction.FerskenPeachMead}}",
+        "AcceptGift(O)MadDog.HashtagBearFam_FerskenPeach_PotentMead": "{{i18n:Val.GiftReaction.FerskenPeachPotentMead}}",
+        "AcceptGift(O)334": "{{i18n:Val.GiftReaction.Ingot}}",
+        "AcceptGift(O)335": "{{i18n:Val.GiftReaction.Ingot}}",
+        "AcceptGift(O)336": "{{i18n:Val.GiftReaction.Ingot}}",
+        "AcceptGift(O)337": "{{i18n:Val.GiftReaction.Ingot}}",
+        "AcceptGift(O)910": "{{i18n:Val.GiftReaction.Ingot}}",
+        "AcceptGift(O)378": "{{i18n:Val.GiftReaction.Ore}}",
+        "AcceptGift(O)380": "{{i18n:Val.GiftReaction.Ore}}",
+        "AcceptGift(O)382": "{{i18n:Val.GiftReaction.Ore}}",
+        "AcceptGift(O)384": "{{i18n:Val.GiftReaction.Ore}}",
+        "AcceptGift(O)386": "{{i18n:Val.GiftReaction.Ore}}",
+        "AcceptGift(O)909": "{{i18n:Val.GiftReaction.Ore}}",
+        "AcceptGift(O)372": "{{i18n:Val.GiftReaction.Seashells}}",
+        "AcceptGift(O)394": "{{i18n:Val.GiftReaction.Seashells}}",
+        "AcceptGift(O)393": "{{i18n:Val.GiftReaction.BeachForage}}",
+        "AcceptGift(O)397": "{{i18n:Val.GiftReaction.BeachForage}}",
+        "AcceptGift(O)718": "{{i18n:Val.GiftReaction.BeachForage}}",
+        "AcceptGift(O)719": "{{i18n:Val.GiftReaction.BeachForage}}",
+        "AcceptGift(O)723": "{{i18n:Val.GiftReaction.BeachForage}}",
+        "AcceptGift(O)722": "{{i18n:Val.GiftReaction.BeachForage}}",
         // ARTIFACTS
-        "AcceptGift_(O)96": "{{i18n:Gifts.Val.GiftReaction.DwarfScrollI}}",
-        "AcceptGift_(O)97": "{{i18n:Gifts.Val.GiftReaction.DwarfScrollII}}",
-        "AcceptGift_(O)98": "{{i18n:Gifts.Val.GiftReaction.DwarfScrollIII}}",
-        "AcceptGift_(O)99": "{{i18n:Gifts.Val.GiftReaction.DwarfScrollIV}}",
-        "AcceptGift_(O)100": "{{i18n:Gifts.Val.GiftReaction.ChippedAmphora}}",
-        "AcceptGift_(O)101": "{{i18n:Gifts.Val.GiftReaction.Arrowhead}}",
-        "AcceptGift_(O)103": "{{i18n:Gifts.Val.GiftReaction.AncientDoll}}",
-        "AcceptGift_(O)104": "{{i18n:Gifts.Val.GiftReaction.ElvishJewelry}}",
-        "AcceptGift_(O)105": "{{i18n:Gifts.Val.GiftReaction.ChewingStick}}",
-        "AcceptGift_(O)106": "{{i18n:Gifts.Val.GiftReaction.OrnamentalFan}}",
-        "AcceptGift_(O)107": "{{i18n:Gifts.Val.GiftReaction.DinosaurEgg}}",
-        "AcceptGift_(O)108": "{{i18n:Gifts.Val.GiftReaction.RareDisc}}",
-        "AcceptGift_(O)109": "{{i18n:Gifts.Val.GiftReaction.AncientSword}}",
-        "AcceptGift_(O)110": "{{i18n:Gifts.Val.GiftReaction.RustySpoon}}",
-        "AcceptGift_(O)111": "{{i18n:Gifts.Val.GiftReaction.RustySpur}}",
-        "AcceptGift_(O)112": "{{i18n:Gifts.Val.GiftReaction.RustyCog}}",
-        "AcceptGift_(O)113": "{{i18n:Gifts.Val.GiftReaction.ChickenStatue}}",
-        "AcceptGift_(O)114": "{{i18n:Gifts.Val.GiftReaction.AncientSeed}}",
-        "AcceptGift_(O)115": "{{i18n:Gifts.Val.GiftReaction.PrehistoricTool}}",
-        "AcceptGift_(O)116": "{{i18n:Gifts.Val.GiftReaction.DriedStarfish}}",
-        "AcceptGift_(O)117": "{{i18n:Gifts.Val.GiftReaction.Anchor}}",
-        "AcceptGift_(O)118": "{{i18n:Gifts.Val.GiftReaction.GlassShards}}",
-        "AcceptGift_(O)119": "{{i18n:Gifts.Val.GiftReaction.BoneFlute}}",
-        "AcceptGift_(O)120": "{{i18n:Gifts.Val.GiftReaction.PrehistoricHandaxe}}",
-        "AcceptGift_(O)121": "{{i18n:Gifts.Val.GiftReaction.DwarvishHelm}}",
-        "AcceptGift_(O)122": "{{i18n:Gifts.Val.GiftReaction.DwarfGadget}}",
-        "AcceptGift_(O)123": "{{i18n:Gifts.Val.GiftReaction.AncientDrum}}",
-        "AcceptGift_(O)124": "{{i18n:Gifts.Val.GiftReaction.GoldenMask}}",
-        "AcceptGift_(O)125": "{{i18n:Gifts.Val.GiftReaction.GoldenRelic}}",
-        "AcceptGift_(O)126": "{{i18n:Gifts.Val.GiftReaction.StrangeDoll}}",
-        "AcceptGift_(O)127": "{{i18n:Gifts.Val.GiftReaction.StrangeDoll2}}",
-        // ITEM REJECTIONS 
-        "RejectItem_(O)458": "{{i18n:Val.GiftReject.Bouquet}}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/Val",
-      "Entries": { // CUSTOM GIFT DIALOGUE - BIRTHDAY
-        // BIRTHDAY
-        "AcceptGift_(O)276": "{{i18n:Gifts.Val.GiftReaction.Pumpkin.Birthday.{{ValRomance}}}}",
-        "AcceptGift_(O)746": "{{i18n:Gifts.Val.GiftReaction.Jack-o-Lantern.Birthday.{{ValRomance}}}}",
-        "AcceptGift_(O)236": "{{i18n:Gifts.Val.GiftReaction.PumpkinPie.Birthday.{{ValRomance}}}}",
-        "AcceptGift_(O)608": "{{i18n:Gifts.Val.GiftReaction.PumpkinSoup.Birthday.{{ValRomance}}}}",
-        "AcceptGift_(O)595": "{{i18n:Gifts.Val.GiftReaction.FairyRose.Birthday.{{ValRomance}}}}"
-      },
-      "When": {
-        "Season": "fall",
-        "Day": "25"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/Val",
-      "Entries": { // DATING COOLDOWN
-        "RejectItem_(O)460": "{{i18n:miscellaneous.MermaidPendantCooldown}}"
-      },
-      "When": {
-        "HasConversationTopic |contains=ValMarriageCountdown": true
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/Val",
-      "Entries": { // MARRIAGE PENDANT REACT
-        "RejectItem_(O)460": "{{i18n:miscellaneous.PendantResponse}}#$action spacechase0.SpaceCore_PlayEvent SnS.Ch1.Val.19 false"
-      },
-      "When": {
-        "HasConversationTopic |contains=ValMarriageCountdown": false,
-        "Relationship:Val |contains=Dating": true
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/Val",
-      "Entries": { // MARRIAGE PENDANT REACT NO FARMHOUSE UPGRADE
-        "RejectItem_(O)460": "{{i18n:miscellaneous.MermaidPendantFarmhouse}}"
-      },
-      "When": {
-        "HasConversationTopic |contains=ValMarriageCountdown": false,
-        "Relationship:Val |contains=Dating": true,
-        "FarmhouseUpgrade": "0"
+        "AcceptGift_(O)96": "{{i18n:Val.GiftReaction.DwarfScrolls}}",
+        "AcceptGift_(O)97": "{{i18n:Val.GiftReaction.DwarfScrolls}}",
+        "AcceptGift_(O)98": "{{i18n:Val.GiftReaction.DwarfScrolls}}",
+        "AcceptGift_(O)99": "{{i18n:Val.GiftReaction.DwarfScrolls}}",
+        "AcceptGift_(O)100": "{{i18n:Val.GiftReaction.CulturalRelic}}",
+        "AcceptGift_(O)101": "{{i18n:Val.GiftReaction.CulturalRelic}}",
+        "AcceptGift_(O)103": "{{i18n:Val.GiftReaction.AncientDoll}}",
+        "AcceptGift_(O)104": "{{i18n:Val.GiftReaction.ElvishJewelry}}",
+        "AcceptGift_(O)105": "{{i18n:Val.GiftReaction.ChewingStick}}",
+        "AcceptGift_(O)106": "{{i18n:Val.GiftReaction.OrnamentalFan}}",
+        "AcceptGift_(O)108": "{{i18n:Val.GiftReaction.RareDisc}}",
+        "AcceptGift_(O)109": "{{i18n:Val.GiftReaction.AncientSword}}",
+        "AcceptGift_(O)110": "{{i18n:Val.GiftReaction.RustySpoon}}",
+        "AcceptGift_(O)111": "{{i18n:Val.GiftReaction.RustySpur}}",
+        "AcceptGift_(O)112": "{{i18n:Val.GiftReaction.RustyCog}}",
+        "AcceptGift_(O)113": "{{i18n:Val.GiftReaction.ChickenStatue}}",
+        "AcceptGift_(O)114": "{{i18n:Val.GiftReaction.AncientSeed}}",
+        "AcceptGift_(O)115": "{{i18n:Val.GiftReaction.PrehistoricTool}}",
+        "AcceptGift_(O)116": "{{i18n:Val.GiftReaction.DriedStarfish}}",
+        "AcceptGift_(O)117": "{{i18n:Val.GiftReaction.Anchor}}",
+        "AcceptGift_(O)118": "{{i18n:Val.GiftReaction.GlassShards}}",
+        "AcceptGift_(O)119": "{{i18n:Val.GiftReaction.BoneFlute}}",
+        "AcceptGift_(O)120": "{{i18n:Val.GiftReaction.PrehistoricHandaxe}}",
+        "AcceptGift_(O)121": "{{i18n:Val.GiftReaction.DwarvishHelm}}",
+        "AcceptGift_(O)122": "{{i18n:Val.GiftReaction.DwarfGadget}}",
+        "AcceptGift_(O)123": "{{i18n:Val.GiftReaction.AncientDrum}}",
+        "AcceptGift_(O)124": "{{i18n:Val.GiftReaction.GoldenMask}}",
+        "AcceptGift_(O)125": "{{i18n:Val.GiftReaction.GoldenRelic}}",
+        "AcceptGift_(O)126": "{{i18n:Val.GiftReaction.StrangeDoll}}",
+        "AcceptGift_(O)127": "{{i18n:Val.GiftReaction.StrangeDoll2}}",
+        // HATES
+        "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:Val.GiftReaction.StygiumOre}}",
+        "RejectItem_(O)717": "{{i18n:Val.GiftReaction.Crab}}",
       }
     }
   ]
