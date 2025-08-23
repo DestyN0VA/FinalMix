@@ -28,7 +28,7 @@
 
                     //Like
                     "2": "{{i18n:Val.GiftReaction.Like}}",
-                    "3": "-2 -12 276 236 395 433 303 346 348 459 910 378 380 382 834 386 909 96 97 98 99 100 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 334 335 336 337 910 372 394 393 397 718 719 723 722 {{BF}}_FerskenPeach_Mead_Tankard {{BF}}_FerskenPeach_Mead {{BF}}_FerskenPeach_PotentMead {{EnD}}_FrogspawnCoral {{EnD}}_TorchCoral {{EnD}}_DuncanCoral {{EnD}}_Trachyphyllia {{EnD}}_Scolymia {{EnD}}_AcanCoral {{EnD}}_ToadstoolCoral {{EnD}}_CandycaneCoral {{EnD}}_AcroporaCoral {{EnD}}_EleganceCoral {{EnD}}_Gorgonian",
+                    "3": "-2 -12 276 236 395 433 303 346 348 459 910 378 380 382 834 386 909 96 97 98 99 100 101 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 334 335 336 337 910 372 394 393 397 718 719 723 722 {{BF}}_FerskenPeach_Mead_Tankard {{BF}}_FerskenPeach_Mead {{BF}}_FerskenPeach_PotentMead {{EnD}}_FrogspawnCoral {{EnD}}_TorchCoral {{EnD}}_DuncanCoral {{EnD}}_Trachyphyllia {{EnD}}_Scolymia {{EnD}}_AcanCoral {{EnD}}_ToadstoolCoral {{EnD}}_CandycaneCoral {{EnD}}_AcroporaCoral {{EnD}}_EleganceCoral {{EnD}}_Gorgonian DTZ.DowntownZuzuCP_Cider DTZ.DowntownZuzuCP_ZuzuSignatureCocktail DTZ.DowntownZuzuCP_JojaCocktail DTZ.DowntownZuzuCP_StrawberryDaiquiri DTZ.DowntownZuzuCP_ZuzuChampagne",
 
                     //Dislike
                     "4": "{{i18n:GiftReaction.Dislike}}",

@@ -20,7 +20,6 @@
         "RejectItem_category_trash": "{{i18n:Val.GiftReaction.Negative}}",
         "RejectItem_category_junk": "{{i18n:Val.GiftReaction.Negative}}",
         "AcceptGift_book_item": "{{i18n:Val.GiftReaction.Books}}",
-        
         // LOVES
         "AcceptGift_(O)74": "{{i18n:Val.GiftReaction.PrismaticShard}}",
         "AcceptGift(O)253": "{{i18n:Val.GiftReaction.TripleShotEspresso}}",
@@ -38,12 +37,14 @@
         "AcceptGift(O)DN.SnS_ChocolateOrange": "{{i18n:Val.GiftReaction.ChocolateOrange}}",
         "AcceptGift(O)DN.SnS_AetheriteBar": "{{i18n:Val.GiftReaction.AetheriteBar}}",
         "AcceptGift(O)DN.SnS_MoltenEssence": "{{i18n:Val.GiftReaction.MoltenEssence}}",
-        "AcceptGift(O)MadDog.HashtagBearFam_Honey_OldFashioned": "{{i18n:Val.GiftReaction.HoneyOldFashioned}}",
-        "AcceptGift(O)MadDog.HashtagBearFam_Citrus_City_Gin_Sour": "{{i18n:Val.GiftReaction.CitrusCityGinSour}}",
-        "AcceptGift(O)MadDog.HashtagBearFam_Zuzu_Mule": "{{i18n:Val.GiftReaction.ZuzuMule}}",
+        "AcceptGift(O){{BF}}_Honey_OldFashioned": "{{i18n:Val.GiftReaction.HoneyOldFashioned}}",
+        "AcceptGift(O){{BF}}_Citrus_City_Gin_Sour": "{{i18n:Val.GiftReaction.CitrusCityGinSour}}",
+        "AcceptGift(O){{BF}}_Zuzu_Mule": "{{i18n:Val.GiftReaction.ZuzuMule}}",
         "AcceptGift(O)MadDog.STW_CalicoWhiskey": "{{i18n:Val.GiftReaction.CalicoWhiskey}}",
         "AcceptGift(O)Daine.TPOChoice_GotoranCoffee": "{{i18n:Val.GiftReaction.GotoranCoffee}}",
-        // LOVES 
+        "AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gifts.Val.GiftReaction.FakePhoto}}",
+        "AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.Val.GiftReaction.GenuinePhoto}}",
+        // LIKES 
         "AcceptGift(O)276": "{{i18n:Val.GiftReaction.Pumpkin}}",
         "AcceptGift(O)236": "{{i18n:Val.GiftReaction.PumpkinSoup}}",
         "AcceptGift(O)395": "{{i18n:Val.GiftReaction.Coffee}}",
@@ -57,9 +58,9 @@
         "AcceptGift_(O)DTZ.DowntownZuzuCP_StrawberryDaiquiri": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
         "AcceptGift_(O)DTZ.DowntownZuzuCP_ZuzuChampagne": "{{i18n:Val.GiftReaction.AlcoholBasic}}",
         "AcceptGift(O)459": "{{i18n:Val.GiftReaction.Mead}}",
-        "AcceptGift(O)MadDog.HashtagBearFam_FerskenPeach_Mead_Tankard": "{{i18n:Val.GiftReaction.FerskenPeachMeadTankard}}",
-        "AcceptGift(O)MadDog.HashtagBearFam_FerskenPeach_Mead": "{{i18n:Val.GiftReaction.FerskenPeachMead}}",
-        "AcceptGift(O)MadDog.HashtagBearFam_FerskenPeach_PotentMead": "{{i18n:Val.GiftReaction.FerskenPeachPotentMead}}",
+        "AcceptGift(O){{BF}}_FerskenPeach_Mead_Tankard": "{{i18n:Val.GiftReaction.FerskenPeachMeadTankard}}",
+        "AcceptGift(O){{BF}}_FerskenPeach_Mead": "{{i18n:Val.GiftReaction.FerskenPeachMead}}",
+        "AcceptGift(O){{BF}}_FerskenPeach_PotentMead": "{{i18n:Val.GiftReaction.FerskenPeachPotentMead}}",
         "AcceptGift(O)334": "{{i18n:Val.GiftReaction.Ingot}}",
         "AcceptGift(O)335": "{{i18n:Val.GiftReaction.Ingot}}",
         "AcceptGift(O)336": "{{i18n:Val.GiftReaction.Ingot}}",
@@ -79,6 +80,20 @@
         "AcceptGift(O)719": "{{i18n:Val.GiftReaction.BeachForage}}",
         "AcceptGift(O)723": "{{i18n:Val.GiftReaction.BeachForage}}",
         "AcceptGift(O)722": "{{i18n:Val.GiftReaction.BeachForage}}",
+        "AcceptGift(O){{EnD}}_FrogspawnCoral": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_TorchCoral": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_DuncanCoral": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_Trachyphyllia": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_Scolymia": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_AcanCoral": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_ToadstoolCoral": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_CandycaneCoral": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_AcroporaCoral": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_EleganceCoral": "{{i18n:Val.GiftReaction.EnDForage}}",
+        "AcceptGift(O){{EnD}}_Gorgonian": "{{i18n:Val.GiftReaction.EnDForage}}",
+        // HATES
+        "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:Val.GiftReaction.StygiumOre}}",
+        "RejectItem_(O)717": "{{i18n:Val.GiftReaction.Crab}}",
         // ARTIFACTS
         "AcceptGift_(O)96": "{{i18n:Val.GiftReaction.DwarfScrolls}}",
         "AcceptGift_(O)97": "{{i18n:Val.GiftReaction.DwarfScrolls}}",
@@ -110,9 +125,9 @@
         "AcceptGift_(O)125": "{{i18n:Val.GiftReaction.GoldenRelic}}",
         "AcceptGift_(O)126": "{{i18n:Val.GiftReaction.StrangeDoll}}",
         "AcceptGift_(O)127": "{{i18n:Val.GiftReaction.StrangeDoll2}}",
-        // HATES
-        "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:Val.GiftReaction.StygiumOre}}",
-        "RejectItem_(O)717": "{{i18n:Val.GiftReaction.Crab}}",
+        // ROMANTIC REJECTIONS 
+        "RejectItem_(O)458": "{{i18n:Val.GiftReject.Bouquet}}",
+        "RejectItem_(O)460": "{{i18n:Val.GiftReject.MermaidPendant}}"
       }
     }
   ]

@@ -292,10 +292,18 @@ __     __    _
 // GIFT REACTIONS: GENERAL 
 "Val.GiftReaction.Negative": "Erm, no thanks.$27", 
 "Val.GiftReaction.Positive": "Thank you, @!$26", 
-// GIFT REACTIONS: GEMS, MINERALS, ARTIFACTS
-"Val.GiftReaction.Minerals": "",
-"Val.GiftReaction.Gems": "", 
-"Val.GiftReaction.ArtifactCategory": "",
+// GIFT REACTION: STARDROP TEA 
+"Val.GiftReaction.StardropTea": "Wow, @! This is amazing! It smells so good, what's it made of? Thank you for sharing this with me.$1",
+// GIFT REACTIONS: CATEGORIES 
+"": "", 
+"": "", 
+"": "", 
+"": "", 
+"": "", 
+"": "", 
+"": "", 
+"": "", 
+// GIFT REACTIONS: ARTIFACTS
 "Val.GiftReaction.DwarfScrolls": "Dwarvish is a rich, complex language. Having these scrolls accessible to everyone is invaluable so that more people can learn.$26 [96]",
 "Val.GiftReaction.DwarfScrollII": "Dwarvish is a rich, complex language. Having these scrolls accessible to everyone is invaluable so that more people can learn.$26[97]",
 "Val.GiftReaction.DwarfScrollIII": "Dwarvish is a rich, complex language. Having these scrolls accessible to everyone is invaluable so that more people can learn.$26[98]",
@@ -328,24 +336,9 @@ __     __    _
 "Val.GiftReaction.GoldenRelic": "This has a substantial monetary and historical value, but it doesn't belong to you or I; it belongs in the museum. $26[125]",
 "Val.GiftReaction.StrangeDoll": "To be honest, even I have no idea what this is - besides haunted.$27[126]",
 "Val.GiftReaction.StrangeDoll2": "To be honest, even I have no idea what this is - besides haunted.$27[127]",
-// GIFT REACTIONS: FOOD
-"Val.GiftReaction.StardropTea": "Wow, @! This is amazing! It smells so good, what's it made of? Thank you for sharing this with me.$1",
-"Val.GiftReaction.CookingCategory": "",
-"Val.GiftReaction.Fruit": "",
-"Val.GiftReaction.Vegetables": "",
-"Val.GiftReaction.Dairy": "", 
-"Val.GiftReaction.Fish": "",
-// GIFT REACTIONS: ARTISNAL GOODS
-"Val.GiftReaction.ArtisanCategory": "",
-// GIFT REACTIONS: BOOKS 
-"Val.GiftReaction.BooksCategory": "",
-"Val.GiftReaction.SkillBooksCategory": "",
-// GIFT REACTIONS: FLOWERS
-"Val.GiftReaction.FlowersCategory": "",
-// GIFT REACTIONS: ALCOHOL 
-"Val.GiftReaction.AlcoholCategory": "",
-// GIFT REJECTIONS 
+// ROMANTIC ITEM REJECTIONS 
 "Val.GiftRejection.Bouquet": "%Val is not interested in a Bouquet. Maybe you can show your interest in a different way...",
+"Val.GiftRejection.MermaidPendant": "%Val is not interested in getting married until the mystery of the Deep Dark is resolved.",
 /*
 __  __  ______      _______ ______  _____ 
 |  \/  |/ __ \ \    / /_   _|  ____|/ ____|
