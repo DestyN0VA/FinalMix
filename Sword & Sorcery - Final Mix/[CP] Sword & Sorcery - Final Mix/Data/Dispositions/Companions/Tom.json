@@ -25,12 +25,12 @@
                 "{{ModId}}.Tom_Spawn": {
                     "AnimalId": "{{ModId}}.Tom",
                     "Age": 1,
-                    "LocationId": "EastScarp_Village",
+                    "LocationId": "EastScarp_ThiefTreehouse",
                     "DisplayName": "Tom",
                     "PortraitTexture": "Portraits/DN.SnS_Tom",
                     "PetMessage": [ "Meep" ],
-                    "HomeTileX": 96,
-                    "HomeTileY": 100
+                    "HomeTileX": 3,
+                    "HomeTileY": 5
                 }
             }
         }

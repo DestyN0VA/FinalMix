@@ -25,12 +25,12 @@
                 "{{ModId}}.Odelia_Spawn": {
                     "AnimalId": "{{ModId}}.Odelia",
                     "Age": 1,
-                    "LocationId": "EastScarp_Village",
+                    "LocationId": "EastScarp_DruidTower",
                     "DisplayName": "Odelia",
                     "PortraitTexture": "Portraits/DN.SnS_Odelia",
                     "PetMessage": [ "Meep" ],
-                    "HomeTileX": 91,
-                    "HomeTileY": 100
+                    "HomeTileX": 10,
+                    "HomeTileY": 18
                 }
             }
         }

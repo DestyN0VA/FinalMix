@@ -27,6 +27,8 @@
     { "Name": "TimeOfDayCheck", "Value": "day" },
     { "Name": "TimeOfDayCheck", "Value": "night", "When": { "Time": "{{Range:1800,2600}}"} },
 
+    { "Name": "IsWeatherBad", "Value": "{{Weather |contains= Rain, Storm, Snow, GreenRain}}" },
+
     //Character Names
     {"Name": "V", "Value": "DN.SnS_Val"},
     {"Name": "H", "Value": "DN.SnS_Hector"},

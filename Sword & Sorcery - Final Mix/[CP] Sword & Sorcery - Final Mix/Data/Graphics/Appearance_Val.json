@@ -92,7 +92,7 @@
             "Action": "EditData", //Note to self: Remember schedule will only run in testing if 0h is seen
             "Target": "Data/Characters",
             "Priority": "Late",
-            "TargetField": [ "DN.SnS_Val" ],
+            "TargetField": [ "{{V}}" ],
             "Entries": {
                 "Appearance": [
                 // Default, regular seasonals directly loaded to Val's game assets, do not need to be listed here.

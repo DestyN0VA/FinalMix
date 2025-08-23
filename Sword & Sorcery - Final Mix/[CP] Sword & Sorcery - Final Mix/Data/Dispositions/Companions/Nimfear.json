@@ -25,12 +25,12 @@
                 "{{ModId}}.Nimfear_Spawn": {
                     "AnimalId": "{{ModId}}.Nimfear",
                     "Age": 1,
-                    "LocationId": "EastScarp_Village",
+                    "LocationId": "EastScarp_CoastBeyond",
                     "DisplayName": "Nimfear",
                     "PortraitTexture": "Portraits/DN.SnS_Nimfear",
                     "PetMessage": [ "Meep" ],
-                    "HomeTileX": 94,
-                    "HomeTileY": 101
+                    "HomeTileX": 41,
+                    "HomeTileY": 35
                 }
             }
         }

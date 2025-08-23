@@ -25,12 +25,12 @@
                 "{{ModId}}.Solomon_Spawn": {
                     "AnimalId": "{{ModId}}.Solomon",
                     "Age": 1,
-                    "LocationId": "EastScarp_Village",
+                    "LocationId": "EastScarp_SorcererHouse",
                     "DisplayName": "Solomon",
                     "PortraitTexture": "Portraits/DN.SnS_Solomon",
                     "PetMessage": [ "Meep" ],
-                    "HomeTileX": 89,
-                    "HomeTileY": 100
+                    "HomeTileX": 14,
+                    "HomeTileY": 24
                 }
             }
         }

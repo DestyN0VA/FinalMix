@@ -16,8 +16,8 @@
                     "BirthSeason": "Fall",
                     "BirthDay": 25,
                     "HomeRegion": "Town",
-                    "CanBeRomanced": "{{HasFlag: |contains=Dating_Val}}",
-                    //"LoveInterest": "",
+                    "CanBeRomanced": "false", //{{HasFlag: |contains=Dating_Val}}
+                    "LoveInterest": "Sen",
                     "PerfectionScore": true,
                     "EndSlideShow": "TrailingGroup",
                     "SpawnIfMissing": true,

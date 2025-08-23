@@ -25,12 +25,12 @@
                 "{{ModId}}.Winston_Spawn": {
                     "AnimalId": "{{ModId}}.Winston",
                     "Age": 1,
-                    "LocationId": "EastScarp_Village",
+                    "LocationId": "EastScarp_RangerTower",
                     "DisplayName": "Winston",
                     "PortraitTexture": "Portraits/DN.SnS_Winston",
                     "PetMessage": [ "Meep" ],
-                    "HomeTileX": 95,
-                    "HomeTileY": 100
+                    "HomeTileX": 16,
+                    "HomeTileY": 18
                 }
             }
         }
