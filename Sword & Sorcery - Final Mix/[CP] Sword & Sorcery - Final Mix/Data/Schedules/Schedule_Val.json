@@ -1,0 +1,25 @@
+{
+	"Changes": [
+		// SCHEDULES
+		{
+			"LogName": "Val's Schedule", //(0 = up, 1 = right, 2 = down, 3 = left)
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Val",
+			"Entries": {
+				"spring": "700 EastScarp_ArtificerHouse {{Random:16 18 2++6 10 1++30 17 0++31 6 3|InputSeparator=++}}/1200 EastScarp_Village 43 81/1800 EastScarp_TNPCWaitingWarpRoom 11 5 2",
+				"rain": "GOTO spring",
+			},
+		},
+		// ANIMATIONS 
+		{
+			"LogName": "Schedule Animations",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"entries": {
+				"Val_FrontSit": "17/17 18 18 18 19 19 19 18 18 18 17/17",
+			}
+		},
+		// needed: side sit, idle w/ sword, idle w/o sword 
+	]
+}
+//(0 = up, 1 = right, 2 = down, 3 = left)

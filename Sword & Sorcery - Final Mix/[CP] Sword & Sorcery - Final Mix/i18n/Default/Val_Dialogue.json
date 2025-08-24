@@ -8,7 +8,7 @@ __     __    _
 
 */
 
-//INTRO 
+// INTRO 
 "Val.Introduction": "Hey, Farmer. Be careful, there's an abundance of Rock Crabs in East Scarp - tainted and otherwise. A crabundance, if you will.$23#$b#I shouldn't quit my day job as a dungeon delver, my jokes are in ruins.$23",
 // COMMUNITY CENTER BUNDLES  
 "Val.JojaBegin": "It doesn't surprise me that Joja was able to buy out the Community Center. That's capitalism at work, I suppose.$24",
@@ -380,15 +380,7 @@ __     __    _
 // ROMANTIC ITEM REJECTIONS 
 "Val.GiftRejection.Bouquet": "%Val is not interested in a Bouquet. Maybe you can show your interest in a different way...",
 "Val.GiftRejection.MermaidPendant": "%Val is not interested in getting married until the mystery of the Deep Dark is resolved.",
-/*
-__  __  ______      _______ ______  _____ 
-|  \/  |/ __ \ \    / /_   _|  ____|/ ____|
-| \  / | |  | \ \  / /  | | | |__  | (___  
-| |\/| | |  | |\ \/ /   | | |  __|  \___ \ 
-| |  | | |__| | \  /   _| |_| |____ ____) |
-|_|  |_|\____/   \/   |_____|______|_____/ 
-
-*/
+// MOVIES
 "Val.BraveLittleSapling.1": "Oh, this seems like it'll be very cute.$25",
 "Val.BraveLittleSapling.2": "Follow your dreams, Little Sapling. I know you can do it.$1",
 "Val.BraveLittleSapling.3": "He did his best and achieved his goals, I'm very proud of him.$20",
@@ -413,15 +405,6 @@ __  __  ______      _______ ______  _____
 "Val.ZuzuCityExpress.1": "Oh, I love a good romantic tragedy. Especially one based on a stage show.$0",
 "Val.ZuzuCityExpress.2": "The train makes for a pretty interesting metaphor...$22",
 "Val.ZuzuCityExpress.3": "An excellent story, but I didn't realize how dour the ending would be.$24",
-/*
-______ ______  _____ _______ _______      __     _       _____ 
-|  ____|  ____|/ ____|__   __|_   _\ \    / /\   | |     / ____|
-| |__  | |__  | (___    | |    | |  \ \  / /  \  | |    | (___  
-|  __| |  __|  \___ \   | |    | |   \ \/ / /\ \ | |     \___ \ 
-| |    | |____ ____) |  | |   _| |_   \  / ____ \| |____ ____) |
-|_|    |______|_____/   |_|  |_____|   \/_/    \_\______|_____/
-
-*/
 // EGG FESTIVAL 
 "Val.spring13.False.1": "Love a good egg hunt. I used to help hide them, but some of them wouldn't get found until they started to smell.$27",
 "Val.spring13.False.2": "Rooting for you, @. I used to be really good at this when Lewis still let me play as a kid. Not so much, now.$1",
@@ -493,6 +476,17 @@ ______ ______  _____ _______ _______      __     _       _____
 "Val.winter28.True.1": "You helped me change. Make the right choices. Grow. Thank you for that, Sunshine. I love and appreciate you.$25",
 "Val.winter28.True.2": "I love you, @. Let's leap forward into the next year together!$1",
 "Val.winter28.True.3": "This is simply a change, not an end...$25",
-//8
+// CONVERSATION TOPICS 
+"Val.CT.ValIntro": "Hey, @. I was trying to think of a joke about our Stygium Crab encounter, but it didn't have legs. In fact, it was outright clawful.$17", 
+"Val.CT.ValLibrary": "I swear I saw the Pepper Rex egg moving, so I've been very eager to get home the past few days.$26", 
+"Val.CT.ValMuseumIntro": "Wonder who was brave enough to wield that Stygium sword before I found it. Couldn't have gone over well for their health...$6", 
+"Val.CT.ValAwkwardEncounter": "Yeah, I - I have a history with Marlon and Gunther, I just... haven't been doing a great job at maintaining that relationship.$27", 
+"Val.CT.ValFlashOfGenius": "So much to do. I need to upgrade the forge, get some more coal, do some reading on the potential side-effects... not that anything with Stygium is well-documented.$7", 
+"Val.CT.ValAetheriteIntro": "We did it, @! Stygium can be purified! This is such a breakthrough, thank you for contributing.$16", 
+"Val.CT.ValInjury": "Thank you, again, for patching me up. My eye is pretty messed up, but it could be a lot worse. Lesson learned.$25", 
+"Val.CT.ValCoffeeHangout": "It feels so good to finally be on the level with Gunther and Marlon again, like I've got my friends back.$26", 
+"Val.CT.EmeritusIntro": "Between reuniting with Gunther and Marlon, and Emeritus being born - I really understand I have to tone down my risk-taking. Thank you for sticking with me through this all, @.$25", 
+"Val.CT.ValConfides": "@, thank you for sitting with me. It was really nice to hear about what you've got going on and just spend some quiet time together.$25", 
+"Val.CT.ValMinibossBattle": "I acknowledge the Deep Dark is a problem I can't handle alone. I feel responsible for East Scarp, but we know a bunch of other capable people who can help.$28", 
 
 }
