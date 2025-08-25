@@ -13,6 +13,7 @@
           "SetProperties": { "Action": "LockedDoorWarp 11 21 EastScarp_ArtificerHouse 800 2400" } }
       ]
     },
+
     //Interior 
     {
       "LogName": "Artificer House - Interior",
@@ -73,5 +74,24 @@
         ],
         "When": { "HasSeenEvent": "DN.Val.8H" }
     },
-    ]
+   {
+        "Action": "EditMap",
+        "Target": "Maps/EastScarp_Village",
+        "Update": "OnTimeChange",
+        "MapTiles": [  { "Position": { "X": 96, "Y": 110 }, "Layer": "AlwaysFront2", "Remove": true } ], 
+        "When": {"Time": "{{Range: 600, 1800}}" }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_Village",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "MapProperties", "Light" ],
+          "Value": "96 110 3",
+          "Delimiter": " "
+        }
+      ]
+    }
+]
 }
