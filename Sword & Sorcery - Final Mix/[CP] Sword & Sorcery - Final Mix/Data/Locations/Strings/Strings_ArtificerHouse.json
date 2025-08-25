@@ -1,5 +1,5 @@
 {
-  "Changes": [ // "": "",
+  "Changes": [
     {
       "LogName": "Map Strings",
       "Action": "EditData",
@@ -38,6 +38,9 @@
         "ValAnvil": "{{i18n:Strings.ValAnvil}}",
         "MoatToNowhere": "{{i18n:Strings.MoatToNowhere}}",
         "CritterRoom": "{{i18n:Strings.CritterRoom}}",
+        "ValToDo": "{{i18n:Strings.ValToDo}}",
+        "WhyBoat": "{{i18n:Strings.WhyBoat}}",
+        "GreenLight": "{{i18n:Strings.GreenLight}}",
       }
     }
   ]
