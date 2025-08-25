@@ -54,12 +54,13 @@
                     "MarkActionApplied": false,
                     "Trigger": "DayEnding",
                     "Actions": [ 
-                    "RemoveMail Current ValOverrideSeenToday",
-                    "RemoveMail Current CorianderOverrideSeenToday",                    
-                    "RemoveMail Current HectorOverrideSeenToday",
-                    "RemoveMail Current LorinOverrideSeenToday",
-                    "RemoveMail Current RoslinOverrideSeenToday",
-					"RemoveMail Current DandelionOverrideSeenToday" ]
+                    "RemoveMail Current ValOverrideSeenToday", "RemoveMail Current SeenValEventToday",
+                    "RemoveMail Current CorianderOverrideSeenToday", "RemoveMail Current SeenCorianderEventToday",          
+                    "RemoveMail Current HectorOverrideSeenToday", "RemoveMail Current SeenHectorEventToday",
+                    "RemoveMail Current LorinOverrideSeenToday", "RemoveMail Current SeenLorinEventToday",
+                    "RemoveMail Current RoslinOverrideSeenToday", "RemoveMail Current SeenRoslinEventToday",
+					"RemoveMail Current DandelionOverrideSeenToday", "RemoveMail Current SeenDandelionEventToday"
+					 ]
                 }
             }
         }

@@ -26,7 +26,7 @@
         "AcceptGift_(O)74": "{{i18n:Val.GiftReaction.PrismaticShard}}",
         "AcceptGift_(O)253": "{{i18n:Val.GiftReaction.TripleShotEspresso}}",
         "AcceptGift_(O)608": "{{i18n:Val.GiftReaction.PumpkinPie}}",
-        "AcceptGift_(O)373": "{{i18n:Val.GiftReaction.GoldenPumpkin}}",
+        "AcceptGift_(O)373": "{{i18n:Val.GiftReaction.GoldenPumpkin.{{HasFlag|Contains=GiftedValGPumpkin}}}}",
         "AcceptGift_(O)746": "{{i18n:Val.GiftReaction.JackOLantern}}",
         "AcceptGift_(O)392": "{{i18n:Val.GiftReaction.NautilusShell}}",
         "AcceptGift_(O)595": "{{i18n:Val.GiftReaction.FairyRose}}",

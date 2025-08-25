@@ -49,7 +49,29 @@
             { "Position": { "X": 10, "Y": 15 }, "Layer": "Front", "SetTileSheet": "DN.SnS_FinalMixInteriors", "SetIndex": "547" },
             { "Position": { "X": 10, "Y": 14 }, "Layer": "Front", "SetTileSheet": "DN.SnS_FinalMixInteriors", "SetIndex": "529"}
         ],
-        "When": { "Hearts:DN.Val": "{{Range: 2, 14}}" }
+        "When": { "Hearts:{{V}}": "{{Range: 2, 14}}" }
+    },
+    {
+        "Action": "EditMap",
+        "Target": "Maps/EastScarp_ArtificerHouse",
+        "MapTiles": [
+            { "Position": { "X": 30, "Y": 2 }, "Layer": "AlwaysFront", "Remove": true },
+            { "Position": { "X": 31, "Y": 2 }, "Layer": "AlwaysFront", "Remove": true },
+            { "Position": { "X": 30, "Y": 3 }, "Layer": "AlwaysFront", "Remove": true },
+            { "Position": { "X": 31, "Y": 3 }, "Layer": "AlwaysFront", "Remove": true }
+        ],
+        "When": { "HasFlag|contains=GiftedValGPumpkin": false }
+    },
+    {
+        "Action": "EditMap",
+        "Target": "Maps/EastScarp_ArtificerHouse",
+        "MapTiles": [
+            { "Position": { "X": 3, "Y": 20 }, "Layer": "Front", "Remove": true },
+            { "Position": { "X": 4, "Y": 20 }, "Layer": "Front", "Remove": true },
+            { "Position": { "X": 3, "Y": 21 }, "Layer": "Buildings", "Remove": true },
+            { "Position": { "X": 4, "Y": 21 }, "Layer": "Buildings", "Remove": true },
+        ],
+        "When": { "HasSeenEvent": "DN.Val.8H" }
     },
     ]
 }
