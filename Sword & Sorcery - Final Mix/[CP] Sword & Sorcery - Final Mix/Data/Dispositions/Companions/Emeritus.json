@@ -28,7 +28,7 @@
                     "LocationId": "EastScarp_Village",
                     "DisplayName": "Emeritus",
                     "PortraitTexture": "Portraits/DN.SnS_Emeritus",
-                    "PetMessage": [ "Hurr." ],
+                    "PetMessage": ["{{i18n:Emeritus.Inside.{{Random: {{Range: 1, 5}}|key=EmDialogue}}}}" ],
                     "HomeTileX": 90,
                     "HomeTileY": 96,
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.8H, !{{IsWeatherBad}}"
@@ -39,7 +39,7 @@
                     "LocationId": "EastScarp_ArtificerHouse",
                     "DisplayName": "Emeritus",
                     "PortraitTexture": "Portraits/DN.SnS_Emeritus",
-                    "PetMessage": [ "Hurr." ],
+                    "PetMessage": ["{{i18n:Emeritus.Outside.{{Random: {{Range: 1, 5}}|key=EmDialogue}}}}" ],
                     "HomeTileX": 4,
                     "HomeTileY": 21,
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.8H, {{IsWeatherBad}}"
