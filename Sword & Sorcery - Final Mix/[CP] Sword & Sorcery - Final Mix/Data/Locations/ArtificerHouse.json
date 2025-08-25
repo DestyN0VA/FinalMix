@@ -8,8 +8,8 @@
       "Target": "Maps/EastScarp_Village",
       "PatchMode": "Replace",
       "FromFile": "Assets/Patches/DN.SnS_ArtificerHouseExterior.tmx",
-      "ToArea": { "X": 89, "Y": 85, "Width": 9, "Height": 12 },
-      "MapTiles": [ { "Position": { "X": 93, "Y": 92 }, "Layer": "Buildings",
+      "ToArea": { "X": 84, "Y": 81, "Width": 16, "Height": 36 },
+      "MapTiles": [ { "Position": { "X": 94, "Y": 92 }, "Layer": "Buildings",
           "SetProperties": { "Action": "LockedDoorWarp 11 21 EastScarp_ArtificerHouse 800 2400" } }
       ]
     },

@@ -22,27 +22,27 @@
             "Action": "EditData",
             "Target": "MEEP/FarmAnimals/SpawnData",
             "Entries": {
-                "{{ModId}}.Emeritus_SpawnInside": {
+                "{{ModId}}.Emeritus_SpawnOutside": {
                     "AnimalId": "{{ModId}}.Emeritus",
                     "Age": 1,
                     "LocationId": "EastScarp_Village",
                     "DisplayName": "Emeritus",
                     "PortraitTexture": "Portraits/DN.SnS_Emeritus",
-                    "PetMessage": ["{{i18n:Emeritus.Inside.{{Random: {{Range: 1, 5}}|key=EmDialogue}}}}" ],
+                    "PetMessage": ["{{i18n:Emeritus.Outside.{{Random: {{Range: 1, 5}}|key=EmDialogue}}}}" ],
                     "HomeTileX": 90,
-                    "HomeTileY": 96,
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.8H, !{{IsWeatherBad}}"
+                    "HomeTileY": 101,
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.8H, {{IsWeatherBad}}"
                 },
-                "{{ModId}}.Emeritus_SpawnOutside": {
+                "{{ModId}}.Emeritus_SpawnInside": {
                     "AnimalId": "{{ModId}}.Emeritus",
                     "Age": 1,
                     "LocationId": "EastScarp_ArtificerHouse",
                     "DisplayName": "Emeritus",
                     "PortraitTexture": "Portraits/DN.SnS_Emeritus",
-                    "PetMessage": ["{{i18n:Emeritus.Outside.{{Random: {{Range: 1, 5}}|key=EmDialogue}}}}" ],
+                    "PetMessage": ["{{i18n:Emeritus.Inside.{{Random: {{Range: 1, 5}}|key=EmDialogue}}}}" ],
                     "HomeTileX": 4,
                     "HomeTileY": 21,
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.8H, {{IsWeatherBad}}"
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Val.8H, !{{IsWeatherBad}}"
                 }
             }
         }
