@@ -1,0 +1,43 @@
+{
+	"Changes": [
+	{
+      "LogName": "Val Museum",
+      "Action": "EditData",
+      "Target": "Spiderbuttons.CMF/Museums",
+      "Entries": {
+        "EastScarp_ArtificerHouse": {
+          "Id": "EastScarp_ArtificerHouse",
+          "Owner": { "Name": "{{V}}", "RequiredForDonation": false },
+          "Bounds": { "X": 21, "Y": 15, "Width": 14, "Height": 1 },
+          /*"ShowDonationHint": true,
+          "OverrideDescription": true,*/
+		  "AllowRetrieval": false,
+		  "Milestones": [ 3, 6, 9, 12, 15 ],
+          "PedestalAction": { "Id": "{{ModID}}_Pedestal", "InteractionType": "Default", "Text": "Test" },
+          "DonationRequirements": [ { "Id": "{{ModID}}_ValMuseum", "ContextTags": [ "SnS_ValMuseum" ], "MatchType": "Any" } ],
+          "Rewards": [
+            {
+              "Id": "{{ModID}}_REWARD1",
+              "Requirements": [ { "Id": "{{ModID}}_BLAH", "ItemIds": [ "{{ModID}}_BLAH" ], "Count": 1 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_BLAH", "ItemId": "(O)BLAH", "MinStack": 1, "MaxStack": 3 } ]
+            }
+          ],
+          "Strings": {
+            "MenuCollect": "COLLECT",
+            "CanBeDonated": "CAN DONATE"
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Museum Tile Patches",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_ArtificerHouse",
+      "MapTiles": [
+        { "Position": { "X": 23, "Y": 16 }, "Layer": "Buildings", "SetProperties": { "Action": "Spiderbuttons.CMF_MuseumMenu" } },
+	    { "Position": { "X": 24, "Y": 16 }, "Layer": "Buildings", "SetProperties": { "Action": "Spiderbuttons.CMF_MuseumMenu" } }	
+      ],
+      //"When": { "HasSeenEvent": "DN.Val.x" }
+    }
+	]
+}
