@@ -38,7 +38,7 @@
           ]
         },
         //Essences
-        "{{ModID}}_druidicessence": {
+        "{{ModID}}_DruidicEssence": {
           "Name": "{{ModID}}_druidicessencee",
           "DisplayName": "{{i18n: magicitem.druidicessence.name}}",
           "Description": "{{i18n: magicitem.druidicessence.description}}",
