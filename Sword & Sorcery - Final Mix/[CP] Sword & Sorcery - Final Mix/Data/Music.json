@@ -16,13 +16,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.DeepDarkLingering": {
                     "ID": "DN.DeepDarkLingering",
                     "Category": "Music",
@@ -32,14 +25,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        // Outdoor Locations
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.YggdrasilTheme": {
                     "ID": "DN.YggdrasilTheme",
                     "Category": "Music",
@@ -49,13 +34,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.CoastBeyondTheme": {
                     "ID": "DN.CoastBeyondTheme",
                     "Category": "Music",
@@ -65,15 +43,9 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        // NPC Themes
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
-                "DN.ValTheme": {
+
+            //NPC Themes
+                                "DN.ValTheme": {
                     "ID": "DN.ValTheme",
                     "Category": "Music",
                     "FilePaths": [
@@ -82,13 +54,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.HectorTheme": {
                     "ID": "DN.HectorTheme",
                     "Category": "Music",
@@ -98,13 +63,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.CorianderTheme": {
                     "ID": "DN.CorianderTheme",
                     "Category": "Music",
@@ -114,13 +72,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.LorinTheme": {
                     "ID": "DN.LorinTheme",
                     "Category": "Music",
@@ -130,13 +81,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.RoslinTheme": {
                     "ID": "DN.RoslinTheme",
                     "Category": "Music",
@@ -146,13 +90,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.DandelionTheme": {
                     "ID": "DN.DandelionTheme",
                     "Category": "Music",
@@ -162,13 +99,6 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
                 "DN.SolomonTheme": {
                     "ID": "DN.SolomonTheme",
                     "Category": "Music",
@@ -177,23 +107,7 @@
                     ],
                     "StreamedVorbis": true,
                     "Looped": true
-                },
-            }
-        },
-        {
-            "LogName": "S&S Music",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
-                "DN.DandelionTheme": {
-                    "ID": "DN.DandelionTheme",
-                    "Category": "Music",
-                    "FilePaths": [
-                        "{{AbsoluteFilePath: Assets/Music/DandelionTheme.ogg}}"
-                    ],
-                    "StreamedVorbis": true,
-                    "Looped": true
-                },
+                }
             }
         },
         // SOUNDS
@@ -205,32 +119,33 @@
                 "DN.ArdenRoar": {
                     "ID": "DN.ArdenRoar",
                     "Category": "Music",
-                    "FilePaths": [
-                        "{{AbsoluteFilePath: Assets/Music/ArdenRoar.ogg}}"
-                    ],
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/ArdenRoar.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
                 "DN.NimfearRoar": {
                     "ID": "DN.NimfearRoar",
                     "Category": "Music",
-                    "FilePaths": [
-                        "{{AbsoluteFilePath: Assets/Music/NimfearRoar.ogg}}"
-                    ],
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/NimfearRoar.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": false
                 },
                 "DN.BossCrabRoar": {
                     "ID": "DN.BossCrabRoar",
                     "Category": "Music",
-                    "FilePaths": [
-                        "{{AbsoluteFilePath: Assets/Music/BossCrabRoar.ogg}}"
-                    ],
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/BossCrabRoar.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
+                "DN.DuckySqueak": {
+                    "ID": "DN.DuckySqueak",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Squeak.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": false
                 }
             }
-        },
+        }
         // JUKEBOX DATA 
     ]
 }
