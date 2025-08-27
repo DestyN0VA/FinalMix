@@ -1,0 +1,120 @@
+{
+	"Changes": [
+	{
+      "LogName": "Val Museum",
+      "Action": "EditData",
+      "Target": "Spiderbuttons.CMF/Museums",
+      "Entries": {
+        "EastScarp_ArtificerHouse": {
+          "Id": "EastScarp_ArtificerHouse",
+          "Owner": { "Name": "Val", "RequiredForDonation": false },
+          "Bounds": { "X": 21, "Y": 15, "Width": 5, "Height": 5 },
+          "ShowDonationHint": true,
+          "OverrideDescription": true,
+		  "AllowRetrieval": true,
+		  "Milestones": [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ],
+          "PedestalAction": { "Id": "{{ModID}}_Pedestal", "InteractionType": "Default", "Text": "{0} - ^{1}" },
+          "DonationRequirements": [ { "Id": "{{ModID}}_ValMuseum", "ContextTags": [ "SnS_ValMuseum" ], "MatchType": "Any" } ],
+          "Rewards": [
+            {
+              "Id": "{{ModID}}_RewardCoal",
+              "Requirements": [ { "Id": "{{ModID}}_RewardCoal", "Count": 1 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_RewardCoal", "ItemId": "(O)382", "MinStack": 5, "MaxStack": 5 } ]
+            },
+            {
+              "Id": "{{ModID}}_PureCopper",
+              "Requirements": [ { "Id": "{{ModID}}_PureCopper", "Count": 2 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_PureCopper", "ItemId": "(O){{ModID}}_PureCopperOre", "MinStack": 10, "MaxStack": 10 } ]
+            },
+            {
+              "Id": "{{ModID}}_RewardCoal2",
+              "Requirements": [ { "Id": "{{ModID}}_RewardCoal2", "Count": 3 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_RewardCoal2", "ItemId": "(O)382", "MinStack": 10, "MaxStack": 10 } ]
+            },
+            {
+              "Id": "{{ModID}}_PureIron",
+              "Requirements": [ { "Id": "{{ModID}}_PureIron", "Count": 4 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_PureIron", "ItemId": "(O){{ModID}}_PureIronOre", "MinStack": 10, "MaxStack": 10 } ]
+            },
+            {
+              "Id": "{{ModID}}_RewardCoal3",
+              "Requirements": [ { "Id": "{{ModID}}_RewardCoal3", "Count": 5 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_RewardCoal3", "ItemId": "(O)382", "MinStack": 15, "MaxStack": 15 } ]
+            },
+            {
+              "Id": "{{ModID}}_PureGold",
+              "Requirements": [ { "Id": "{{ModID}}_PureGold", "Count": 6 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_PureGold", "ItemId": "(O){{ModID}}_PureGoldOre", "MinStack": 10, "MaxStack": 10 } ]
+            },
+            {
+              "Id": "{{ModID}}_RewardCoal4",
+              "Requirements": [ { "Id": "{{ModID}}_RewardCoal4", "Count": 7 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_RewardCoal4", "ItemId": "(O)382", "MinStack": 20, "MaxStack": 20 } ]
+            },
+            {
+              "Id": "{{ModID}}_PureIridium",
+              "Requirements": [ { "Id": "{{ModID}}_PureIridium", "Count": 8 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_PureIridium", "ItemId": "(O){{ModID}}_PureIridiumOre", "MinStack": 10, "MaxStack": 10 } ]
+            },
+            {
+              "Id": "{{ModID}}_PureRadioactive",
+              "Requirements": [ { "Id": "{{ModID}}_PureRadioactive", "Count": 9 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_PureRadioactive", "ItemId": "(O){{ModID}}_PureRadioactiveOre", "MinStack": 10, "MaxStack": 10 } ]
+            },
+            {
+              "Id": "{{ModID}}_HeavyFurnace",
+              "Requirements": [ { "Id": "{{ModID}}_HeavyFurnace", "Count": 10 } ],
+              "RewardItems": [ { "Id": "{{ModID}}_HeavyFurnace", "ItemId": "(BC)HeavyFurnace", "MinStack": 1, "MaxStack": 1 } ],
+			  "Action": "AddMail All SnS_MuseumComplete received"
+            }
+          ],
+          "Strings": {
+			"MuseumComplete_NoOwner": "Val's display is practically overflowing with artifacts!",
+			"NoDonations_NoOwner": "There doesn't appear to be anything on display... Perhaps you can fix that?",
+			"NothingToDonate_NoOwner": "Doesn't seem like you have anything you can donate.",
+			"Busy_NoOwner": "For some reason, you can't donate anything. This is probably a bug.",
+			"OnDonation": "You donated an item!",
+			"OnMilestone": "Val's collection has grown!",
+			"OnCompletion": "The East Scarp artifact collection is complete!",
+            "MenuCollect": "Collect Rewards",
+			"MenuDonate": "Donate An Item",
+			"MenuRearrange": "Rearrange Display",
+			"MenuRetrieve": "Retrieve Item",
+            "CanBeDonated": "This item can be donated to Val's Museum Display."
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Museum Tile Patches",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_ArtificerHouse",
+      "MapTiles": [
+        { "Position": { "X": 23, "Y": 16 }, "Layer": "Buildings", "SetProperties": { "Action": "MineSign You can't help but wonder what this empty display is for..." } },
+	    { "Position": { "X": 24, "Y": 16 }, "Layer": "Buildings", "SetProperties": { "Action": "MineSign You can't help but wonder what this empty display is for..." } }	
+      ],
+      "When": { "HasMod": "Spiderbuttons.CMF" }
+    },
+    {
+      "LogName": "Museum Tile Patches",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_ArtificerHouse",
+      "MapTiles": [
+        { "Position": { "X": 23, "Y": 16 }, "Layer": "Buildings", "SetProperties": { "Action": "MineSign This feature requires Custom Museum Framework by Spiderbuttons to function." } },
+	    { "Position": { "X": 24, "Y": 16 }, "Layer": "Buildings", "SetProperties": { "Action": "MineSign This feature requires Custom Museum Framework by Spiderbuttons to function." } }	
+      ],
+      "When": { "HasMod|Contains=Spiderbuttons.CMF": false }
+    },
+    {
+      "LogName": "Museum Tile Patches",
+      "Action": "EditMap",
+	  "Update": "OnLocationChange",
+      "Target": "Maps/EastScarp_ArtificerHouse",
+      "MapTiles": [
+        { "Position": { "X": 23, "Y": 16 }, "Layer": "Buildings", "SetProperties": { "Action": "Spiderbuttons.CMF_MuseumMenu" } },
+	    { "Position": { "X": 24, "Y": 16 }, "Layer": "Buildings", "SetProperties": { "Action": "Spiderbuttons.CMF_MuseumMenu" } }	
+      ],
+      "When": { "HasSeenEvent": "DN.Val.2H", "HasMod": "Spiderbuttons.CMF" }
+    }
+	]
+}

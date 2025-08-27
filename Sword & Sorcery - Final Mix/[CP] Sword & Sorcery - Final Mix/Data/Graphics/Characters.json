@@ -61,9 +61,7 @@
             "Update": "OnLocationChange",
             "Target": "Characters/DN.SnS_Nimfear",
             "FromFile": "Assets/Models/Companions/Characters/{{TargetWithoutPath}}/Flight.png",
-            "When": {
-                "IsOutdoors": true
-            }
+            "When": { "IsOutdoors": true }
         },
         {
             "LogName": "Load Companion Portrait Art",
