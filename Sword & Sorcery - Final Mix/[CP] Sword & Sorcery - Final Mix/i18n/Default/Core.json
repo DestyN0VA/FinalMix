@@ -34,4 +34,21 @@
     "Val.SocialMenu.11640": "(partner)",
     "Val.SocialMenu.11642": "(ex-spouse)",
     "Val.SocialMenu.11643": "(ex-spouse)",
+
+    "Val.Nick": "Sunshine",
+    "Hector.Nick": "Deerly Beloved",
+    "Coriander.Nick": "Superstar",
+    "Lorin.Nick": "my dear @",
+    "Arden.Nick": "sup fish",
+
+    "Hector.Pronoun.1.false": "he",
+    "Hector.Pronoun.2.false": "him",
+    "Hector.Pronoun.3.false": "his",
+    "Hector.Pronoun.4.false": "himself",
+
+    "Hector.Pronoun.1.true": "she",
+    "Hector.Pronoun.2.true": "her",
+    "Hector.Pronoun.3.true": "hers",
+    "Hector.Pronoun.4.true": "herself"
+
 }

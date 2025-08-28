@@ -1,12 +1,54 @@
 {
 	"Changes": [
+		{
+			"LogName": "Dynamic Strings",
+			"Action": "EditData",
+			"Target": "Strings/DN.SnS",
+			"Entries": {
+
+				//Pronouns - Player
+				"They": "{{Player Pronouns 1}}",
+				"Them": "{{Player Pronouns 2}}",
+				"Theirs": "{{Player Pronouns 3}}",
+				"Themselves": "{{Player Pronouns 4}}",
+				"Identifier": "{{Player Pronoun Identifier}}",
+
+				//Pronouns - Hector
+				"HeShe": "{{i18n:Hector.Pronoun.1.{{Random: {{Range: 1,4}}|key=HG |Contains=1}}}}",
+				"HimHer": "{{i18n:Hector.Pronoun.2.{{Random: {{Range: 1,4}}|key=HG |Contains=1}}}}",
+				"HisHers": "{{i18n:Hector.Pronoun.3.{{Random: {{Range: 1,4}}|key=HG |Contains=1}}}}",
+				"HimselfHerself": "{{i18n:Hector.Pronoun.4.{{Random: {{Range: 1,4}}|key=HG |Contains=1}}}}",
+
+				//Player Titles
+				"FarmerTitle": "{{Title}}",
+				"VNick": "{{Pet Name}}", 
+				"HNick": "{{Pet Name}}", 
+				"CNick": "{{Pet Name}}",
+				"LNick": "{{Pet Name}}",
+				"ANick": "{{Pet Name}}"
+			}
+		},
+		{
+			"LogName": "Dynamic Strings - Player Pet Name Default",
+			"Action": "EditData",
+			"Target": "Strings/DN.SnS",
+			"Entries": {
+			//Player Titles
+				"VNick": "{{i18n:Val.Nick}}", 
+				"HNick": "{{i18n:Hector.Nick}}", 
+				"CNick": "{{i18n:Coriander.Nick}}", 
+				"LNick": "{{i18n:Lorin.Nick}}", 
+				"ANick": "{{i18n:Arden.Nick}}"
+			},
+			"When": { "Pet Name": "Default" }
+		},
 		// VANILLA MAPS
 		{
 			"LogName": "Map Strings",
 			"Action": "EditData",
 			"Target": "strings/StringsFromMaps",
 			"Entries": {
-				"HailAndWellMet": "{{i18n:Strings.HailAndWellMet}}",
+				"HailAndWellMet": "{{i18n:Strings.HailAndWellMet}}"
 			}
 		},
 		// SOCIAL MENU
@@ -22,11 +64,9 @@
 				"SocialPage_Relationship_Boyfriend": "{{i18n:Val.SocialMenu.11639}}",
 				"SocialPage_Relationship_Girlfriend": "{{i18n:Val.SocialMenu.11640}}",
 				"SocialPage_Relationship_ExHusband": "{{i18n:Val.SocialMenu.11642}}",
-				"SocialPage_Relationship_ExWife": "{{i18n:Val.SocialMenu.11643}}",
+				"SocialPage_Relationship_ExWife": "{{i18n:Val.SocialMenu.11643}}"
 			},
-            "When": {
-                "HasFlag: |contains=Dating_Val": true,
-            }
-		},
+            "When": { "HasFlag: |contains=Dating_Val": true }
+		}
 	]
 }

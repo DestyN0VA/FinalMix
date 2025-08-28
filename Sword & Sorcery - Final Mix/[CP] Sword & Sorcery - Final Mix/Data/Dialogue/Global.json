@@ -6,7 +6,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/DN.SnS_Hector, Characters/Dialogue/DN.SnS_Lorin, Characters/Dialogue/DN.SnS_Coriander, Characters/Dialogue/DN.SnS_Roslin, Characters/Dialogue/DN.SnS_Dandelion, Characters/Dialogue/DN.SnS_Arden",
             "Entries":  {
-                "{{WeekDay}}": "Hello I am test dialogue"
+                "{{WeekDay}}": "[LocalizedText Strings/DN.SnS:They] [LocalizedText Strings/DN.SnS:Them] [LocalizedText Strings/DN.SnS:Theirs] [LocalizedText Strings/DN.SnS:Themselves] [LocalizedText Strings/DN.SnS:Identifier] [LocalizedText Strings/DN.SnS:HeShe] [LocalizedText Strings/DN.SnS:HimHer] [LocalizedText Strings/DN.SnS:HisHers] [LocalizedText Strings/DN.SnS:HimselfHerself] [LocalizedText Strings/DN.SnS:FarmerTitle] [LocalizedText Strings/DN.SnS:VNick] [LocalizedText Strings/DN.SnS:HNick] [LocalizedText Strings/DN.SnS:CNick] [LocalizedText Strings/DN.SnS:LNick] [LocalizedText Strings/DN.SnS:ANick]"
             }
         }
     ]

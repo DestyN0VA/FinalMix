@@ -110,6 +110,55 @@
   ],
 
   "ConfigSchema": {
+    "Player Pronouns 1": {
+      "Default": "they",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the player's desired pronouns. EX: He/Her/They.",
+      "Section": "Identity Settings"
+    },
+    "Player Pronouns 2": {
+      "Default": "them",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the player's desired pronouns. EX: Him/Her/Them",
+      "Section": "Identity Settings"
+    },
+    "Player Pronouns 3": {
+      "Default": "theirs",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the player's desired pronouns. EX: His/Hers/Theirs",
+      "Section": "Identity Settings"
+    },
+    "Player Pronouns 4": {
+      "Default": "themselves",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the player's desired pronouns. EX: Himself/Herself/Themselves",
+      "Section": "Identity Settings"
+    },
+    "Player Pronoun Identifier": {
+      "Default": "are",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Would usually be \"is\" or \"are\", depending on context. Example: She IS so cool! VS. They ARE so cool!",
+      "Section": "Identity Settings"
+    },
+    "Title": {
+      "Default": "farmer",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets the farmer's title.",
+      "Section": "Identity Settings"
+    },
+    "Pet Name": {
+      "Default": "Default",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Description": "Sets Val's romantic nickname.",
+      "Section": "Identity Settings"
+    },
     "Exclude From Perfection": {
       "AllowValues": "true, false",
       "Default": "false",
@@ -117,7 +166,6 @@
       "Description": "Excludes S&S items from Perfection tracking.",
       "Section": "Gameplay"
     },
-
     "Ancient Sweet Tea Difficulty": {
       "AllowValues": "3, 7, 14, 21,",
       "Default": "7",
