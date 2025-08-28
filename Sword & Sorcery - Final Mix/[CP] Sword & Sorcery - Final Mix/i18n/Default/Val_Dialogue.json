@@ -18,7 +18,7 @@ __     __    _
 "Val.CCComplete": "Congratulations on all your hard work, @. It's so nice to see the Community Center up and running again, it's been ages since anyone acknowledged it.$26",
 "Val.MovieTheater": "Wanna go see a flick, @? It's my treat, since you're the one who went through all the trouble to rebuild from those ruins.$1#$b#Nothing does your arteries as good as an evening full of Flavacol popcorn!$20",
 // BIRTHDAYS
-"Val.BirthdayReminder.Hector": "I was stumped on what to get Hector for his birthday until I noticed him just laying face-first in the dirt the other day. Bar of soap it is.$27",
+"Val.BirthdayReminder.Hector": "I was stumped on what to get for Hector's birthday until I noticed [LocalizedText Strings/DN.SnS:HimHer] just laying face-first in the dirt the other day. Bar of soap it is.$27",
 "Val.BirthdayReminder.Coriander": "So, question. Do we sing Coriander the 'happy birthday' song? I don't know about you, but I'd get stage fright singing in front of an award winning vocalist.$22",
 "Val.BirthdayReminder.Roslin": "Roslin's birthday is coming up. I'm proud to say I'm wise enough to know not to ask her age. I love not getting fireballs thrown at my face. $1",
 "Val.BirthdayReminder.Dandelion": "Dandelion's birthday is just around the corner, and my brilliant plan is to challenge her to a contest of strength. I know I'll lose, because that woman's a brick house, but it's the thought that counts.$0",
@@ -58,7 +58,7 @@ __     __    _
 // GREEN RAIN
 "Val.GreenRain": "I've never seen rain like this before, even with all the time I spent in Pelican Town as a kid. I hope it's a good omen.$22",
 "Val.GreenRainFinished": "The rain was pretty intense, but it didn't seem to have any negative side effects. Everything is so lush right now, I'm sure Hector's excited.$26",
-"Val.GreenRain2": "Now that I've gotten to know Hector a bit more, I'm pretty convinced this is his doing.$27",
+"Val.GreenRain2": "Now that I've gotten to know Hector a bit more, I'm pretty convinced this is [LocalizedText Strings/DN.SnS:HisHers] doing.$27",
 // POLYAMORY 
 "Val.MarriedMonogamousNPC": "Sorry, @! I'm flattered, but you're with a monogamous partner, so I'd be intruding on the rules of your relationship...$29",
 // TRASH REACT 
@@ -173,7 +173,7 @@ __     __    _
 "Val.Generic.100": "I saw Lorin smoking not one, but two, cigarettes. Everyone is entitled to their vices, but I'm pretty sure two-at-once is a diminishing return.",
 "Val.Generic.101": "I took the long trek to visit Lorin the other day. We got wine drunk and pet the Owlcobos, so it was pretty much the best day ever.",
 "Val.Generic.102": "Did you know Lorin falls asleep with crime shows on the television? Says it helps her sleep.#$b#Who in their right mind falls asleep to horror stories like that? Goodness, gracious.",
-"Val.Generic.103": "Hector's really boisterous when he's in a group, but when it's just him and I talking he gets a lot more solemn. Really thoughtful dude.#$b#I asked him about his dedication to Druidics, once. He just cryptically said he was 'born a tree with many rings'.",
+"Val.Generic.103": "Hector's really boisterous when [LocalizedText Strings/DN.SnS:HeShe]'s in a group, but when it's just him and I talking he gets a lot more solemn. Really thoughtful dude.#$b#I asked him about his dedication to Druidics, once. He just cryptically said he was 'born a tree with many rings'.",
 "Val.Generic.104": "Odelia recently showed me some tinctures to help with minor wounds. She's a talented alchemist, and I appreciate her taking the time to share her techniques.#$b#She was kind enough to send me home with a bunch of supplies, so I plan to return the favor by bringing her some beach forage.",
 "Val.Generic.105": "Hector says that Trolls are native to the mountains, entrusted by nature to protect them and the surrounding forests and wildlife.#$b#While I've always lived by the beach, I used to visit the Deep Mountains plenty as a kid. Always felt at home there, and now I know why. I don't plan to relocate; if anything, the 'charge' of my heritage is the Deep Dark.",
 "Val.Generic.106": "Hey, @! I had some extra ore and hammered out some ingots. Figured I'd share.$1 #$action AddItem {{Random: (O)Copper_Bar, (O)Iron_Bar, (O)Gold_Bar, (O)Iridium_Bar}} {{Random: {{Range: 1,3}}}}",
