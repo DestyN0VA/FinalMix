@@ -38,7 +38,7 @@
         "AcceptGift_(O)DN.SnS_CherryPie": "{{i18n:Val.GiftReaction.CherryPie}}",
         "AcceptGift_(O)DN.SnS_ChocolateOrange": "{{i18n:Val.GiftReaction.ChocolateOrange}}",
         "AcceptGift_(O)DN.SnS_AetheriteBar": "{{i18n:Val.GiftReaction.AetheriteBar}}",
-        "AcceptGift_(O)DN.SnS_MoltenEssence": "{{i18n:Val.GiftReaction.MoltenEssence}}",
+        "AcceptGift_(O)DN.SnS_FlareEssence": "{{i18n:Val.GiftReaction.FlareEssence}}",
         "AcceptGift_(O){{BF}}_Honey_OldFashioned": "{{i18n:Val.GiftReaction.HoneyOldFashioned}}",
         "AcceptGift_(O){{BF}}_Citrus_City_Gin_Sour": "{{i18n:Val.GiftReaction.CitrusCityGinSour}}",
         "AcceptGift_(O){{BF}}_Zuzu_Mule": "{{i18n:Val.GiftReaction.ZuzuMule}}",

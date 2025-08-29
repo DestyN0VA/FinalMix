@@ -66,7 +66,7 @@
                 "{{V}}": {
                     //Love
                     "0": "{{i18n:Val.GiftReaction.Love}}",
-                    "1": "74 253 608 373 746 392 595 731 732 107 DN.SnS_AetheriteBar DN.SnS_MoltenEssence DN.SnS_CherryPie DN.SnS_DinerCoffee DN.SnS_ChocolateOrange DN.SnS_SalishBourbon Daine.TPOChoice_GotoranCoffee MadDog.STW_CalicoWhiskey {{BF}}_Honey_OldFashioned {{BF}}_Citrus_City_Gin_Sour {{BF}}_Zuzu_Mule WWWA.GenuineAutograph",
+                    "1": "74 253 608 373 746 392 595 731 732 107 DN.SnS_AetheriteBar DN.SnS_FlareEssence DN.SnS_CherryPie DN.SnS_DinerCoffee DN.SnS_ChocolateOrange DN.SnS_SalishBourbon Daine.TPOChoice_GotoranCoffee MadDog.STW_CalicoWhiskey {{BF}}_Honey_OldFashioned {{BF}}_Citrus_City_Gin_Sour {{BF}}_Zuzu_Mule WWWA.GenuineAutograph",
 
                     //Like
                     "2": "{{i18n:Val.GiftReaction.Like}}",
