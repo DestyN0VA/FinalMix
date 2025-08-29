@@ -28,8 +28,11 @@
                     "CanVisitIsland": false,
                     "WinterStarParticipant": false,
                     "IsDarkSkinned": true,
-                    "ShakePortraits": [ 99, 98 ],
+                    "ShakePortraits": [ 3, 13, 21 ],
                     "Appearance": [],
+                    "DumpsterDiveEmote": 8, 
+                    "DumpsterDiveFriendshipEffect": 0, 
+                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current DN.Val.0H",
                     /*"SpouseRoom": {
                         "MapAsset": "{{DN.SnS_ValSpouseRoomOnOff}}"
                     },

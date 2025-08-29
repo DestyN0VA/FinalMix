@@ -27,6 +27,9 @@
                     "CanVisitIsland": false,
                     "WinterStarParticipant": false,
                     "IsDarkSkinned": false,
+                    "DumpsterDiveEmote": 32, 
+                    "DumpsterDiveFriendshipEffect": 25, 
+                    //"UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current DN.X.0H",
                     "ShakePortraits": [
                         99,
                         98
