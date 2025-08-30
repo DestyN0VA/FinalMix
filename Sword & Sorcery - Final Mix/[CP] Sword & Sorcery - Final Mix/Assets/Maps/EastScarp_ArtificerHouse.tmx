@@ -3,7 +3,7 @@
  <properties>
   <property name="AmbientLight" value="120 140 30"/>
   <property name="Music" value="DN.ValTheme"/>
-  <property name="NPCWarp" value="19 20 EastScarp_Underforge 24 9"/>
+  <property name="NPCWarp" value="19 20 EastScarp_Underforge 24 10"/>
   <property name="Warp" value="11 23 EastScarp_Village 94 93"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">

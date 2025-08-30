@@ -28,13 +28,13 @@
         }
       }
     },
-   /* {
+   {
       "Action": "EditMap",
       "Target": "Maps/EastScarp_ArtificerHouse",
       "MapTiles": [
         { "Position": { "X": 19, "Y": 19 }, "Layer": "Buildings",
           "SetProperties": { "Action": "Warp 24 9 EastScarp_Underforge" } } ]
-    },*/
+    },
     //Opens doors
     {
         "Action": "EditMap",
@@ -74,7 +74,7 @@
         "Action": "EditMap",
         "Target": "Maps/EastScarp_Village",
         "Update": "OnTimeChange",
-        "MapTiles": [  { "Position": { "X": 96, "Y": 110 }, "Layer": "AlwaysFront2", "Remove": true } ], 
+        "MapTiles": [  { "Position": { "X": 96, "Y": 110 }, "Layer": "AlwaysFront", "Remove": true } ], 
         "When": {"Time": "{{Range: 600, 1800}}" }
     },
     {
@@ -84,7 +84,7 @@
         {
           "Operation": "Append",
           "Target": [ "MapProperties", "Light" ],
-          "Value": "96 110 4",
+          "Value": "96 110 6",
           "Delimiter": " "
         }
       ]
