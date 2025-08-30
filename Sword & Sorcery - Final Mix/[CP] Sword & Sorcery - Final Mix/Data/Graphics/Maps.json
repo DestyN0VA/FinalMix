@@ -38,7 +38,7 @@
         //MAP LOADS (PERMANENT) 
         {
             "Action": "Load",
-            "Target": "Maps/EastScarp_CoastBeyond, Maps/EastScarp_TwilightOverlook, Maps/EastScarp_ArtificerHouse, Maps/EastScarp_BardHouse, Maps/EastScarp_DruidTower, Maps/EastScarp_ThiefTreehouse, Maps/EastScarp_SorcererHouse, Maps/EastScarp_RangerTower, Maps/EastScarp_YggdrasilGrove",
+            "Target": "Maps/EastScarp_CoastBeyond, Maps/EastScarp_TwilightOverlook, Maps/EastScarp_ArtificerHouse, Maps/EastScarp_BardHouse, Maps/EastScarp_DruidTower, Maps/EastScarp_ThiefTreehouse, Maps/EastScarp_SorcererHouse, Maps/EastScarp_RangerTower, Maps/EastScarp_YggdrasilGrove, Maps/EastScarp_Underforge",
             "FromFile": "Assets/Maps/{{TargetWithoutPath}}.tmx"
         },
         //MAP LOADS (TEMPORARY)

@@ -28,13 +28,13 @@
         }
       }
     },
-    {
+   /* {
       "Action": "EditMap",
       "Target": "Maps/EastScarp_ArtificerHouse",
       "MapTiles": [
         { "Position": { "X": 19, "Y": 19 }, "Layer": "Buildings",
-          "SetProperties": { "Action": "Warp 24 49 EastScarp_ArtificerHouse" } } ]
-    },
+          "SetProperties": { "Action": "Warp 24 9 EastScarp_Underforge" } } ]
+    },*/
     //Opens doors
     {
         "Action": "EditMap",
@@ -66,7 +66,7 @@
             { "Position": { "X": 3, "Y": 20 }, "Layer": "Front", "Remove": true },
             { "Position": { "X": 4, "Y": 20 }, "Layer": "Front", "Remove": true },
             { "Position": { "X": 3, "Y": 21 }, "Layer": "Buildings", "Remove": true },
-            { "Position": { "X": 4, "Y": 21 }, "Layer": "Buildings", "Remove": true },
+            { "Position": { "X": 4, "Y": 21 }, "Layer": "Buildings", "Remove": true }
         ],
         "When": { "HasSeenEvent": "DN.Val.8H" }
     },

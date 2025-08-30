@@ -6,7 +6,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Schedules/DN.SnS_Val",
 			"Entries": {
-				"spring": "630 EastScarp_ArtificerHouse 10 19 2/700 25 50 2",
+				"spring": "630 EastScarp_ArtificerHouse 10 19 2/700 25 50 2/800 EastScarp_Underforge 25 10 2/",
 				"rain": "GOTO spring", // 16 18 2++6 11 1++30 17 0++31 6 3 HOUSE ||| 28 26 2++12 31 2++17 34 3++12 14 1 INN {{Random:16 18 2++6 10 1++30 17 0++31 6 3|InputSeparator=++}}
 			}, ///700 EastScarp_ArtificerHouse 16 18 2/1000 EastScarp_Village 43 81/1500 EastScarp_VillageInn 28 26 2/1800 EastScarp_Village 94 115 2 Val_FrontSit/2100 EastScarp_ArtificerHouse 16 18 2/2300 14 9 2
 		},

@@ -1,0 +1,25 @@
+{
+    "Changes": [
+
+    {
+      "LogName": "Underforge",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_Underforge": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.underforge}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_Underforge" },
+          "DefaultArrivalTile": { "X": 24, "Y": 9 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_Underforge",
+      "MapTiles": [
+        { "Position": { "X": 24, "Y": 8 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "Warp 19 20 EastScarp_ArtificerHouse" } } ]
+    }
+]
+}
