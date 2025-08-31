@@ -6,27 +6,30 @@
 			"Action": "EditData",
 			"Target": "Characters/Schedules/DN.SnS_Val",
 			"Entries": {
-				"spring": "700 EastScarp_ArtificerHouse {{Random: 16 18 2++6 11 1++31 17 0++31 6 3|InputSeparator=++}}/1000 EastScarp_Village 43 81 2/1400 {{Random: EastScarp_VillageInn {{Random: 35 32 1++28 26 2 {{V}}_FrontSit++17 35 3|InputSeparator=++}}++EastScarp_Underforge 5 16 3|InputSeparator=++}}/1700 EastScarp_Village 94 116 2 {{V}}_FrontSit/2100 EastScarp_ArtificerHouse {{Random: 16 18 2++6 11 1++31 17 0++31 6 3|InputSeparator=++}}/2300 14 9 2", 
-				"rain": "GOTO spring",
-			}, 
+				"spring": "610 EastScarp_ArtificerHouse 14 9 2 {{V}}_Snooze/700 EastScarp_ArtificerHouse {{Random: 16 18 2 {{V}}_StandingIdle++6 11 1 {{V}}_SitCoffee++31 17 0++31 7 3 {{V}}_SitLeft|InputSeparator=++}}/1000 EastScarp_Village 43 81 2 {{Random:{{V}}_SwordShoulder++{{V}}_SwordSway|InputSeparator=++}}/1400 {{Random: EastScarp_VillageInn {{Random: 22 9 2 {{V}}_StandingIdle++31 31 1 {{V}}_SitCoffee++28 26 2 {{V}}_SitFront++17 34 3 {{V}}_SitLeft|InputSeparator=++}}++EastScarp_Underforge 5 16 3 {{V}}_Smithing|InputSeparator=++}}/1700 EastScarp_Village {{Random: 94 115 2 {{V}}_StandingIdle++94 116 2 {{V}}_SitFront|InputSeparator=++}}/2100 EastScarp_ArtificerHouse {{Random: 16 18 2 {{V}}_StandingIdle++6 11 1 {{V}}_SitCoffee++31 17 0++31 7 3 {{V}}_SitLeft|InputSeparator=++}}/2300 14 9 2 {{V}}_Sleep",
+				"spring_Mon": "0 Mine 16 4 2/610 Mine 16 4 2 {{Random:{{V}}_SwordShoulder++{{V}}_SwordSway|InputSeparator=++}}/1200 EastScarp_Village {{Random: 94 115 2 {{V}}_StandingIdle++94 116 2 {{V}}_SitFront|InputSeparator=++}}/2100 EastScarp_ArtificerHouse {{Random: 16 18 2 {{V}}_StandingIdle++6 11 1 {{V}}_SitCoffee++31 17 0++31 7 3 {{V}}_SitLeft|InputSeparator=++}}/2300 14 9 2 {{V}}_Sleep ",
+				"spring_Wed": "GOTO spring_Mon",
+				"spring_Fri": "GOTO spring_Mon",
+				"rain": "610 EastScarp_ArtificerHouse 14 9 2 {{V}}_Snooze/1000 EastScarp_ArtificerHouse {{Random: 16 18 2 {{V}}_StandingIdle++6 11 1 {{V}}_SitCoffee++31 17 0++31 7 3 {{V}}_SitLeft|InputSeparator=++}}/1400 {{Random: EastScarp_VillageInn {{Random: 22 9 2 {{V}}_StandingIdle++31 31 1 {{V}}_SitCoffee++28 26 2 {{V}}_SitFront++17 34 3 {{V}}_SitLeft|InputSeparator=++}}++EastScarp_Underforge 5 16 3 {{V}}_Smithing|InputSeparator=++}}/1800 EastScarp_ArtificerHouse {{Random: 16 18 2 {{V}}_StandingIdle++6 11 1 {{V}}_SitCoffee++31 17 0++31 7 3 {{V}}_SitLeft|InputSeparator=++}}/2300 14 9 2 {{V}}_Sleep",
+			},
 		},
 		// ANIMATIONS 
-        {
-            "LogName": "Val Schedule Animations",
-            "Action": "EditData",
-            "Target": "Data/animationDescriptions",
-            "entries": {
-                "{{V}}_Sleep": "28/28/28//laying_down",
-                "{{V}}_SitFront": "17/17 17 18 18 18 19 19 19 18 18 18/17//laying_down",
-                "{{V}}_SitLeft": "80/80 80 81 81 82 82 81 81/80//laying_down",
-                "{{V}}_SitCoffee": "83/83 83 84 84 85 85 84 84/83//laying_down",
-                "{{V}}_SwordShoulder": "71/71 71 71 72 72 72/71",
-                "{{V}}_SwordSway": "75/75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78/75",
-                "{{V}}_StandingIdle": "25/25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 26 27 26 25 25 25 25/25",
-                "{{V}}_Smithing": "51/51 50 49 48 48 49 50 51 51 51 51 51 51/51"
-            }
-        },
-		// needed: side sit, idle w/ sword, idle w/o sword 
+		{
+			"LogName": "Val Schedule Animations",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"entries": {
+				"{{V}}_Sleep": "28/28/28//laying_down",
+				"{{V}}_Snooze": "28/28/28//laying_down",
+				"{{V}}_SitFront": "17/17 17 18 18 18 19 19 19 18 18 18/17//laying_down",
+				"{{V}}_SitLeft": "80/80 80 81 81 82 82 81 81/80//laying_down/offset 0 -16",
+				"{{V}}_SitCoffee": "83/83 83 84 84 85 85 84 84/83//laying_down/offset 0 -16",
+				"{{V}}_SwordShoulder": "71/71 71 71 72 72 72/71",
+				"{{V}}_SwordSway": "75/75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78 75 76 77 76 75 78 79 78/75",
+				"{{V}}_StandingIdle": "25/25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 26 27 26 25 25 25 25/25",
+				"{{V}}_Smithing": "51/51 50 49 48 48 49 50 51 51 51 51 51 51/51"
+			}
+		},
+
 	]
 }
-//(0 = up, 1 = right, 2 = down, 3 = left)

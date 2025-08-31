@@ -29,9 +29,9 @@ __     __    _
 "Val.FallEnd": "Winter's coming... Can't say I'm looking forward to it, but Spring will come back to us eventually.$27",
 "Val.WinterEnd": "Thank goodness. The sun will shine on us again soon enough. Looking forward to the change of season.$25",
 // SVE COMMUNITY DAY
-"Val.CommunityCenter.01": "I'm so glad the everyone makes the effort to spend time together here. Stuff like this makes The Valley feel like home.$26",
-"Val.CommunityCenter.02": "Good to see you here, @. Just doing the rounds and catching up with everyone. Sometimes it's hard to make time to see your friends, so I'm glad the townsfolk are committed to gathering together like this once a season.$20",
-"Val.CommunityCenter.03": "Honestly, it's nice to be able to catch up with Marlon. Me and the old man don't get to hang out much outside of work. This is like, the only time I don't get a lecture on safe dungeon delving.$23",
+"Val.CommunityCenter.1": "I'm so glad the everyone makes the effort to spend time together here. Stuff like this makes The Valley feel like home.$26",
+"Val.CommunityCenter.2": "Good to see you here, @. Just doing the rounds and catching up with everyone. Sometimes it's hard to make time to see your friends, so I'm glad the townsfolk are committed to gathering together like this once a season.$20",
+"Val.CommunityCenter.3": "Honestly, it's nice to be able to catch up with Marlon. Me and the old man don't get to hang out much outside of work. This is like, the only time I don't get a lecture on safe dungeon delving.$23",
 // FESTIVALS (DAY BEFORE)
 "Val.EggFestival": "The egg festival is tomorrow! The first big event to ring in the new year, huh? Hope your egg-hunting skills are sharp, @, I hear you've got some pretty tough competition.$17",
 "Val.FlowerDance": "I love dancing, actually. I was big into the club scene back in college, but... Well, that's a very different sort of dancing, usually with a lot more liquor.$27",
@@ -52,9 +52,9 @@ __     __    _
 "Val.SpouseGiftJealous": "It was so thoughtful of you to give {0} a {1}! This is why I love you, @.$4", 
 "Val.Stardrop": "I found this growing in the Quarry Mine, believe it or not. I hope it tastes as good as you do.$4",
 // RESORT
-"Val.Resort.01": "Just taking a little break from running around, @. Be sure to put on some sunscreen if you're going to spend a lot of time out and about.$17",
-"Val.Resort.02": "I could probably fall asleep here, but I sleep like a rock and I'd probably miss the boat back...$27",
-"Val.Resort.03": "One nice thing about the beach is getting to show off all the scars. I got a lot of them from adventuring, but I'll admit I'm most proud of the ones on my chest.$10",
+"Val.Resort.1": "Just taking a little break from running around, @. Be sure to put on some sunscreen if you're going to spend a lot of time out and about.$17",
+"Val.Resort.2": "I could probably fall asleep here, but I sleep like a rock and I'd probably miss the boat back...$27",
+"Val.Resort.3": "One nice thing about the beach is getting to show off all the scars. I got a lot of them from adventuring, but I'll admit I'm most proud of the ones on my chest.$10",
 // GREEN RAIN
 "Val.GreenRain": "I've never seen rain like this before, even with all the time I spent in Pelican Town as a kid. I hope it's a good omen.$22",
 "Val.GreenRainFinished": "The rain was pretty intense, but it didn't seem to have any negative side effects. Everything is so lush right now, I'm sure Hector's excited.$26",
@@ -69,6 +69,7 @@ __     __    _
 "Val.VillageInn": "Rosa, you make a damn fine cup of coffee./It's so homey in here./Why are the floors covered in hay?", 
 "Val.ArtificerHouse": "Home sweet home...!/Time to get back to working on my campaign./My dogs are barking...",
 "Val.EastScarp": "Oh, there's the smell of sea air./Was that a Rock Crab?/This town has so many good sitting spots...",
+"Val.Underforge": "Nothing beats a sword fresh off the anvil./Man, it's real hot down here.../Time to get some work done!",
 // LOW HEART
 "Val.Generic.1": "You pick up skills really quickly, @. It's super impressive, and I commend you for your dedication to learning so many different things.$0",
 "Val.Generic.2": "Wilderness Golems are especially ornery when they're on the surface, most of all when the weather is nice.$29#$b#At least they're easier to manage than Stone Golems. Keep an eye out for them, they hit pretty hard.$27",
