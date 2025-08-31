@@ -1,0 +1,8 @@
+{
+  "Texture": "LooseSprites/Cursors",
+  "Sprites": {
+    "OKButton": {
+      "SourceRect": "128, 256, 64, 64"
+    }
+  }
+}

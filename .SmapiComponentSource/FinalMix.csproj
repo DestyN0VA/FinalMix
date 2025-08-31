@@ -6,21 +6,69 @@
 	  <LangVersion>latest</LangVersion>
 	  <Nullable>enable</Nullable>
 	  <EnableHarmony>true</EnableHarmony>
+	  <TranslationClassBuilder_AddGetByKey>true</TranslationClassBuilder_AddGetByKey>
+	  <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
 
 	<PropertyGroup>
-		<Name>Sword &amp; Sorcery - Final Mix [SMAPI]</Name>
+		<GamePath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley</GamePath>
+		<GameModsPath>$(GamePath)\Modding</GameModsPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Name>Sword &amp; Sorcery: Final Mix [SMAPI]</Name>
 		<Description>C# component for Sword and Sorcery.</Description>
 		<UniqueId>ET.SnS</UniqueId>
 		<Authors>EnderTedi, 7thAxis, KittyCatCasey</Authors>
 		<Version>3.0.0</Version>
 		<UpdateKeys>Nexus:0</UpdateKeys>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<SMAPIDependency Include="spacechase0.SpaceCore" Version="1.18.0-sdvalpha" Reference="true" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="SpaceCore.Skills" Alias="SpaceSkills" />
+		<Using Include="SpaceCore.Skills.Skill" Alias="Skill" />
+		<Using Include="SpaceCore.Skills.Skill.Profession" Alias="Profession" />
+	</ItemGroup>
 	
   <ItemGroup>
     <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.1" />
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
     <PackageReference Include="Pathoschild.Stardew.ModTranslationClassBuilder" Version="2.2.1" />
+    <PackageReference Include="PropertyChanged.SourceGenerator" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+	
+  <ItemGroup>
+    <None Update="Assets\SkillIcons\Artificer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\SkillPageIcons\Sorcery.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\SkillPageIcons\Paladin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\SkillPageIcons\Druidics.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\SkillPageIcons\Bardics.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\SkillPageIcons\Artificer.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\SkillPageIcons\Artificer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\UISprites\Cursors.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

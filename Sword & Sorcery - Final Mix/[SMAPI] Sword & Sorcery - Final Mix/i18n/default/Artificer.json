@@ -1,0 +1,33 @@
+{
+  "Skills.ArtificerSkill.Name": "Artificer",
+  "Skills.ArtificerSkill.MenuDescription": "Artificer Description here",
+  "Skills.ArtificerSkill.ExtraStamina": "+{{Stamina}} Stamina.",
+  "Skills.ArtificerSkill.PureOre": "\nSmall Pure Ore drop increase.",
+  "Skills.ArtificerSkill.MateriaSlotUnlocked": "\n1st Materia Slot unlocked.",
+  "Skills.ArtificerSkill.MateriaRankUnlocked": "\nRank {{Rank}} Materia now craftable.",
+  "Skills.ArtificerSkill.FlareEssenceIncrease": "\nFlare Essence drop increase.",
+
+  //Professions
+  "Skills.ArtificerSkill.RougishArchetype.Name": "Rougish Archetype",
+  "Skills.ArtificerSkill.RougishArchetype.Description": "Pilfer additional materials from enemies.\nSmall Pure Ore drop chance increase.",
+
+  "Skills.ArtificerSkill.CunningAction.Name": "Cunning Action",
+  "Skills.ArtificerSkill.CunningAction.Description": "Unlock Adventure Bar ability Shadowstep.\nBecome invisible until an enemy is hit; strike w/ critical hit.",
+
+  "Skills.ArtificerSkill.UncannyDodge.Name": "Uncanny Dodge",
+  "Skills.ArtificerSkill.UncannyDodge.Description": "Attacks from enemies are now less likely to land\nChance of gaining a speed buff after taking damage.",
+
+
+  "Skills.ArtificerSkill.ArtificerSpecialist.Name": "Artificer Specialist",
+  "Skills.ArtificerSkill.ArtificerSepcialist.Description": "Gain an additional Materia slot.\nRank IV Materia now craftable.",
+
+  "Skills.ArtificerSkill.BattleSmith.Name": "Battle Smith",
+  "Skills.ArtificerSkill.BattleSmith.Description": "Rank V Materia now craftable.\nUnlock a 3rd Materia slot.",
+
+  "Skills.ArtificerSkill.SoulOfArtifice.Name": "Soul Of Artifice",
+  "Skills.ArtificerSkill.SoulOfArtifice.Description": "Robotic companion that is summoned via the Adventure Bar.\nHas utility functions, looks cute, and does damage.",
+
+
+  "Skills.ArtificerSkill.SharedInfo.Lvl5": "+5 Stamina",
+  "Skills.ArtificerSkill.SharedInfo.Lvl10": "+5 Stamina, Flare Essence drop increase, Unlock Adventure Bar ability Flash of Genius. Limited use. Allows items to be double crafted."
+}

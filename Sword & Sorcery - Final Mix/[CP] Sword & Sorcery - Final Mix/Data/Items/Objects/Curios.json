@@ -37,30 +37,10 @@
             "use_reverse_name_for_sorting"
           ]
         },
-        //Essences
-        "{{ModID}}_DruidicEssence": {
-          "Name": "{{ModID}}_druidicessencee",
-          "DisplayName": "{{i18n: magicitem.druidicessence.name}}",
-          "Description": "{{i18n: magicitem.druidicessence.description}}",
-          "Type": "Basic",
-          "Category": -29,
-          "Price": 0,
-          "Edibility": -300,
-          "IsDrink": false,
-          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
-          "Texture": "DN.Objects/Curios",
-          "SpriteIndex": 16,
-          "ContextTags": [
-            "essence_item",
-            "item_druidic_essence",
-            "sns_essence_item",
-            "color_dark_cyan"
-          ]
-        },
-        "{{ModID}}_EarthEssence": {
-          "Name": "{{ModID}}_EarthEssence",
-          "DisplayName": "{{i18n: witchcraft.earth-essence.name}}",
-          "Description": "{{i18n: witchcraft.earth-essence.description}}",
+        "{{ModID}}_TidalEssence": {
+          "Name": "{{ModID}}_TidalEssence",
+          "DisplayName": "{{i18n: curios.tidal-essence.name}}",
+          "Description": "{{i18n: curios.tidal-essence.description}}",
           "Type": "Basic",
           "Category": -28,
           "Price": 15,
@@ -69,15 +49,16 @@
           "ExcludeFromRandomSale": true,
           "ContextTags": [
             "essence_item",
-            "item_earth_essence",
+            "item_water_essence",
             "sns_essence_item",
-            "color_dark_brown"
+            "color_light_cyan"
           ]
         },
-        "{{ModID}}_AirEssence": {
-          "Name": "{{ModID}}_AirEssence",
-          "DisplayName": "{{i18n: witchcraft.air-essence.name}}",
-          "Description": "{{i18n: witchcraft.air-essence.description}}",
+        //Essences
+        "{{ModID}}_FlareEssence": {
+          "Name": "{{ModID}}_FlareEssence",
+          "DisplayName": "{{i18n: curios.flare-essence.name}}",
+          "Description": "{{i18n: curios.flare-essence.description}}",
           "Type": "Basic",
           "Category": -28,
           "Price": 15,
@@ -86,15 +67,15 @@
           "ExcludeFromRandomSale": true,
           "ContextTags": [
             "essence_item",
-            "item_air_essence",
+            "item_fire_essence",
             "sns_essence_item",
-            "color_cyan"
+            "color_red"
           ]
         },
-        "{{ModID}}_WaterEssence": {
-          "Name": "{{ModID}}_WaterEssence",
-          "DisplayName": "{{i18n: witchcraft.water-essence.name}}",
-          "Description": "{{i18n: witchcraft.water-essence.description}}",
+        "{{ModID}}_StormEssence": {
+          "Name": "{{ModID}}_StormEssence",
+          "DisplayName": "{{i18n: curios.storm-essence.name}}",
+          "Description": "{{i18n: curios.storm-essence.description}}",
           "Type": "Basic",
           "Category": -28,
           "Price": 15,
@@ -103,26 +84,45 @@
           "ExcludeFromRandomSale": true,
           "ContextTags": [
             "essence_item",
-            "item_water_essence",
+            "item_air_essence",
             "sns_essence_item",
-            "color_light_cyan"
+            "color_cyan"
           ]
         },
-        "{{ModID}}_MoltenEssence": {
-          "Name": "{{ModID}}_MoltenEssence",
-          "DisplayName": "{{i18n: witchcraft.fire-essence.name}}",
-          "Description": "{{i18n: witchcraft.fire-essence.description}}",
+        "{{ModID}}_DruidicEssence": {
+          "Name": "{{ModID}}_DruidicEssence",
+          "DisplayName": "{{i18n: curios.druidic-essence.name}}",
+          "Description": "{{i18n: curios.druidic-essence.description}}",
+          "Type": "Basic",
+          "Category": -29,
+          "Price": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Texture": "DN.Objects/Curios",
+          "SpriteIndex": 15,
+          "ContextTags": [
+            "essence_item",
+            "item_druidic_essence",
+            "sns_essence_item",
+            "color_dark_cyan"
+          ]
+        },
+        "{{ModID}}_AetherEssence": {
+          "Name": "{{ModID}}_AetherEssence",
+          "DisplayName": "{{i18n: curios.aether-essence.name}}",
+          "Description": "{{i18n: curios.aether-essence.description}}",
           "Type": "Basic",
           "Category": -28,
           "Price": 15,
           "Texture": "DN.Objects/Curios",
-          "SpriteIndex": 15,
+          "SpriteIndex": 16,
           "ExcludeFromRandomSale": true,
           "ContextTags": [
             "essence_item",
-            "item_fire_essence",
+            "item_earth_essence",
             "sns_essence_item",
-            "color_red"
+            "color_dark_brown"
           ]
         },
         //EQ Gems
