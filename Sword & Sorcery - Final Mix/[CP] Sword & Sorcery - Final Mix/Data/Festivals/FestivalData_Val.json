@@ -10,7 +10,7 @@
                 {   // LOCATION: SET UP (VANILLA)
                     "Operation": "Append",
                     "Target": [  "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "{{V}} 28 54 2",
+                    "Value": "{{V}} 98 39 2",
                     "Delimiter": "/"
                 },
                 {   // LOCATION: MAIN EVENT (VANILLA)
@@ -22,7 +22,7 @@
 				{   // LOCATION: SET UP Y2 (VANILLA)
                     "Operation": "Append",
                     "Target": [  "Entries", "Set-Up_additionalCharacters_y2" ],
-                    "Value": "{{V}} 28 54 2",
+                    "Value": "{{V}} 98 39 2",
                     "Delimiter": "/"
                 },
                 {   // LOCATION: MAIN EVENT Y2 (VANILLA)
