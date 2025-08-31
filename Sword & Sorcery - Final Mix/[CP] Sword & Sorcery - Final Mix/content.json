@@ -103,8 +103,10 @@
   { "Name": "ValDialogueMax", "Value": 55 },
   { "Name": "ValDialogueMax", "Value": 110,
         "When": {  "HasSeenEvent": "DN.Val.8H" } },
+  { "Name": "ValDialogueMax", "Value": 110,
+        "When": {  "HasFlag": "Dating_Val" } },
 
-  { "Name": "ValRomanceSwitch", "Value": "false" },
+  { "Name": "ValRomanceSwitch", "Value": false },
   { "Name": "ValRomanceSwitch", "Value": true,
         "When": {  "HasFlag": "Dating_Val" } }
   ],

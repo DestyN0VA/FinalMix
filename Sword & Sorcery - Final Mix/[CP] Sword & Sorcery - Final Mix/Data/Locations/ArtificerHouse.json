@@ -35,6 +35,50 @@
         { "Position": { "X": 19, "Y": 19 }, "Layer": "Buildings",
           "SetProperties": { "Action": "Warp 24 9 EastScarp_Underforge" } } ]
     },
+{
+    "Action": "EditData",
+    "Target": "Data/GarbageCans",
+    "TargetField": [ "GarbageCans" ], 
+    "Entries": {
+
+        "{{ModID}}_ValTrash": {
+            "BaseChance": 1.0,
+          "Items": [
+              {
+                  "Id": "ValTrash_Tier4",
+                  "Condition": "RANDOM 0.008",
+                  "IsMegaSuccess": true,
+                  "RandomItemId": [  "(O){{ModID}}_PureRadioactiveOre", "(O)909", "(O)910", "(O)74"  ]
+              },
+              {
+                  "Id": "ValTrash_Tier4",
+                  "Condition": "RANDOM 0.01",
+                  "IsMegaSuccess": true,
+                  "RandomItemId": [  "(O){{ModID}}_PureGoldOre", "(O){{ModID}}_PureIridiumOre", "(O)337", "(O)336", "(O)72" ]
+              },
+              {
+                    "Id": "ValTrash_Tier4",
+                    "Condition": "RANDOM 0.05",
+                    "RandomItemId": [  "(O){{ModID}}_PureCopperOre", "(O){{ModID}}_PureIronOre", "(O)386", "(O)384"  ]
+                },
+                {
+                    "Id": "ValTrash_Tier3",
+                    "Condition": "RANDOM 0.1",
+                    "RandomItemId": [  "(O)537", "(O)378", "(O)334"  ]
+                },
+                {
+                    "Id": "ValTrash_Tier2",
+                    "Condition": "RANDOM 0.3",
+                    "RandomItemId": [  "(O)535", "(O)378", "(O)334", "(O)338"  ]
+                },
+                {
+                    "RandomItemId": [ "(O)168", "(O)172", "(O)390", "(O)80", "(O)382" ]
+                }
+            ],
+            "CustomFields": {}
+        }
+    }
+},  
     //Opens doors
     {
         "Action": "EditMap",

@@ -17,7 +17,7 @@
                 "ValCoffeeHangout": "{{i18n:Val.CT.ValCoffeeHangout}}",
                 "ValEmeritusIntro": "{{i18n:Val.CT.EmeritusIntro}}",
                 "ValConfides": "{{i18n:Val.CT.ValConfides}}",
-                "ValMinibossBattle": "{{i18n:Val.CT.ValMinibossBattle}}",
+                "ValMinibossBattle": "{{i18n:Val.CT.ValMinibossBattle}}"
             }
         },
     ]

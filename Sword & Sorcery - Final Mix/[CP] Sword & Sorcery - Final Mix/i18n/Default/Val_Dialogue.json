@@ -181,7 +181,7 @@ __     __    _
 "Val.Generic.107": "Hey, @! I collected an over-abundance of coal, and I figured I'd share the wealth. #$action AddItem (O)Coal {{Random: {{Range: 20,50}}}}",
 "Val.Generic.108": "Hey, @! Got this when I cracked a geode, figured you might want it for the museum.$1 [538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578",
 "Val.Generic.109": "Are you being safe in your dungeon delving, @? Here's something that'll help...$25 [349 351]",
-"Val.Generic.110": "Hey, @! Guess what? I got you a treat, just in case you haven't gotten one for yourself today.$17 #$action AddItem (O)DN.SnS_ChocolateOrange",
+"Val.Generic.110": "Hey, @! Guess what? I got you a treat, just in case you haven't gotten one for yourself today.$17#$action AddItem (O)DN.SnS_ChocolateOrange",
 // SEASONAL
 "Val.Spring.1": "It's getting warmer out. You can tell by the Spring in folks' step.$31",
 "Val.Spring.2": "What did the florist say during springtime, @?... Business is blooming.$32",

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="16" height="36" tilewidth="16" tileheight="16" infinite="0" nextlayerid="36" nextobjectid="353">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="16" height="36" tilewidth="16" tileheight="16" infinite="0" nextlayerid="36" nextobjectid="361">
  <editorsettings>
   <export format="tmx"/>
  </editorsettings>
@@ -6195,13 +6195,13 @@
  <objectgroup id="17" name="Back3"/>
  <layer id="3" name="Buildings" width="16" height="36">
   <data encoding="csv">
-0,258,0,0,0,0,0,0,127,0,0,0,0,0,0,420,
+0,0,0,0,0,0,0,0,127,0,0,0,0,0,0,420,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,395,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,413,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,308,
 0,130,2147484088,0,440,308,137,0,0,0,0,0,0,0,0,352,
-0,0,445,0,442,0,0,343,369,468,465,441,0,158,159,305,
+0,6187,445,0,442,0,0,343,369,468,465,441,0,158,159,305,
 345,0,470,0,467,468,468,368,394,493,490,466,465,441,0,404,
 295,0,495,0,492,493,494,393,419,519,515,491,490,466,291,292,
 320,0,520,0,517,518,519,418,444,524,540,516,515,491,491,317,
@@ -6225,8 +6225,8 @@
 0,0,420,321,495,0,0,0,0,0,0,0,0,0,0,542,
 258,0,445,346,520,0,0,0,0,0,0,0,0,0,0,5995,
 0,369,470,544,545,4633,0,4633,0,0,0,0,0,0,5995,5995,
-0,394,495,4482,4483,6384,6256,6288,0,0,0,0,0,5995,5995,0,
-369,419,520,4486,6384,6416,0,6320,6288,0,0,0,4700,5995,0,0,
+0,394,495,4482,4483,6384,6256,5995,0,0,0,0,0,5995,5995,0,
+369,419,520,4486,6384,6416,0,5995,6288,0,0,0,4700,5995,0,0,
 394,444,6384,6224,6416,1720,0,1720,6677,0,0,0,4717,6677,0,2147490387,
 419,6384,6416,6739,0,0,0,0,6677,0,0,0,0,6677,6707,132,
 444,545,0,0,0,0,0,0,6677,6550,0,0,4599,6677,0,132,
@@ -6265,15 +6265,39 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6384,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,6384,6416,
-0,0,0,0,0,0,0,0,0,0,0,0,0,6384,6416,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,6448,0,0,
+0,0,0,0,0,0,0,6288,0,0,0,0,0,6384,6416,0,
+0,0,0,0,0,0,0,6320,0,0,0,0,0,6448,0,0,
 0,0,545,0,0,0,0,0,6320,0,0,0,0,6416,0,0,
 0,520,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="4" name="Buildings">
+  <properties>
+   <property name="Action" value="Garbage DN.SnS_Val.GarbageCan"/>
+  </properties>
+  <object id="357" name="TileData" x="112" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage DN.SnS_ValTrash"/>
+   </properties>
+  </object>
+  <object id="358" name="TileData" x="96" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="MineSign Congrats. It's Val's empty mailbox."/>
+   </properties>
+  </object>
+  <object id="359" name="TileData" x="112" y="480" width="16" height="16">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </object>
+  <object id="360" name="TileData" x="112" y="496" width="16" height="16">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="7" name="Paths" width="16" height="36">
   <data encoding="csv">
 0,0,0,0,0,0,1998,1998,0,0,0,0,0,0,0,0,

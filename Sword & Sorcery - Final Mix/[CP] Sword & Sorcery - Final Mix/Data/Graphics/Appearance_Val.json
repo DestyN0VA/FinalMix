@@ -13,7 +13,7 @@
             "LogName": "Load Default Base",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Beach, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Festival_Spirit, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Beach, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Base.png"
         },
     // OUTFIT OVERLAYS
@@ -44,8 +44,16 @@
             "Action": "EditImage",
             "Priority": "Early",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Hair_{{Val Hair Color}}.png" // "Weather|Contains=Rain, Storm, GreenRain": false
+        },
+        {
+            "LogName": "Overlay Hair - Temp Actors",
+            "Action": "EditImage",
+            "Priority": "Early",
+            "PatchMode": "Overlay",
+            "Target": "Characters/Val.Injury, Characters/Val.SwordSwing",
+            "FromFile": "Assets/Models/Main/Characters/DN.SnS_Val/Features/Hair_{{TargetWithoutPath}}_{{Val Hair Color}}.png"
         },
         {
             "LogName": "Overlay Val Sprite fix", //Find a way to tidy this later
@@ -67,7 +75,7 @@
             "Action": "EditImage",
             "Priority": "Early",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Bandages, Portraits/DN.SnS_Val/Bandages",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Scars.png",
             "When": { "HasSeenEvent": "DN.Val.6H" }
         },
@@ -75,7 +83,7 @@
             "LogName": "Overlay Val EyePatch",
             "Action": "EditImage",
             "PatchMode": "Overlay",
-            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless",
+            "Target": "Characters/DN.SnS_Val/Seasonal, Portraits/DN.SnS_Val/Seasonal, Characters/DN.SnS_Val/Bonus, Portraits/DN.SnS_Val/Bonus, Characters/DN.SnS_Val/Armor, Portraits/DN.SnS_Val/Armor, Characters/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival, Portraits/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Festival_Flower, Characters/DN.SnS_Val/Beach, Portraits/DN.SnS_Val/Shirtless, Characters/DN.SnS_Val/Shirtless",
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/Features/Eyepatch.png",
             "When": { "HasSeenEvent": "DN.Val.6H", "Random: {{Range: 1, 3}}|Key=VPO": 1 }
         },
@@ -126,6 +134,7 @@
                 },
                 {
                     "ID": "Festival Spirit", "Precedence": -20, "Weight": 1,
+                    "Portrait": "Portraits/DN.SnS_Val/Festival",
                     "Sprite": "Characters/DN.SnS_Val/Festival_Spirit",
                     "Condition": "EVENT_ID festival_fall27"
                     
