@@ -2844,11 +2844,6 @@
     <property name="Action" value="Message Kegarator"/>
    </properties>
   </object>
-  <object id="61" name="TileData" x="224" y="304" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message LynchCoffeeMaker"/>
-   </properties>
-  </object>
   <object id="62" name="TileData" x="208" y="272" width="16" height="16">
    <properties>
     <property name="Action" value="Message ValFridge"/>

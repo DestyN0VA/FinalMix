@@ -13,50 +13,46 @@
           "SetProperties": { "Action": "LockedDoorWarp 11 21 EastScarp_ArtificerHouse 800 2400" } }
       ]
     },
-
-    //Interior 
     {
-      "LogName": "Artificer House - Interior",
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "EastScarp_ArtificerHouse": {
-          "DisplayName": "{{i18n:miscellaneous.mapname.artificerhouse}}",
-          "CreateOnLoad": { "MapPath": "Maps/EastScarp_ArtificerHouse" },
-          "DefaultArrivalTile": { "X": 11, "Y": 21 },
-          "ExcludeFromNpcPathfinding": false
-        }
-      }
-    },
-   {
       "Action": "EditMap",
-      "Target": "Maps/EastScarp_ArtificerHouse",
-      "MapTiles": [
-        { "Position": { "X": 19, "Y": 19 }, "Layer": "Buildings",
-          "SetProperties": { "Action": "Warp 24 9 EastScarp_Underforge" } } ]
+      "Target": "Maps/EastScarp_Village",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": [ "MapProperties", "spacechase0.SpaceCore_ColoredLights" ],
+          "Value": "96 110 6 0 255 0",
+          "Delimiter": " "
+        }
+      ]
     },
-{
-    "Action": "EditData",
-    "Target": "Data/GarbageCans",
-    "TargetField": [ "GarbageCans" ], 
-    "Entries": {
-
-        "{{ModID}}_ValTrash": {
+    {
+        "Action": "EditMap",
+        "Target": "Maps/EastScarp_Village",
+        "Update": "OnTimeChange",
+        "MapTiles": [  { "Position": { "X": 96, "Y": 110 }, "Layer": "AlwaysFront", "Remove": true } ], 
+        "When": {"Time": "{{Range: 600, 1800}}" }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/GarbageCans",
+        "TargetField": [ "GarbageCans" ], 
+        "Entries": {
+            "{{ModID}}_ValTrash": {
             "BaseChance": 1.0,
-          "Items": [
-              {
-                  "Id": "ValTrash_Tier4",
-                  "Condition": "RANDOM 0.008",
-                  "IsMegaSuccess": true,
-                  "RandomItemId": [  "(O){{ModID}}_PureRadioactiveOre", "(O)909", "(O)910", "(O)74"  ]
-              },
-              {
-                  "Id": "ValTrash_Tier4",
-                  "Condition": "RANDOM 0.01",
-                  "IsMegaSuccess": true,
-                  "RandomItemId": [  "(O){{ModID}}_PureGoldOre", "(O){{ModID}}_PureIridiumOre", "(O)337", "(O)336", "(O)72" ]
-              },
-              {
+            "Items": [
+                {
+                    "Id": "ValTrash_Tier4",
+                    "Condition": "RANDOM 0.008",
+                    "IsMegaSuccess": true,
+                    "RandomItemId": [  "(O){{ModID}}_PureRadioactiveOre", "(O)909", "(O)910", "(O)74"  ]
+                },
+                {
+                    "Id": "ValTrash_Tier4",
+                    "Condition": "RANDOM 0.01",
+                    "IsMegaSuccess": true,
+                    "RandomItemId": [  "(O){{ModID}}_PureGoldOre", "(O){{ModID}}_PureIridiumOre", "(O)337", "(O)336", "(O)72" ]
+                },
+                {
                     "Id": "ValTrash_Tier4",
                     "Condition": "RANDOM 0.05",
                     "RandomItemId": [  "(O){{ModID}}_PureCopperOre", "(O){{ModID}}_PureIronOre", "(O)386", "(O)384"  ]
@@ -79,8 +75,54 @@
         }
     }
 },  
-    //Opens doors
+    //Interior 
     {
+      "LogName": "Artificer House - Interior",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "EastScarp_ArtificerHouse": {
+          "DisplayName": "{{i18n:miscellaneous.mapname.artificerhouse}}",
+          "CreateOnLoad": { "MapPath": "Maps/EastScarp_ArtificerHouse" },
+          "DefaultArrivalTile": { "X": 11, "Y": 21 },
+          "ExcludeFromNpcPathfinding": false
+        }
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_ArtificerHouse",
+      "MapTiles": [
+        { "Position": { "X": 19, "Y": 19 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "Warp 24 9 EastScarp_Underforge" } } ]
+    },
+    {
+      "LogName": "Artificer House - Coffee Pie",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_ArtificerHouse",
+      "MapTiles": [ { "Position": { "X": 14, "Y": 19 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "Spiderbuttons.BETAS_Action If PLAYER_HAS_MAIL Current ValCoffeePieReceivedToday ## Spiderbuttons.BETAS_DialogueBox None \"{{i18n:Strings.LynchCoffeeMaker}}\" ## Spiderbuttons.BETAS_TriggerAction Val.TriggerAction.CoffeePie Manual" } }
+      ]
+    },
+    {
+        "LogName": "Val daily coffee/pie",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "Val.TriggerAction.CoffeePie": {
+                "Id": "Val.TriggerAction.CoffeePie",
+                "Trigger": "Manual",
+                "MarkActionApplied": false,
+                "Actions": [
+                    "Spiderbuttons.BETAS_DialogueBox None \"{{i18n:Strings.LynchCoffeeMaker}}\"",
+                    "AddMail Current ValCoffeePieReceivedToday now",
+                    "AddItem {{Random: (O){{ModID}}_CherryPie, (O){{ModID}}_DinerCoffee}}"
+                ]
+            }
+        }
+    },   
+    {
+        "LogName": "Open's Val's door",
         "Action": "EditMap",
         "Target": "Maps/EastScarp_ArtificerHouse",
         "Update": "OnLocationChange",
@@ -93,6 +135,7 @@
         "When": { "Hearts:{{V}}": "{{Range: 2, 14}}" }
     },
     {
+        "LogName": "Golden Pumpkin Gift",
         "Action": "EditMap",
         "Target": "Maps/EastScarp_ArtificerHouse",
         "MapTiles": [
@@ -104,6 +147,7 @@
         "When": { "HasFlag|contains=GiftedValGPumpkin": false }
     },
     {
+        "LogName": "Emeritus Egg Removal",
         "Action": "EditMap",
         "Target": "Maps/EastScarp_ArtificerHouse",
         "MapTiles": [
@@ -114,24 +158,7 @@
         ],
         "When": { "HasSeenEvent": "DN.Val.8H" }
     },
-   {
-        "Action": "EditMap",
-        "Target": "Maps/EastScarp_Village",
-        "Update": "OnTimeChange",
-        "MapTiles": [  { "Position": { "X": 96, "Y": 110 }, "Layer": "AlwaysFront", "Remove": true } ], 
-        "When": {"Time": "{{Range: 600, 1800}}" }
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/EastScarp_Village",
-      "TextOperations": [
-        {
-          "Operation": "Append",
-          "Target": [ "MapProperties", "Light" ],
-          "Value": "96 110 6",
-          "Delimiter": " "
-        }
-      ]
-    }
+
+
 ]
 }

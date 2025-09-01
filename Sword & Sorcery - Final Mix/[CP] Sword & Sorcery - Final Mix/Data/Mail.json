@@ -50,16 +50,16 @@
             "Entries": {
       
                 "{{ModID}}.TriggerAction.DailyFlagRemovals": {
-                    "Id": "{{ModID}}_TriggerActions.LitDDailyFlagRemovals",
+                    "Id": "{{ModID}}.TriggerAction.DailyFlagRemovals",
                     "MarkActionApplied": false,
                     "Trigger": "DayEnding",
                     "Actions": [ 
-                    "RemoveMail Current ValOverrideSeenToday", "RemoveMail Current SeenValEventToday",
-                    "RemoveMail Current CorianderOverrideSeenToday", "RemoveMail Current SeenCorianderEventToday",          
-                    "RemoveMail Current HectorOverrideSeenToday", "RemoveMail Current SeenHectorEventToday",
-                    "RemoveMail Current LorinOverrideSeenToday", "RemoveMail Current SeenLorinEventToday",
-                    "RemoveMail Current RoslinOverrideSeenToday", "RemoveMail Current SeenRoslinEventToday",
-					"RemoveMail Current DandelionOverrideSeenToday", "RemoveMail Current SeenDandelionEventToday"
+						"RemoveMail Current ValOverrideSeenToday", "RemoveMail Current SeenValEventToday", "RemoveMail Current ValCoffeePieReceivedToday",
+						"RemoveMail Current CorianderOverrideSeenToday", "RemoveMail Current SeenCorianderEventToday",          
+						"RemoveMail Current HectorOverrideSeenToday", "RemoveMail Current SeenHectorEventToday",
+						"RemoveMail Current LorinOverrideSeenToday", "RemoveMail Current SeenLorinEventToday",
+						"RemoveMail Current RoslinOverrideSeenToday", "RemoveMail Current SeenRoslinEventToday",
+						"RemoveMail Current DandelionOverrideSeenToday", "RemoveMail Current SeenDandelionEventToday"
 					 ]
                 }
             }
