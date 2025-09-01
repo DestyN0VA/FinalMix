@@ -9,8 +9,9 @@ using StardewValley;
 using StardewUI.Framework;
 using HarmonyLib;
 using System.Runtime.CompilerServices;
-using static StardewValley.Farm;
 using FinalMix.Patches;
+using FinalMix.Menus;
+using FinalMix.Mod_Integrations;
 
 namespace FinalMix;
 
@@ -19,9 +20,11 @@ internal class FinalMix : Mod
     public static FinalMix Instance { get; set; } = null!;
     public static new IModHelper Helper { get; set; } = null!;
     public static LogUtil Log { get; set; } = null!;
+    public static Configs Config { get; set; } = null!;
 
     public static ISpaceCoreApi SpaceCore { get => Helper.ModRegistry.GetApi<ISpaceCoreApi>("spacechase0.SpaceCore")!; }
     public static IViewEngine StarUI { get => Helper.ModRegistry.GetApi<IViewEngine>("focustense.StardewUI")!; }
+    public static GenericModConfigMenu.IGenericModConfigMenuApi? GMCM { get => Helper.ModRegistry.GetApi<GenericModConfigMenu.IGenericModConfigMenuApi>("spacechase0.GenericModConfigMenu"); }
 
     public static ArtificerSkill ArtificerSkill { get; set; } = null!;
     public static SkillIcons SkillIcons = null!;
@@ -38,6 +41,7 @@ internal class FinalMix : Mod
         Helper.Events.GameLoop.GameLaunched += GameLaunched;
 
         SkillIcons = new();
+        Config = Helper.ReadConfig<Configs>();
         Helper.Events.Content.AssetRequested += SkillIcons.AssetRequested;
         Helper.Events.Content.AssetsInvalidated += SkillIcons.AssetsInvalidated;
 
@@ -60,6 +64,11 @@ internal class FinalMix : Mod
     private void GameLaunched(object? sender, GameLaunchedEventArgs e)
     {
         Tokens.RegisterTokens(Helper.ModRegistry.GetApi<IContentPatcherAPI>("pathoschild.ContentPatcher")!);
+
+        if (GMCM != null)
+            ConfigMenu.SetUpGMCM(GMCM);
+
+
         ArtificerSkill = new();
         SpaceSkills.RegisterSkill(ArtificerSkill);
 
