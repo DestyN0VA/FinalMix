@@ -20,7 +20,7 @@
         {
           "Operation": "Append",
           "Target": [ "MapProperties", "spacechase0.SpaceCore_ColoredLights" ],
-          "Value": "96 110 6 0 255 0",
+          "Value": "96 110 4 4 112 186 112",
           "Delimiter": " "
         }
       ]
