@@ -9,7 +9,7 @@
 
   //Professions
   "Skills.ArtificerSkill.RougishArchetype.Name": "Rougish Archetype",
-  "Skills.ArtificerSkill.RougishArchetype.Description": "Pilfer additional materials from enemies.\nSmall Pure Ore drop chance increase.",
+  "Skills.ArtificerSkill.RougishArchetype.Description": "Pilfer additional materials from enemies.",
 
   "Skills.ArtificerSkill.CunningAction.Name": "Cunning Action",
   "Skills.ArtificerSkill.CunningAction.Description": "Unlock Adventure Bar ability Shadowstep.\nBecome invisible until an enemy is hit; strike w/ critical hit.",
@@ -19,7 +19,7 @@
 
 
   "Skills.ArtificerSkill.ArtificerSpecialist.Name": "Artificer Specialist",
-  "Skills.ArtificerSkill.ArtificerSepcialist.Description": "Gain an additional Materia slot.\nRank IV Materia now craftable.",
+  "Skills.ArtificerSkill.ArtificerSepcialist.Description": "Rank IV Materia now craftable.",
 
   "Skills.ArtificerSkill.BattleSmith.Name": "Battle Smith",
   "Skills.ArtificerSkill.BattleSmith.Description": "Rank V Materia now craftable.\nUnlock a 3rd Materia slot.",
@@ -28,6 +28,6 @@
   "Skills.ArtificerSkill.SoulOfArtifice.Description": "Robotic companion that is summoned via the Adventure Bar.\nHas utility functions, looks cute, and does damage.",
 
 
-  "Skills.ArtificerSkill.SharedInfo.Lvl5": "+5 Stamina",
-  "Skills.ArtificerSkill.SharedInfo.Lvl10": "+5 Stamina, Flare Essence drop increase, Unlock Adventure Bar ability Flash of Genius. Limited use. Allows items to be double crafted."
+  "Skills.ArtificerSkill.SharedInfo.Lvl5": "+5 Stamina\nSmall Pure Ore drop chance increase.\nGain an additional Materia slot.",
+  "Skills.ArtificerSkill.SharedInfo.Lvl10": "+5 Stamina\nFlare Essence drop increase\nUnlock Adventure Bar ability Flash of Genius.\nLimited use. Allows items to be double crafted."
 }

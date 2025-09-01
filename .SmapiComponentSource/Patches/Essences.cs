@@ -24,7 +24,8 @@ internal static class EssenceUtility
     {
         Tidal,
         Storm,
-        Aether
+        Aether,
+        Druidic
     }
 
     private class WeatherEssence(Vector2 position, EssenceType type)
@@ -32,13 +33,15 @@ internal static class EssenceUtility
         private readonly static Dictionary<EssenceType, Rectangle> sourceRects = new() {
             [EssenceType.Tidal] = new(32, 16, 16, 16),
             [EssenceType.Storm] = new(64, 16, 16, 16),
-            [EssenceType.Aether] = new(96, 16, 16, 16)
+            [EssenceType.Aether] = new(96, 16, 16, 16),
+            [EssenceType.Druidic] = new(80, 16, 16, 16)
         };
         private readonly static Dictionary<EssenceType, Item> essences = new()
         {
             [EssenceType.Tidal] = ItemRegistry.Create(TidalEssenceID),
             [EssenceType.Storm] = ItemRegistry.Create(StormEssenceID),
-            [EssenceType.Aether] = ItemRegistry.Create(AetherEssenceID)
+            [EssenceType.Aether] = ItemRegistry.Create(AetherEssenceID),
+            [EssenceType.Druidic] = ItemRegistry.Create(DruidicEssenceID)
         };
         private readonly bool flipped = Game1.random.NextBool();
         private bool didAlpha = false;
@@ -47,6 +50,7 @@ internal static class EssenceUtility
         public Rectangle SourceRect { get; set; } = sourceRects[type];
         public double Alpha { get; set; } = 0f;
         public double Timer { get; set; } = 0;
+        public float Speed { get; set; } = Game1.random.Next(90, 111) / 100;
 
         public bool Update()
         {
@@ -59,11 +63,10 @@ internal static class EssenceUtility
 
             if (Timer >= 1500)
             {
-                Game1.playSound("rainsound");
                 Game1.createObjectDebris(essences[type].QualifiedItemId, (int)(Position.X / 64), (int)(Position.Y / 64), Game1.player.currentLocation);
                 return true;
             }
-            Position -= new Vector2(4, -7);
+            Position -= new Vector2(4, -7) * Speed;
             return false;
         }
 
@@ -88,9 +91,9 @@ internal static class EssenceUtility
         if (!Game1.IsRainingHere() || !Game1.currentLocation.IsOutdoors || Game1.viewport.Width <= 0)
             return;
 
-        if (Game1.random.NextBool(0.005f))
+        if (Game1.random.NextBool(0.00125f))
         {
-            EssenceType which = Game1.random.NextBool(0.1) ? EssenceType.Aether : (Game1.random.NextBool() && Game1.isLightning ? EssenceType.Storm : EssenceType.Tidal); 
+            EssenceType which = Game1.random.NextBool(0.1) ? EssenceType.Aether : (Game1.isGreenRain ? EssenceType.Druidic : (Game1.random.NextBool() && Game1.isLightning ? EssenceType.Storm : EssenceType.Tidal)); 
             Vector2 Pos = new(Game1.random.Next(Game1.viewport.X - 64 * 2, Game1.viewport.X + Game1.viewport.Width + 64 * 2), Game1.random.Next(Game1.viewport.Y - 64 * 2, Game1.viewport.Y + Game1.viewport.Height /3));
             
             while (Essences.Any(e => e.Position == Pos))
@@ -103,14 +106,15 @@ internal static class EssenceUtility
         {
             var essence = Essences[i];
 
-            if (essence.Update())
-                Essences.Remove(essence);
-            else
+            if (Game1.shouldTimePass() && !Game1.IsFading())
             {
-                if (essence.Alpha >= 1)
+                if (essence.Update())
+                    Essences.Remove(essence);
+                else if (essence.Alpha >= 1)
                     essence.Timer += Game1.currentGameTime.ElapsedGameTime.TotalMilliseconds;
-                essence.Draw(e.SpriteBatch);
             }
+
+            essence.Draw(e.SpriteBatch);
         }
     }
 
