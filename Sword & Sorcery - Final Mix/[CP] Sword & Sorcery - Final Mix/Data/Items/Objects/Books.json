@@ -1,13 +1,13 @@
 {
   "Changes": [
- {
-    "Action": "EditData",
-    "Target": "Data/Objects",
-    "Entries": {
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
         "{{ModID}}_StandaloneGuidebook": {
           "Name": "{{ModID}}_StandaloneGuidebook",
-          "DisplayName": "{{i18n: magicitem.standaloneguidebook.name}}",
-          "Description": "{{i18n: magicitem.standaloneguidebook.description}}",
+          "DisplayName": "{{i18n: Object.Standalone-Guidebook.Name}}",
+          "Description": "{{i18n: Object.Standalone-Guidebook.Description}}",
           "Type": "Basic",
           "Category": 0,
           "Price": 5,
@@ -16,98 +16,132 @@
           "ExcludeFromShippingCollection": true,
           "Texture": "DN.Objects/Books",
           "SpriteIndex": "7",
-          "ContextTags": [ "book_item" ]
+          "ContextTags": [
+            "book_item"
+          ]
         },
-      "{{ModID}}_artificerbook": {
-        "Name": "{{ModID}}_artificerbook",
-        "DisplayName": "{{i18n: magicitem.artificerbook.name}}",
-        "Description": "{{i18n: magicitem.artificerbook.description}}",
-        "Type": "asdf",
-        "Category": "{{ArtificerBookCat}}",
-        "Price": 500,
-        "Edibility": -300,
-        "IsDrink": false,
-        "ExcludeFromShippingCollection": true,
-        "Texture": "DN.Objects/Books",
-        "SpriteIndex": "0",
-        "ContextTags": [
-          "book_item",
-          "DestyNova.SwordAndSorcery.Rogue"
-        ]
-      },
-
-      "{{ModID}}_druidbook": {
-        "Name": "{{ModID}}_druidbook",
-        "DisplayName": "{{i18n: magicitem.druidbook.name}}",
-        "Description": "{{i18n: magicitem.druidbook.description}}",
-        "Type": "asdf",
-        "Category": "{{DruidBookCat}}",
-        "Price": 500,
-        "Edibility": -300,
-        "IsDrink": false,
-        "ExcludeFromShippingCollection": true,
-        "Texture": "DN.Objects/Books",
-        "SpriteIndex": "1",
-        "ContextTags": [
-          "book_item",
-          "DestyNova.SwordAndSorcery.Druidics"
-        ]
-      },
-
-      "{{ModID}}_bardbook": {
-        "Name": "{{ModID}}_bardbook",
-        "DisplayName": "{{i18n: magicitem.bardbook.name}}",
-        "Description": "{{i18n: magicitem.bardbook.description}}",
-        "Type": "asdf",
-        "Category": "{{BardBookCat}}",
-        "Price": 500,
-        "Edibility": -300,
-        "IsDrink": false,
-        "ExcludeFromShippingCollection": true,
-        "Texture": "DN.Objects/Books",
-        "SpriteIndex": "2",
-        "ContextTags": [
-          "book_item",
-          "DestyNova.SwordAndSorcery.Bardics"
-        ]
-      },
-
-      "{{ModID}}_sorcerybook": {
-        "Name": "{{ModID}}_sorcerybook",
-        "DisplayName": "{{i18n: magicitem.sorcerybook.name}}",
-        "Description": "{{i18n: magicitem.sorcerybook.description}}",
-        "Type": "asdf",
-        "Category": "{{SorceryBookCat}}",
-        "Price": 500,
-        "Edibility": -300,
-        "IsDrink": false,
-        "ExcludeFromShippingCollection": true,
-        "Texture": "DN.Objects/Books",
-        "SpriteIndex": "3",
-        "ContextTags": [
-          "book_item",
-          "DestyNova.SwordAndSorcery.Witchcraft"
-        ]
-      },
-
-      "{{ModID}}_paladinbook": {
-        "Name": "{{ModID}}_paladinbook",
-        "DisplayName": "{{i18n: magicitem.paladinbook.name}}",
-        "Description": "{{i18n: magicitem.paladinbook.description}}",
-        "Type": "asdf",
-        "Category": "{{PaladinBookCat}}",
-        "Price": 500,
-        "Edibility": -300,
-        "IsDrink": false,
-        "ExcludeFromShippingCollection": true,
-        "Texture": "DN.Objects/Books",
-        "SpriteIndex": "4",
-        "ContextTags": [
-          "book_item",
-          "DestyNova.SwordAndSorcery.Paladin"
-        ]
+        "{{ModID}}_ArtificerBook": {
+          "Name": "{{ModID}}_ArtificerBook",
+          "DisplayName": "{{i18n: Object.Artificer-Book.Name}}",
+          "Description": "{{i18n: Object.Artificer-Book.Description}}",
+          "Type": "asdf",
+          "Category": "{{ArtificerBookCat}}",
+          "Price": 500,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Books",
+          "SpriteIndex": "0",
+          "ContextTags": [
+            "book_item",
+            "DestyNova.SwordAndSorcery.Rogue"
+          ]
+        },
+        "{{ModID}}_DruidBook": {
+          "Name": "{{ModID}}_DruidBook",
+          "DisplayName": "{{i18n: Object.Druid-Book.Name}}",
+          "Description": "{{i18n: Object.Druid-Book.Description}}",
+          "Type": "asdf",
+          "Category": "{{DruidBookCat}}",
+          "Price": 500,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Books",
+          "SpriteIndex": "1",
+          "ContextTags": [
+            "book_item",
+            "DestyNova.SwordAndSorcery.Druidics"
+          ]
+        },
+        "{{ModID}}_BardBook": {
+          "Name": "{{ModID}}_BardBook",
+          "DisplayName": "{{i18n: Object.Bard-Book.Name}}",
+          "Description": "{{i18n: Object.Bard-Book.Description}}",
+          "Type": "asdf",
+          "Category": "{{BardBookCat}}",
+          "Price": 500,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Books",
+          "SpriteIndex": "2",
+          "ContextTags": [
+            "book_item",
+            "DestyNova.SwordAndSorcery.Bardics"
+          ]
+        },
+        "{{ModID}}_SorceryBook": {
+          "Name": "{{ModID}}_SorceryBook",
+          "DisplayName": "{{i18n: Object.Sorcery-Book.Name}}",
+          "Description": "{{i18n: Object.Sorcery-Book.Description}}",
+          "Type": "asdf",
+          "Category": "{{SorceryBookCat}}",
+          "Price": 500,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Books",
+          "SpriteIndex": "3",
+          "ContextTags": [
+            "book_item",
+            "DestyNova.SwordAndSorcery.Witchcraft"
+          ]
+        },
+        "{{ModID}}_PaladinBook": {
+          "Name": "{{ModID}}_PaladinBook",
+          "DisplayName": "{{i18n: Object.Paladin-Book.Name}}",
+          "Description": "{{i18n: Object.Paladin-Book.Description}}",
+          "Type": "asdf",
+          "Category": "{{PaladinBookCat}}",
+          "Price": 500,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Books",
+          "SpriteIndex": "4",
+          "ContextTags": [
+            "book_item",
+            "DestyNova.SwordAndSorcery.Paladin"
+          ]
+        },
+        /*
+        "{{ModID}}_RangerBook": {
+          "Name": "{{ModID}}_RangerBook",
+          "DisplayName": "{{i18n: Object.Ranger-Book.Name}}",
+          "Description": "{{i18n: Object.Ranger-Book.Description}}",
+          "Type": "asdf",
+          "Category": "{{RangerBookCat}}",
+          "Price": 500,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Books",
+          "SpriteIndex": "4",
+          "ContextTags": [
+            "book_item",
+            "DestyNova.SwordAndSorcery.Ranger"
+          ]
+        },
+        "{{ModID}}_LancerBook": {
+          "Name": "{{ModID}}_LancerBook",
+          "DisplayName": "{{i18n: Object.Lancer-Book.Name}}",
+          "Description": "{{i18n: Object.Lancer-Book.Description}}",
+          "Type": "asdf",
+          "Category": "{{LancerBookCat}}",
+          "Price": 500,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Books",
+          "SpriteIndex": "4",
+          "ContextTags": [
+            "book_item",
+            "DestyNova.SwordAndSorcery.Lancer"
+          ]
+        }
+      */    
       }
     }
-  }
   ]
 }

@@ -1,0 +1,14 @@
+{
+"Val.CompleteNoOwner": "Val's display is practically overflowing with artifacts!",
+"Val.IncompleteNoOwner": "There doesn't appear to be anything on display... Perhaps you can fix that?",
+"Val.NothingNoOwner": "Doesn't seem like you have anything you can donate.",
+"Val.BusyNoOwner": "For some reason, you can't donate anything. This is probably a bug.",
+"Val.OnDonation": "You donated an item!",
+"Val.OnMilestone": "Val's collection has grown!",
+"Val.OnCompletion": "The East Scarp artifact collection is complete!",
+"Val.MenuCollect": "Collect Rewards",
+"Val.MenuDonate": "Donate An Item",
+"Val.MenuRearrange": "Rearrange Display",
+"Val.MenuRetrieve": "Retrieve Item", 
+"Val.CanBeDonated": "This item can be donated to Val's Museum Display.", 
+}

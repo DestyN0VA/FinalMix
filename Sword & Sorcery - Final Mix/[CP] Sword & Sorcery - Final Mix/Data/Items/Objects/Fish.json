@@ -6,8 +6,8 @@
       "Entries": {
         "{{ModID}}_SalmonOfKnowledge": {
           "Name": "{{ModID}}_SalmonOfKnowledge",
-          "DisplayName": "{{i18n:fish.salmonofknowledge.name}}",
-          "Description": "{{i18n:fish.salmonofknowledge.description}}",
+          "DisplayName": "{{i18n:Object.Salmon-Of-Knowledge.Name}}",
+          "Description": "{{i18n:Object.Salmon-Of-Knowledge.Description}}",
           "Type": "Fish",
           "Category": -4,
           "ExcludeFromRandomSale": true,
@@ -24,11 +24,10 @@
             "fish_river"
           ]
         },
-
         "{{ModID}}_Fastitocalon": {
           "Name": "{{ModID}}_Fastitocalon",
-          "DisplayName": "{{i18n:fish.fastitocalon.name}}",
-          "Description": "{{i18n:fish.fastitocalon.description}}",
+          "DisplayName": "{{i18n:Object.Fastitocalon.Name}}",
+          "Description": "{{i18n:Object.Fastitocalon.Description}}",
           "Type": "Fish",
           "Category": -4,
           "ExcludeFromRandomSale": true,
@@ -45,11 +44,10 @@
             "fish_river"
           ]
         },
-
         "{{ModID}}_PallidSailfin": {
           "Name": "{{ModID}}_PallidSailfin",
-          "DisplayName": "{{i18n:fish.pallidsailfin.name}}",
-          "Description": "{{i18n:fish.pallidsailfin.description}}",
+          "DisplayName": "{{i18n:Object.Pallid-Sailfin.Name}}",
+          "Description": "{{i18n:Object.Pallid-Sailfin.Description}}",
           "Type": "Fish",
           "Category": -4,
           "ExcludeFromRandomSale": true,
@@ -66,11 +64,10 @@
             "fish_river"
           ]
         },
-
         "{{ModID}}_GiantDragonfish": {
           "Name": "{{ModID}}_GiantDragonfish",
-          "DisplayName": "{{i18n:fish.giantdragonfish.name}}",
-          "Description": "{{i18n:fish.giantdragonfish.description}}",
+          "DisplayName": "{{i18n:Object.Giant-Dragonfish.Name}}",
+          "Description": "{{i18n:Object.Giant-Dragonfish.Description}}",
           "Type": "Fish",
           "Category": -4,
           "ExcludeFromRandomSale": true,
@@ -87,11 +84,10 @@
             "fish_river"
           ]
         },
-
         "{{ModID}}_FiveLinedConstellationFish": {
           "Name": "{{ModID}}_FiveLinedConstellationFish",
-          "DisplayName": "{{i18n:fish.fivelinedconstellationfish.name}}",
-          "Description": "{{i18n:fish.fivelinedconstellationfish.description}}",
+          "DisplayName": "{{i18n:Object.Five-Lined-Constellation-Fish.Name}}",
+          "Description": "{{i18n:Object.Five-Lined-Constellation-Fish.Description}}",
           "Type": "Fish",
           "Category": -4,
           "ExcludeFromRandomSale": true,
@@ -108,11 +104,10 @@
             "fish_river"
           ]
         },
-
         "{{ModID}}_GoldieTheBatteryPoweredFish": {
           "Name": "{{ModID}}_GoldieTheBatteryPoweredFish",
-          "DisplayName": "{{i18n:fish.goldiethebatterypoweredfish.name}}",
-          "Description": "{{i18n:fish.goldiethebatterypoweredfish.description}}",
+          "DisplayName": "{{i18n:Object.Goldie-The-Battery-Powered-Fish.Name}}",
+          "Description": "{{i18n:Object.Goldie-The-Battery-Powered-Fish.Description}}",
           "Type": "Fish",
           "Category": -4,
           "ExcludeFromRandomSale": true,
@@ -136,7 +131,7 @@
       "Action": "EditData",
       "Target": "Data/Fish",
       "Entries": {
-        "{{ModID}}_SalmonOfKnowledge": "SalmonOfKnowledge/50/sinker/12/30/600 2400/spring summer/both/688 .6 684 .1/3/.5/.5/0",
+        "{{ModID}}_SalmonOfKnowledge": "Salmon-Of-Knowledge/50/sinker/12/30/600 2400/spring summer/both/688 .6 684 .1/3/.5/.5/0",
         "{{ModID}}_Fastitocalon": "Fastitocalon/45/floater/8/38/600 2400/spring summer fall winter/both/688 .6 684 .1/2/.5/.5/0",
         "{{ModID}}_PallidSailfin": "PallidSailfin/40/floater/6/25/600 2400/winter spring/sunny/688 .6 684 .1/2/.5/.5/0",
         "{{ModID}}_GiantDragonfish": "GiantDragonfish/45/sinker/6/32/600 2400/fall winter/rainy/688 .6 684 .1/2/.5/.5/0",
@@ -216,7 +211,6 @@
             ]
           }
         },
-
         "{{ModID}}_Fastitocalon": {
           "ID": "{{ModID}}_Fastitocalon",
           "Precedence": 0,
@@ -272,7 +266,6 @@
             ]
           }
         },
-
         "{{ModID}}_PallidSailfin": {
           "ID": "{{ModID}}_PallidSailfin",
           "Precedence": 0,
@@ -328,7 +321,6 @@
             ]
           }
         },
-
         "{{ModID}}_GiantDragonfish": {
           "ID": "{{ModID}}_GiantDragonfish",
           "Precedence": 0,
@@ -384,7 +376,6 @@
             ]
           }
         },
-
         "{{ModID}}_FiveLinedConstellationFish": {
           "ID": "{{ModID}}_FiveLinedConstellationFish",
           "Precedence": 0,
@@ -440,7 +431,6 @@
             ]
           }
         },
-
         "{{ModID}}_GoldieTheBatteryPoweredFish": {
           "ID": "{{ModID}}_GoldieTheBatteryPoweredFish",
           "Precedence": 0,

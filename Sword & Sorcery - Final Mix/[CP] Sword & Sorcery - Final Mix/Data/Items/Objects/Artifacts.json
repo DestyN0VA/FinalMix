@@ -5,10 +5,10 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
-        "{{ModID}}_DuskspireHeart": {
-          "Name": "Duskspire Heart",
-          "DisplayName": "{{i18n: object.duskspire-heart.name}}",
-          "Description": "{{i18n: object.duskspire-heart.description}}",
+        "{{ModID}}_ArdensHeart": {
+          "Name": "Arden's Heart",
+          "DisplayName": "{{i18n: Object.Ardens-Heart.Name}}",
+          "Description": "{{i18n: Object.Ardens-Heart.Description}}",
           "Type": "Basic",
           "Category": 0,
           "Price": 2500,
@@ -18,8 +18,8 @@
         },
         "{{ModID}}_RubberDucky": {
           "Name": "{{ModID}}_RubberDucky",
-          "DisplayName": "Rubber Ducky",
-          "Description": "Rubber Ducky ur so much fun.",
+          "DisplayName": "{{i18n: Object.Rubber-Ducky.Name}}",
+          "Description": "{{i18n: Object.Rubber-Ducky.Description}}",
           "Type": "Basic",
           "Category": 0,
           "Price": 2500,
@@ -54,8 +54,8 @@
       "Entries": {
         "{{ModID}}_ProgenitorRex": {
           "Name": "{{ModID}}_ProgenitorRex",
-          "DisplayName": "Progenitor Rex" ,
-          "Description": "This figurine proves that, yes, Pepper Rexes have in fact always looked that dopey. It would be reasonable to hypothesize that the cuteness is a survival tactic.",
+          "DisplayName": "{{i18n: Object.Progenitor-Rex.Name}}" ,
+          "Description": "{{i18n: Object.Progenitor-Rex.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -78,8 +78,8 @@
         },
         "{{ModID}}_PithHelmet": {
           "Name": "{{ModID}}_PithHelmet",
-          "DisplayName": "Pith Helmet" ,
-          "Description": "A hat belonging to adventurer Linden Hawthorn - otherwise known as the Prairie King. Linden was known far and wide for being kind and encouraging to those he met.",
+          "DisplayName": "{{i18n: Object.Pith-Helmet.Name}}" ,
+          "Description": "{{i18n: Object.Pith-Helmet.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -102,8 +102,8 @@
         },
         "{{ModID}}_CanaryResuscitator": {
           "Name": "{{ModID}}_CanaryResuscitator",
-          "DisplayName": "Canary Resuscitator" ,
-          "Description": "An aluminum cage with an oxygen tank that would house a canary while inside the mines. The canary could detect dangerous gasses before humans could, and this contraption would preserve the canary's life.",
+          "DisplayName": "{{i18n: Object.Canary-Resuscitator.Name}}" ,
+          "Description": "{{i18n: Object.Canary-Resuscitator.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -126,8 +126,8 @@
         },
         "{{ModID}}_HookHand": {
           "Name": "{{ModID}}_HookHand",
-          "DisplayName": "Hook Hand" ,
-          "Description": "Text is carved delicately into the curved metal, reading:\n\n'Death is the only great adventure I have left.'",
+          "DisplayName": "{{i18n: Object.Hook-Hand.Name}}" ,
+          "Description": "{{i18n: Object.Hook-Hand.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -150,8 +150,8 @@
         },
         "{{ModID}}_Theodolite": {
           "Name": "{{ModID}}_Theodolite",
-          "DisplayName": "Theodolite" ,
-          "Description": "An unusual instrument used for measuring angles between horizontal and vertical planes. Found in East Scarp, it was likely used for mapping out cave systems.",
+          "DisplayName": "{{i18n: Object.Theodolite.Name}}" ,
+          "Description": "{{i18n: Object.Theodolite.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -174,8 +174,8 @@
         },
         "{{ModID}}_PotteryHen": {
           "Name": "{{ModID}}_PotteryHen",
-          "DisplayName": "Pottery Hen" ,
-          "Description": "Hand-painted porcelain; rumor has it that they mysteriously appear in the kitchens of anyone who becomes a grandparent.",
+          "DisplayName": "{{i18n: Object.Pottery-Hen.Name}}" ,
+          "Description": "{{i18n: Object.Pottery-Hen.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -198,8 +198,8 @@
         },
         "{{ModID}}_Sextant": {
           "Name": "{{ModID}}_Sextant",
-          "DisplayName": "Sextant" ,
-          "Description": "A tool used by sailors to deduct a vessel's latitude and longitude by measure the distance between a celestial body and the horizon line. ",
+          "DisplayName": "{{i18n: Object.Sextant.Name}}" ,
+          "Description": "{{i18n: Object.Sextant.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -222,8 +222,8 @@
         },
         "{{ModID}}_WhaleToothScrimshaw": {
           "Name": "{{ModID}}_WhaleToothScrimshaw",
-          "DisplayName": "Whale Tooth Scrimshaw" ,
-          "Description": "A bone from a mighty beast, preserved and used as a canvas for whittled artwork of a majestic sailboat. ",
+          "DisplayName": "{{i18n: Object.Whale-Tooth-Scrimshaw.Name}}" ,
+          "Description": "{{i18n: Object.Whale-Tooth-Scrimshaw.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -246,8 +246,8 @@
         },
         "{{ModID}}_SailmakingTool": {
           "Name": "{{ModID}}_SailmakingTool",
-          "DisplayName": "Sailmaking Tool" ,
-          "Description": "Worn around the palm, made of leather and accented with a dimpled brass stud used to push the head of a needle through heavy cloth. ",
+          "DisplayName": "{{i18n: Object.Sailmaking-Tool.Name}}" ,
+          "Description": "{{i18n: Object.Sailmaking-Tool.Description}}",
           "Type": "Arch",
           "Category": 0,
           "Price": 250,
@@ -270,8 +270,8 @@
         },
         "{{ModID}}_DynamiteDetonator": {
           "Name": "{{ModID}}_DynamiteDetonator",
-          "DisplayName": "Dynamite Detonator" ,
-          "Description": "This antique plunger box was rigged to many sticks of dynamite back in the day, and is likely the cause of the Deep Dark's winding tunnels.",
+          "DisplayName": "{{i18n: Object.Dynamite-Detonator.Name}}" ,
+          "Description": "{{i18n: Object.Dynamite-Detonator.Description}}" ,
           "Type": "Arch",
           "Category": 0,
           "Price": 250,

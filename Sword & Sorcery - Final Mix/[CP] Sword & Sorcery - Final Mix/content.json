@@ -50,6 +50,9 @@
     {"Name": "BF", "Value": "MadDog.HashtagBearFam"},
     {"Name": "EnD", "Value": "TenebrousNova.EliDylan.CP"},
     {"Name": "LitD", "Value": "7thAxis.LitD"},
+    {"Name": "CC", "Value": "Cornucopia"},
+    {"Name": "DTZ", "Value": "DTZ.DowntownZuzuCP"},
+
     
     //GAMEPLAY
     { "Name": "CountForFarmingAchievements", "Value": "true" },
