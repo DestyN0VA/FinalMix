@@ -6,6 +6,7 @@
       "Target": "Mods/jpp.WildFlowersReimagined/IgnoreList",
       "TargetField": [ "Flowers"],
       "Entries": {
+        "{{ModID}}_GingerCutting": "{{ModID}}_GingerCutting",
         "{{ModID}}_ancientamaranth": "{{ModID}}_ancientamaranth",
         "{{ModID}}_ancientepiphyticfern": "{{ModID}}_ancientepiphyticfern",
         "{{ModID}}_ancientglowinghuckleberry": "{{ModID}}_ancientglowinghuckleberry",
@@ -23,6 +24,7 @@
       "Target": "Mods/jpp.WildFlowersReimagined/IgnoreList",
       "TargetField": [ "Seeds"],
       "Entries": {
+        "{{ModID}}_GingerCutting": "{{ModID}}_GingerCutting",
         "{{ModID}}_ancientamaranth.seed": "{{ModID}}_ancientamaranth.seed",
         "{{ModID}}_ancientepiphyticfern.seed": "{{ModID}}_ancientepiphyticfern.seed",
         "{{ModID}}_ancientglowinghuckleberry.seed": "{{ModID}}_ancientglowinghuckleberry.seed",
@@ -45,7 +47,7 @@
         "HasMod": "mistyspring.ItemExtensions"
       },
       "Fields": {
-        "DN.SnS_Hand_Pressed_Apple_Cider": {
+        "DN.SnS_HandPressedAppleCider": {
           "CustomFields": { "mistyspring.ItemExtensions/DrinkColor": "#824925" } //brown
         }
       }
@@ -56,9 +58,25 @@
       "Action": "EditData",
       "Target": "Data/Fish",
       "Entries": {
-        "{{ModID}}_WaterEssence": "Water Essence/trap/.20//ocean/12/24/false"
-      },
-      "When": { "HasSeenEvent": "SnS.Ch4.Roslin.1" }
-    }
+        "{{ModID}}_TidalEssence": "Water Essence/trap/.20//ocean/12/24/false"
+      }
+    },
+    //Vanilla essence tagging
+    {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [ "768", "ContextTags" ],
+        "Entries": {
+            "sns_Essence_item": "sns_Essence_item"
+        }
+    },
+    {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [ "769", "ContextTags" ],
+        "Entries": {
+            "sns_Essence_item": "sns_Essence_item"
+        }
+    },
   ]
 }

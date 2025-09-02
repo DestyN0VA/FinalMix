@@ -109,6 +109,18 @@
 									"RequiredCount": 1
 								},
 								{
+									"Id": "ItemPlacedInMachine_SnSEssence",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredTags": [ "sns_Essence_item" ],
+									"RequiredCount": 1
+								},
+								{
+									"Id": "ItemPlacedInMachine_Essence",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredTags": [ "essence_item" ],
+									"RequiredCount": 1
+								},
+								{
 									"Id": "ItemPlacedInMachine_Rodney",
 									"Trigger": "ItemPlacedInMachine",
 									"RequiredItemId": "(O)WWWA.GenuineAutograph",
