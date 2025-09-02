@@ -125,6 +125,10 @@
   "Object.Cherry-Pie.Description": "A copycat recipe from Val's favorite diner.",
   "Object.Ginger-Beer.Name": "Ginger Beer",
   "Object.Ginger-Beer.Description": "A ginger-forward non-alcoholic drink. Crisp and refreshing!",
+  "Object.Ginger-Beer.FlavoredName": "%PRESERVED_DISPLAY_NAME Ginger Beer",
+  //MACHINES
+  "Object.Old-Fashioned-Fermenter.Name": "Old Fashioned Fermenter",
+  "Object.Old-Fashioned-Fermenter.Description": "Makes ginger beer.",
   // FURNITURE 
   "Object.Pepper-Rex-Pillow.Name": "Pepper Rex Pillow",
   // SPAWNABLES 

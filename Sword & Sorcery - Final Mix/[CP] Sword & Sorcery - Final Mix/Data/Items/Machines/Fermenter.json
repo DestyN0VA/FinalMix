@@ -4,10 +4,10 @@
 			"Action": "EditData",
 			"Target": "Data/BigCraftables",
 			"Entries": {
-				"{{ModID}}_oldfashionedfermenter": {
-					"Name": "Old-Fashioned Fermenting Jar",
-					"DisplayName": "{{i18n:machine.oldfashionedfermenter.name}}",
-					"Description": "{{i18n:machine.oldfashionedfermenter.description}}",
+				"{{ModID}}_OldFashionedFermenter": {
+					"Name": "{{ModID}}_OldFashionedFermenter",
+					"DisplayName": "{{i18n:Object.Old-Fashioned-Fermenter.Name}}",
+					"Description": "{{i18n:Object.Old-Fashioned-Fermenter.Description}}",
 					"Price": 10,
 					"Fragility": 0,
 					"CanBePlacedOutdoors": true,
@@ -24,7 +24,7 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Entries": {
-				"{{ModID}}_oldfashionedfermenter": "709 15 335 1 388 30/Home/{{ModID}}_oldfashionedfermenter/true/null/{{i18n:machine.oldfashionedfermenter.name}}"
+				"{{ModID}}_OldFashionedFermenter": "709 15 335 1 388 30/Home/{{ModID}}_OldFashionedFermenter/true/null/{{i18n:Object.Old-Fashioned-Fermenter.Name}}"
 			}
 		},
 		{
@@ -32,32 +32,129 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"Entries": {
-				"(BC){{ModID}}_oldfashionedfermenter": {
+				"(BC){{ModID}}_OldFashionedFermenter": {
 					"HasInput": false,
 					"HasOutput": false,
+					"AdditionalConsumedItems": [
+						{
+							"ItemId": "(O)829",
+							"RequiredCount": 1,
+							"InvalidCountMessage": "Requires 1 ginger and any fruit, flower, spice or herb."
+						}
+					],
 					"OutputRules": [
 						{
-							"Id": "{{ModID}}_GingerBeer",
+							"Id": "{{ModID}}_GingerBeer_Regular",
 							"Triggers": [
 								{
+									"Id": "ItemPlacedInMachine_Ginger",
 									"Trigger": "ItemPlacedInMachine",
-									"RequiredItemId": "(O)635",
+									"RequiredItemId": "(O)829",
 									"RequiredCount": 1
 								}
 							],
 							"UseFirstValidOutput": false,
-							"OutputItem": [
+					"OutputItem": [
 								{
-									"Id": "{{ModID}}_GingerBeer",
 									"ItemId": "(O){{ModID}}_GingerBeer",
-									"CopyQuality": true
+									"ObjectInternalName": "(O){{ModID}}_GingerBeer",
+									"ObjectDisplayName": "{{i18n: Object.Ginger-Beer.Name}}",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CopyColor": false,
+									"CopyQuality": false,
+									"PriceModifiers": [
+										{
+											"Id": "RegGingerBeer",
+											"Modification": "Multiply",
+											"Amount": 2.5,
+											"RandomAmount": null
+										}
+									]
 								}
 							],
-							"MinutesUntilReady": 2250,
+							"MinutesUntilReady": 7500,
 							"DaysUntilReady": -1,
-							//"InvalidCountMessage": null,
 							"RecalculateOnCollect": false
 						},
+						{
+							"Id": "{{ModID}}_GingerBeer_Flavors",
+							"Triggers": [
+								{
+									"Id": "ItemPlacedInMachine_Fruit",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredTags": [ "category_fruits" ],
+									"RequiredCount": 1
+								},
+								{
+									"Id": "ItemPlacedInMachine_Flower",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredTags": [ "category_flower" ],
+									"RequiredCount": 1
+								},
+								{
+									"Id": "ItemPlacedInMachine_Spice",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredTags": [ "spice_item" ],
+									"RequiredCount": 1
+								},
+								{
+									"Id": "ItemPlacedInMachine_Herb",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredTags": [ "herb_item" ],
+									"RequiredCount": 1
+								},
+								{
+									"Id": "ItemPlacedInMachine_Honey",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredTags": [ "honey_item" ],
+									"RequiredCount": 1
+								},
+								{
+									"Id": "ItemPlacedInMachine_Mayo",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredTags": [ "mayo_item" ],
+									"RequiredCount": 1
+								},
+								{
+									"Id": "ItemPlacedInMachine_Rodney",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)WWWA.GenuineAutograph",
+									"RequiredCount": 1
+								},
+								{
+									"Id": "ItemPlacedInMachine_Rodney",
+									"Trigger": "ItemPlacedInMachine",
+									"RequiredItemId": "(O)WWWA.AutographedPhoto",
+									"RequiredCount": 1
+								}
+							],
+							"UseFirstValidOutput": false,
+					"OutputItem": [
+								{
+									"ItemId": "(O){{ModID}}_GingerBeer",
+									"ObjectInternalName": "{{ModID}}_{0}_GingerBeer",
+									"ObjectDisplayName": "{{i18n: Object.Ginger-Beer.FlavoredName}}",
+									"PreserveId": "DROP_IN",
+									"CopyPrice": true,
+									"CopyColor": true,
+									"CopyQuality": false,
+									"PriceModifiers": [
+										{
+											"Id": "FlavoredGingerBeer",
+											"Modification": "Multiply",
+											"Amount": 2.5,
+											"RandomAmount": null
+										}
+									],
+									"PriceModifierMode": "Stack"
+								}
+							],
+							
+							"MinutesUntilReady": 7500,
+							"DaysUntilReady": -1,
+							"RecalculateOnCollect": false
+						}
 					]
 				}	
 			}
@@ -66,10 +163,7 @@
 			"LogName": "Age It Up",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)163",
-				"OutputRules"
-			],
+			"TargetField": [ "(BC)163", "OutputRules" ],
 			"Entries": {
 				"{{ModID}}_GingerBeer": {
 					"Id": "{{ModID}}_GingerBeer",
@@ -81,15 +175,13 @@
 					],
 					"OutputItem": [
 						{
-							"CustomData": {
-								"AgingMultiplier": "4"
-							},
+							"CustomData": { "AgingMultiplier": "2" },
 							"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
 							"ItemId": "(O){{ModID}}_GingerBeer"
 						}
 					],
 					"MinutesUntilReady": -1
-				},
+				}
 			}
 		}
 	]

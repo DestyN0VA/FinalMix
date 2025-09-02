@@ -67,7 +67,7 @@
             "color_brown",
             "food_nonvegan",
             "allergen_gluten",
-            "allergen_egg",
+            "allergen_egg"
           ]
         },
         "{{ModID}}_SmokedTurkeyLeg": {
@@ -119,23 +119,7 @@
           "Edibility": 10,
           "IsDrink": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
-          "Buffs": [
-            {
-              "Duration": 300,
-              "CustomAttributes": {
-                "FarmingLevel": 0,
-                "FishingLevel": 0,
-                "MiningLevel": 0,
-                "LuckLevel": 2,
-                "ForagingLevel": 0,
-                "MaxStamina": 0,
-                "MagneticRadius": 2,
-                "Speed": 2,
-                "Defense": 0,
-                "Attack": 0
-              }
-            }
-          ],
+          "Buffs": [ { "Duration": 300, "CustomAttributes": { "MagneticRadius": 2, "Speed": 2 } } ],
           "Texture": "DN.Objects/Food",
           "SpriteIndex": 5,
           "ContextTags": [
@@ -208,34 +192,21 @@
           "Description": "{{i18n: Object.Ginger-Beer.Description}}",
           "Type": "Basic",
           "Category": -26,
+          "ColorOverlayFromNextIndex": true,
           "Edibility": 10,
           "IsDrink": true,
-          "Price": 420,
+          "Price": 1,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
-          "Buffs": [
-            {
-              "Duration": 300,
-              "CustomAttributes": {
-                "FarmingLevel": 0,
-                "FishingLevel": 0,
-                "MiningLevel": 1,
-                "LuckLevel": 0,
-                "ForagingLevel": 0,
-                "MaxStamina": 0,
-                "MagneticRadius": 0,
-                "Speed": 0,
-                "Defense": 0,
-                "Attack": 0
-              }
-            }
-          ],
+          "Buffs": [ { "Duration": 300, "CustomAttributes": { "MiningLevel": 1 } } ],
           "Texture": "DN.Objects/Food",
           "SpriteIndex": 9,
           "ContextTags": [
-            "sns_ginger_beer_item",
-            "ginger_beer"
+            "ginger_beer_item",
+            "ginger_beer",
+            "drink_item",
+            "use_reverse_name_for_sorting"
           ]
-        },
+        }
       }
     }
   ]

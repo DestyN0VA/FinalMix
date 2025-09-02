@@ -30,7 +30,7 @@
         "Target": "Maps/EastScarp_Village",
         "Update": "OnTimeChange",
         "MapTiles": [  { "Position": { "X": 96, "Y": 110 }, "Layer": "AlwaysFront", "Remove": true } ], 
-        "When": {"Time": "{{Range: 600, 1800}}" }
+        "When": { "Time": "{{Range: 600, 1800}}" }
     },
     {
         "Action": "EditData",
