@@ -1,11 +1,41 @@
 {
-  "Changes": [ // Not going to bother with this yet, likely to be completely redone during Hector dev. 
+  "Changes": [
     {
+      "Logname": "Ginger Cuttings",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModID}}_GingerCutting": {
+          "Name": "{{ModID}}_GingerCutting",
+          "DisplayName": "{{i18n: Object.Ginger-Cutting.Name}}",
+          "Description": "{{i18n:Object.Ginger-Cutting.Description}}",
+          "Type": "Seed",
+          "Category": -74,
+          "Price": 25,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "CountForMonoculture": false,
+          "CountForPolyculture": false,
+          "Texture": "DN.Harvestables/Seeds",
+          "SpriteIndex": 11,
+          "ContextTags": [
+            "ginger_item",
+            "seedmaker_banned",
+            "color_yellow"
+          ]
+        }
+      }
+    }
+  
+  
+// Not going to bother with this yet, likely to be completely redone during Hector dev.   
+  /*{
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
         //CROPS
-        "{{ModID}}_ancientamaranth": {
+ "{{ModID}}_ancientamaranth": {
           "Name": "{{ModID}}_ancientamaranth",
           "DisplayName": "{{i18n: crop.ancientamaranth.name}}",
           "Description": "{{i18n: crop.ancientamaranth.description}}",
@@ -731,6 +761,6 @@
       "HasSeenEvent": "SnS.Ch4.Dandelion.7"
     }
   }
-  
+*/  
 ]
 }

@@ -123,6 +123,8 @@
   "Object.Diner-Coffee.Description": "Diner quality coffee in Val's favorite mug, which makes it taste better.",
   "Object.Cherry-Pie.Name": "Damn Fine Cherry Pie",
   "Object.Cherry-Pie.Description": "A copycat recipe from Val's favorite diner.",
+  "Object.Ginger-Cutting.Name": "Ginger Cutting",
+  "Object.Ginger-Cutting.Description": "A small piece of ginger, broken off from a larger whole.\n\nPlant in the spring or summer. Takes 7 days to grow.\n\nExponential growth with investment.",
   "Object.Ginger-Beer.Name": "Ginger Beer",
   "Object.Ginger-Beer.Description": "A ginger-forward non-alcoholic drink. Crisp and refreshing!",
   "Object.Ginger-Beer.FlavoredName": "%PRESERVED_DISPLAY_NAME Ginger Beer",
@@ -133,5 +135,5 @@
   "Object.Pepper-Rex-Pillow.Name": "Pepper Rex Pillow",
   // SPAWNABLES 
   "Object.Deep-Dark-Chest.Description": "Deep Dark Loot Chest",
-  "Object.Deep-Dark-Chest.Name": "A chest that spawns in the Deep Dark.",
+  "Object.Deep-Dark-Chest.Name": "A chest that spawns in the Deep Dark."
 }

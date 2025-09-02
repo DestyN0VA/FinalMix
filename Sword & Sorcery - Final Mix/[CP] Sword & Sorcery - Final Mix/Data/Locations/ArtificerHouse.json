@@ -157,8 +157,6 @@
             { "Position": { "X": 4, "Y": 21 }, "Layer": "Buildings", "Remove": true }
         ],
         "When": { "HasSeenEvent": "DN.Val.8H" }
-    },
-
-
+    }
 ]
 }

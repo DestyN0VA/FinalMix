@@ -20,14 +20,6 @@
 			}
 		},
 		{
-			"LogName": "CraftingRecipes",
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-			"Entries": {
-				"{{ModID}}_OldFashionedFermenter": "709 15 335 1 388 30/Home/{{ModID}}_OldFashionedFermenter/true/null/{{i18n:Object.Old-Fashioned-Fermenter.Name}}"
-			}
-		},
-		{
 			"LogName": "Fermenter Rules",
 			"Action": "EditData",
 			"Target": "Data/Machines",
