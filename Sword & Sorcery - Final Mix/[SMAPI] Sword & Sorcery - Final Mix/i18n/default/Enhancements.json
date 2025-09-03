@@ -1,0 +1,19 @@
+{
+  //Translation Note: Rank is applied to effect names in the form 'Effect Name' + 'Rank' (ie. 'Barrier I', 'Lightning IV', etc.)
+  "Materia.Rank.1": "I",
+  "Materia.Rank.2": "II",
+  "Materia.Rank.3": "III",
+  "Materia.Rank.4": "IV",
+  "Materia.Rank.5": "V",
+  "Materia.Rank.6": "VI",
+
+  "Materia.Effects.Barrier": "Barrier {{Rank}}",
+  "Materia.Effects.Restore": "Restore {{Rank}}",
+  "Materia.Effects.Haste": "Restore {{Rank}}",
+  "Materia.Effects.Lightning": "Restore {{Rank}}",
+  "Materia.Effects.Fire": "Restore {{Rank}}",
+  "Materia.Effects.Ice": "Restore {{Rank}}",
+
+  //Translation Note: Increase is a number and the resulting string would be something like '+5% Damage'.
+  "PureOre.Effect": "+{{Increase}}% Damage"
+}
