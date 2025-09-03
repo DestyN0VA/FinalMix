@@ -165,7 +165,7 @@
                     "ID": "Armor", "Precedence": -20, "Weight": 1,
                     "Portrait": "Portraits/DN.SnS_Val/Armor",
                     "Sprite": "Characters/DN.SnS_Val/Armor",
-                    "Condition": "ANY \"LOCATION_NAME Target EastScarp_Underforge\" \"LOCATION_NAME Target Mine\" \"IS_EVENT DN.Val.0H\" \"IS_EVENT DN.Val.4H\" \"IS_EVENT DN.Val.5H\" \"IS_EVENT DN.Val.6H\" \"IS_EVENT DN.Val.10\""
+                    "Condition": "ANY \"LOCATION_NAME Target EastScarp_Underforge\" \"LOCATION_NAME Target Mine\" \"IS_EVENT DN.Val.0H\" \"IS_EVENT DN.Val.4H\" \"IS_EVENT DN.Val.5H\" \"IS_EVENT DN.Val.6H\" \"IS_EVENT DN.Val.10H\""
                     
                 }           
                 ]

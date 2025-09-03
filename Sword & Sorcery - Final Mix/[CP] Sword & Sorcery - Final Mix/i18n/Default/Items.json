@@ -133,6 +133,9 @@
   "Object.Old-Fashioned-Fermenter.Description": "Makes ginger beer.",
   // FURNITURE 
   "Object.Pepper-Rex-Pillow.Name": "Pepper Rex Pillow",
+  // CLOTHING 
+  "Object.Val-Hoodie.Name": "Val's Hoodie", 
+  "Object.Val-Hoodie.Description": "Super soft, and just a little bit oversized.", 
   // SPAWNABLES 
   "Object.Deep-Dark-Chest.Description": "Deep Dark Loot Chest",
   "Object.Deep-Dark-Chest.Name": "A chest that spawns in the Deep Dark."
