@@ -7,6 +7,7 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
+                // LOCATIONAL THEMES
                 "DN.DeepDarkIntrigue": {
                     "ID": "DN.DeepDarkIntrigue",
                     "Category": "Music",
@@ -43,9 +44,8 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-
-            //NPC Themes
-                                "DN.ValTheme": {
+                // NPC THEMES
+                "DN.ValTheme": {
                     "ID": "DN.ValTheme",
                     "Category": "Music",
                     "FilePaths": [
@@ -107,7 +107,35 @@
                     ],
                     "StreamedVorbis": true,
                     "Looped": true
-                }
+                },
+                // CORIANDER'S SONG
+                "DN.Caramel": {
+                    "ID": "DN.Caramel",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Caramel_Full.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.Caramel_1": {
+                    "ID": "DN.Caramel_1",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Caramel_1.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.Caramel_2": {
+                    "ID": "DN.Caramel_2",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Caramel_2.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
             }
         },
         // SOUNDS
@@ -119,28 +147,36 @@
                 "DN.ArdenRoar": {
                     "ID": "DN.ArdenRoar",
                     "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/ArdenRoar.ogg}}" ],
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/ArdenRoar.ogg}}"
+                    ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
                 "DN.NimfearRoar": {
                     "ID": "DN.NimfearRoar",
                     "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/NimfearRoar.ogg}}" ],
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/NimfearRoar.ogg}}"
+                    ],
                     "StreamedVorbis": true,
                     "Looped": false
                 },
                 "DN.BossCrabRoar": {
                     "ID": "DN.BossCrabRoar",
                     "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/BossCrabRoar.ogg}}" ],
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/BossCrabRoar.ogg}}"
+                    ],
                     "StreamedVorbis": true,
                     "Looped": false
                 },
                 "DN.DuckySqueak": {
                     "ID": "DN.DuckySqueak",
                     "Category": "Sound",
-                    "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/Squeak.ogg}}" ],
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Squeak.ogg}}"
+                    ],
                     "StreamedVorbis": true,
                     "Looped": false
                 }

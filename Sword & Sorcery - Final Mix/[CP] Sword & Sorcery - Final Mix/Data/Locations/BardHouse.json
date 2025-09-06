@@ -10,7 +10,9 @@
       "ToArea": { "X": 49, "Y": 0, "Width": 17, "Height": 16 },
       "MapTiles": [ 
         { "Position": { "X": 54, "Y": 7 }, "Layer": "Buildings",
-          "SetProperties": { "Action": "LockedDoorWarp 8 16 EastScarp_BardHouse 800 2400" } }
+          "SetProperties": { "Action": "LockedDoorWarp 8 16 EastScarp_BardHouse 800 2400" } },
+        { "Position": { "X": 58, "Y": 3 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "LockedDoorWarp 32 15 EastScarp_BardHouse 800 2400" } }
       ]
     },
     //Interior
