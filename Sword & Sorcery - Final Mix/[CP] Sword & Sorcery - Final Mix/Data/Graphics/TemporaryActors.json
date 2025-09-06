@@ -24,6 +24,12 @@
             "Target": "Characters/Emeritus.Hatching, Characters/Emeritus.MEEP, Characters/Emeritus.Pumpkin, Characters/Emeritus.Adult",
             "FromFile": "Assets/Models/Companions/Characters/DN.SnS_Emeritus/{{TargetWithoutPath}}.png"
         },
+        // MAJOR TOM
+        {
+            "Action": "Load",
+            "Target": "Characters/MajorTom",
+            "FromFile": "Assets/Models/Companions/Characters/DN.SnS_Tom/Default.png"
+        },
         // FARMER
         {
             "Action": "Load",
