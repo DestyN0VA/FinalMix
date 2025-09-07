@@ -10,18 +10,6 @@
     // Event Variations 
     "Val.2H.1.true": "I've been neglecting Gunther and Marlon, but I didn't realize that... hm.$6#$b#Well, for right now, you're my priority. First round's on me... aye?$4#$b#After this, we could head back home - to check up on the Pepper Rex egg, of course.$19",
     "Val.2H.1.false": "I've been neglecting Gunther and Marlon, but I didn't realize that... hm.$6#$b#Well, for right now, the coffee you promised is my priority.$28#$b#Oh! And I've got to go check up on my Pepper Rex egg after this, if you'd like to come with.$26",
-    // PlayerName
-    "Playername.1": "{{Name}}, wait!",
-    "Playername.2": "Excellent timing as always, {{Name}}!",
-    "Playername.3": "To {{Name}}!",
-    "Playername.4": "{{Name}}, please...",
-    // Strings 
-    "Strings.HailAndWellMet": "Do not abandon Hope, for she is infinite, and unwilling to stand by in the presence of Evil.",
-    // Mail 
-    "Val.Mail.3HGift": "Hail and well-met, @!^^A friend named Billie owns a brewery back in the Fern Islands. Best booze that side of the Salish Sea. Here's the recipe for their special Bourbon.^^It's a well-kept secret. Or, was, until I told you.^^Sincerely,^Val%item cookingRecipe DN.SnS_salishbourbon%%[#]Salish Bourbon Recipe",
-    "Val.Mail.6HGift": "Hail and well-met, @!^^Here's one of my favorite treats from Josa; sure am glad Rosa stocks them!^^Thanks again for wrapping me up after I got hurt. Not sure what I would have done without you...^^Sincerely,^Val%item id DN.SnS_ChocolateOrange 1%%[#]Chocolate Orange",
-    "Val.Mail.9HGift": "Hail and well-met, @!^^I hopped the train to Zuzu to get some supplies and saw this in a bin at the market... Everyone deserves a cute Pepper Rex, most of all you.^^So I brought it back on the train with me. Enjoy!^^Sincerely,^Val%item id DN.SnS_PepperRexPillow 1%%[#]Pepper Rex Pillow",
-    "Val.Mail.10HGift": "My guiding firelight,^^You looked outright heroic standing between me and that Stygium Crab. Thank you for the rescue; here's a little gift.^^Wear this when you think of me, alright?^^Sincerely,^Yours.%item id DN.SnS_ValHoodie%%[#]Val's Hoodie",
     //Day End Question
     "Event.EndDay.Question": "End the day?",
     "Event.EndDay.Yes": "Yes",
