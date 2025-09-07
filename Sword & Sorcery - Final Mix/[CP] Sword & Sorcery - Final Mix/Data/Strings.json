@@ -21,6 +21,7 @@
 
 				//Player Titles
 				"FarmerTitle": "{{Title}}",
+				"PlayerName": "{{PlayerName}}",
 				"VNick": "{{Pet Name}}", 
 				"HNick": "{{Pet Name}}", 
 				"CNick": "{{Pet Name}}",
