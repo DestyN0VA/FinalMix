@@ -9,7 +9,8 @@
 				"Val.Mail.3HGift": "{{i18n:Val.Mail.3HGift}}",
 				"Val.Mail.6HGift": "{{i18n:Val.Mail.6HGift}}",
 				"Val.Mail.9HGift": "{{i18n:Val.Mail.9HGift}}",
-				"Val.Mail.10HGift": "{{i18n:Val.Mail.10HGift}}"
+				"Val.Mail.10HGift": "{{i18n:Val.Mail.10HGift}}",
+				"Coriander.Mail.2HGift": "{{i18n:Coriander.Mail.2HGift}}"
 			}
 		},
 		// TRIGGER ACTIONS
@@ -42,7 +43,7 @@
 						"AddMail Current Val.Mail.9HGift now"
 					]
 				},
-					"Val.TriggerAction.10HGift": {
+				"Val.TriggerAction.10HGift": {
 					"Id": "Val.TriggerAction.10HGift",
 					"Trigger": "DayStarted",
 					"Condition": "PLAYER_HAS_MAIL Current Dating_Val",
@@ -50,29 +51,43 @@
 						"AddMail Current Val.Mail.10HGift now"
 					]
 				},
+				"Coriander.TriggerAction.2HGift": {
+					"Id": "Coriander.TriggerAction.2HGift",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Coriander.2H",
+					"Actions": [
+						"AddMail Current Coriander.Mail.2HGift now"
+					]
+				},
 			}
 		},
 		// BULK DAILY FLAG REMOVER
-        {
-            "LogName": "Bulk Daily Flag Remover", 
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-      
-                "{{ModID}}.TriggerAction.DailyFlagRemovals": {
-                    "Id": "{{ModID}}.TriggerAction.DailyFlagRemovals",
-                    "MarkActionApplied": false,
-                    "Trigger": "DayEnding",
-                    "Actions": [ 
-						"RemoveMail Current ValOverrideSeenToday", "RemoveMail Current SeenValEventToday", "RemoveMail Current ValCoffeePieReceivedToday",
-						"RemoveMail Current CorianderOverrideSeenToday", "RemoveMail Current SeenCorianderEventToday",          
-						"RemoveMail Current HectorOverrideSeenToday", "RemoveMail Current SeenHectorEventToday",
-						"RemoveMail Current LorinOverrideSeenToday", "RemoveMail Current SeenLorinEventToday",
-						"RemoveMail Current RoslinOverrideSeenToday", "RemoveMail Current SeenRoslinEventToday",
-						"RemoveMail Current DandelionOverrideSeenToday", "RemoveMail Current SeenDandelionEventToday"
-					 ]
-                }
-            }
-        }
+		{
+			"LogName": "Bulk Daily Flag Remover",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModID}}.TriggerAction.DailyFlagRemovals": {
+					"Id": "{{ModID}}.TriggerAction.DailyFlagRemovals",
+					"MarkActionApplied": false,
+					"Trigger": "DayEnding",
+					"Actions": [
+						"RemoveMail Current ValOverrideSeenToday",
+						"RemoveMail Current SeenValEventToday",
+						"RemoveMail Current ValCoffeePieReceivedToday",
+						"RemoveMail Current CorianderOverrideSeenToday",
+						"RemoveMail Current SeenCorianderEventToday",
+						"RemoveMail Current HectorOverrideSeenToday",
+						"RemoveMail Current SeenHectorEventToday",
+						"RemoveMail Current LorinOverrideSeenToday",
+						"RemoveMail Current SeenLorinEventToday",
+						"RemoveMail Current RoslinOverrideSeenToday",
+						"RemoveMail Current SeenRoslinEventToday",
+						"RemoveMail Current DandelionOverrideSeenToday",
+						"RemoveMail Current SeenDandelionEventToday"
+					]
+				}
+			}
+		}
 	]
 }
