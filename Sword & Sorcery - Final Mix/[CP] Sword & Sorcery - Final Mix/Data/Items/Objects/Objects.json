@@ -1,0 +1,75 @@
+{
+    "Changes": [
+    {
+      "LogName": "Artifact Loads",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModID}}_ArdensHeart": {
+          "Name": "Arden's Heart",
+          "DisplayName": "{{i18n: Object.Ardens-Heart.Name}}",
+          "Description": "{{i18n: Object.Ardens-Heart.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 2500,
+          "Texture": "DN.Objects/Objects",
+          "SpriteIndex": 0,
+          "ExcludeFromRandomSale": true
+        },
+        "{{ModID}}_RubberDucky": {
+          "Name": "{{ModID}}_RubberDucky",
+          "DisplayName": "{{i18n: Object.Rubber-Ducky.Name}}",
+          "Description": "{{i18n: Object.Rubber-Ducky.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 2500,
+          "Texture": "DN.Objects/Objects",
+          "SpriteIndex": 1,
+          "ExcludeFromRandomSale": true
+        },
+        "{{ModID}}_CursedCorianderDoll": {
+          "Name": "{{ModID}}_CursedCorianderDoll",
+          "DisplayName": "{{i18n: Object.Cursed-Coriander-Doll.Name}}",
+          "Description": "{{i18n: Object.Cursed-Coriander-Doll.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 200,
+          "Texture": "DN.Objects/Objects",
+          "SpriteIndex": 2,
+          "ExcludeFromRandomSale": true
+        },
+        "{{ModID}}_CirrusBrandedToothbrush": {
+          "Name": "{{ModID}}_CirrusBrandedToothbrush",
+          "DisplayName": "{{i18n: Object.Cirrus-Branded-Toothbrush.Name}}",
+          "Description": "{{i18n: Object.Cirrus-Branded-Toothbrush.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 0,
+          "Texture": "DN.Objects/Objects",
+          "SpriteIndex": 3,
+          "ExcludeFromRandomSale": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+      "Entries": { 
+        "{{ModID}}_RubberDucky": { "UseForTriggerAction": true, "CategoryTextOverride": "Friend" },
+        "{{ModID}}_CirrusBrandedToothbrush": { "CategoryTextOverride": "Trash" } }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "{{ModID}}_UseRubberDuck": {
+          "Id": "{{ModID}}_UseRubberDuck",
+          "MarkActionApplied": false,
+          "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+          "Condition": "ITEM_ID Input (O){{ModID}}_RubberDucky",
+          "Actions": [ "Spiderbuttons.BETAS_PlaySound DN.DuckySqueak false" ]
+        }
+      }
+    }        
+    ]
+}

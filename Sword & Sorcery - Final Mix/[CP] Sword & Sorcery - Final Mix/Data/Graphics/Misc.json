@@ -11,10 +11,20 @@
             "FromFile": "Assets/Misc/ExtendedEmotes.png",
             "ToArea": { "X": 0, "Y": 848, "Width": 64, "Height": 320 }
         },
+        //Ad
+        {
+            "Logname": "Inject Cirrus Ad",
+            "Action": "EditImage",
+            "Priority": "Late + 999",
+            "PatchMode": "Overlay",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "Assets/Misc/CirrusAd.png",
+            "ToArea": { "X": 256, "Y": 911, "Width": 64, "Height": 48 }
+        },
         //Items
 		{
 			"Action": "Load",
-			"Target": "DN.Harvestables/GiantCrops, DN.Harvestables/Crops, DN.Harvestables/Harvestables, DN.Harvestables/HuckleberryVine, DN.Harvestables/MushroomTree, DN.Harvestables/Seeds, DN.Gear/Armor, DN.Gear/DraconiumTools, DN.Gear/Keychains, DN.Gear/Potions, DN.Gear/Projectiles, DN.Gear/Shields, DN.Gear/Shirts, DN.Gear/StygiumTools, DN.Gear/Weapons, DN.Misc/Cursors, DN.Misc/DDtreasure, DN.Misc/VMShopBG, DN.Objects/Machines, DN.Objects/Curios, DN.Objects/Books, DN.Objects/Fish, DN.Objects/Furniture, DN.Objects/Artifacts, DN.Objects/Food, DN.Objects/Fish_Animations",
+			"Target": "DN.Harvestables/GiantCrops, DN.Harvestables/Crops, DN.Harvestables/Harvestables, DN.Harvestables/HuckleberryVine, DN.Harvestables/MushroomTree, DN.Harvestables/Seeds, DN.Gear/Armor, DN.Gear/DraconiumTools, DN.Gear/Keychains, DN.Gear/Potions, DN.Gear/Projectiles, DN.Gear/Shields, DN.Gear/Shirts, DN.Gear/StygiumTools, DN.Gear/Weapons, DN.Misc/Cursors, DN.Misc/DDtreasure, DN.Misc/VMShopBG, DN.Objects/Machines, DN.Objects/Curios, DN.Objects/Books, DN.Objects/Fish, DN.Objects/Furniture, DN.Objects/Artifacts, DN.Objects/Food, DN.Objects/Fish_Animations, DN.Objects/Objects",
 			"FromFile": "Assets/Items/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
 		}
         

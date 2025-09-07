@@ -5,53 +5,6 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
-        "{{ModID}}_ArdensHeart": {
-          "Name": "Arden's Heart",
-          "DisplayName": "{{i18n: Object.Ardens-Heart.Name}}",
-          "Description": "{{i18n: Object.Ardens-Heart.Description}}",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 2500,
-          "Texture": "DN.Objects/Artifacts",
-          "SpriteIndex": 0,
-          "ExcludeFromRandomSale": true
-        },
-        "{{ModID}}_RubberDucky": {
-          "Name": "{{ModID}}_RubberDucky",
-          "DisplayName": "{{i18n: Object.Rubber-Ducky.Name}}",
-          "Description": "{{i18n: Object.Rubber-Ducky.Description}}",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 2500,
-          "Texture": "DN.Objects/Artifacts",
-          "SpriteIndex": 11,
-          "ExcludeFromRandomSale": true
-        }
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-      "Entries": { "{{ModID}}_RubberDucky": { "UseForTriggerAction": true, "CategoryTextOverride": "Friend" } }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/TriggerActions",
-      "Entries": {
-        "{{ModID}}_UseRubberDuck": {
-          "Id": "{{ModID}}_UseRubberDuck",
-          "MarkActionApplied": false,
-          "Trigger": "spacechase0.SpaceCore_OnItemUsed",
-          "Condition": "ITEM_ID Input (O){{ModID}}_RubberDucky",
-          "Actions": [ "Spiderbuttons.BETAS_PlaySound DN.DuckySqueak false" ]
-        }
-      }
-    },
-    {
-      "LogName": "Artifact Loads",
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "Entries": {
         "{{ModID}}_ProgenitorRex": {
           "Name": "{{ModID}}_ProgenitorRex",
           "DisplayName": "{{i18n: Object.Progenitor-Rex.Name}}" ,
