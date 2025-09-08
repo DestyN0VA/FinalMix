@@ -20,7 +20,7 @@ BARDS (MUSIC):
 
 OTHER CONTRIBUTIONS: 
 ➜ SmolHuman, Hisame, Gervig: Critters tilesheet 
-➜ Poltergeister: Gunther and Marlon portraits/sprites
+➜ Poltergeister: Morris, Gunther and Marlon portraits/sprites
 ➜ PlatinumCats: Interior furniture 
 ➜ Orcabaryonyx: Keyblades, keychains & Long Live the King shapechanges  
 ➜ KittyCatCasey: Original 2.0 codebase 

@@ -45,6 +45,7 @@
     {"Name": "N", "Value": "DN.SnS_Nimfear"},
     {"Name": "G", "Value": "DN.SnS_Gunther"},
     {"Name": "M", "Value": "DN.SnS_Marlon"},
+    {"Name": "Mo", "Value": "DN.SnS_Morris"},
 
     //Mod Names
     {"Name": "BF", "Value": "MadDog.HashtagBearFam"},

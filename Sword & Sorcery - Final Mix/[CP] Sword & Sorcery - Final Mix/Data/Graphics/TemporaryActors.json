@@ -12,10 +12,10 @@
             "Target": "Characters/7A.FallenSen, Characters/7A.TrashcanSen, Characters/7A.UmbrellaSen, Characters/7A.ScootSen",
             "FromFile": "Assets/Models/Temporary/Characters/7A.Sen/{{TargetWithoutPath}}.png"
         },
-        // GUNTHER & MARLON
+        // MORRIS, GUNTHER & MARLON
         {
             "Action": "Load",
-            "Target": "Characters/DN.SnS_Gunther, Characters/DN.SnS_Marlon, Portraits/DN.SnS_Gunther, Portraits/DN.SnS_Marlon",
+            "Target": "Characters/DN.SnS_Morris, Characters/DN.SnS_Gunther, Characters/DN.SnS_Marlon, Portraits/DN.SnS_Morris, Portraits/DN.SnS_Gunther, Portraits/DN.SnS_Marlon",
             "FromFile": "Assets/Models/Temporary/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{season}}.png"
         },
         // EMERITUS
