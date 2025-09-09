@@ -2,7 +2,7 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="38" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="25">
  <properties>
   <property name="Music" value="DN.CorianderTheme"/>
-  <property name="Warp" value="32 16 EastScarp_Village 58 4"/>
+  <property name="Warp" value="8 18 EastScarp_Village 54 8 32 16 EastScarp_Village 58 4"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
