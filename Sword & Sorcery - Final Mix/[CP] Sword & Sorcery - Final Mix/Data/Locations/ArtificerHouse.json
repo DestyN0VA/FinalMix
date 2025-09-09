@@ -115,7 +115,7 @@
                 "MarkActionApplied": false,
                 "Actions": [
                     "Spiderbuttons.BETAS_DialogueBox None \"{{i18n:Strings.LynchCoffeeMaker}}\"",
-                    "AddMail Current ValCoffeePieReceivedToday now",
+                    "AddMail Current ValCoffeePieReceivedToday received",
                     "AddItem {{Random: (O){{ModID}}_CherryPie, (O){{ModID}}_DinerCoffee}}"
                 ]
             }

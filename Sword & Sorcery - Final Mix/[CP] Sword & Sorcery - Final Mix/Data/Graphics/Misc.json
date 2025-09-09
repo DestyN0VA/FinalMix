@@ -21,6 +21,17 @@
             "FromFile": "Assets/Misc/CirrusAd.png",
             "ToArea": { "X": 256, "Y": 911, "Width": 64, "Height": 48 }
         },
+        //Doll eyes
+        {
+            "Logname": "Inject Red Eyes",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "DN.Objects/Objects",
+            "FromFile": "Assets/Items/DN.Objects/Objects.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+            "When": { "Query: {{Random: {{Range: 1, 5}}|key=CDoll}}": 1 }
+        },
         //Items
 		{
 			"Action": "Load",

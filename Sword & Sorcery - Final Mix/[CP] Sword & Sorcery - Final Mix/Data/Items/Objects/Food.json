@@ -106,7 +106,8 @@
           "Texture": "DN.Objects/Food",
           "SpriteIndex": 4,
           "ContextTags": [
-            "color_brown"
+            "color_brown",
+            "drink_item"
           ]
         },
         "{{ModID}}_SalishBourbon": {
@@ -124,7 +125,8 @@
           "SpriteIndex": 5,
           "ContextTags": [
             "alcohol_item",
-            "color_dark_orange"
+            "color_dark_orange",
+            "drink_item"
           ]
         },
         "{{ModID}}_ChocolateOrange": {
@@ -164,7 +166,8 @@
           "SpriteIndex": 7,
           "ContextTags": [
             "color_brown",
-            "food_coffee"
+            "food_coffee",
+            "drink_item"
           ]
         },
         "{{ModID}}_CherryPie": {
@@ -183,7 +186,7 @@
           "SpriteIndex": 8,
           "ContextTags": [
             "color_brown",
-            "food_coffee"
+            "allergen_gluten"
           ]
         },
         "{{ModID}}_GingerBeer": {
@@ -206,6 +209,115 @@
             "drink_item",
             "use_reverse_name_for_sorting"
           ]
+        },
+        "{{ModID}}_ZuzuPizza": {
+          "Name": "{{ModID}}_ZuzuPizza",
+          "DisplayName": "{{i18n: Object.Zuzu-Pizza.Name}}",
+          "Description": "{{i18n: Object.Zuzu-Pizza.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 100,
+          "Edibility": 10,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Buffs": [ { "Duration": 300, "CustomAttributes": { "Defense": 1, "Attack": 2 } } ],
+          "Texture": "DN.Objects/Food",
+          "SpriteIndex": 12,
+          "ContextTags": [
+            "color_dark_yellow",
+            "allergen_dairy",
+            "food_nonvegan",
+            "allergen_gluten",
+            "food_party",
+            "DN.zuzufood_item"
+          ]
+        },
+
+        "{{ModID}}_ZuzuBagel": {
+          "Name": "{{ModID}}_ZuzuBagel",
+          "DisplayName": "{{i18n: Object.Zuzu-Bagel.Name}}",
+          "Description": "{{i18n: Object.Zuzu-Bagel.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 100,
+          "Edibility": 10,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Buffs": [ { "Duration": 300, "CustomAttributes": { "LuckLevel": 1, "MaxStamina": 1, "Speed": 1 } } ],
+          "Texture": "DN.Objects/Food",
+          "SpriteIndex": 13,
+          "ContextTags": [
+            "color_dark_yellow",
+            "allergen_fish",
+            "food_seafood",
+            "food_nonvegan",
+            "allergen_dairy",
+            "allergen_gluten",
+            "DN.zuzufood_item"
+          ]
+        },
+
+        "{{ModID}}_ZuzuCheesecake": {
+          "Name": "{{ModID}}_ZuzuCheesecake",
+          "DisplayName": "{{i18n: Object.Zuzu-Cheesecake.Name}}",
+          "Description": "{{i18n: Object.Zuzu-Cheesecake.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 100,
+          "Edibility": 10,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Buffs": [ { "Duration": 300, "CustomAttributes": { "MaxStamina": 1, "Speed": 1, "Defense": 1, "Attack": 1 } } ],
+          "Texture": "DN.Objects/Food",
+          "SpriteIndex": 14,
+          "ContextTags": [
+            "color_sand",
+            "food_nonvegan",
+            "allergen_dairy",
+            "allergen_egg",
+            "food_sweet",
+            "food_bakery",
+            "DN.zuzufood_item"
+          ]
+        },
+
+        "{{ModID}}_ZuzuClamChowder": {
+          "Name": "{{ModID}}_ZuzuClamChowder",
+          "DisplayName": "{{i18n: Object.Zuzu-Clam-Chowder.Name}}",
+          "Description": "{{i18n: Object.Zuzu-Clam-Chowder.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "Price": 100,
+          "Edibility": 10,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Buffs": [ { "Duration": 300, "CustomAttributes": { "FarmingLevel": 1, "FishingLevel": 1, "MiningLevel": 1 } } ],
+          "Texture": "DN.Objects/Food",
+          "SpriteIndex": 15,
+          "ContextTags": [
+            "color_orange",
+            "food_nonvegan",
+            "allergen_shellfish",
+            "food_soup",
+            "food_seafood",
+            "DN.zuzufood_item"
+          ]
+        },
+        "{{ModID}}_CloudJojaCola": {
+            "Name": "{{ModID}}_CloudJojaCola",
+            "DisplayName": "{{i18n: Object.Cloud-Joja-Cola.Name}}",
+            "Description": "{{i18n: Object.Cloud-Joja-Cola.Description}}",
+            "Type": "Fish",
+            "Category": -20,
+            "Price": 25,
+            "Texture": "DN.Objects/Food",
+            "SpriteIndex": 11,
+            "Edibility": 5,
+            "IsDrink": true,
+            "Buffs": [ { "Duration": 30, "CustomAttributes": { "Speed": 1.0 } } ],
+            "ExcludeFromFishingCollection": true,
+            "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+            "ContextTags": [ "color_prismatic", "drink_item" ]
         }
       }
     }

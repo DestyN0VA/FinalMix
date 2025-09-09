@@ -35,8 +35,9 @@
           "Category": 0,
           "Price": 200,
           "Texture": "DN.Objects/Objects",
-          "SpriteIndex": 2,
-          "ExcludeFromRandomSale": true
+          "SpriteIndex": 3,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [ "light_source", "torch_item", "color_blue", "doll_item"]
         },
         "{{ModID}}_CirrusBrandedToothbrush": {
           "Name": "{{ModID}}_CirrusBrandedToothbrush",
@@ -46,30 +47,22 @@
           "Category": 0,
           "Price": 0,
           "Texture": "DN.Objects/Objects",
-          "SpriteIndex": 3,
+          "SpriteIndex": 2,
+          "ExcludeFromRandomSale": true
+        },
+        "{{ModID}}_CirrusBrandedToothbrushImposter": {
+          "Name": "{{ModID}}_CirrusBrandedToothbrushImposter",
+          "DisplayName": "IMPOSTER",
+          "Description": "IMPOSTER",
+          "Type": "Basic",
+          "Edibility": 5,
+          "Category": 0,
+          "Price": 0,
+          "Texture": "DN.Objects/Objects",
+          "SpriteIndex": 2,
           "ExcludeFromRandomSale": true
         }
       }
-    },
-    {
-      "Action": "EditData",
-      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-      "Entries": { 
-        "{{ModID}}_RubberDucky": { "UseForTriggerAction": true, "CategoryTextOverride": "Friend" },
-        "{{ModID}}_CirrusBrandedToothbrush": { "CategoryTextOverride": "Trash" } }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/TriggerActions",
-      "Entries": {
-        "{{ModID}}_UseRubberDuck": {
-          "Id": "{{ModID}}_UseRubberDuck",
-          "MarkActionApplied": false,
-          "Trigger": "spacechase0.SpaceCore_OnItemUsed",
-          "Condition": "ITEM_ID Input (O){{ModID}}_RubberDucky",
-          "Actions": [ "Spiderbuttons.BETAS_PlaySound DN.DuckySqueak false" ]
-        }
-      }
-    }        
+    }      
     ]
 }

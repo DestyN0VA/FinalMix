@@ -6,17 +6,31 @@
   "Object.CustomCategory.Snack": "Snack",
   "Object.CustomCategory.Potion": "Potion",
   "Object.CustomCategory.Book": "Book",
+  "Object.CustomCategory.Trash": "Trash",
+  "Object.CustomCategory.Entity": "Entity",
+  "Object.CustomCategory.Friend": "Friend",
   "Object.CustomCategory.Materia1": "Rank I Materia",
   "Object.CustomCategory.Materia2": "Rank II Materia",
   "Object.CustomCategory.Materia3": "Rank III Materia",
   "Object.CustomCategory.Materia4": "Rank IV Materia",
   "Object.CustomCategory.Materia5": "Rank V Materia",
   "Object.CustomCategory.Materia6": "Rank VI Materia",
-  // ARTIFACTS 
+
+  // MISC OBJECTS
   "Object.Ardens-Heart.Name": "Arden's Heart",
   "Object.Ardens-Heart.Description": "The cornerstone of heart and ocean, beating rhythmically in your hands.",
   "Object.Rubber-Ducky.Name": "Rubber Ducky",
   "Object.Rubber-Ducky.Description": "Has served many a programmer well in the realm of debugging. Squeak!",
+  "Object.Cursed-Coriander-Doll.Name": "Cirrus Cloud(TM) Branded Cirrus Doll",
+  "Object.Cursed-Coriander-Doll.Description": "Manufactured with love adjacent material in a Joja Co. factory. It's coming apart at the seams.\n\nWarning: Joja is not liable for any supernatural occurrences associated with Cirrus Cloud(TM) Branded Cirrus Dolls.",
+  "Objects.Cursed-Coriander-Doll.Debuff.Name": "Unlucky Skies",
+  "Objects.Cursed-Coriander-Doll.Debuff.Description": "You were warned.",
+  "Objects.Cursed-Coriander-Doll.Buff.Name": "Stratus Pull",
+  "Objects.Cursed-Coriander-Doll.Buff.Description": "You feel an otherworldly pull...",
+
+  "Object.Cirrus-Branded-Toothbrush.Name": "Cirrus Cloud(TM) Branded Toothbrush",
+  "Object.Cirrus-Branded-Toothbrush.Description": "Brush your teeth just like Cirrus with this Limited Edition Cirrus Cloud(TM) brand toothbrush. Made from only the finest grade Joja Co. plastic.\n\nWarning: Cirrus Cloud(TM) Branded Toothpaste not included. Must be purchased separately. Joja Co. is not liable for any enamel damaged associated with use of this tooth brush.",
+  // ARTIFACTS 
   "Object.Progenitor-Rex.Name": "Progenitor Rex",
   "Object.Progenitor-Rex.Description": "This figurine proves that, yes, Pepper Rexes have in fact always looked that dopey. It would be reasonable to hypothesize that the cuteness is a survival tactic.",
   "Object.Pith-Helmet.Name": "Pith Helmet",
@@ -54,6 +68,10 @@
   "Object.Ranger-Book.Description": "A detailed guide on charming wild beasts and earning their trust.",
   "Object.Lancer-Book.Name": "Arden's Bottled Diary Pages",
   "Object.Lancer-Book.Description": "Rambling thoughts on the art of spear fighting. Slightly damp.",
+  "Object.Cirrus-Cookbook.Name": "In the Kitchen with Cirrus",
+  "Object.Cirrus-Cookbook.Description": "Keep your head in the clouds with these easy dishes inspired by stops on Cirrus' latest world tour!\n\nWarning: Joja Co. is not responsible for any foodborne illness from products purchased at Joja Mart locations. The participant acknowledges they are aware of the potential risks involved and voluntarily accept those risks. ",
+  "Object.Cirrus-Cookbook.Known": "You already know these recipes!",
+  "Object.Cirrus-Cookbook.Unknown": "You learned the recipes from 'In The Kitchen With Cirrus'!",
   // CURIOS 
   "Object.Stygium-Ore.Name": "Stygium Ore",
   "Object.Stygium-Ore.Description": "Dangerous and corruptive, this ore is poisonous to the touch.",
@@ -128,6 +146,16 @@
   "Object.Ginger-Beer.Name": "Ginger Beer",
   "Object.Ginger-Beer.Description": "A ginger-forward non-alcoholic drink. Crisp and refreshing!",
   "Object.Ginger-Beer.FlavoredName": "%PRESERVED_DISPLAY_NAME Ginger Beer",
+  "Object.Zuzu-Pizza.Name": "Zuzu City Style Pizza",
+  "Object.Zuzu-Pizza.Description": "If you can't fold it, it's not real pizza. An on-the-go lunch for a busy day.",
+  "Object.Zuzu-Bagel.Name": "Zuzu City Style Bagel with Lox",
+  "Object.Zuzu-Bagel.Description": "A fresh bagel, boiled, with raw salmon and a smear of cream cheese.",
+  "Object.Zuzu-Cheesecake.Name": "Zuzu City Style Cheesecake",
+  "Object.Zuzu-Cheesecake.Description": "A slice of plain cheesecake, adorned with a single accessory strawberry.",
+  "Object.Zuzu-Clam-Chowder.Name": "Zuzu City Style Clam Chowder",
+  "Object.Zuzu-Clam-Chowder.Description": "Made with clams, starches, and vegetables. Not as good as Port Drake style chowder, supposedly.",
+  "Object.Cloud-Joja-Cola.Name": "Cirrus Cloud(TM) Branded Joja Cola",
+  "Object.Cloud-Joja-Cola.Description": "This is what dreams taste like.\n\nCopyright Notice: Limited Edition Joja Cola is made in collaboration with the critically acclaimed music artist, Cirrus. Cirrus is trademarked under Joja Records. All Rights Reserved. Do not redistribute. Sharing of Joja Cola Creations(TM) is illegal under the 'Ferngill Republic Food and Safety Act Article IIV'.\n\nWarning: Joja Co. is not liable for any side effects associated with drinking Joja Cola Creations(TM). Drink at your own discretion.\n\n",
   //MACHINES
   "Object.Old-Fashioned-Fermenter.Name": "Old Fashioned Fermenter",
   "Object.Old-Fashioned-Fermenter.Description": "Makes ginger beer.",
@@ -136,6 +164,10 @@
   // CLOTHING 
   "Object.Val-Hoodie.Name": "Val's Hoodie", 
   "Object.Val-Hoodie.Description": "Super soft, and just a little bit oversized.", 
+
+  "Object.Joja-Hoodie.Name": "Cirrus Cloud(TM) Branded Joja Hoodie: Series 2", 
+  "Object.Joja-Hoodie.Description": "Smells like metal and a little scratchy. The tag pokes at your neck.\n\nNotice: Cirrus Cloud(TM) Branded Joja Hoodie: Series 1 were previously recalled. If you purchased Cirrus Cloud(TM) Branded Joja Hoodie: Series 2 you may exchange it for a Cirrus Cloud(TM) Branded Joja Hoodie: Series 1 hoodie at any Joja Mart customer service counter. ", 
+
   // SPAWNABLES 
   "Object.Deep-Dark-Chest.Description": "Deep Dark Loot Chest",
   "Object.Deep-Dark-Chest.Name": "A chest that spawns in the Deep Dark."

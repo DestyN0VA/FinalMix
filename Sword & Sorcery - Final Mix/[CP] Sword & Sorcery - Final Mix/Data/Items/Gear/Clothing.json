@@ -19,6 +19,20 @@
           "CanChooseDuringCharacterCustomization": false,
           "CustomFields": {}
         },
+        "{{ModID}}_JojaHoodie": {
+          "Name": "{{ModID}}_JojaHoodie",
+          "DisplayName": "{{i18n:Object.Joja-Hoodie.Name}}",
+          "Description": "{{i18n:Object.Joja-Hoodie.Description}}",
+          "Price": 2500,
+          "Texture": "DN.Gear/Shirts",
+          "SpriteIndex": 4,
+          "DefaultColor": null,
+          "CanBeDyed": false,
+          "IsPrismatic": true,
+          "HasSleeves": true,
+          "CanChooseDuringCharacterCustomization": false,
+          "CustomFields": {}
+        }
       }
     }
   ]

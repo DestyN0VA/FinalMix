@@ -4,6 +4,20 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
+        "{{ModID}}_InTheKitchenWithCirrus ": {
+          "Name": "{{ModID}}_InTheKitchenWithCirrus",
+          "DisplayName": "{{i18n: Object.Cirrus-Cookbook.Name}}",
+          "Description": "{{i18n: Object.Cirrus-Cookbook.Description}}",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 10,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Books",
+          "SpriteIndex": 8,
+          "ContextTags": [ "book_item", "color_blue", "prevent_loss_on_death" ]
+        },
         "{{ModID}}_StandaloneGuidebook": {
           "Name": "{{ModID}}_StandaloneGuidebook",
           "DisplayName": "{{i18n: Object.Standalone-Guidebook.Name}}",

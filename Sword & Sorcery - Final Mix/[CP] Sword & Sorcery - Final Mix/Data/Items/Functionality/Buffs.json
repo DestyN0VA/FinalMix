@@ -1,0 +1,27 @@
+{
+    "Changes": [
+        {
+            "LogName": "Custom Buffs",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModID}}_DollCurse": {
+                    "DisplayName": "{{i18n: Objects.Cursed-Coriander-Doll.Debuff.Name}}",
+                    "Description": "{{i18n: Objects.Cursed-Coriander-Doll.Debuff.Description}}",
+                    "IsDebuff": true,
+                    "IconTexture": "DN.Objects/Objects",
+                    "IconSpriteIndex": 3,
+                    "Effects": { "LuckLevel": -5.0 }
+                },
+                "{{ModID}}_DollBlessing": {
+                    "DisplayName": "{{i18n: Objects.Cursed-Coriander-Doll.Buff.Name}}",
+                    "Description": "{{i18n: Objects.Cursed-Coriander-Doll.Buff.Description}}",
+                    "IsDebuff": true,
+                    "IconTexture": "DN.Objects/Objects",
+                    "IconSpriteIndex": 3,
+                    "Effects": { "MagneticRadius": 1.0 }
+                }
+            }
+        }
+    ]
+}

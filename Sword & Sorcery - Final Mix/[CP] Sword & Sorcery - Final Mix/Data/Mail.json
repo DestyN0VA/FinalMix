@@ -84,7 +84,8 @@
 						"RemoveMail Current RoslinOverrideSeenToday",
 						"RemoveMail Current SeenRoslinEventToday",
 						"RemoveMail Current DandelionOverrideSeenToday",
-						"RemoveMail Current SeenDandelionEventToday"
+						"RemoveMail Current SeenDandelionEventToday",
+						"RemoveMail Current BrushedTeethTodayWtf"
 					]
 				}
 			}

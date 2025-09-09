@@ -4,6 +4,25 @@
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/ObjectExtensionData",
       "Entries": {
+        //RANDOM
+        "{{ModID}}_RubberDucky": {
+          "UseForTriggerAction": true,
+          "CategoryTextOverride": "{{i18n: Object.CustomCategory.Friend}}"
+        },
+        "{{ModID}}_CirrusBrandedToothbrush": {
+          "CategoryTextOverride": "{{i18n:Object.CustomCategory.Trash}}",
+          "UseForTriggerAction": true
+        },
+        "{{ModID}}_CursedCorianderDoll": {
+          "CategoryTextOverride": "{{i18n:Object.CustomCategory.Entity}}",
+          "UseForTriggerAction": true,
+          "CategoryColorOverride": { "R": 10, "G": 109, "B": 209, "A": 255 }
+        },
+        "{{ModID}}_InTheKitchenWithCirrus": {
+          "UseForTriggerAction": true,
+          "CategoryTextOverride": "{{i18n:Object.CustomCategory.Book}}",
+          "CanBeShipped": false
+        },
         // BOOKS 
           "{{ModID}}_StandaloneGuidebook": {
           "UseForTriggerAction": true,
@@ -97,7 +116,7 @@
         },
 
       // DRUIDIC CROPS
-      "{{ModID}}_ancientamaranth": {
+        "{{ModID}}_ancientamaranth": {
           "CategoryTextOverride": "{{i18n:Object.CustomCategory.DruidicCrop}}",
           "CategoryColorOverride": { "R": 48, "G": 162, "B": 218, "A": 255 }
         },

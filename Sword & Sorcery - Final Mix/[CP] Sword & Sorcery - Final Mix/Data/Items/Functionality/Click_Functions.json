@@ -1,0 +1,71 @@
+{
+    "Changes": [
+    //Rubber Duck - Squeaks
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+
+            //Ducky
+                "{{ModID}}_UseRubberDuck": {
+                    "Id": "{{ModID}}_UseRubberDuck",
+                    "MarkActionApplied": false,
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input (O){{ModID}}_RubberDucky",
+                    "Actions": [ "Spiderbuttons.BETAS_PlaySound DN.DuckySqueak false" ]
+                },
+
+            //Cori Cookbook
+                "{{ModID}}_UseCirrusCookbookKnown": {
+                    "Id": "{{ModID}}_UseCirrusCookbookKnown",
+                    "MarkActionApplied": false,
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input (O){{ModID}}_InTheKitchenWithCirrus",
+                    "Actions": ["If PLAYER_HAS_MAIL Current CoriCookbookRecipesKnown ## spacechase0.SpaceCore_ShowHudMessage \"{{i18n: Object.Cirrus-Cookbook.Known}}\" (O){{ModID}}_InTheKitchenWithCirrus ## Spiderbuttons.BETAS_TriggerAction {{ModID}}_UseCirrusCookbookUnknown Manual" ]
+                },
+
+                "{{ModID}}_UseCirrusCookbookUnknown": {
+                    "Id": "{{ModID}}_UseCirrusCookbookUnknown",
+                    "MarkActionApplied": false,
+                    "Trigger": "Manual",
+                    "Actions": [
+                    "Spiderbuttons.BETAS_PlaySound newRecipe false",
+                    "spacechase0.SpaceCore_ShowHudMessage \"{{i18n: Object.Cirrus-Cookbook.Unknown}}\" (O){{ModID}}_InTheKitchenWithCirrus",
+                    "AddMail Current CoriCookbookRecipesKnown received",
+                    "MarkCookingRecipeKnown Current {{ModID}}_ZuzuPizza",
+                    "MarkCookingRecipeKnown Current {{ModID}}_ZuzuBagel",
+                    "MarkCookingRecipeKnown Current {{ModID}}_ZuzuCheesecake",
+                    "MarkCookingRecipeKnown Current {{ModID}}_ZuzuClamChowder" ]
+                },
+
+            //Cori Doll
+                "{{ModID}}_UseCursedCorianderDollLaugh": {
+                    "Id": "{{ModID}}_UseCursedCorianderDollLaugh",
+                    "MarkActionApplied": false,
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input (O){{ModID}}_CursedCorianderDoll",
+                    "Actions": [ "If {{Query: {{Random: {{Range: 1, 5}}|key=CDoll}} = 1}} ## Spiderbuttons.BETAS_ActionList \"Spiderbuttons.BETAS_PlaySound DN.Laugh false\" \"AddBuff {{ModID}}_DollCurse -2\" ## Spiderbuttons.BETAS_ActionList \"Spiderbuttons.BETAS_PlaySound DN.DuckySqueak false\" \"AddBuff {{ModID}}_DollBlessing -2\"" ]
+                },
+
+                //Toothbrush
+                "{{ModID}}_UseCirrusBrandedToothbrush": {
+                    "Id": "{{ModID}}_UseCirrusBrandedToothbrush",
+                    "MarkActionApplied": false,
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input (O){{ModID}}_CirrusBrandedToothbrush",
+                    "Actions": [ "If PLAYER_HAS_MAIL Current BrushedTeethTodayWtf ## spacechase0.SpaceCore_ShowHudMessage \"You already brushed your teeth today.\" (O){{ModID}}_CirrusBrandedToothbrush ## Spiderbuttons.BETAS_TriggerAction {{ModID}}_UseCirrusBrandedFunction Manual" ]
+                },
+                "{{ModID}}_UseCirrusBrandedFunction": {
+                    "Id": "{{ModID}}_UseCirrusBrandedFunction",
+                    "MarkActionApplied": false,
+                    "Trigger": "Manual",
+                    "Actions": [
+                    "Spiderbuttons.BETAS_EatObject {{ModID}}_CirrusBrandedToothbrushImposter false",
+                    "spacechase0.SpaceCore_ShowHudMessage \"You brushed your teeth!\" (O){{ModID}}_CirrusBrandedToothbrush",
+                    "AddMail Current BrushedTeethTodayWtf received"
+                 ]
+                }
+            }
+        }
+    ]
+}
