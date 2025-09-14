@@ -71,6 +71,12 @@
             "Action": "Load",
             "Target": "Characters/StygiumMiner2",
             "FromFile": "Assets/Models/Monsters/StygiumMiner.png"
-        }
+        },
+        // OBJECTS 
+        {
+            "Action": "Load",
+            "Target": "Characters/JojaCapsule",
+            "FromFile": "Assets/Misc/JojaCapsule.png"
+        },
     ]
 }
