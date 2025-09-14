@@ -78,5 +78,15 @@
             "Target": "Characters/JojaCapsule",
             "FromFile": "Assets/Misc/JojaCapsule.png"
         },
+        {
+            "Action": "Load",
+            "Target": "Characters/JojaBoxes",
+            "FromFile": "Assets/Misc/JojaBoxes.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/JojaBoxes2",
+            "FromFile": "Assets/Misc/JojaBoxes2.png"
+        },
     ]
 }
