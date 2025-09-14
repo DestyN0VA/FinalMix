@@ -9,7 +9,7 @@
         "EastScarp_ThiefTreehouse": {
           "DisplayName": "{{i18n:miscellaneous.mapname.ThiefTreehouse}}",
           "CreateOnLoad": { "MapPath": "Maps/EastScarp_ThiefTreehouse" },
-          "DefaultArrivalTile": { "X": 3, "Y": 7 },
+          "DefaultArrivalTile": { "X": 4, "Y": 7 },
           "ExcludeFromNpcPathfinding": false
         }
       }

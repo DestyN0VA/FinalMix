@@ -14,13 +14,25 @@
       ],
       "MapTiles": [
         { "Position": { "X": 8, "Y": 15 }, "Layer": "Buildings", // Druid Tower
-          "SetProperties": { "Action": "LockedDoorWarp 14 30 EastScarp_DruidTower 800 2400" }  }, // Druid Greenhouse
-        { "Position": { "X": 11, "Y": 15 }, "Layer": "Buildings",
+          "SetProperties": { "Action": "LockedDoorWarp 14 30 EastScarp_DruidTower 800 2400" }  },
+        { "Position": { "X": 11, "Y": 15 }, "Layer": "Buildings", // Druid Greenhouse
           "SetProperties": { "Action": "LockedDoorWarp 27 30 EastScarp_DruidTower 800 2400" } }, 
-        { "Position": { "X": 23, "Y": 13 }, "Layer": "Buildings", // Thief Treehouse
-          "SetProperties": { "Action": "LockedDoorWarp 3 7 EastScarp_ThiefTreehouse 800 2400" } },
-        {  "Position": { "X": 40, "Y": 14 }, "Layer": "Buildings",
+        {  "Position": { "X": 40, "Y": 14 }, "Layer": "Buildings", // Sorcerer House
           "SetProperties": { "Action": "LockedDoorWarp 5 26 EastScarp_SorcererHouse 800 2400" } }
+      ]
+    },
+    {
+      "LogName": "Major Tom's Door - Exteriors",
+      "Action": "EditMap",
+      "Target": "Maps/EastScarp_DeepMountains",
+      "FromFile": "Assets/Patches/DN.SnS_MajorTomDoor.tmx",
+      "ToArea": { "X": 23, "Y": 12, "Width": 1, "Height": 2 },
+      "When": {"HasSeenEvent": "DN.Coriander.5H"},
+      "AddWarps": [
+      ],
+      "MapTiles": [
+        { "Position": { "X": 23, "Y": 13 }, "Layer": "Buildings", // Thief Treehouse
+          "SetProperties": { "Action": "LockedDoorWarp 4 7 EastScarp_ThiefTreehouse 800 2400" } },
       ]
     }
   ]
