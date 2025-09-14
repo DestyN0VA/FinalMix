@@ -32,7 +32,7 @@
       ],
       "MapTiles": [
         { "Position": { "X": 23, "Y": 13 }, "Layer": "Buildings", // Thief Treehouse
-          "SetProperties": { "Action": "LockedDoorWarp 4 7 EastScarp_ThiefTreehouse 800 2400" } },
+          "SetProperties": { "Action": "LockedDoorWarp 10 14 EastScarp_ThiefTreehouse 800 2400" } },
       ]
     }
   ]

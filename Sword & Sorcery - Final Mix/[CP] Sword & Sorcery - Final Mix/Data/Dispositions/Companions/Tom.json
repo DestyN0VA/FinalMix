@@ -29,8 +29,8 @@
                     "DisplayName": "Tom",
                     "PortraitTexture": "Portraits/DN.SnS_Tom",
                     "PetMessage": [ "Meep" ],
-                    "HomeTileX": 3,
-                    "HomeTileY": 5
+                    "HomeTileX": 10,
+                    "HomeTileY": 10
                 }
             }
         }
