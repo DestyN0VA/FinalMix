@@ -118,7 +118,6 @@
         "AcceptGift_(O){{CC}}_Smore": "{{i18n:Val.GiftReaction.Smore}}",
         "AcceptGift_(O){{CC}}_HomemadePopcorn": "{{i18n:Val.GiftReaction.HomemadePopcorn}}",
         "AcceptGift_(O){{CC}}_HotChocolate": "{{i18n:Val.GiftReaction.HotChocolate}}",
-
         // HATES
         "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:Val.GiftReaction.StygiumOre}}",
         "RejectItem_(O)717": "{{i18n:Val.GiftReaction.Crab}}",

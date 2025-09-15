@@ -1,0 +1,121 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Val Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Val.Generic.{{Random: {{Range:  1, {{ValDialogueMax}}}}}}}}"
+      },
+      "When": {
+        "HasFlag |contains=ValOverrideSeenToday": false
+      }
+    },
+    {
+      "LogName": "Load Val Spring Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Val.{{Season}}.{{Random: {{Range:  1, 5}}|key=VSD{{Time}}}}}}#$action AddMail Current ValOverrideSeenToday received"
+      },
+      "When": {
+        "Query: {{Random: {{Range: 1, 10}}|key=VSD}}": 1,
+        "HasFlag |contains=ValOverrideSeenToday": false
+      }
+    },
+    {
+      "LogName": "Load Val Romance Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Update": "OnLocationChange",
+      "Entries": {
+        "{{WeekDay}}": "{{i18n:Val.Romance.{{Random: {{Range: 1, 25}}|key=VSD{{Time}}}}}}#$action AddMail Current ValOverrideSeenToday received"
+      },
+      "When": {
+        "ValRomanceSwitch": true,
+        "Query: {{Random: {{Range: 1, 3}}|key=VSD}}": 1,
+        "HasFlag |contains=ValOverrideSeenToday": false
+      }
+    },
+    {
+      "LogName": "Load Val Dialogue Static",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Entries": {
+        // INTRO
+        "Introduction": "{{i18n:Val.Introduction}}",
+        // COMMUNITY CENTER BUNDLES
+        "joja_Begin": "{{i18n:Val.JojaBegin}}",
+        "cc_Begin": "{{i18n:Val.CCBegin}}",
+        "cc_Bus": "{{i18n:Val.CCBus}}",
+        "cc_Minecart": "{{i18n:Val.CCMinecart}}",
+        "cc_Complete": "{{i18n:Val.CCComplete}}",
+        "movieTheater": "{{i18n:Val.MovieTheater}}",
+        // BIRTHDAYS
+        // "fall_25": "{{i18n:Val.Fall25}}", // VAL
+        "spring_21": "{{i18n:Val.Spring21}}", // HECTOR 
+        "fall_18": "{{i18n:Val.Fall18}}", // CORIANDER
+        "winter_13": "{{i18n:Val.Winter13}}", // LORIN
+        "spring_8": "{{i18n:Val.Spring8}}", // ROSLIN
+        "summer_16": "{{i18n:Val.Summer16}}", // DANDELION 
+        "winter_21": "{{i18n:Val.Winter21}}", // ARDEN 
+        // END OF SEASON
+        "spring_28": "{{i18n:Val.SpringEnd}}",
+        "summer_28": "{{i18n:Val.SummerEnd}}",
+        "fall_28": "{{i18n:Val.FallEnd}}",
+        "winter_28": "{{i18n:Val.WinterEnd}}",
+        // SVE COMMUNITY DAY
+        "CommunityCenter": "{{i18n:Val.CommunityCenter.{{Random:{{Range: 1, 3}}}}}}",
+        // FESTIVALS (DAY BEFORE)
+        "spring_12": "{{i18n:Val.EggFestival}}",
+        "spring_23": "{{i18n:Val.FlowerDance}}",
+        "summer_10": "{{i18n:Val.Luau}}",
+        "summer_27": "{{i18n:Val.MoonlightJelly}}",
+        "fall_15": "{{i18n:Val.SDVFair}}",
+        "fall_26": "{{i18n:Val.SpiritsEve}}",
+        "winter_7": "{{i18n:Val.IceFestival}}",
+        "winter_16": "{{i18n:Val.NightMarket}}",
+        "winter_24": "{{i18n:Val.WinterStar}}",
+        // ROMANTIC (NEGATIVE)
+        "breakup": "{{i18n:Val.Breakup}}",
+        "divorced": "{{i18n:Val.Divorced}}",
+        "SpouseFarmhouseClutter": "{{i18n:Val.SpouseFarmhouseClutter}}",
+        "SpouseMonstersInHouse": "{{i18n:Val.SpouseMonstersInHouse}}",
+        "WipedMemory": "{{i18n:Val.WipedMemory}}",
+        // ROMANTIC (POSITIVE)
+        "SpouseGiftJealous": "{{i18n:Val.SpouseGiftJealous}}",
+        "SpouseStardrop": "{{i18n:Val.Stardrop}}",
+        // RESORT
+        "Resort_Entering": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Leaving": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Shore": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Umbrella": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Wander": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Wander_2": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Chair": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Bar": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Towel": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Towel_2": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Towel_3": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        // GREEN RAIN
+        "GreenRain": "{{i18n:Val.GreenRain}}",
+        "GreenRainFinished": "{{i18n:Val.GreenRainFinished}}",
+        "GreenRain_2": "{{i18n:Val.GreenRain2}}",
+        // POLYAMORY DIALOGUE
+        "RejectMermaidPendant_IsPolyamorous_PlayerWithSomeoneMonogamous": "{{i18n:Val.MarriedMonogamousNPC}}",
+        // TRASH REACT 
+        "DumpsterDiveComment": "{{i18n:Val.DumpsterDiveComment}}",
+        // SLINGSHOT 
+        "HitBySlingshot": "{{i18n:Val.HitBySlingshot}}",
+        // LOCATION ENTRIES 
+        "EastScarp_VillageInn_Entry": "{{i18n:Val.VillageInn}}",
+        "EastScarp_ArtificerHouse_Entry": "{{i18n:Val.ArtificerHouse}}",
+        "EastScarp_Village_Entry": "{{i18n:Val.EastScarp}}",
+        "EastScarp_Underforge_Entry": "{{i18n:Val.Underforge}}"
+      }
+    }
+  ]
+}

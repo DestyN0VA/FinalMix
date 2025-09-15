@@ -1,0 +1,85 @@
+{
+  "Changes": [
+    {
+      "LogName": "Coriander Gifts",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Coriander", // "AcceptGift_(O)": "{{i18n:Coriander.GiftReaction.}}",
+      "Entries": {
+        // STARDROP TEA 
+        "AcceptGift_(O)StardropTea": "{{i18n:Coriander.GiftReaction.StardropTea}}",
+        // RUBY RING 
+        "RejectItem_(O)EastScarp_Vintage_Ruby_Ring": "{{i18n:Coriander.GiftReaction.ESRubyRing}}",
+        // CATEGORIES  
+        "AcceptGift_category_artisan_goods": "{{i18n:Coriander.GiftReaction.ArtisanalGoods}}",
+        "AcceptGift_category_minerals": "{{i18n:Coriander.GiftReaction.Minerals.{{Random:{{Range: 1, 5}}}}}}",
+        "AcceptGift_category_gems": "{{i18n:Coriander.GiftReaction.Gems}}",
+        "AcceptGift_category_egg": "{{i18n:Coriander.GiftReaction.Dairy}}",
+        "AcceptGift_category_milk": "{{i18n:Coriander.GiftReaction.Dairy}}",
+        "AcceptGift_category_fruit": "{{i18n:Coriander.GiftReaction.Fruit}}",
+        "AcceptGift_category_vegetables": "{{i18n:Coriander.GiftReaction.Vegetables}}",
+        "AcceptGift_category_flowers": "{{i18n:Coriander.GiftReaction.Flowers}}",
+        "RejectItem_category_fish": "{{i18n:Coriander.GiftReaction.Fish}",
+        "RejectItem_category_trash": "{{i18n:Coriander.GiftReaction.Negative}}",
+        "RejectItem_category_junk": "{{i18n:Coriander.GiftReaction.Negative}}",
+        "RejectItem_alcohol_item": "{{i18n:Coriander.GiftReaction.Alcohol}}",
+        "AcceptGift_book_item": "{{i18n:Coriander.GiftReaction.Books}}",
+        "AcceptGift_food_sushi": "{{i18n:Coriander.GiftReaction.Sushi}}",
+        "AcceptGift_food_seafood": "{{i18n:Coriander.GiftReaction.Seafood}}",
+        // LOVES
+        "AcceptGift_(O)74": "{{i18n:Coriander.GiftReaction.PrismaticShard}}",
+        "AcceptGift_(O)614": "{{i18n:Coriander.GiftReaction.GreenTea}}",
+        "AcceptGift_(O)DN.SnS_GingerBeer": "{{i18n:Coriander.GiftReaction.GingerBeer}}",
+        "AcceptGift_(O)DN.SnS_ZuZuPizza": "{{i18n:Coriander.GiftReaction.ZuZuPizza}}",
+        "AcceptGift_(O)DN.SnS_ZuZuBagel": "{{i18n:Coriander.GiftReaction.ZuZuBagel}}",
+        "AcceptGift_(O)DN.SnS_ZuZuCheesecake": "{{i18n:Coriander.GiftReaction.ZuZuCheesecake}}",
+        "AcceptGift_(O)DN.SnS_ZuzuClamChowder": "{{i18n:Coriander.GiftReaction.ZuzuClamChowder}}",
+        "AcceptGift_(O)213": "{{i18n:Coriander.GiftReaction.SalmonDinner}}",
+        "AcceptGift_(O)225": "{{i18n:Coriander.GiftReaction.FriedEel}}",
+        "AcceptGift_(O)226": "{{i18n:Coriander.GiftReaction.SpicyEel}}",
+        "AcceptGift_(O){{CC}}_FishnChips": "{{i18n:Coriander.GiftReaction.FishnChips}}",
+        "AcceptGift_(O){{CC}}_DragonRoll": "{{i18n:Coriander.GiftReaction.DragonRoll}}",
+        "AcceptGift_(O){{CC}}_EelPie": "{{i18n:Coriander.GiftReaction.EelPie}}",
+        "AcceptGift_(O){{CC}}_EelBowl": "{{i18n:Coriander.GiftReaction.EelBowl}}",
+        // LIKES 
+        "AcceptGift_(O)DN.SnS_DinerCoffee": "{{i18n:Coriander.GiftReaction.DinerCoffee}}",
+        "AcceptGift_(O)DN.SnS_CherryPie": "{{i18n:Coriander.GiftReaction.CherryPie}}",
+        "AcceptGift_(O)DN.SnS_ChocolateOrange": "{{i18n:Coriander.GiftReaction.ChocolateOrange}}",
+        "AcceptGift_(O){{CC}}_StarmiteToast": "{{i18n:Coriander.GiftReaction.StarmiteToast}}",
+        "AcceptGift_(O)60": "{{i18n:Coriander.GiftReaction.Emerald}}",
+        "AcceptGift_(O)62": "{{i18n:Coriander.GiftReaction.Aquamarine}}",
+        "AcceptGift_(O)64": "{{i18n:Coriander.GiftReaction.Ruby}}",
+        "AcceptGift_(O)66": "{{i18n:Coriander.GiftReaction.Topaz}}",
+        "AcceptGift_(O)70": "{{i18n:Coriander.GiftReaction.Jade}}",
+        "AcceptGift_(O)72": "{{i18n:Coriander.GiftReaction.Diamond}}",
+        // HATES
+        "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:Coriander.GiftReaction.StygiumOre}}",
+        "RejectItem_(O)DN.SnS_CursedCorianderDoll": "{{i18n:Coriander.GiftReaction.CursedCorianderDoll}}",
+        "RejectItem_(O)DN.SnS_CirrusBrandedToothbrush": "{{i18n:Coriander.GiftReaction.CirrusBrandedToothbrush}}",
+        "RejectItem_(O)DN.SnS_InTheKitchenWithCirrus": "{{i18n:Coriander.GiftReaction.InTheKitchenWithCirrus}}",
+        "RejectItem_(O)DN.SnS_CloudJojaCola": "{{i18n:Coriander.GiftReaction.CloudJojaCola}}",
+        "RejectItem_(O)167": "{{i18n:Coriander.GiftReaction.JojaCola}}",
+        "RejectItem_(O)206": "{{i18n:Coriander.GiftReaction.Pizza}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_Cider": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_ZuzuSignatureCocktail": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_JojaCocktail": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_StrawberryDaiquiri": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)DTZ.DowntownZuzuCP_ZuzuChampagne": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)459": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O){{BF}}_FerskenPeach_Mead_Tankard": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O){{BF}}_FerskenPeach_Mead": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O){{BF}}_FerskenPeach_PotentMead": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O){{BF}}_Honey_OldFashioned": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O){{BF}}_Citrus_City_Gin_Sour": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O){{BF}}_Zuzu_Mule": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)MadDog.STW_CalicoWhiskey": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)303": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)346": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)348": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        "AcceptGift_(O)DN.SnS_SalishBourbon": "{{i18n:Coriander.GiftReaction.AlcoholReject}}",
+        // ROMANTIC REJECTIONS 
+        "RejectItem_(O)458": "{{i18n:Coriander.GiftReject.Bouquet}}",
+        "RejectItem_(O)460": "{{i18n:Coriander.GiftReject.MermaidPendant}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "LogName": "Conversation Topics - Val",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Val",
+            "Entries":
+            {
+                // VAL HEART EVENTS 
+                "ValIntro": "{{i18n:Val.CT.ValIntro}}",
+                "ValLibrary": "{{i18n:Val.CT.ValLibrary}}",
+                "ValMuseumIntro": "{{i18n:Val.CT.ValMuseumIntro}}",
+                "ValAwkwardEncounter": "{{i18n:Val.CT.ValAwkwardEncounter}}",
+                "ValFlashOfGenius": "{{i18n:Val.CT.ValFlashOfGenius}}",
+                "ValAetheriteIntro": "{{i18n:Val.CT.ValAetheriteIntro}}",
+                "ValInjury": "{{i18n:Val.CT.ValInjury}}",
+                "ValCoffeeHangout": "{{i18n:Val.CT.ValCoffeeHangout}}",
+                "ValEmeritusIntro": "{{i18n:Val.CT.EmeritusIntro}}",
+                "ValConfides": "{{i18n:Val.CT.ValConfides}}",
+                "ValMinibossBattle": "{{i18n:Val.CT.ValMinibossBattle}}"
+            }
+        },
+    ]
+}
