@@ -29,11 +29,8 @@
                     "IsDarkSkinned": false,
                     "DumpsterDiveEmote": 8, 
                     "DumpsterDiveFriendshipEffect": 0, 
-                    //"UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current DN.X.0H",
-                    "ShakePortraits": [
-                        99,
-                        98
-                    ],
+                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current DN.Coriander.0H",
+                    "ShakePortraits": [5, 19, 21, 37, 8, 9, 30, 31],
                     /*"SpouseRoom": {
                         "MapAsset": "{{DN.SnS_CorianderSpouseRoomOnOff}}"
                     },
@@ -61,6 +58,42 @@
                             "Sprite": "Characters/DN.SnS_Coriander"
                         }
                     ]
+                }
+            }
+        },
+        {
+            "LogName": "Coriander's Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "{{V}}": "//////////"
+            }
+        },
+        {
+            "LogName": "Coriander Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Fields": {
+                "{{V}}": {
+                    //Love
+                    "0": "{{i18n:Coriander.GiftReaction.Love}}",
+                    "1": "-2 food_sushi food_seafood 74 614 213 225 226 DN.SnS_GingerBeer DN.SnS_ZuZuPizza DN.SnS_ZuZuBagel DN.SnS_ZuZuCheesecake DN.SnS_ZuzuClamChowder {{CC}}_StarmiteToast {{CC}}_FishnChips {{CC}}_DragonRoll {{CC}}_EelPie {{CC}}_EelBowl",
+
+                    //Like
+                    "2": "{{i18n:Coriander.GiftReaction.Like}}",
+                    "3": "-4 -12 book_item 60 62 64 66 70 72 DN.SnS_DinerCoffee DN.SnS_CherryPie DN.SnS_ChocolateOrange",
+
+                    //Dislike
+                    "4": "{{i18n:Coriander.GiftReaction.Dislike}}",
+                    "5": "-15 -8 -74 WWWA.AutographedPhoto WWWA.GenuineAutograph",
+
+                    //Hate
+                    "6": "{{i18n:Coriander.GiftReaction.Hate}}",
+                    "7": "167 206 459 303 346 348 DN.SnS_StygiumOre DN.SnS_SalishBourbon alcohol_item {{DTZ}}_Cider {{DTZ}}_ZuzuSignatureCocktail {{DTZ}}_JojaCocktail {{DTZ}}_StrawberryDaiquiri DN.SnS_CursedCorianderDoll DN.SnS_CirrusBrandedToothbrush DN.SnS_InTheKitchenWithCirrus DN.SnS_CloudJojaCola MadDog.STW_CalicoWhiskey {{BF}}_Honey_OldFashioned {{BF}}_Citrus_City_Gin_Sour {{BF}}_Zuzu_Mule {{BF}}_FerskenPeach_Mead_Tankard {{BF}}_FerskenPeach_Mead {{BF}}_FerskenPeach_PotentMead",
+
+                    //Neutral
+                    "8": "{{i18n:Coriander.GiftReaction.Neutral}}",
+                    "9": "-23 -80 -81 -6"
                 }
             }
         }

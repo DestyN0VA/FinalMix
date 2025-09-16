@@ -1,120 +1,120 @@
 {
   "Changes": [
     {
-      "LogName": "Load Val Dialogue",
+      "LogName": "Load Coriander Dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Target": "Characters/Dialogue/DN.SnS_Coriander",
       "Update": "OnLocationChange",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Val.Generic.{{Random: {{Range:  1, {{ValDialogueMax}}}}}}}}"
+        "{{WeekDay}}": "{{i18n:Coriander.Generic.{{Random: {{Range:  1, {{CorianderDialogueMax}}}}}}}}"
       },
       "When": {
-        "HasFlag |contains=ValOverrideSeenToday": false
+        "HasFlag |contains=CorianderOverrideSeenToday": false
       }
     },
     {
-      "LogName": "Load Val Spring Override",
+      "LogName": "Load Coriander Spring Override",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Target": "Characters/Dialogue/DN.SnS_Coriander",
       "Update": "OnLocationChange",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Val.{{Season}}.{{Random: {{Range:  1, 5}}|key=VSD{{Time}}}}}}#$action AddMail Current ValOverrideSeenToday received"
+        "{{WeekDay}}": "{{i18n:Coriander.{{Season}}.{{Random: {{Range:  1, 5}}|key=VSD{{Time}}}}}}#$action AddMail Current CorianderOverrideSeenToday received"
       },
       "When": {
         "Query: {{Random: {{Range: 1, 10}}|key=VSD}}": 1,
-        "HasFlag |contains=ValOverrideSeenToday": false
+        "HasFlag |contains=CorianderOverrideSeenToday": false
       }
     },
     {
-      "LogName": "Load Val Romance Override",
+      "LogName": "Load Coriander Romance Override",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Target": "Characters/Dialogue/DN.SnS_Coriander",
       "Update": "OnLocationChange",
       "Entries": {
-        "{{WeekDay}}": "{{i18n:Val.Romance.{{Random: {{Range: 1, 25}}|key=VSD{{Time}}}}}}#$action AddMail Current ValOverrideSeenToday received"
+        "{{WeekDay}}": "{{i18n:Coriander.Romance.{{Random: {{Range: 1, 25}}|key=VSD{{Time}}}}}}#$action AddMail Current CorianderOverrideSeenToday received"
       },
       "When": {
-        "ValRomanceSwitch": true,
+        "CorianderRomanceSwitch": true,
         "Query: {{Random: {{Range: 1, 3}}|key=VSD}}": 1,
-        "HasFlag |contains=ValOverrideSeenToday": false
+        "HasFlag |contains=CorianderOverrideSeenToday": false
       }
     },
     {
-      "LogName": "Load Val Dialogue Static",
+      "LogName": "Load Coriander Dialogue Static",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/DN.SnS_Val",
+      "Target": "Characters/Dialogue/DN.SnS_Coriander",
       "Entries": {
         // INTRO
-        "Introduction": "{{i18n:Val.Introduction}}",
+        "Introduction": "{{i18n:Coriander.Introduction}}",
         // COMMUNITY CENTER BUNDLES
-        "joja_Begin": "{{i18n:Val.JojaBegin}}",
-        "cc_Begin": "{{i18n:Val.CCBegin}}",
-        "cc_Bus": "{{i18n:Val.CCBus}}",
-        "cc_Minecart": "{{i18n:Val.CCMinecart}}",
-        "cc_Complete": "{{i18n:Val.CCComplete}}",
-        "movieTheater": "{{i18n:Val.MovieTheater}}",
+        "joja_Begin": "{{i18n:Coriander.JojaBegin}}",
+        "cc_Begin": "{{i18n:Coriander.CCBegin}}",
+        "cc_Bus": "{{i18n:Coriander.CCBus}}",
+        "cc_Minecart": "{{i18n:Coriander.CCMinecart}}",
+        "cc_Complete": "{{i18n:Coriander.CCComplete}}",
+        "movieTheater": "{{i18n:Coriander.MovieTheater}}",
         // BIRTHDAYS
-        // "fall_25": "{{i18n:Val.Fall25}}", // VAL
-        "spring_21": "{{i18n:Val.Spring21}}", // HECTOR 
-        "fall_18": "{{i18n:Val.Fall18}}", // CORIANDER
-        "winter_13": "{{i18n:Val.Winter13}}", // LORIN
-        "spring_8": "{{i18n:Val.Spring8}}", // ROSLIN
-        "summer_16": "{{i18n:Val.Summer16}}", // DANDELION 
-        "winter_21": "{{i18n:Val.Winter21}}", // ARDEN 
+        "fall_25": "{{i18n:Coriander.Fall25}}", // VAL
+        "spring_21": "{{i18n:Coriander.Spring21}}", // HECTOR 
+        // "fall_18": "{{i18n:Coriander.Fall18}}", // CORIANDER
+        "winter_13": "{{i18n:Coriander.Winter13}}", // LORIN
+        "spring_8": "{{i18n:Coriander.Spring8}}", // ROSLIN
+        "summer_16": "{{i18n:Coriander.Summer16}}", // DANDELION 
+        "winter_21": "{{i18n:Coriander.Winter21}}", // ARDEN 
         // END OF SEASON
-        "spring_28": "{{i18n:Val.SpringEnd}}",
-        "summer_28": "{{i18n:Val.SummerEnd}}",
-        "fall_28": "{{i18n:Val.FallEnd}}",
-        "winter_28": "{{i18n:Val.WinterEnd}}",
+        "spring_28": "{{i18n:Coriander.SpringEnd}}",
+        "summer_28": "{{i18n:Coriander.SummerEnd}}",
+        "fall_28": "{{i18n:Coriander.FallEnd}}",
+        "winter_28": "{{i18n:Coriander.WinterEnd}}",
         // SVE COMMUNITY DAY
-        "CommunityCenter": "{{i18n:Val.CommunityCenter.{{Random:{{Range: 1, 3}}}}}}",
+        "CommunityCenter": "{{i18n:Coriander.CommunityCenter.{{Random:{{Range: 1, 3}}}}}}",
         // FESTIVALS (DAY BEFORE)
-        "spring_12": "{{i18n:Val.EggFestival}}",
-        "spring_23": "{{i18n:Val.FlowerDance}}",
-        "summer_10": "{{i18n:Val.Luau}}",
-        "summer_27": "{{i18n:Val.MoonlightJelly}}",
-        "fall_15": "{{i18n:Val.SDVFair}}",
-        "fall_26": "{{i18n:Val.SpiritsEve}}",
-        "winter_7": "{{i18n:Val.IceFestival}}",
-        "winter_16": "{{i18n:Val.NightMarket}}",
-        "winter_24": "{{i18n:Val.WinterStar}}",
+        "spring_12": "{{i18n:Coriander.EggFestiCoriander}}",
+        "spring_23": "{{i18n:Coriander.FlowerDance}}",
+        "summer_10": "{{i18n:Coriander.Luau}}",
+        "summer_27": "{{i18n:Coriander.MoonlightJelly}}",
+        "fall_15": "{{i18n:Coriander.SDVFair}}",
+        "fall_26": "{{i18n:Coriander.SpiritsEve}}",
+        "winter_7": "{{i18n:Coriander.IceFestiCoriander}}",
+        "winter_16": "{{i18n:Coriander.NightMarket}}",
+        "winter_24": "{{i18n:Coriander.WinterStar}}",
         // ROMANTIC (NEGATIVE)
-        "breakup": "{{i18n:Val.Breakup}}",
-        "divorced": "{{i18n:Val.Divorced}}",
-        "SpouseFarmhouseClutter": "{{i18n:Val.SpouseFarmhouseClutter}}",
-        "SpouseMonstersInHouse": "{{i18n:Val.SpouseMonstersInHouse}}",
-        "WipedMemory": "{{i18n:Val.WipedMemory}}",
+        "breakup": "{{i18n:Coriander.Breakup}}",
+        "divorced": "{{i18n:Coriander.Divorced}}",
+        "SpouseFarmhouseClutter": "{{i18n:Coriander.SpouseFarmhouseClutter}}",
+        "SpouseMonstersInHouse": "{{i18n:Coriander.SpouseMonstersInHouse}}",
+        "WipedMemory": "{{i18n:Coriander.WipedMemory}}",
         // ROMANTIC (POSITIVE)
-        "SpouseGiftJealous": "{{i18n:Val.SpouseGiftJealous}}",
-        "SpouseStardrop": "{{i18n:Val.Stardrop}}",
+        "SpouseGiftJealous": "{{i18n:Coriander.SpouseGiftJealous}}",
+        "SpouseStardrop": "{{i18n:Coriander.Stardrop}}",
         // RESORT
-        "Resort_Entering": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Leaving": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Shore": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Umbrella": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Wander": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Wander_2": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Chair": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Bar": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Towel": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Towel_2": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort_Towel_3": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
-        "Resort": "{{i18n:Val.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Entering": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Leaving": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Shore": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Umbrella": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Wander": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Wander_2": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Chair": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Bar": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Towel": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Towel_2": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort_Towel_3": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
+        "Resort": "{{i18n:Coriander.Resort.{{Random:{{Range: 1, 3}}}}}}",
         // GREEN RAIN
-        "GreenRain": "{{i18n:Val.GreenRain}}",
-        "GreenRainFinished": "{{i18n:Val.GreenRainFinished}}",
-        "GreenRain_2": "{{i18n:Val.GreenRain2}}",
+        "GreenRain": "{{i18n:Coriander.GreenRain}}",
+        "GreenRainFinished": "{{i18n:Coriander.GreenRainFinished}}",
+        "GreenRain_2": "{{i18n:Coriander.GreenRain2}}",
         // POLYAMORY DIALOGUE
-        "RejectMermaidPendant_IsPolyamorous_PlayerWithSomeoneMonogamous": "{{i18n:Val.MarriedMonogamousNPC}}",
+        "RejectMermaidPendant_IsPolyamorous_PlayerWithSomeoneMonogamous": "{{i18n:Coriander.MarriedMonogamousNPC}}",
         // TRASH REACT 
-        "DumpsterDiveComment": "{{i18n:Val.DumpsterDiveComment}}",
+        "DumpsterDiveComment": "{{i18n:Coriander.DumpsterDiveComment}}",
         // SLINGSHOT 
-        "HitBySlingshot": "{{i18n:Val.HitBySlingshot}}",
+        "HitBySlingshot": "{{i18n:Coriander.HitBySlingshot}}",
         // LOCATION ENTRIES 
-        "EastScarp_VillageInn_Entry": "{{i18n:Val.VillageInn}}",
-        "EastScarp_ArtificerHouse_Entry": "{{i18n:Val.ArtificerHouse}}",
-        "EastScarp_Village_Entry": "{{i18n:Val.EastScarp}}",
-        "EastScarp_Underforge_Entry": "{{i18n:Val.Underforge}}"
+        "EastScarp_VillageInn_Entry": "{{i18n:Coriander.VillageInn}}",
+        "EastScarp_ArtificerHouse_Entry": "{{i18n:Coriander.ArtificerHouse}}",
+        "EastScarp_Village_Entry": "{{i18n:Coriander.EastScarp}}",
+        "EastScarp_Underforge_Entry": "{{i18n:Coriander.Underforge}}"
       }
     }
   ]
