@@ -77,7 +77,7 @@
                 "{{V}}": {
                     //Love
                     "0": "{{i18n:Coriander.GiftReaction.Love}}",
-                    "1": "-2 food_sushi food_seafood 74 614 213 225 226 DN.SnS_GingerBeer DN.SnS_ZuZuPizza DN.SnS_ZuZuBagel DN.SnS_ZuZuCheesecake DN.SnS_ZuzuClamChowder {{CC}}_StarmiteToast {{CC}}_FishnChips {{CC}}_DragonRoll {{CC}}_EelPie {{CC}}_EelBowl",
+                    "1": "-2 food_sushi food_seafood 787 74 614 213 225 226 DN.SnS_GingerBeer DN.SnS_ZuZuPizza DN.SnS_ZuZuBagel DN.SnS_ZuZuCheesecake DN.SnS_ZuzuClamChowder {{CC}}_StarmiteToast {{CC}}_FishnChips {{CC}}_DragonRoll {{CC}}_EelPie {{CC}}_EelBowl",
 
                     //Like
                     "2": "{{i18n:Coriander.GiftReaction.Like}}",

@@ -28,6 +28,7 @@
         // LOVES
         "AcceptGift_(O)74": "{{i18n:Coriander.GiftReaction.PrismaticShard}}",
         "AcceptGift_(O)614": "{{i18n:Coriander.GiftReaction.GreenTea}}",
+        "AcceptGift_(O)787": "{{i18n:Coriander.GiftReaction.BatteryPack}}",
         "AcceptGift_(O)DN.SnS_GingerBeer": "{{i18n:Coriander.GiftReaction.GingerBeer}}",
         "AcceptGift_(O)DN.SnS_ZuZuPizza": "{{i18n:Coriander.GiftReaction.ZuZuPizza}}",
         "AcceptGift_(O)DN.SnS_ZuZuBagel": "{{i18n:Coriander.GiftReaction.ZuZuBagel}}",
