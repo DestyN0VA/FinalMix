@@ -67,7 +67,7 @@
             "LogName": "Load Companion Portrait Art",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/DN.SnS_Emeritus, Portraits/DN.SnS_Tom, Portraits/DN.SnS_Odelia, Portraits/DN.SnS_Winston, Portraits/DN.SnS_Nimfear, Portraits/DN.SnS_Solomon",
+            "Target": "Portraits/DN.SnS_Emeritus, Portraits/DN.SnS_Tom, Portraits/DN.SnS_Tom_Hoodie, Portraits/DN.SnS_Odelia, Portraits/DN.SnS_Winston, Portraits/DN.SnS_Nimfear, Portraits/DN.SnS_Solomon",
             "FromFile": "Assets/Models/Companions/Portraits/{{TargetWithoutPath}}/Default.png"
         }
     ]

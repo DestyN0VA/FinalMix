@@ -18,7 +18,7 @@
       "Entries": {
 
         //Val
-        "{{ModID}}_SalishBourbon": "638 1 262 1 635 1/null/{{ModID}}_SalishBourbon 1/false/{{i18n:Object.Salish-Bourbon.Name}}}",
+        "{{ModID}}_SalishBourbon": "638 1 262 1 635 1/null/{{ModID}}_SalishBourbon 1/false/{{i18n:Object.Salish-Bourbon.Name}}",
 
         //Cori
         "{{ModID}}_ZuzuPizza": "216 1 256 1 424 1/null/{{ModID}}_ZuzuPizza 1/null/{{i18n:Object.Zuzu-Pizza.Name}}",
