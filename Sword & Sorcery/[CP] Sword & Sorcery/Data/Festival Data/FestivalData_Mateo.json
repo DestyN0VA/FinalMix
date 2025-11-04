@@ -204,13 +204,13 @@
 				{	// LOCATION: SET UP (VANILLA)
 					"Operation": "Append",
 					"Target": ["Entries","Set-Up_additionalCharacters"],
-					"Value": "Mateo 99 40 1",
+					"Value": "Mateo 99 38 2",
 					"Delimiter": "/"
 				},
                 {   // LOCATION: MAIN EVENT (VANILLA)
 					"Operation": "Append",
 					"Target": ["Entries","Main-Event_additionalCharacters"],
-					"Value": "Mateo 99 40 1",
+					"Value": "Mateo 99 38 2",
 					"Delimiter": "/"
 				},
 				{	// LOCATION: SET UP Y2 (VANILLA)

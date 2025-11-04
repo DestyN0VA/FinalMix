@@ -217,7 +217,7 @@
       }
     }, 
 
-    {2
+    {
       "LogName": "Roslin and Dandelion's Intro",
       "Action": "EditData",
       "Target": "Data/Events/ManorHouse",
