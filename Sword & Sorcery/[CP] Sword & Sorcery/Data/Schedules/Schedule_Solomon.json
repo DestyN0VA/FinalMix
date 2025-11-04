@@ -19,7 +19,7 @@
 				"spring": "610 EastScarp_SolomonCavern 12 21 0 Solomon_read/1130 EastScarp_LionsMane 11 26/1200 EastScarp_LionsMane 11 26 Solomon_cross/2010 EastScarp_SolomonCavern 12 21 0 Solomon_read"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		}
 	]

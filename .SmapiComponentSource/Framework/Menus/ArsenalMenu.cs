@@ -995,9 +995,33 @@ public static class MonsterTakeDamagePatch
                         break;
 
                     case "(O)DN.SnS_ExquisiteRuby":
-                        DelayedAction.functionAfterDelay(() => { if (__instance.Health > 0) __instance.takeDamage((int)(damage * 0.1f), 0, 0, false, 0, "hitEnemy"); }, 1000);
-                        DelayedAction.functionAfterDelay(() => { if (__instance.Health > 0) __instance.takeDamage((int)(damage * 0.1f), 0, 0, false, 0, "hitEnemy"); }, 2000);
-                        DelayedAction.functionAfterDelay(() => { if (__instance.Health > 0) __instance.takeDamage((int)(damage * 0.1f), 0, 0, false, 0, "hitEnemy"); }, 3000);
+                        DelayedAction.functionAfterDelay(() => 
+                        {
+                            if (__instance.Health > 0)
+                            {
+                                __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
+                                if (__instance.Health <= 0)
+                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                            }
+                        }, 1000);
+                        DelayedAction.functionAfterDelay(() =>
+                        {
+                            if (__instance.Health > 0)
+                            {
+                                __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
+                                if (__instance.Health <= 0)
+                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                            }
+                        }, 2000);
+                        DelayedAction.functionAfterDelay(() =>
+                        {
+                            if (__instance.Health > 0)
+                            {
+                                __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
+                                if (__instance.Health <= 0)
+                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                            }
+                        }, 000);
                         break;
 
                     case "(O)DN.SnS_ExquisiteJade":
@@ -1049,11 +1073,34 @@ public static class MonsterTakeDamagePatch
                         break;
 
                     case "(O)DN.SnS_ExquisiteRuby":
-                        DelayedAction.functionAfterDelay(() => { if (__instance.Health > 0) __instance.takeDamage((int)(damage * 0.1f), 0, 0, false, 0, "hitEnemy"); }, 1000);
-                        DelayedAction.functionAfterDelay(() => { if (__instance.Health > 0) __instance.takeDamage((int)(damage * 0.1f), 0, 0, false, 0, "hitEnemy"); }, 2000);
-                        DelayedAction.functionAfterDelay(() => { if (__instance.Health > 0) __instance.takeDamage((int)(damage * 0.1f), 0, 0, false, 0, "hitEnemy"); }, 3000);
+                        DelayedAction.functionAfterDelay(() =>
+                        {
+                            if (__instance.Health > 0)
+                            {
+                                __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
+                                if (__instance.Health <= 0)
+                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                            }
+                        }, 1000);
+                        DelayedAction.functionAfterDelay(() =>
+                        {
+                            if (__instance.Health > 0)
+                            {
+                                __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
+                                if (__instance.Health <= 0)
+                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                            }
+                        }, 2000);
+                        DelayedAction.functionAfterDelay(() =>
+                        {
+                            if (__instance.Health > 0)
+                            {
+                                __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
+                                if (__instance.Health <= 0)
+                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                            }
+                        }, 000);
                         break;
-
                     case "(O)DN.SnS_ExquisiteJade":
                         if (!GameLocationDamageMonsterFlagsPatch.hasHealedYet)
                         {
@@ -1094,15 +1141,6 @@ public static class MonsterTakeDamagePatch
                 }
             }
         }
-    }
-
-    private class Pixel
-    {
-        public float X { get; set; }
-        public float Y { get; set; }
-        public Color Color { get; set; }
-        public float Scale { get; set; }
-        public Vector2 Velocity { get; set; }
     }
 }
 

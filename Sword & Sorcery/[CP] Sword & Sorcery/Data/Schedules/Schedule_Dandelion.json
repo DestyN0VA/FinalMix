@@ -9,7 +9,7 @@
 				"spring": "0 EastScarp_TNPCWaitingWarpRoom 14 5 2/1200 EastScarp_TNPCWaitingWarpRoom 14 6 2/1800 EastScarp_TNPCWaitingWarpRoom 14 5 2"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": false
 			}
 		},
 		{
@@ -22,7 +22,7 @@
 				"spring": "{{Random:610 EastScarp_LionsMane 12 26 0 Dandelion_readfront++610 EastScarp_LionsMane 7 27 0++610 EastScarp_LionsMane 2 26 3|inputSeparator=++}}/1100 EastScarp_LionsMane 8 16 1/1300 EastScarp_Village 66 76 2 Dandelion_loaf/1600 EastScarp_VillageInn 12 33 0/{{Random:1800 EastScarp_LionsMane 12 26 0 Dandelion_readfront++1800 EastScarp_LionsMane 7 27 0++1800 EastScarp_LionsMane 2 26 3|inputSeparator=++}}/2200 EastScarp_LionsMane 3 5 1"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		},
 		/*{
@@ -38,7 +38,7 @@
 				"winter_17": "GOTO winter_12"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		},*/
 		{
@@ -51,7 +51,7 @@
 				"summer_21": "GOTO summer_20"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		},
 		{
@@ -65,7 +65,7 @@
 				"DesertFestival_3": "GOTO DesertFestival"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		},
 		{
@@ -81,7 +81,7 @@
 			},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		}
 	]

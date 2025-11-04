@@ -20,7 +20,7 @@
         },
         "{{ModId}}_FireBallBig": {
           "Id": "{{ModId}}_FireBallBig",
-          "Texture": "Tilesheets/Fireball",
+          "Texture": "TileSheets/Fireball",
           "SourceRect": {
             "X": 0,
             "Y": 0,
@@ -151,7 +151,7 @@
                   "StunTime": 500,
                   "StunTAS": "{{ModId}}_FireBallBig",
                   "Range": 2000,
-                  "Texture": "Tilesheets/Fireball",
+                  "Texture": "TileSheets/Fireball",
                   "SpriteIndex": 0,
                   "Acceleration": 2,
                   "MinVelocity": 2,

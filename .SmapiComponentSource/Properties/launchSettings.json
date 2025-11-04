@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FinalMix": {
+      "commandName": "Project",
+      "commandLineArgs": "--mods-path \"Modding\""
+    }
+  }
+}

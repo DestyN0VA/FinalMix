@@ -56,6 +56,14 @@ namespace SwordAndSorcerySMAPI
             }
             return true;
         }
+
+        public static void Postfix(ParsedItemData data, ref Item __result)
+        {
+            if (data?.ItemId.StartsWithIgnoreCase("DN.SnS_longlivetheking") ?? false)
+            {
+                (__result as Tool).AttachmentSlotsCount = 2;
+            }
+        }
     }
 
     [HarmonyPatch(typeof(Slingshot), nameof(Slingshot.PerformFire))]
@@ -285,6 +293,7 @@ namespace SwordAndSorcerySMAPI
         {
             if (!__instance.ItemId.EqualsIgnoreCase("DN.SnS_longlivetheking_gun") && !__instance.ItemId.EqualsIgnoreCase("DN.SnS_longlivetheking")) return true;
 
+
             if (__instance is not MeleeWeapon)
                 y += (__instance.enchantments.Count > 0) ? 8 : 4;
             else
@@ -293,10 +302,23 @@ namespace SwordAndSorcerySMAPI
                 x += 260;
             }
 
-            ModSnS.Instance.Helper.Reflection.GetMethod(__instance, "DrawAttachmentSlot", true).Invoke([0, b, x, y]);
+            DrawAttachmentSlot(__instance, 0, b, x, y);
             y += 68;
-            ModSnS.Instance.Helper.Reflection.GetMethod(__instance, "DrawAttachmentSlot", true).Invoke([1, b, x, y]);
+            DrawAttachmentSlot(__instance, 1, b, x, y);
             return false;
+        }
+
+        private static void DrawAttachmentSlot(Tool t, int slot, SpriteBatch b, int x, int y)
+        {
+            Vector2 pixel = new(x, y);
+            GetSlotSprite(t, slot, out var texture, out var sourceRect);
+            b.Draw(texture, pixel, sourceRect, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0.86f);
+            t.attachments[slot]?.drawInMenu(b, pixel, 1f);
+        }
+        private static void GetSlotSprite(Tool t, int slot, out Texture2D texture, out Rectangle sourceRect)
+        {
+            texture = Game1.menuTexture;
+            sourceRect = Game1.getSourceRectForStandardTileSheet(Game1.menuTexture, t.attachments[slot] != null ? 10 : (slot != 0 ? 70 : 43));
         }
     }
 
@@ -390,32 +412,6 @@ namespace SwordAndSorcerySMAPI
                     __instance.attachments.Parent = parent;
                 }
             }
-        }
-    }
-
-    [HarmonyPatch(typeof(Tool), "GetAttachmentSlotSprite")]
-    public static class LLTKSlotSprites
-    {
-        public static void Postfix(Tool __instance, int slot, out Texture2D texture, out Rectangle sourceRect)
-        {
-            texture = Game1.menuTexture;
-            if (__instance.QualifiedItemId == "(W)DN.SnS_longlivetheking")
-                sourceRect = Game1.getSourceRectForStandardTileSheet(Game1.menuTexture, __instance.attachments[slot] != null ? 10 : (slot != 0 ? 70 : 43));
-            else
-                sourceRect = Game1.getSourceRectForStandardTileSheet(Game1.menuTexture, 10);
-        }
-    }
-
-    [HarmonyPatch(typeof(Slingshot), "GetAttachmentSlotSprite")]
-    public static class LLTKGunSlotSprites
-    {
-        public static void Postfix(Slingshot __instance, int slot, out Texture2D texture, out Rectangle sourceRect)
-        {
-            texture = Game1.menuTexture;
-            if (__instance.QualifiedItemId == "(W)DN.SnS_longlivetheking_gun")
-                sourceRect = Game1.getSourceRectForStandardTileSheet(Game1.menuTexture, __instance.attachments[slot] != null ? 10 : (slot != 0 ? 70 : 43));
-            else 
-                sourceRect = Game1.getSourceRectForStandardTileSheet(Game1.menuTexture, (__instance.AttachmentSlotsCount > 0 && __instance.attachments[0] == null) ? 43 : 10);
         }
     }
 

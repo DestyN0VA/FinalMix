@@ -19,7 +19,7 @@
 				"spring": "0 EastScarp_TNPCWaitingWarpRoom 11 5 2/1200 EastScarp_TNPCWaitingWarpRoom 11 6 2/1800 EastScarp_TNPCWaitingWarpRoom 11 5 2"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.1": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.1": false
 			}
 		},
 		{
@@ -32,8 +32,8 @@
 				"spring": "0 Mine 16 4 2/610 Mine 16 4 2 Mateo_sword/1300 Beach 43 34 2/1310 Beach 43 34 2 Mateo_sit_stare/{{Random: 1800 EastScarp_MateoHome 5 6 2 Mateo_violin++1800 EastScarp_MateoHome 5 6 2 Mateo_book++1800 EastScarp_MateoHome 5 6 2 Mateo_drink|InputSeparator=++}}"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.0": true,
-				"HasConversationTopic |contains=MateoPain": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.0": true,
+				"HasConversationTopic: anyPlayer |contains=MateoPain": false
 			}
 		},
 		{
@@ -53,8 +53,8 @@
 				"fall_Thu": "0 Mountain 63 14 2/610 63 14 2 Mateo_violin/1300 Beach 43 34 2/1310 Beach 43 34 2 Mateo_sit_stare/2000 EastScarp_CoastalGuild 8 5 2 Mateo_book"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.12": true,
-				"HasConversationTopic |contains=MateoPain": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.12": true,
+				"HasConversationTopic: anyPlayer |contains=MateoPain": false
 			}
 		},
 		{
@@ -70,8 +70,8 @@
 			},
 			"When": {
 				"HasFlag |contains=RivalHearts_AideenMateo": true,
-				"HasConversationTopic |contains=MateoPain": false,
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.12": true
+				"HasConversationTopic: anyPlayer |contains=MateoPain": false,
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.12": true
 			}
 		},
 		{
@@ -90,8 +90,8 @@
 			},
 			"When": {
 				"Hearts:Mateo": "10",
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.12": true,
-				"HasConversationTopic |contains=MateoPain": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.12": true,
+				"HasConversationTopic: anyPlayer |contains=MateoPain": false
 			}
 		},
 		{
@@ -109,8 +109,8 @@
 			},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.3": true,
-				"HasConversationTopic |contains=MateoPain": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.3": true,
+				"HasConversationTopic: anyPlayer |contains=MateoPain": false
 			}
 		},
 		{
@@ -120,7 +120,7 @@
 			"Entries": {
 				// Mateo will attend the Night Market & Squid Festival.
 				"rain": "0 Mine 16 4 2/610 Mine 16 4 2 Mateo_sword/1300 Beach 43 34 2/1310 Beach 43 34 2 Mateo_sit_stare/{{Random: 1800 EastScarp_CoastalGuild 8 5 2 Mateo_violin++1800 EastScarp_CoastalGuild 7 11 2 Mateo_book++1800 EastScarp_CoastalGuild 14 12 2 Mateo_drink++1800 EastScarp_CoastalGuild 24 15 2|InputSeparator=++}}",
-				"spring": "0 Mine 16 4 2/610 Mine 16 4 2 Mateo_sword/1300 Beach 43 34 2/1310 Beach 43 34 2 Mateo_sit_stare/{{Random: 1800 EastScarp_CoastalGuild 8 5 2 Mateo_violin++1800 EastScarp_CoastalGuild 7 11 2 Mateo_book++1800 EastScarp_CoastalGuild 14 12 2 Mateo_drink++1800 EastScarp_CoastalGuild 24 15 2|InputSeparator=++}}",
+				"spring": "0 Mine 16 4 2/610 Mine 16 4 2 Mateo_sword/1300 Beach 43 34 2/1310 Beach 43 34 2 Mateo_sit_stare/{{Random: 1800 EastScarp_CoastalGuild 8 5 2 Mateo_violin++1800 EastScarp_CoastalGuild 7 11 2 Mateo_book++1800 EastScarp_CoastalGuild 14 12 2 Mateo_drink++1800 EastScarp_CoastalGuild 24 15 2|InputSeparator=++}}"
 				/*"winter_12": "MAIL beachBridgeFixed/GOTO loiter/610 {{MateoSpawn}} 2/620 {{MateoSpawn}} 2 {{MateoAnimation}}/1300 Beach 67 25 2 {{MateoAnimation}}/2200 {{MateoSpawn}} 2 Mateo_book",
 				"winter_13": "GOTO winter_12",
 				"winter_15": "GOTO winter_12",
@@ -128,8 +128,8 @@
 				"winter_17": "GOTO winter_12"*/
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.3": true,
-				"HasConversationTopic |contains=MateoPain": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.3": true,
+				"HasConversationTopic: anyPlayer |contains=MateoPain": false
 			}
 		},
 		{
@@ -144,8 +144,8 @@
 				"summer_21": "GOTO summer_20"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.3": true,
-				"HasConversationTopic |contains=MateoPain": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.3": true,
+				"HasConversationTopic: anyPlayer |contains=MateoPain": false
 			}
 		},
 		{
@@ -161,8 +161,8 @@
 				"DesertFestival_3": "GOTO DesertFestival"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch1.Mateo.3": true,
-				"HasConversationTopic |contains=MateoPain": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch1.Mateo.3": true,
+				"HasConversationTopic: anyPlayer |contains=MateoPain": false
 			}
 		},
 		{
@@ -174,7 +174,7 @@
 				"spring": "0 EastScarp_TNPCWaitingWarpRoom 11 5 2/1200 EastScarp_TNPCWaitingWarpRoom 11 6 2/1800 EastScarp_TNPCWaitingWarpRoom 11 5 2"
 			},
 			"When": {
-				"HasConversationTopic |contains=MateoPain": true
+				"HasConversationTopic: anyPlayer |contains=MateoPain": true
 			}
 		},
 		{

@@ -120,7 +120,7 @@ namespace SwordAndSorcerySMAPI.Framework.Abilities
                 UnlockHint = I18n.Ability_Witchcraft_SpellUnlockHint,
                 Function = () =>
                 {
-                    Game1.player.AddCustomSkillExperience(ModTOP.SorcerySkill, 10 * WitchcraftExpMultiplier);
+                    Game1.player.AddCustomSkillExperience(ModCoT.DruidSkill, 10);
                     CastSpell(Ability.Abilities.GetValueOrDefault("spell_reviveplant"), Color.Magenta, () => RevivePlant());
                 }
             });

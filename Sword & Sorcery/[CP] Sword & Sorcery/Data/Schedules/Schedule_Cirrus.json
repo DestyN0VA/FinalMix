@@ -9,7 +9,7 @@
 				"spring": "0 EastScarp_TNPCWaitingWarpRoom 13 5 2/1200 EastScarp_TNPCWaitingWarpRoom 13 6 2/1800 EastScarp_TNPCWaitingWarpRoom 13 5 2"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.1": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.1": false
 			}
 		},
 		{
@@ -22,8 +22,8 @@
 				"spring": "610 EastScarp_VanInterior 11 4 2 {{Random:Cirrus_keyar++Cirrus_sing++Cirrus_wiggleidle++Cirrus_phone|inputSeparator=++}}/1000 EastScarp_VanInterior 5 4 0/1200 EastScarp_Village 82 79 Cirrus_sidesit/1400 EastScarp_Village 26 61 {{Random:Cirrus_keyar++Cirrus_sing++Cirrus_wiggleidle++Cirrus_phone|inputSeparator=++}}/1600 EastScarp_Village 54 40 2 Cirrus_phonesit/1800 EastScarp_Village 97 80 1/2200 EastScarp_VanInterior 11 4 2 {{Random:Cirrus_keyar++Cirrus_sing++Cirrus_wiggleidle++Cirrus_phone|inputSeparator=++}}"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.1": true,
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.13": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.1": true,
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.13": false
 			}
 		},
 		{
@@ -40,8 +40,8 @@
 				"fall_Thu": "GOTO fall_Tue"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.1": true,
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.13": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.1": true,
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.13": true
 			}
 		},
 		{
@@ -51,7 +51,7 @@
 			"Entries": {
 				// Cirrus will attend the Night Market & Squid Festival.
 				"rain": "610 EastScarp_LionsMane 18 5 1/1000 EastScarp_Lionsmane 21 16 0/1200 EastScarp_Lionsmane {{Random:21 26 2 Cirrus_wiggleidle++32 24 2 Cirrus_sing++21 16 0++30 13 3++33 6 3 Cirrus_sidesit|inputSeparator=++}}/1500 EastScarp_Lionsmane {{Random:21 26 2 Cirrus_wiggleidle++32 24 2 Cirrus_sing++21 16 0++30 13 3++33 6 3 Cirrus_sidesit|inputSeparator=++}}/1800 EastScarp_Lionsmane {{Random:21 26 2 Cirrus_wiggleidle++32 24 2 Cirrus_sing++21 16 0++30 13 3++33 6 3 Cirrus_sidesit|inputSeparator=++}}/2200 EastScarp_LionsMane 18 5 1",
-				"spring": "610 EastScarp_LionsMane 18 5 1/1000 EastScarp_Lionsmane 21 16 0/1200 EastScarp_Lionsmane {{Random:21 26 2 Cirrus_wiggleidle++32 24 2 Cirrus_sing++21 16 0++30 13 3++33 6 3 Cirrus_sidesit|inputSeparator=++}}/1500 EastScarp_Lionsmane {{Random:21 26 2 Cirrus_wiggleidle++32 24 2 Cirrus_sing++21 16 0++30 13 3++33 6 3 Cirrus_sidesit|inputSeparator=++}}/1800 EastScarp_Village 26 61 {{Random:Cirrus_keyar++Cirrus_sing++Cirrus_wiggleidle|inputSeparator=++}}/2000 EastScarp_Village 54 6 3/2200 EastScarp_LionsMane 18 5 1",
+				"spring": "610 EastScarp_LionsMane 18 5 1/1000 EastScarp_Lionsmane 21 16 0/1200 EastScarp_Lionsmane {{Random:21 26 2 Cirrus_wiggleidle++32 24 2 Cirrus_sing++21 16 0++30 13 3++33 6 3 Cirrus_sidesit|inputSeparator=++}}/1500 EastScarp_Lionsmane {{Random:21 26 2 Cirrus_wiggleidle++32 24 2 Cirrus_sing++21 16 0++30 13 3++33 6 3 Cirrus_sidesit|inputSeparator=++}}/1800 EastScarp_Village 26 61 {{Random:Cirrus_keyar++Cirrus_sing++Cirrus_wiggleidle|inputSeparator=++}}/2000 EastScarp_Village 54 6 3/2200 EastScarp_LionsMane 18 5 1"
 				/*"winter_12": "MAIL beachBridgeFixed/GOTO spring/610 EastScarp_LionsMane 18 5 1/1000 EastScarp_Lionsmane 21 16 0/1200 EastScarp_Lionsmane {{Random:21 26 2 Cirrus_wiggleidle++32 24 2 Cirrus_sing++21 16 0++30 13 3++33 6 3 Cirrus_sidesit|inputSeparator=++}}/1300 Beach 66 25 2 Cirrus_wiggleidle/2200 EastScarp_LionsMane 18 5 1",
 				"winter_13": "GOTO winter_12",
 				"winter_15": "GOTO winter_12",
@@ -59,8 +59,8 @@
 				"winter_17": "GOTO winter_12"*/
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.1": true,
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.13": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.1": true,
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.13": true
 			}
 		},
 		{
@@ -75,8 +75,8 @@
 				"summer_21": "GOTO summer_20"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.1": true,
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.13": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.1": true,
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.13": true
 			}
 		},
 		{
@@ -92,8 +92,8 @@
 				"DesertFestival_3": "GOTO DesertFestival"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.1": true,
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.13": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.1": true,
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.13": true
 			}
 		},
 		{
@@ -110,7 +110,7 @@
 			},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasSeenEvent |contains=SnS.Ch3.Cirrus.13": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Cirrus.13": true
 			}
 		},
 		{

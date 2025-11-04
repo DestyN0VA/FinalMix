@@ -9,7 +9,7 @@
 				"spring": "0 EastScarp_TNPCWaitingWarpRoom 15 5 2/1200 EastScarp_TNPCWaitingWarpRoom 15 6 2/1800 EastScarp_TNPCWaitingWarpRoom 15 5 2"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch3.Roslin.1": false
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch3.Roslin.1": false
 			}
 		},
 		{
@@ -22,7 +22,7 @@
 				"spring": "{{Random:0 EastScarp_CoastalGuild 10 15 1 Roslin_sidemagic++0 EastScarp_CoastalGuild 18 13 2 Roslin_frontmagic++0 EastScarp_CoastalGuild 11 12 2 Roslin_fidget++0 EastScarp_CoastalGuild 7 11 2 Roslin_fidget2++0 EastScarp_LionsMane 29 30 2 Roslin_frontmagic++0 EastScarp_LionsMane 18 31 1 Roslin_sidemagic++0 EastScarp_LionsMane 33 32 2 Roslin_fidget++0 EastScarp_LionsMane 33 28 2 Roslin_fidget2++0 EastScarp_DruidTower 8 26 1 Roslin_sidemagic++0 EastScarp_DruidTower 11 16 2 Roslin_frontmagic++0 EastScarp_DruidTower 9 8 2 Roslin_fidget++0 EastScarp_DruidTower 4 14 2 Roslin_fidget2|inputSeparator=++}}/{{Random:1400 EastScarp_CoastalGuild 10 15 1 Roslin_sidemagic++1400 EastScarp_CoastalGuild 18 13 2 Roslin_frontmagic++1400 EastScarp_CoastalGuild 11 12 2 Roslin_fidget++1400 EastScarp_CoastalGuild 7 11 2 Roslin_fidget2++1400 EastScarp_LionsMane 29 30 2 Roslin_frontmagic++1400 EastScarp_LionsMane 18 31 1 Roslin_sidemagic++1400 EastScarp_LionsMane 33 32 2 Roslin_fidget++1400 EastScarp_LionsMane 33 28 2 Roslin_fidget2++1400 EastScarp_DruidTower 8 26 1 Roslin_sidemagic++1400 EastScarp_DruidTower 11 16 2 Roslin_frontmagic++1400 EastScarp_DruidTower 9 8 2 Roslin_fidget++1400 EastScarp_DruidTower 4 14 2 Roslin_fidget2|inputSeparator=++}}/2200 EastScarp_LionsMane 5 5 3"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.1": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.1": true
 			}
 		},
 		{
@@ -35,8 +35,8 @@
 				"spring": "{{Random:610 EastScarp_LionsMane 10 6 0++610 EastScarp_LionsMane 12 8 1 Roslin_sidemagic++610 EastScarp_LionsMane 11 7 2 Roslin_frontmagic|inputSeparator=++}}/1100 EastScarp_LionsMane 11 16 3/1300 EastScarp_Village 67 76 2 Roslin_fidget/1600 EastScarp_VillageInn 12 31 2/{{Random:1800 EastScarp_LionsMane 10 6 0++1800 EastScarp_LionsMane 12 8 1 Roslin_sidemagic++1800 EastScarp_LionsMane 11 7 2 Roslin_frontmagic|inputSeparator=++}}/2200 EastScarp_LionsMane 5 5 3"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.1": true,
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.1": true,
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		},
 		/*{
@@ -52,7 +52,7 @@
 				"winter_17": "GOTO winter_12"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		},*/
 		{
@@ -65,7 +65,7 @@
 				"summer_21": "GOTO summer_20"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		},
 		{
@@ -79,7 +79,7 @@
 				"DesertFestival_3": "GOTO DesertFestival"
 			},
 			"When": {
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		},
 		{
@@ -95,7 +95,7 @@
 			},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasSeenEvent |contains=SnS.Ch4.Roslin.6": true
+				"HasSeenEvent: anyPlayer |contains=SnS.Ch4.Roslin.6": true
 			}
 		}
 	]
