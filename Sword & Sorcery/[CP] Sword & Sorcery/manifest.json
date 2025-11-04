@@ -1,7 +1,7 @@
 {
 	"Name": "Sword & Sorcery [CP]",
 	"Author": "DestyNova",
-	"Version": "2.3.5",
+	"Version": "2.3.6",
 	"Description": "A fantasy expansion for East Scarp that includes NPCs, Skills, Crops, Weapons, Items & More!",
 	"UniqueID": "DN.SnS",
 	"ContentPackFor": {
@@ -16,7 +16,7 @@
 			"IsRequired": true
 		},
 		{
-			"UniqueID": "LemurKat.EastScarpe.CP",
+			"UniqueID": "LemurKat.EastScarp",
 			"IsRequired": true
 		},
 		{
