@@ -70,7 +70,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=SnS.Ch2.Hector.16": true,
-				"Spouse: anyPlacer |contains=Hector": true
+				"Spouse: anyPlayer |contains=Hector": true
 			}
 		},
 		{
@@ -88,7 +88,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=SnS.Ch2.Hector.18": true,
-				"Spouse: anyPlacer": "Hector"
+				"Spouse: anyPlayer": "Hector"
 			}
 		},
 		{
@@ -106,7 +106,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=SnS.Ch2.Hector.6": true,
-				"Spouse: anyPlacer |contains=Hector": false
+				"Spouse: anyPlayer |contains=Hector": false
 			}
 		},
 		{
@@ -121,7 +121,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=SnS.Ch2.Hector.6": true,
-				"Spouse: anyPlacer |contains=Hector": false
+				"Spouse: anyPlayer |contains=Hector": false
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=SnS.Ch2.Hector.6": true,
-				"Spouse: anyPlacer |contains=Hector": false
+				"Spouse: anyPlayer |contains=Hector": false
 			}
 		},
 		{
@@ -155,7 +155,7 @@
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasSeenEvent: anyPlayer |contains=SnS.Ch2.Hector.6": true,
-				"Spouse: anyPlacer |contains=Hector": false
+				"Spouse: anyPlayer |contains=Hector": false
 			}
 		}
 	]
