@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Tom Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/DN.SnS_Tom",
+      "Entries": {
+        "{{WeekDay}}": "Hello, I am placeholder dialogue. Please don't report me as a bug!+"
+      }
+    }
+  ]
+}

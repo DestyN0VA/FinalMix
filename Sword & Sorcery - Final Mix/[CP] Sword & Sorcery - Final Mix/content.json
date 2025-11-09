@@ -104,6 +104,7 @@
         "When": { "HasProfession": "-197421760" } },
 
   //NPC Specific
+    //Val
   { "Name": "ValDialogueMax", "Value": 55 },
   { "Name": "ValDialogueMax", "Value": 110,
         "When": {  "HasSeenEvent": "DN.Val.8H" } },
@@ -112,8 +113,20 @@
 
   { "Name": "ValRomanceSwitch", "Value": false },
   { "Name": "ValRomanceSwitch", "Value": true,
-        "When": {  "HasFlag": "Dating_Val" } }
+        "When": {  "HasFlag": "Dating_Val" } },
+
+    //Coriander
+  { "Name": "CorianderDialogueMax", "Value": 55 },
+  { "Name": "CorianderDialogueMax", "Value": 110,
+        "When": {  "HasSeenEvent": "DN.Coriander.6H" } },
+  { "Name": "CorianderDialogueMax", "Value": 110,
+        "When": {  "HasFlag": "Dating_Coriander" } },
+
+  { "Name": "CorianderRomanceSwitch", "Value": false },
+  { "Name": "CorianderRomanceSwitch", "Value": true,
+        "When": {  "HasFlag": "Dating_Coriander" } }
   ],
+  
 
   "ConfigSchema": {
     "Player Pronouns 1": {

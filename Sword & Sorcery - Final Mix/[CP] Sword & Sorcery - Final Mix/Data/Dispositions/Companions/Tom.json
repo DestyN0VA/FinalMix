@@ -1,6 +1,58 @@
 {
     "Changes": [
-        {
+         {
+            "LogName": "NPC Dispositions - Tom",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{ModID}}_Tom": {
+                    "DisplayName": "{{i18n:Tom.Name}}",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "HomeRegion": "Town",
+                    "CanBeRomanced": false,
+                    "CanSocialize": false,
+                    "CanReceiveGifts": false,
+                    "CanGreetNearbyCharacters": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "LoveInterest": "Critter",
+                    "PerfectionScore": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "SocialTab": "UnknownUntilMet",
+                    "Calendar": "HiddenUntilMet",
+                    "IntroductionsQuest": false,
+                    "FlowerDanceCanDance": false,
+                    "CanVisitIsland": false,
+                    "WinterStarParticipant": false,
+                    "IsDarkSkinned": false,
+                    "DumpsterDiveEmote": 0, 
+                    "DumpsterDiveFriendshipEffect": 0, 
+                    //"UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current DN.X.0H",
+                    "ShakePortraits": [],
+                    "ItemDeliveryQuests": false,
+                    "Home": [
+                        {
+                            "ID": "Tom - Spawn",
+                            "Location": "EastScarp_ThiefTreehouse",
+                            "Tile": { "X": 10, "Y": 10 },
+                            "Direction": "Down"
+                        }
+                    ],
+                    "Appearance": [
+                        // SPRING
+                        {
+                            "ID": "Default",
+                            "Precedence": -10,
+                            "Weight": 1,
+                            "Portrait": "Portraits/DN.SnS_Tom",
+                            "Sprite": "Characters/DN.SnS_Tom"
+                        }
+                    ]
+                }
+            }
+        }
+        /*{
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Entries": {
@@ -33,6 +85,6 @@
                     "HomeTileY": 10
                 }
             }
-        }
+        }*/
     ]
 }

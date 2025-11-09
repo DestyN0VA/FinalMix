@@ -18,7 +18,7 @@
         "AcceptGift_category_fruit": "{{i18n:Coriander.GiftReaction.Fruit}}",
         "AcceptGift_category_vegetables": "{{i18n:Coriander.GiftReaction.Vegetables}}",
         "AcceptGift_category_flowers": "{{i18n:Coriander.GiftReaction.Flowers}}",
-        "RejectItem_category_fish": "{{i18n:Coriander.GiftReaction.Fish}",
+        "RejectItem_category_fish": "{{i18n:Coriander.GiftReaction.Fish}}",
         "RejectItem_category_trash": "{{i18n:Coriander.GiftReaction.Negative}}",
         "RejectItem_category_junk": "{{i18n:Coriander.GiftReaction.Negative}}",
         "RejectItem_alcohol_item": "{{i18n:Coriander.GiftReject.Alcohol}}",
