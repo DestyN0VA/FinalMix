@@ -408,7 +408,7 @@ namespace SwordAndSorcerySMAPI
             I18n.Init(Helper.Translation);
             Config = Helper.ReadConfig<Configuration>();
 
-            Event.RegisterCommand("sns_rogueunlock", (Event @event, string[] args, EventContext context) =>
+            Event.RegisterCommand("sns_rogueunlock", (@event, args, context) =>
             {
                 // This implementation is incredibly lazy
                 ArgUtility.TryGetVector2(args, 1, out Vector2 center, out string error);
@@ -494,16 +494,16 @@ namespace SwordAndSorcerySMAPI
                 @event.CurrentCommand++;
             });
 
-            Event.RegisterCommand("sns_lock_finale", (Event @event, string[] args, EventContext context) =>
+            Event.RegisterCommand("sns_lock_finale", (@event, args, context) =>
             {
                 Game1.player.GetFarmerExtData().DoingFinale.Value = true;
                 @event.CurrentCommand++;
             });
-            Event.RegisterCommand("sns_finale_phase1", (Event @event, string[] args, EventContext context) =>
+            Event.RegisterCommand("sns_finale_phase1", (@event, args, context) =>
             {
                 Game1.currentMinigame ??= new FinalePhase1Minigame(@event, context);
             });
-            Event.RegisterCommand("sns_finale_phase2", (Event @event, string[] args, EventContext context) =>
+            Event.RegisterCommand("sns_finale_phase2", (@event, args, context) =>
             {
                 State.DoFinale = true;
                 @event.CurrentCommand++;
@@ -622,7 +622,7 @@ namespace SwordAndSorcerySMAPI
                 Description = I18n.Ability_Remotearsenal_Description,
                 TexturePath = "Textures/DN.SnS/SnSObjects",
                 SpriteIndex = 21,
-                KnownCondition2 = () => ModTOP.PaladinSkill.ShouldShowOnSkillsPage,
+                KnownCondition2 = () => RogueSkill.ShouldShowOnSkillsPage,
                 HiddenIfLocked = true,
                 ManaCost = () => 0,
                 Function = () =>
