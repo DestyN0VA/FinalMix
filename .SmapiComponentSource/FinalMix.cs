@@ -54,7 +54,7 @@ internal class FinalMix : Mod
             if (!ArgUtility.TryGet(query, 1, out var value, out var error, allowBlank: true, "string playerKey"))
                 return GameStateQuery.Helpers.ErrorResult(query, error);
 
-            return GameStateQuery.Helpers.WithPlayer(context.Player, value, (Farmer target) => target.hasOrWillReceiveMail("DN.SnS_ArtificerUnlocked"));
+            return GameStateQuery.Helpers.WithPlayer(context.Player, value, (target) => target.hasOrWillReceiveMail("DN.SnS_ArtificerUnlocked"));
         });
 
         Harmony harmony = new(ModManifest.UniqueID);

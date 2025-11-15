@@ -1,6 +1,7 @@
 ﻿using ContentPatcher;
 using StardewModdingAPI;
 using StardewValley;
+using FinalMix.TemporaryTokenForSpellbook;
 
 namespace FinalMix.ModIntegrations;
 
@@ -21,6 +22,8 @@ internal static class Tokens
 
             return [player.hasOrWillReceiveMail("ET.SnS_ArtificerUnlocked") ? "true" : "false"];
         });
+
+        ContentPatcher.RegisterToken(FinalMix.Instance.ModManifest, "PlayerStat", new PlayerStatToken());
 
         //Register tokens here:
     }

@@ -336,7 +336,7 @@ internal static class EssencesFromTrees
     [HarmonyPostfix]
     public static void PerformTreeFallPostfix(Tree __instance, Tool t)
     {
-        Farmer who = t.lastUser ?? Game1.player;
+        Farmer who = t?.lastUser ?? Game1.player;
 
         if (Game1.random.NextDouble() < 0.25)
             Game1.createObjectDebris(EssenceUtility.DruidicEssenceID, (int)__instance.Tile.X, (int)__instance.Tile.Y, who.UniqueMultiplayerID, __instance.Location);
