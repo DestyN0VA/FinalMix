@@ -52,7 +52,7 @@
             "LogName": "Load Companion Character Art",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.SnS_Emeritus, Characters/DN.SnS_Tom, Characters/DN.SnS_Odelia, Characters/DN.SnS_Winston, Characters/DN.SnS_Nimfear, Characters/DN.SnS_Solomon",
+            "Target": "Characters/DN.SnS_Emeritus, Characters/DN.SnS_Odelia, Characters/DN.SnS_Winston, Characters/DN.SnS_Nimfear, Characters/DN.SnS_Solomon",
             "FromFile": "Assets/Models/Companions/Characters/{{TargetWithoutPath}}/Default.png"
         },
         {
@@ -67,15 +67,8 @@
             "LogName": "Load Companion Portrait Art",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Portraits/DN.SnS_Emeritus, Portraits/DN.SnS_Tom, Portraits/DN.SnS_Odelia, Portraits/DN.SnS_Winston, Portraits/DN.SnS_Nimfear, Portraits/DN.SnS_Solomon",
+            "Target": "Portraits/DN.SnS_Emeritus, Portraits/DN.SnS_Odelia, Portraits/DN.SnS_Winston, Portraits/DN.SnS_Nimfear, Portraits/DN.SnS_Solomon",
             "FromFile": "Assets/Models/Companions/Portraits/{{TargetWithoutPath}}/Default.png"
-        },
-        {
-            "LogName": "Load Companion Portrait Art",
-            "Action": "Load",
-            "Priority": "Low",
-            "Target": "Portraits/DN.SnS_Tom_Hoodie",
-            "FromFile": "Assets/Models/Companions/Portraits/DN.SnS_Tom/Tom_Hoodie.png"
         }
     ]
 }

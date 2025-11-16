@@ -10,12 +10,22 @@
 		{
 			"LogName": "S&S Final Mix: Data Includes",
 			"Action": "Include",
-			"FromFile": "Data/Dialogue/Tom/CoreDialogue_Tom.json, Data/Festivals/FestivalData_Val.json, Data/Museum.json, Data/Locations/Strings/Strings_ArtificerHouse.json, Data/Dialogue/Val/ConversationTopics_Val.json, Data/Dialogue/Val/GiftResponses_Val.json, Data/Schedules/Schedule_Val.json, Data/Dialogue/Val/CoreDialogue_Val.json, Data/Dialogue/Val/FilmReacts_Val.json, Data/Graphics/Appearance_Val.json, Data/Music.json, Data/Quests.json, Data/Strings.json, Data/Mail.json, Data/Graphics/Maps.json, Data/Graphics/Characters.json, Data/Graphics/TemporaryActors.json, Data/Dispositions/Main/Val.json, Data/Dispositions/Main/Coriander.json, Data/Dispositions/Main/Hector.json, Data/Dispositions/Main/Dandelion.json, Data/Dispositions/Main/Roslin.json, Data/Dispositions/Main/Lorin.json, Data/Dispositions/Main/Arden.json, Data/Dispositions/Companions/Emeritus.json, Data/Dispositions/Companions/Odelia.json, Data/Dispositions/Companions/Tom.json, Data/Dispositions/Companions/Winston.json, Data/Dispositions/Companions/Nimfear.json, Data/Dispositions/Companions/Solomon.json, Data/Dialogue/Global.json, Data/Events/HeartEvents_Arden.json, Data/Events/HeartEvents_Coriander.json, Data/Events/HeartEvents_Dandelion.json, Data/Events/HeartEvents_Hector.json, Data/Events/HeartEvents_Lorin.json, Data/Events/HeartEvents_Roslin.json, Data/Events/HeartEvents_Val.json, Data/Locations/ArtificerHouse.json, Data/Locations/BardHouse.json, Data/Locations/CoastBeyond.json, Data/Locations/DeepMountains.json, Data/Locations/DruidTower.json, Data/Locations/Forest.json, Data/Locations/RangerTower.json, Data/Locations/SorcererHouse.json, Data/Locations/Temporary.json, Data/Locations/ThiefTreehouse.json, Data/Locations/TwilightOverlook.json, Data/Locations/YggdrasilGrove.json, Data/Locations/DragoonCabin.json, Data/Graphics/Misc.json, data/locations/Underforge.json"
+			"FromFile": "Data/Music.json, Data/Quests.json, Data/Strings.json, Data/Mail.json, Data/Graphics/Maps.json, Data/Graphics/Characters.json, Data/Graphics/TemporaryActors.json, Data/Dispositions/Main/Coriander.json, Data/Dispositions/Main/Hector.json, Data/Dispositions/Main/Dandelion.json, Data/Dispositions/Main/Roslin.json, Data/Dispositions/Main/Lorin.json, Data/Dispositions/Main/Arden.json, Data/Dispositions/Companions/Emeritus.json, Data/Dispositions/Companions/Odelia.json, Data/Dispositions/Companions/Winston.json, Data/Dispositions/Companions/Nimfear.json, Data/Dispositions/Companions/Solomon.json, Data/Dialogue/Global.json, Data/Events/HeartEvents_Arden.json, Data/Events/HeartEvents_Coriander.json, Data/Events/HeartEvents_Dandelion.json, Data/Events/HeartEvents_Hector.json, Data/Events/HeartEvents_Lorin.json, Data/Events/HeartEvents_Roslin.json, Data/Locations/ArtificerHouse.json, Data/Locations/BardHouse.json, Data/Locations/CoastBeyond.json, Data/Locations/DeepMountains.json, Data/Locations/DruidTower.json, Data/Locations/Forest.json, Data/Locations/RangerTower.json, Data/Locations/SorcererHouse.json, Data/Locations/Temporary.json, Data/Locations/ThiefTreehouse.json, Data/Locations/TwilightOverlook.json, Data/Locations/YggdrasilGrove.json, Data/Locations/DragoonCabin.json, Data/Graphics/Misc.json, data/locations/Underforge.json"
+		},
+		{
+			"LogName": "S&S Final Mix: Data Includes - Val",
+			"Action": "Include",
+			"FromFile": " Data/Festivals/FestivalData_Val.json, Data/Museum.json, Data/Locations/Strings/Strings_ArtificerHouse.json, Data/Dialogue/Val/ConversationTopics_Val.json, Data/Dialogue/Val/GiftResponses_Val.json, Data/Schedules/Schedule_Val.json, Data/Dialogue/Val/CoreDialogue_Val.json, Data/Dialogue/Val/FilmReacts_Val.json, Data/Graphics/Appearance_Val.json, Data/Dispositions/Main/Val.json, Data/Events/HeartEvents_Val.json"
 		},
 		{
 			"LogName": "S&S Final Mix: Data Includes - Coriander",
 			"Action": "Include",
 			"FromFile": "Data/Dialogue/Coriander/ConversationTopics_Coriander.json, Data/Dialogue/Coriander/GiftResponses_Coriander.json, Data/Dialogue/Coriander/CoreDialogue_Coriander.json, Data/Dialogue/Coriander/FilmReacts_Coriander.json"
+		},
+		{
+			"LogName": "S&S Final Mix: Data Includes - Tom",
+			"Action": "Include",
+			"FromFile": "Data/Dispositions/Companions/Tom.json, Data/Dialogue/Tom/CoreDialogue_Tom.json, Data/Graphics/Appearance_Tom.json"
 		},
 		{
 			"LogName": "S&S Final Mix: Item Include",

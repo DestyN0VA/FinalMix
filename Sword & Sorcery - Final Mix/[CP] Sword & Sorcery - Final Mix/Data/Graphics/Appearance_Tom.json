@@ -1,0 +1,69 @@
+{
+    "Changes": [
+//LOADS
+    // BASE LOADS
+        {
+            "LogName": "Load Default Base",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Characters/DN.SnS_Tom, Portraits/DN.SnS_Tom",
+            "FromFile": "Assets/Models/Companions/{{TargetPathOnly}}/{{TargetWithoutPath}}/Default.png"
+        },
+        {
+            "LogName": "Load Default Base",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Characters/DN.SnS_Tom/Default, Portraits/DN.SnS_Tom/Default, Characters/DN.SnS_Tom/Hoodie_1, Portraits/DN.SnS_Tom/Hoodie_1, Characters/DN.SnS_Tom/Collar, Portraits/DN.SnS_Tom/Collar",
+            "FromFile": "Assets/Models/Companions/{{TargetPathOnly}}/Default.png"
+        },
+    // OUTFIT OVERLAYS
+        {
+            "LogName": "Overlay Outfits",
+            "Action": "EditImage",
+            "Priority": "Early",
+            "PatchMode": "Overlay",
+            "Target": "Characters/DN.SnS_Tom/Hoodie_1, Portraits/DN.SnS_Tom/Hoodie_1, Characters/DN.SnS_Tom/Collar, Portraits/DN.SnS_Tom/Collar",
+            "FromFile": "Assets/Models/Companions/{{TargetPathOnly}}/Outfits/{{TargetWithoutPath}}.png"
+        },
+    // FEATURE OVERLAYS
+        {
+            "LogName": "Overlay Tuffs",
+            "Action": "EditImage",
+            "Priority": "Early",
+            "PatchMode": "Overlay",
+            "Target": "Portraits/DN.SnS_Tom/Default, Portraits/DN.SnS_Tom, Portraits/DN.SnS_Tom/Collar",
+            "FromFile": "Assets/Models/Companions/Portraits/DN.SnS_Tom/Outfits/Tuffs.png"
+        },
+//APPEARANCE DATA
+        {
+            "Action": "EditData", //Note to self: Remember schedule will only run in testing if 0h is seen
+            "Target": "Data/Characters",
+            "Priority": "Late",
+            "TargetField": [ "DN.SnS_Tom" ],
+            "Entries": {
+                "Appearance": [
+                {
+                    "ID": "Default",
+                    "Precedence": -10, "Weight": 1,
+                    "Portrait": "Portraits/DN.SnS_Tom/Default",
+                    "Sprite": "Characters/DN.SnS_Tom/Default"
+                },
+                {
+                    "ID": "Collar",
+                    "Precedence": -10, "Weight": 1,
+                    "Portrait": "Portraits/DN.SnS_Tom/Collar",
+                    "Sprite": "Characters/DN.SnS_Tom/Collar",
+                    "Condition": "IS_EVENT DN.Coriander.5H"
+                },
+                {
+                    "ID": "Hoodie",
+                    "Precedence": -10, "Weight": 1,
+                    "Portrait": "Portraits/DN.SnS_Tom/Hoodie_1",
+                    "Sprite": "Characters/DN.SnS_Tom/Hoodie_1",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current DN.Coriander.5H"
+                }     
+                ]
+            }
+        }
+    ]
+}
