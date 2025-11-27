@@ -1,17 +1,17 @@
 ﻿using ContentPatcher;
+using FinalMix.Drops;
+using FinalMix.VanillaExtensions;
+using FinalMix.Mod_Integrations;
 using FinalMix.ModIntegrations;
 using FinalMix.Skills;
 using FinalMix.Util;
+using HarmonyLib;
 using SpaceShared.APIs;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
-using StardewValley;
 using StardewUI.Framework;
-using HarmonyLib;
+using StardewValley;
 using System.Runtime.CompilerServices;
-using FinalMix.Patches;
-using FinalMix.Menus;
-using FinalMix.Mod_Integrations;
 
 namespace FinalMix;
 
@@ -48,6 +48,7 @@ internal class FinalMix : Mod
         Helper.Events.Display.RenderedWorld += EssenceUtility.EssencesDuringRain;
         Helper.Events.GameLoop.DayStarted += EssenceUtility.ResetDayStarted;
         Helper.Events.Player.Warped += EssenceUtility.ResetLocationChange;
+        //Helper.Events.Input.ButtonPressed += Input_ButtonPressed;
 
         GameStateQuery.Register("DN.SNS_PLAYER_HAS_ARTIFICER", (query, context) =>
         {
@@ -57,17 +58,47 @@ internal class FinalMix : Mod
             return GameStateQuery.Helpers.WithPlayer(context.Player, value, (target) => target.hasOrWillReceiveMail("DN.SnS_ArtificerUnlocked"));
         });
 
+        helper.ConsoleCommands.Add("SnS_ApplyMateria", "Test command: applies a materia type to an item", (cmd, args) =>
+        {
+            Log.Warn(args.Join());
+            if (!ArgUtility.TryGet(args, 0, out string effect, out string err, false, "string Effect") || !ArgUtility.TryGetInt(args, 1, out int rank, out err))
+                Log.Error(err);
+            else
+            {
+                const string EffectKey = "DN.SnS_MateriaType";
+                const string RankKey = "DN.SnS_MateriaRank";
+                Game1.player.ActiveItem?.modData.Add(EffectKey, effect);
+                Game1.player.ActiveItem?.modData.Add(RankKey, $"{rank}");
+            }
+        });
+
         Harmony harmony = new(ModManifest.UniqueID);
         harmony.PatchAll();
     }
 
+    /*private void Input_ButtonPressed(object? sender, ButtonPressedEventArgs e)
+    {
+        if (Game1.activeClickableMenu == null && e.Button == SButton.LeftStick)
+        {
+            UnderforgeMenuContext ctx = new();
+            IMenuController ctrl = StarUI.CreateMenuControllerFromAsset("DN.SnS/Views/UnderforgeMenu", ctx);
+            ctrl.CanClose = () => !ctx.Choosing && ctx.Slot.Item == null;
+            ctrl.CloseAction = () =>
+            {
+                SlotData.ResetForExit();
+                ctrl.Menu.exitThisMenu();
+                ctrl.Dispose();
+            };
+            Game1.activeClickableMenu = ctrl.Menu;
+        }
+    }*/
+
     private void GameLaunched(object? sender, GameLaunchedEventArgs e)
     {
-        Tokens.RegisterTokens(Helper.ModRegistry.GetApi<IContentPatcherAPI>("pathoschild.ContentPatcher")!);
+        TokenRegistrar.RegisterTokens(Helper.ModRegistry.GetApi<IContentPatcherAPI>("pathoschild.ContentPatcher")!);
 
         if (GMCM != null)
             ConfigMenu.SetUpGMCM(GMCM);
-
 
         ArtificerSkill = new();
         SpaceSkills.RegisterSkill(ArtificerSkill);

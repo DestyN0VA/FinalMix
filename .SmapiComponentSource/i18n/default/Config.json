@@ -1,4 +1,4 @@
 {
   "Config.EnableEssenceRainVisuals.Name": "Essence Rain Visuals",
-  "Config.EnableEssenceRainVisuals.Description": "",
+  "Config.EnableEssenceRainVisuals.Description": "Enable the essence sprite visuals during rain.\nThis will not stop essences appearing during rainy weather, only the visual of it."
 }

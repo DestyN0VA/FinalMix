@@ -4,7 +4,7 @@ using StardewValley;
 using StardewValley.Extensions;
 using Object = StardewValley.Object;
 
-namespace FinalMix.Patches;
+namespace FinalMix.Drops;
 
 public static class PureOreUtility
 {
@@ -45,7 +45,7 @@ public static class Game1ChangeGemToExquisitePatch
         if (PureOresCheck.BreakingStone <= 0)
             return;
 
-        if (PureOreUtility.PureOreMappings.TryGetValue(id, out var newId) && Game1.random.NextBool(0.2f + Math.Clamp(Game1.player.GetCustomSkillLevel(FinalMix.ArtificerSkill), 0, 4) * 0.05f))
+        if (PureOreUtility.PureOreMappings.TryGetValue(id, out var newId) && Game1.random.NextBool(0.2f /*+ Math.Clamp(Game1.player.GetCustomSkillLevel(FinalMix.ArtificerSkill), 0, 5) * 0.05f*/))
             id = newId;
     }
 }

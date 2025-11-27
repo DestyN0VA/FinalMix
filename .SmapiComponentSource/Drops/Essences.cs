@@ -16,7 +16,7 @@ using System.Reflection.Emit;
 using static StardewValley.Farm;
 using Object = StardewValley.Object;
 
-namespace FinalMix.Patches;
+namespace FinalMix.Drops;
 
 internal static class EssenceUtility
 {
@@ -54,7 +54,7 @@ internal static class EssenceUtility
 
         public bool Update()
         {
-            if (!didAlpha && Alpha < 1)
+            if (!didAlpha)
             {
                 Alpha += 0.05;
                 didAlpha = Alpha >= 1;
@@ -91,7 +91,7 @@ internal static class EssenceUtility
         if (!Game1.IsRainingHere() || !Game1.currentLocation.IsOutdoors || Game1.viewport.Width <= 0)
             return;
 
-        if (Game1.random.NextBool(0.00125f))
+        if (Game1.shouldTimePass() && Game1.random.NextBool(0.00125f))
         {
             EssenceType which = Game1.random.NextBool(0.1) ? EssenceType.Aether : (Game1.isGreenRain ? EssenceType.Druidic : (Game1.random.NextBool() && Game1.isLightning ? EssenceType.Storm : EssenceType.Tidal)); 
             Vector2 Pos = new(Game1.random.Next(Game1.viewport.X - 64 * 2, Game1.viewport.X + Game1.viewport.Width + 64 * 2), Game1.random.Next(Game1.viewport.Y - 64 * 2, Game1.viewport.Y + Game1.viewport.Height /3));
@@ -114,7 +114,8 @@ internal static class EssenceUtility
                     essence.Timer += Game1.currentGameTime.ElapsedGameTime.TotalMilliseconds;
             }
 
-            essence.Draw(e.SpriteBatch);
+            if (FinalMix.Config.EnableEssenceRainVisuals)
+                essence.Draw(e.SpriteBatch);
         }
     }
 
@@ -171,7 +172,7 @@ internal static class EssencesFromRocks
         if (who == null)
             return;
 
-        if (Game1.random.NextDouble() < 0.15 + 0.03 * Math.Clamp(who.GetCustomBuffedSkillLevel(FinalMix.ArtificerSkill), 0, 5))
+        if (Game1.random.NextDouble() < 0.15 /*+ 0.03 * Math.Clamp(who.GetCustomBuffedSkillLevel(FinalMix.ArtificerSkill), 0, 5)*/)
             Game1.createObjectDebris(EssenceUtility.FlareEssenceID, x, y, who.UniqueMultiplayerID, __instance);
         if (Game1.random.NextDouble() < 0.02)
             Game1.createObjectDebris(EssenceUtility.AetherEssenceID, x, y, who.UniqueMultiplayerID, __instance);

@@ -1,6 +1,6 @@
-﻿using StardewValley.Menus;
+﻿using PropertyChanged.SourceGenerator;
 using StardewValley;
-using PropertyChanged.SourceGenerator;
+using StardewValley.Menus;
 
 namespace FinalMix.Menus;
 

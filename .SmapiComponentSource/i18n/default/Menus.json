@@ -3,5 +3,7 @@
   "Menus.SkillSelection.ExpanderText": "Extra Information",
   "Menus.SkillSelection.Description": "Starting Skills are optional, choosing one unlocks it at save start, otherwise they're unlocked during the Sword & Sorcery story.\nStarting Skills have minimal to no story impact.",
 
-  "Menus.LevelUpMenu.Both": "Both:"
+  "Menus.LevelUpMenu.Both": "Both:",
+
+  "Menus.UnderforgeMenu.Title": "The Underforge"
 }
