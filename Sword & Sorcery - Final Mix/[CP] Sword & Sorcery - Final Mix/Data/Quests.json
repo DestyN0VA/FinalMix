@@ -4,7 +4,8 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModID}}_FlareEssenceQuest": "ItemDelivery/Flare Essences for Val/Acquire Flare Essences to help Val in their Stygium Purification experiment!/Deliver 50 Flare Essences to Val./DN.SnS_Val (O){{ModID}}_FlareEssence 50/-1/0/-1/false/Thank you, @! I'll run some tests and follow up with you real soon.$1 #$action AddMail Current DN.FlareEssenceQuest received"
+                "{{ModID}}_FlareEssenceQuest": "ItemDelivery/Flare Essences for Val/Acquire Flare Essences to help Val in their Stygium Purification experiment!/Deliver 50 Flare Essences to Val./DN.SnS_Val (O){{ModID}}_FlareEssence 50/-1/0/-1/false/Thank you, @! I'll run some tests and follow up with you real soon.$1 #$action AddMail Current DN.FlareEssenceQuest received",
+                "{{ModID}}_StormEssenceQuest": "ItemDelivery/Storm Essences for Tom/Acquire Flare Essences to help Tom upgrade Coriander's keytar!/Deliver 50 Storm Essences to Major Tom./DN.SnS_Tom (O){{ModID}}_StormEssence 50/-1/0/-1/false/Tch! Thanks, @. I've got big plans for these, you'll see.$6 #$action AddMail Current DN.StormEssenceQuest received"
             }
         }
     ]
