@@ -10,7 +10,7 @@
   "UniqueID": "ET.SnS",
   "Name": "Sword & Sorcery: Final Mix [SMAPI]",
   "Author": "EnderTedi, 7thAxis, KittyCatCasey",
-  "Version": "3.0.0",
+  "Version": "3.0.0-Debug",
   "Description": "C# component for Sword and Sorcery.",
   "EntryDll": "FinalMix.dll",
   "Dependencies": [

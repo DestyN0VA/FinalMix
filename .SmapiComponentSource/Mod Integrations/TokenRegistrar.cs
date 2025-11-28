@@ -5,7 +5,7 @@ using FinalMix.TemporaryTokenForSpellbook;
 
 namespace FinalMix.ModIntegrations;
 
-internal static class Tokens
+internal static class TokenRegistrar
 {
     public static void RegisterTokens(IContentPatcherAPI ContentPatcher)
     {
