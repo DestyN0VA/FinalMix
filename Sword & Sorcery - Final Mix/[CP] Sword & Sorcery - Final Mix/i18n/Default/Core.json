@@ -17,6 +17,8 @@
     "Coriander.5H.Message.false": "You spend some time on the telescope with Coriander; she seems very content and comfortable in your company... until a sound overhead grabs your attention.",
     "Coriander.8H.1.true": "Well, pizza freak - things changes. Sometimes, ya' want pepperonis, and sometimes, ya don't. $6",
     "Coriander.8H.1.false": "Tch! Sometimes, things change. Gotta, ya'know, follow the creative inspiration n' whatnot.$7",
+    "Coriander.9H.1.true": "Pizza freak over here really came through - so, I had this idea and had to borrow your keytar...$6",
+    "Coriander.9H.1.false": "Yeah, our pal over here really came through - so, I had this idea and had to borrow your keytar...$6",
 
     //Day End Question
     "Event.EndDay.Question": "End the day?",

@@ -18,6 +18,26 @@
             "Target": "Characters/DN.SnS_Morris, Characters/DN.SnS_Gunther, Characters/DN.SnS_Marlon, Portraits/DN.SnS_Morris, Portraits/DN.SnS_Gunther, Portraits/DN.SnS_Marlon",
             "FromFile": "Assets/Models/Temporary/{{TargetPathOnly}}/{{TargetWithoutPath}}/{{season}}.png"
         },
+        {
+            "Action": "Load",
+            "Target": "Characters/Morris_DB1",
+            "FromFile": "Assets/Models/Temporary/Characters/DN.SnS_Morris/Spring.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Morris_DB1",
+            "FromFile": "Assets/Models/Temporary/Portraits/DN.SnS_Morris/Spring.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Morris_DB2",
+            "FromFile": "Assets/Models/Temporary/Characters/DN.SnS_Morris/DanceBattle.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Morris_DB2",
+            "FromFile": "Assets/Models/Temporary/Portraits/DN.SnS_Morris/DanceBattle.png"
+        },
         // EMERITUS
         {
             "Action": "Load",
@@ -27,7 +47,7 @@
         // MAJOR TOM
         {
             "Action": "Load",
-            "Target": "Characters/MajorTom",
+            "Target": "Characters/MajorTom, Characters/MT_DB",
             "FromFile": "Assets/Models/Companions/Characters/DN.SnS_Tom/Default.png"
         },
         // FARMER
