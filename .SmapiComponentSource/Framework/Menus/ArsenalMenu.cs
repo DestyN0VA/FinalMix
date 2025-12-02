@@ -1001,7 +1001,7 @@ public static class MonsterTakeDamagePatch
                             {
                                 __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
                                 if (__instance.Health <= 0)
-                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                                    ModSnS.Instance.Helper.Reflection.GetMethod(__instance.currentLocation, "onMonsterKilled").Invoke([who, __instance, __instance.GetBoundingBox(), false]);
                             }
                         }, 1000);
                         DelayedAction.functionAfterDelay(() =>
@@ -1010,7 +1010,7 @@ public static class MonsterTakeDamagePatch
                             {
                                 __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
                                 if (__instance.Health <= 0)
-                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                                    ModSnS.Instance.Helper.Reflection.GetMethod(__instance.currentLocation, "onMonsterKilled").Invoke([who, __instance, __instance.GetBoundingBox(), false]);
                             }
                         }, 2000);
                         DelayedAction.functionAfterDelay(() =>
@@ -1019,7 +1019,7 @@ public static class MonsterTakeDamagePatch
                             {
                                 __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
                                 if (__instance.Health <= 0)
-                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                                    ModSnS.Instance.Helper.Reflection.GetMethod(__instance.currentLocation, "onMonsterKilled").Invoke([who, __instance, __instance.GetBoundingBox(), false]);
                             }
                         }, 000);
                         break;
@@ -1079,7 +1079,7 @@ public static class MonsterTakeDamagePatch
                             {
                                 __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
                                 if (__instance.Health <= 0)
-                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                                    ModSnS.Instance.Helper.Reflection.GetMethod(__instance.currentLocation, "onMonsterKilled").Invoke([who, __instance, __instance.GetBoundingBox(), false]);
                             }
                         }, 1000);
                         DelayedAction.functionAfterDelay(() =>
@@ -1088,7 +1088,7 @@ public static class MonsterTakeDamagePatch
                             {
                                 __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
                                 if (__instance.Health <= 0)
-                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                                    ModSnS.Instance.Helper.Reflection.GetMethod(__instance.currentLocation, "onMonsterKilled").Invoke([who, __instance, __instance.GetBoundingBox(), false]);
                             }
                         }, 2000);
                         DelayedAction.functionAfterDelay(() =>
@@ -1097,7 +1097,7 @@ public static class MonsterTakeDamagePatch
                             {
                                 __instance.takeDamage((int)(damage * 0.3f), 0, 0, false, 1, "hitEnemy");
                                 if (__instance.Health <= 0)
-                                    __instance.currentLocation.monsterDrop(__instance, __instance.GetBoundingBox().Center.X, __instance.GetBoundingBox().Center.Y, who);
+                                    ModSnS.Instance.Helper.Reflection.GetMethod(__instance.currentLocation, "onMonsterKilled").Invoke([who, __instance, __instance.GetBoundingBox(), false]);
                             }
                         }, 000);
                         break;

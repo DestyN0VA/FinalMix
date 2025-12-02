@@ -288,7 +288,7 @@ namespace SwordAndSorcerySMAPI
             }
             responses.Add(new("cancel", I18n.Cancel()));
             Game1.drawObjectQuestionDialogue(I18n.Bardics_Song_Obelisk_Name(), [.. responses]);
-            Game1.currentLocation.afterQuestion = (Farmer who, string key) =>
+            Game1.currentLocation.afterQuestion = (who, key) =>
             {
                 if (opts.Contains(key))
                 {
@@ -689,7 +689,7 @@ namespace SwordAndSorcerySMAPI
                 }
             });
 
-            Event.RegisterCommand("sns_bardicsunlock", (Event @event, string[] args, EventContext context) =>
+            Event.RegisterCommand("sns_bardicsunlock", (@event, args, context) =>
             {
                 // This implementation is incredibly lazy
                 ArgUtility.TryGetVector2(args, 1, out Vector2 center, out string error);

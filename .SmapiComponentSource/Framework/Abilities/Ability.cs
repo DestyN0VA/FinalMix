@@ -180,13 +180,13 @@ namespace SwordAndSorcerySMAPI.Framework.Abilities
             if (!data.transformed.Value)
                 return true;
 
-            int[] offsetHatX = [6, 13, 6, -4, -1];
+            int[] offsetHatX = [6, 13, 6, -1, -1];
             int[][] offsetHatY =
                 [
-                    [8, 8, 9, 9, 8, 8, 8], // up
-                    [7, 7, 8, 8, 7, 7, 7], // right
-                    [15, 15, 15, 16, 15, 15, 15], // down
-                    [7, 7, 8, 8, 7, 7, 7], // left
+                    [6, 7, 7, 7, 7, 7], // up
+                    [7, 8, 8, 7, 7, 7, 7], // right
+                    [15, 16, 16, 15, 16, 16], // down
+                    [7, 8, 8, 7, 7, 7], // left
                     [7, 8, 10, 12, 12, 10, 8], // rest
                 ];
             int f = 0;
@@ -251,7 +251,7 @@ namespace SwordAndSorcerySMAPI.Framework.Abilities
                 int offsetInd = who.FacingDirection;
                 if (data.IsResting) offsetInd = 4;
 
-                Vector2 offset = new(offsetHatX[offsetInd], offsetHatY[offsetInd][f]);
+                Vector2 offset = new(offsetHatX[offsetInd], offsetHatY[offsetInd][data.IsResting ? f : Index]);
                 Vector2 p = position + new Vector2(0, 24) + offset * Game1.pixelZoom + new Vector2(0, -10) * Game1.pixelZoom;
                 var Hats = DataLoader.Hats(Game1.content);
                 Hats.TryGetValue(who.hat.Value.ItemId, out var hat);

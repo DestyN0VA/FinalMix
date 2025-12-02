@@ -166,7 +166,7 @@ namespace SwordAndSorcerySMAPI
 
         public static bool IsArmorItem(this Item item)
         {
-            return item.GetArmorAmount(false, false) != null;
+            return item?.GetArmorAmount(false, false) != null;
         }
 
         public static bool IsShieldItem(this MeleeWeapon mw)
