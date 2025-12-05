@@ -71,7 +71,7 @@
                 },
                 {
                   "ID": "UP",
-                  "Contents": "{{i18n: guidebook.chapter.UP.Events |TrueName={{TrueName}} {{TrollHeritageEvents}} |CirrusExtras={{i18n: guidebook.chapter.CirrusExtras.{{CirrusExtras}}}} |VariableTimegate={{VariableTimegate}} |JulietJessie={{i18n:guidebook.UP.Events.JJ.{{HasMod: |contains=LemurKat.JulietHouse.NPC}}}} }}",
+                  "Contents": "{{i18n: guidebook.chapter.UP.Events |TrueName={{TrueName}} {{TrollHeritageEvents}} |CirrusExtras={{i18n: guidebook.chapter.CirrusExtras.{{CirrusExtras}}}} |VariableTimegate={{VariableTimegate}} }}",
                   "Condition": "PLAYER_HAS_SEEN_EVENT Current SnS.Ch2.Hector.16"
                 },
                 {

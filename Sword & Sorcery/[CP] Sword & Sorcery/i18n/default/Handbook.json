@@ -991,7 +991,17 @@ The third chapter of S&S follows Cirrus, a pop-rock star known all across the Fe
 [/else]
 [/if]
  
-{{JulietJessie}}
+[if=PLAYER_HAS_SEEN_EVENT Current SnS.Ch3.Cirrus.4]
+[font=dialogue]Cirrus Event: 3 Heart Pt 2[/font]
+[if=PLAYER_HAS_SEEN_EVENT Current SnS.Ch3.Cirrus.5]Complete![/if]
+[else]
+[if=PLAYER_FRIENDSHIP_POINTS Current Cirrus 750, !PLAYER_HAS_CONVERSATION_TOPIC Current CirrusGuild]Hint: Visit [color=green]East Scarp[/color] between 12pm and 8pm in sunny weather.[/if]
+[else]
+[if=!PLAYER_FRIENDSHIP_POINTS Current Cirrus 750]Requirement: 3 Heart with [color=red]Cirrus[/color][/if]
+[if=PLAYER_HAS_CONVERSATION_TOPIC Current CirrusGuild]Requirement: Wait {{VariableTimegate}} days after the previous event.[/if]
+[/else]
+[/else]
+[/if]
  
 [if=PLAYER_HAS_SEEN_EVENT Current SnS.Ch3.Cirrus.4]
 [font=dialogue]Cirrus Event: 4 Heart[/font]
@@ -1164,19 +1174,6 @@ The third chapter of S&S follows Cirrus, a pop-rock star known all across the Fe
 [/if]
 [/if]
 ",
-"guidebook.UP.Events.JJ.true": "[if=PLAYER_HAS_SEEN_EVENT Current SnS.Ch3.Cirrus.4]
-[font=dialogue]Cirrus Event: 3 Heart Pt 2[/font]
-[if=PLAYER_HAS_SEEN_EVENT Current SnS.Ch3.Cirrus.5]Complete![/if]
-[else]
-[if=PLAYER_FRIENDSHIP_POINTS Current Cirrus 750, !PLAYER_HAS_CONVERSATION_TOPIC Current CirrusGuild]Hint: Visit [color=green]East Scarp[/color] between 12pm and 8pm in sunny weather.[/if]
-[else]
-[if=!PLAYER_FRIENDSHIP_POINTS Current Cirrus 750]Requirement: 3 Heart with [color=red]Cirrus[/color][/if]
-[if=PLAYER_HAS_CONVERSATION_TOPIC Current CirrusGuild]Requirement: Wait {{VariableTimegate}} days after the previous event.[/if]
-[/else]
-[/else]
-[/if]",
-"guidebook.UP.Events.JJ.false": "[font=dialogue]Cirrus Event: 3 Heart Pt 2[/font]
-Juliet and Jessie is not installed. Skipping event.",
 "guidebook.chapter.Up.Cirrus": "[nospacing]
 [nextposition=0,10][center=300][font=dialogue]Cirrus[/font][/center]
 [offset=118,50][image=Characters/Cirrus:0,0,16,32:4]
