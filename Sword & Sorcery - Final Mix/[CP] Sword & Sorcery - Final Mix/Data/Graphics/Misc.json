@@ -19,7 +19,8 @@
             "PatchMode": "Overlay",
             "Target": "Maps/{{season}}_town",
             "FromFile": "Assets/Misc/CirrusAd.png",
-            "ToArea": { "X": 256, "Y": 911, "Width": 64, "Height": 48 }
+            "ToArea": { "X": 256, "Y": 911, "Width": 64, "Height": 48 },
+            "When": { "HasSeenEvent |contains=DN.Coriander.8H": false },
         },
         //Doll eyes
         {

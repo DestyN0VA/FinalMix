@@ -1,0 +1,80 @@
+{
+  "Changes": [
+    {
+      "LogName": "Tom's Raccoon Family Quest #1",
+      "Action": "EditData",
+      "Target": "Data/Events/EastScarp_Village",
+      "Entries": {
+        "DN.Tom.Q1/t 1800 2600/gameStateQuery !WEATHER here Rain Storm/F/!n SeenCorianderEventToday": "caldera/-100 -100/farmer 73 0 3 {{C}} 57 1 2 {{T}} 56 1 2/skippable/showFrame {{T}} 22/animate {{C}} false true 100 50 51 52 52 52 51 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50 50/positionOffset {{C}} 0 16/positionOffset {{C}} 12 0/positionOffset {{T}} 0 24/positionOffset {{T}} 24 0/addLantern 180 57 1 2/globalFadeToClear/ignoreCollisions farmer/addConversationTopic CorianderStargaze 3/action AddMail Current SeenCorianderEventToday received/viewport 58 9 clamp true/pause 1000/speak {{T}} \"-sees, that's the thing about narrative fiction'. S'like a little bridge between you n' other people.$9#$b#Like, who don't love a character that's got every reason to be a villain but ain't? They're the favorites every time in all the good books.$7\"/speak {{C}} \"You sound like you read a lot.$0\"/speak {{T}} \"Oh, yeah. I mean, s'was all I had back at NIMH. Books they thought I was too dumb for - but jokes on them!$7\"/speak {{C}} \"Do you want to talk about that? About NIMH?$2\"/pause 250/showFrame {{T}} 23/pause 250/speak {{T}} \"I mean, I guess there ain't much to say. NIMH was funded by Joja, so they had to do what Joja wanted. And Joja's bad news. You know that, everyone knows that.$3#$b#I guess testin' stuff on critters before givin' it to humans is a given. I hate it, it's wrong, but what can ya' do.$2#$b#But the experimentin' on me n' my friends? Leagues beyond that, obvs. They weren't exactly tryin' eyeshadow formulas.$5\"/speak {{C}} \"You had... friends?$18\"/speak {{T}} \"Yeah, there was a whole lot of us. But, uh. I was the - man, there ain't no putting this kindly. I'm the only one left, Cori. S'why I had to get out so bad.$5\"/advancedMove farmer false 0 8 -15 0 4 10/speak {{C}} \"I'm so sorry, Tom. I've had my experiences with Joja, too, but they're nothing like what you-$24\"/pause 250/showFrame {{T}} 22/pause 250/speak {{T}} \"Aw, can it. S'not right, to compare pains like that. Joja did us both wrong, goddit?$10#$b#Me n' you, we're safe now. Two weird alien pals, different but the same.$11\"/speak {{C}} \"You're right. Weird alien pals...$11\"/waitForAllStationary/speak {{T}} \"{{i18n:Coriander.7H.1.{{HasFlag: |contains=Tom_PizzaFreak}}}}\"/pause 250/emote farmer 40/pause 250/speak {{C}} \"Want to come up, @? We were just stargazing...$7\"/pause 250/emote farmer 32/pause 250/advancedMove farmer false 0 -4 4 10/waitForAllStationary/jump farmer 8/pause 250/warp farmer 58 2/faceDirection farmer 2/animate farmer false true 70 70/pause 250/speak {{T}} \"...Soz, if you guys could be anythin' you weren't already are, what would you be?$8\"/speak {{C}} \"Why do you ask?$3\"/speak {{T}} \"I'm just startin' a conversation, Cori. Liftin' the mood.$3\"/speak {{C}} \"Well, then... $0#$b#I think I'd be an architect, if I couldn't be in music. I mean, have you ever seen the inside of a planetarium?$1#$b#I want to know how that's designed, how that comes to be. It's just so cool.$7#$b#I'd consider being a brewer, but some hobbies just need to stay hobbies.$6\"/speak {{T}} \"That's cute as heck, Cori. What about you, bub?$1\"/quickQuestion #I'm already 'the thing I wasn't already'! #I'm not sure...(break)speak {{C}} \"Oh, yeah. You did already pick up from your old life to start over, haven't you? I guess you're living Tom's question.$1\"(break)speak {{T}} \"It's a pretty tough one. Worth think' about, though. The world's so big n' you got so much time, n' so much freedom...$8\"/pause 250/viewport move 0 1 8000/pause 7000/fade/viewport -1000 -1000/speak {{C}} \"What about you, Tom?\"/speak {{T}} \"Well, since right now I'm just a guy... I think I'd wanna build robots!$7\"/speak {{C}} \"Really?$4\"/speak {{T}} \"Yeah, friendly ones that help n' the garden and give good hugs. And fly! Soz' we can go to space together...$4\"/end"
+      },
+    },
+  ]
+}
+/* 
+
+(0 = up, 1 = right, 2 = down, 3 = left)
+
+patch reload DN.SnS Data/Events/HeartEvents_Coriander.json
+
+quickQuestion #That girl sounds overwhelmed. #That voice is familiar.(break)speak {{V}} \"Let's check in on things, just in case.$32\"(break)speak DN.Hector \"Right? Reminds me of something I was watching with Eloise...$7\"
+
+advancedMove true/false (loop) parameters
+
+parameters:
+x y x y x y = move without pause
+
+x y z t x y z t = move with pauses
+
+x y x y z t x y = move with mix of mentioned above
+
+x = how many tiles move in x axis (+ = right, - = left)
+y = how many tiles move in y axis (+ = down, - = up)
+z = direction face upon reaching destination (1=right, 2=down, 3=left, 4=up)
+t = duration in milliseconds how long to stay in that spot (must be >= 10000ms)
+
+4   - empty can
+8   - question mark
+12  - angry
+16  - exclamation
+20  - heart
+24  - sleep
+28  - sad
+32  - happy
+36  - x
+40  - pause
+52  - video game
+56  - music note
+60  - blush
+212 - Thumbs Up
+216 - Thumbs Down
+220 - Poisoned
+224 - Laugh (Joy)
+228 - Shock
+232 - Raise hand/Reach
+236 - Laugh (Evil)
+240 - Smug/Annoyed
+244 - Lightbulb
+248 - Harp/Lyre
+252 - J...jar.
+256 - Orange heart
+260 - Purple heart
+264 - Green heart
+268 - Yellow heart
+260 - Blue heart
+276 - Sunset heart
+280 - Shadow heart
+284 - Gray heart
+
+/--can comment with a double dash/
+temporaryAnimatedSprite TexturePath x-startposition y-endposition Width-px Height-px FrameDuration FrameCount #OfAnimationLoops SpawnTileX SpawnTileY Flicker Flip LayerDepth AlphaFade Scale ScaleChange Rotation RotationChange AdvancedFlags
+stopAdvancedMoves - will prevent clipping issues at the end of an event when characters advMove off screen
+waitForAllStationary - waits until all advMoves are complete for next action 
+proceedPosition NPC - waits for specified advMove are complete for next action 
+beginSimultaneousCommand / endSimultaneousCommand
+doAction x y 
+Receiving item /faceDirection farmer 2/showFrame farmer 57/addObject 18 6 243 3/playSound pickUpItem/pause 1500/removeTemporarySprites/
+cutscene clearTempSprites
+animate <actor> <flip> <loop> <frame duration> <frames...>
+addTemporaryActor <spriteAssetName> <sprite width> <sprite height> <tile x> <tile y> <direction> [breather] [Character|Animal|Monster] [override name]
+
+*/

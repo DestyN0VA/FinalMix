@@ -108,5 +108,15 @@
             "Target": "Characters/JojaBoxes2",
             "FromFile": "Assets/Misc/JojaBoxes2.png"
         },
+        {
+            "Action": "Load",
+            "Target": "Characters/BookPile",
+            "FromFile": "Assets/Misc/BookPile.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/BlankActor",
+            "FromFile": "Assets/Misc/BlankActor.png"
+        },
     ]
 }

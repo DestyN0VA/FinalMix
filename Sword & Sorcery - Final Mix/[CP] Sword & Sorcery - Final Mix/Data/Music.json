@@ -145,6 +145,24 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
+                "DN.Damocles_1": {
+                    "ID": "DN.Damocles_1",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Damocles_1.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "DN.Damocles_2": {
+                    "ID": "DN.Damocles_2",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/Damocles_2.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
             }
         },
         // SOUNDS
