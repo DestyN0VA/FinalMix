@@ -5,8 +5,8 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
-        "{{ModID}}_adventureguildbadge": {
-          "Name": "{{ModID}}_adventureguildbadge",
+        "{{ModID}}_GuildBadge": {
+          "Name": "{{ModID}}_GuildBadge",
           "DisplayName": "{{i18n: magicitem.adventureguildbadge.name}}",
           "Description": "{{i18n: magicitem.adventureguildbadge.description}}",
           "Type": "Ring",
@@ -18,8 +18,8 @@
           "Texture": "DN.Misc/Cursors",
           "SpriteIndex": 0
         },
-        "{{ModID}}_pressedcrocus": {
-          "Name": "{{ModID}}_pressedcrocus",
+        "{{ModID}}_PressedCrocus": {
+          "Name": "{{ModID}}_PressedCrocus",
           "DisplayName": "{{i18n: magicitem.pressedcrocus.name}}",
           "Description": "{{i18n: magicitem.pressedcrocus.description}}",
           "Type": "Ring",
@@ -31,7 +31,58 @@
           "Texture": "DN.Misc/Cursors",
           "SpriteIndex": 8
         },
-      },
+        "{{ModID}}_AetheriteHorseshoe": {
+          "Name": "{{ModID}}_AetheriteHorseshoe",
+          "DisplayName": "{{i18n: magicitem.AetheriteHorse.name}}",
+          "Description": "{{i18n: magicitem.AetheriteHorse.description}}",
+          "Type": "Ring",
+          "Category": -96,
+          "Price": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Objects",
+          "SpriteIndex": 5
+        },
+        "{{ModID}}_PocketTelescope": {
+          "Name": "{{ModID}}_PocketTelescope",
+          "DisplayName": "{{i18n: magicitem.PocketTelescope.name}}",
+          "Description": "{{i18n: magicitem.PocketTelescope.description}}",
+          "Type": "Ring",
+          "Category": -96,
+          "Price": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": true,
+          "Texture": "DN.Objects/Objects",
+          "SpriteIndex": 6
+        },
+      }
+    },
+    {
+     "LogName": "TR Equips",
+      "Action": "EditData",
+      "Target": "Data/Trinkets",
+      "Entries": {
+        "{{ModId}}_AetheriteHorseshoeFake": {
+            "Id": "{{ModId}}_AetheriteHorseshoeFake",
+            "DisplayName": "Debug",
+            "Description": "Aetherite horseshoe functionality item. Do not equip.",
+            "Texture": "DN.Misc/Cursors",
+            "SheetIndex": 16,
+            "DropsNaturally": false,
+            "CanBeReforged": false
+          },
+        "{{ModId}}_PocketTelescopeFake": {
+            "Id": "{{ModId}}_PocketTelescopeFake",
+            "DisplayName": "Debug",
+            "Description": "Pocket telescope functionality item. Do not equip.",
+            "Texture": "DN.Misc/Cursors",
+            "SheetIndex": 16,
+            "DropsNaturally": false,
+            "CanBeReforged": false
+          }
+      }
     },
     {
       "LogName": "Keychain Buff",

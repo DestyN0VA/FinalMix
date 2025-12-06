@@ -6,6 +6,12 @@
             "Target": "Characters/Val.Injury, Characters/Val.SwordSwing",
             "FromFile": "Assets/Models/Main/Characters/DN.SnS_Val/Actors/{{TargetWithoutPath}}.png"
         },
+        //Coriander
+        {
+            "Action": "Load",
+            "Target": "Characters/Coriander.Powerline",
+            "FromFile": "Assets/Models/Main/Characters/DN.SnS_Coriander/Actors/{{TargetWithoutPath}}.png"
+        },
         // SEN
         {
             "Action": "Load",
@@ -20,23 +26,13 @@
         },
         {
             "Action": "Load",
-            "Target": "Characters/Morris_DB1",
-            "FromFile": "Assets/Models/Temporary/Characters/DN.SnS_Morris/Spring.png"
+            "Target": "Characters/Morris_DB1, Portraits/Morris_DB1",
+            "FromFile": "Assets/Models/Temporary/{{TargetPathOnly}}/DN.SnS_Morris/Spring.png"
         },
         {
             "Action": "Load",
-            "Target": "Portraits/Morris_DB1",
-            "FromFile": "Assets/Models/Temporary/Portraits/DN.SnS_Morris/Spring.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/Morris_DB2",
-            "FromFile": "Assets/Models/Temporary/Characters/DN.SnS_Morris/DanceBattle.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Portraits/Morris_DB2",
-            "FromFile": "Assets/Models/Temporary/Portraits/DN.SnS_Morris/DanceBattle.png"
+            "Target": "Characters/Morris_DB2, Portraits/Morris_DB2",
+            "FromFile": "Assets/Models/Temporary/{{TargetPathOnly}}/DN.SnS_Morris/DanceBattle.png"
         },
         // EMERITUS
         {
@@ -95,28 +91,8 @@
         // OBJECTS 
         {
             "Action": "Load",
-            "Target": "Characters/JojaCapsule",
-            "FromFile": "Assets/Misc/JojaCapsule.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/JojaBoxes",
-            "FromFile": "Assets/Misc/JojaBoxes.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/JojaBoxes2",
-            "FromFile": "Assets/Misc/JojaBoxes2.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/BookPile",
-            "FromFile": "Assets/Misc/BookPile.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/BlankActor",
-            "FromFile": "Assets/Misc/BlankActor.png"
-        },
+            "Target": "Characters/JojaCapsule, Characters/JojaBoxes, Characters/JojaBoxes2, Characters/BookPile, Characters/BlankActor",
+            "FromFile": "Assets/Misc/{{TargetWithoutPath}}.png"
+        }
     ]
 }
