@@ -91,7 +91,7 @@
         // OBJECTS 
         {
             "Action": "Load",
-            "Target": "Characters/JojaCapsule, Characters/JojaBoxes, Characters/JojaBoxes2, Characters/BookPile, Characters/BlankActor",
+            "Target": "Characters/JojaCapsule, Characters/JojaBoxes, Characters/JojaBoxes2, Characters/BookPile, Characters/BlankActor, Characters/BattleScores, Characters/DN.SoundWave",
             "FromFile": "Assets/Misc/{{TargetWithoutPath}}.png"
         }
     ]

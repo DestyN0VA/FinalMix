@@ -163,6 +163,24 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
+                "DN.I2I_1": {
+                    "ID": "DN.I2I_1",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/I2I_1.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                },
+                "DN.I2I_2": {
+                    "ID": "DN.I2I_2",
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/I2I_2.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
             }
         },
         // SOUNDS
