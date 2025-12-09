@@ -2,7 +2,7 @@
 	"Changes": [
 		// SCHEDULES
 		/*{
-			"LogName": "Val's Schedule", //(0 = up, 1 = right, 2 = down, 3 = left)
+			"LogName": "Coriander's Schedule", //(0 = up, 1 = right, 2 = down, 3 = left)
 			"Action": "EditData",
 			"Target": "Characters/Schedules/DN.SnS_Coriander",
 			"Entries": {
