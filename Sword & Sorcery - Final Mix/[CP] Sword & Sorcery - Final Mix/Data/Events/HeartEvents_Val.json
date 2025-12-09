@@ -1,15 +1,14 @@
 {
   "Changes": [
-    /*
-    {
+    
+    /*{
       "LogName": "Testing grounds", //Plz don't delete, use this event for testing animations quickly
       "Action": "EditData",
       "Target": "Data/Events/EastScarp_Village",
       "Entries": {
-        "DN.DEBUG/gameStateQuery NULL": "{{season}}_day_ambient/49 80/farmer 49 79 0 {{V}} 49 77 0/skippable/pause 250/speak {{V}} \"Yeehaw\"/emote farmer 244/speak {{V}} \"Haweey\"/pause 250/end"
+        "DN.DEBUG/gameStateQuery NULL": "{{season}}_day_ambient/49 80/farmer 49 79 0 {{T}} 49 77 0/skippable/pause 500/beginSimultaneousCommand/warp {{T}} 1000 1000/addTemporaryActor {{T}}\\RatDance 32 32 49 77 0 false/positionOffset {{T}}\\RatDance -36 0/animate {{T}}\\RatDance false true 100 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39/endSimultaneousCommand/speak {{T}} \"Yeehaw\"/end"
       }
-    },
-    */
+    },*/
     {
       "LogName": "Val's 0 Heart Event",
       "Action": "EditData",
@@ -120,6 +119,8 @@
   ]
 }
 /* 
+
+extendSourceRect <actor> <horizontal> <vertical> [ignoreUpdates]
 
 (0 = up, 1 = right, 2 = down, 3 = left)
 

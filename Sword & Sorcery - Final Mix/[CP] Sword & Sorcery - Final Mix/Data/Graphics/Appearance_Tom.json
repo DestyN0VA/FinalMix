@@ -13,7 +13,7 @@
             "LogName": "Load Default Base",
             "Action": "Load",
             "Priority": "Low",
-            "Target": "Characters/DN.SnS_Tom/Default, Portraits/DN.SnS_Tom/Default, Characters/DN.SnS_Tom/Hoodie_1, Portraits/DN.SnS_Tom/Hoodie_1, Characters/DN.SnS_Tom/Collar, Portraits/DN.SnS_Tom/Collar",
+            "Target": "Characters/DN.SnS_Tom/Default, Portraits/DN.SnS_Tom/Default, Characters/DN.SnS_Tom/Hoodie_1, Characters/DN.SnS_Tom/RatDance, Portraits/DN.SnS_Tom/Hoodie_1, Characters/DN.SnS_Tom/Collar, Portraits/DN.SnS_Tom/Collar",
             "FromFile": "Assets/Models/Companions/{{TargetPathOnly}}/Default.png"
         },
     // OUTFIT OVERLAYS
@@ -25,6 +25,16 @@
             "Target": "Characters/DN.SnS_Tom/Hoodie_1, Portraits/DN.SnS_Tom/Hoodie_1, Characters/DN.SnS_Tom/Collar, Portraits/DN.SnS_Tom/Collar",
             "FromFile": "Assets/Models/Companions/{{TargetPathOnly}}/Outfits/{{TargetWithoutPath}}.png"
         },
+    //Rat Dance
+        {
+            "LogName": "Overlay Outfits",
+            "Action": "EditImage",
+            "Priority": "Early",
+            "PatchMode": "Overlay",
+            "Target": "Characters/DN.SnS_Tom/RatDance",
+            "FromFile": "Assets/Models/Companions/{{TargetPathOnly}}/Outfits/Hoodie_1.png"
+        },
+    // FEATU
     // FEATURE OVERLAYS
         {
             "LogName": "Overlay Tuffs",
