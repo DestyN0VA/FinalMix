@@ -20,7 +20,7 @@
 		{
 			"LogName": "S&S Final Mix: Data Includes - Coriander",
 			"Action": "Include",
-			"FromFile": "Data/Dialogue/Coriander/ConversationTopics_Coriander.json, Data/Dialogue/Coriander/GiftResponses_Coriander.json, Data/Dialogue/Coriander/CoreDialogue_Coriander.json, Data/Dialogue/Coriander/FilmReacts_Coriander.json, Data/Events/HeartEvents_Coriander.json"
+			"FromFile": "Data/Dialogue/Coriander/ConversationTopics_Coriander.json, Data/Dialogue/Coriander/GiftResponses_Coriander.json, Data/Dialogue/Coriander/CoreDialogue_Coriander.json, Data/Dialogue/Coriander/FilmReacts_Coriander.json, Data/Events/HeartEvents_Coriander.json, Data/Schedules/Schedule_Coriander.json"
 		},
 		{
 			"LogName": "S&S Final Mix: Data Includes - Tom",
