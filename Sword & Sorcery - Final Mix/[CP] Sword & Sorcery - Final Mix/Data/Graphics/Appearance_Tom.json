@@ -25,7 +25,7 @@
             "Target": "Characters/DN.SnS_Tom/Hoodie_1, Portraits/DN.SnS_Tom/Hoodie_1, Characters/DN.SnS_Tom/Collar, Portraits/DN.SnS_Tom/Collar",
             "FromFile": "Assets/Models/Companions/{{TargetPathOnly}}/Outfits/{{TargetWithoutPath}}.png"
         },
-    //Rat Dance
+    // RAT DANCE
         {
             "LogName": "Overlay Outfits",
             "Action": "EditImage",
@@ -34,7 +34,6 @@
             "Target": "Characters/DN.SnS_Tom/RatDance",
             "FromFile": "Assets/Models/Companions/{{TargetPathOnly}}/Outfits/Hoodie_1.png"
         },
-    // FEATU
     // FEATURE OVERLAYS
         {
             "LogName": "Overlay Tuffs",
@@ -44,7 +43,7 @@
             "Target": "Portraits/DN.SnS_Tom/Default, Portraits/DN.SnS_Tom, Portraits/DN.SnS_Tom/Collar",
             "FromFile": "Assets/Models/Companions/Portraits/DN.SnS_Tom/Outfits/Tuffs.png"
         },
-//APPEARANCE DATA
+// APPEARANCE DATA
         {
             "Action": "EditData", //Note to self: Remember schedule will only run in testing if 0h is seen
             "Target": "Data/Characters",
