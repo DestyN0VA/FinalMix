@@ -2,7 +2,7 @@
 	"Changes": [
 		// SCHEDULES
 		{
-			"LogName": "Coriander's Schedule", //(0 = up, 1 = right, 2 = down, 3 = left)
+			"LogName": "Coriander's Schedule (Good Weather)", //(0 = up, 1 = right, 2 = down, 3 = left)
 			"Action": "EditData",
 			"Target": "Characters/Schedules/DN.SnS_Coriander",
 			"Entries": {
@@ -10,7 +10,21 @@
 				"spring_Mon": "610 EastScarp_BardHouse 24 5 2 {{C}}_Snooze/700 Saloon {{Random: 7 18 3 {{C}}_Gameboy++2 18 2 {{C}}_StandingIdle++3 19 2 {{C}}_SitDrink|InputSeparator=++}}/1900 EastScarp_BardHouse 32 7 1 {{C}}_Telescope/2300 EastScarp_BardHouse 24 5 2 {{C}}_Snooze",
 				"spring_Wed": "GOTO spring_Mon",
 				"spring_Fri": "GOTO spring_Mon",
-			}, 
+			},
+			"When": {
+				"IsWeatherBad": false
+			}
+		},
+		{
+			"LogName": "Coriander's Schedule (Bad Weather)", //(0 = up, 1 = right, 2 = down, 3 = left)
+			"Action": "EditData",
+			"Target": "Characters/Schedules/DN.SnS_Coriander",
+			"Entries": {
+				"spring": "610 EastScarp_BardHouse 24 5 2 {{C}}_Snooze/1000 18 13 0 {{C}}_Piano/1300 EastScarp_BardHouse {{Random: 24 7 3 {{C}}_Gameboy++6 5 2 {{C}}_StandingIdle++24 15 1++25 16 1++6 14 0++18 15 2|InputSeparator=++}}/2000 EastScarp_BardHouse 24 5 2 {{C}}_Snooze",
+			},
+			"When": {
+				"IsWeatherBad": true
+			}
 		},
 		// ANIMATIONS 
 		{

@@ -26,12 +26,15 @@
         "AstrologyBooks": "{{i18n:Strings.AstrologyBooks}}",
         "StygiumIsFromSpace": "{{i18n:Strings.StygiumIsFromSpace}}",
         "CoriKitchen": "{{i18n:Strings.ScatteredSheetMusic}}",
-        "BigFreddie": "{{i18n:Strings.BigFreddie}}",
+        "BigFreddy": "{{i18n:Strings.BigFreddie}}",
         "CoriPosters": "{{i18n:Strings.CoriPosters}}",
         "CoriGramophone": "{{i18n:Strings.CoriGramophone}}",
         "SophieHat": "{{i18n:Strings.SophieHat}}",
         "CoriGuitar": "{{i18n:Strings.CoriGuitar}}",
-        "PostmodernJukebox": "{{i18n:Strings.PostmodernJukebox.{{Random:1++2++3++4++5++6++7++8++9++10|inputSeparator=++}}}}",
+        "WillysWonderland": "{{i18n:Strings.WillysWonderland}}",
+        "PolybiusCabinet": "{{i18n:Strings.PolybiusCabinet}}",
+        "MothersLetters": "{{i18n:Strings.MotherLetters}}",
+        "PostmodernJukebox": "{{i18n:Strings.PostmodernJukebox.{{Random:1++2++3++4++5++6++7++8++9++10++11++12++13|inputSeparator=++}}}}",
       }
     }
   ]

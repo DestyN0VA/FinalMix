@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="38" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="59">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="38" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="63">
  <properties>
   <property name="Music" value="DN.CorianderTheme"/>
   <property name="Warp" value="8 18 EastScarp_Village 54 8 32 16 EastScarp_Village 58 4"/>
@@ -556,7 +556,7 @@
   </object>
   <object id="49" name="TileData" x="224" y="96" width="32" height="16">
    <properties>
-    <property name="Action" value="Message BigFreddie"/>
+    <property name="Action" value="Message BigFreddy"/>
    </properties>
   </object>
   <object id="50" name="TileData" x="304" y="48" width="32" height="16">
@@ -597,6 +597,26 @@
   <object id="58" name="TileData" x="416" y="192" width="16" height="16">
    <properties>
     <property name="Action" value="Arcade_Prairie"/>
+   </properties>
+  </object>
+  <object id="59" name="TileData" x="416" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message PolybiusCabinet"/>
+   </properties>
+  </object>
+  <object id="60" name="TileData" x="400" y="240" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message WillysWonderland"/>
+   </properties>
+  </object>
+  <object id="61" name="TileData" x="224" y="176" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message MothersLetters"/>
+   </properties>
+  </object>
+  <object id="62" name="TileData" x="336" y="272" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message CoriPlant5"/>
    </properties>
   </object>
  </objectgroup>
