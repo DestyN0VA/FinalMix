@@ -479,7 +479,7 @@
     <property name="Action" value="Message MusicProductionStation"/>
    </properties>
   </object>
-  <object id="32" name="TileData" x="64" y="240" width="16" height="16">
+  <object id="32" name="TileData" x="80" y="240" width="16" height="32">
    <properties>
     <property name="Action" value="Message CoriPlant1"/>
    </properties>
