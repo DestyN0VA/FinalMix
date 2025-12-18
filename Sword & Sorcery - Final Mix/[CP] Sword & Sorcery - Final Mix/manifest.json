@@ -41,6 +41,10 @@
 		{
 			"UniqueID": "Spiderbuttons.BETAS",
 			"IsRequired": true
+		},
+		{
+			"UniqueID": "ET.SnS",
+			"IsRequired": true
 		}
 	]
 }

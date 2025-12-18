@@ -16,6 +16,15 @@
             "Target": "Portraits/DN.SnS_Hector, Portraits/DN.SnS_Lorin, Portraits/DN.SnS_Coriander, Portraits/DN.SnS_Roslin, Portraits/DN.SnS_Dandelion, Portraits/DN.SnS_Arden",
             "FromFile": "Assets/Models/Main/Portraits/{{TargetWithoutPath}}/Other/Armor.png"
         },
+        {
+            "LogName": "Coriander Temp Hair Overlays",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Priority": "Early",
+            "Target": "Portraits/DN.SnS_Coriander, Characters/DN.SnS_Coriander",
+            "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/DN.SnS_Coriander/Features/Hair_{{ET.SnS/CorianderHair}}.png"
+
+        },
         //Main Cast
             //Seasonals
         {
