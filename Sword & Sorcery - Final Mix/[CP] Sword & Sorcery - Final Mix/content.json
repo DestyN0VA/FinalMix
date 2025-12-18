@@ -197,7 +197,14 @@
       "Default": "Brown",
       "AllowBlank": false,
       "Description": "Sets Val's hair color.",
-      "Section": "Gameplay"
+      "Section": "Graphics"
+    },
+    "Coriander Hair Color": {
+      "AllowValues": "Random, Blue, Purple, Red, Black, Orange",
+      "Default": "Random",
+      "AllowBlank": false,
+      "Description": "Sets Coriander's hair color. Random has a several day cooldown.",
+      "Section": "Graphics"
     }
   }
 }

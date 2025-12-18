@@ -25,6 +25,15 @@
             "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/DN.SnS_Coriander/Features/Hair_{{ET.SnS/CorianderHair}}.png"
 
         },
+        {
+            "LogName": "Coriander Temp Hair Overlays - config",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Priority": "Early",
+            "Target": "Portraits/DN.SnS_Coriander, Characters/DN.SnS_Coriander",
+            "FromFile": "Assets/Models/Main/{{TargetPathOnly}}/DN.SnS_Coriander/Features/Hair_{{Coriander Hair Color}}.png",
+            "When": { "Coriander Hair Color|contains=Random": false }
+        },
         //Main Cast
             //Seasonals
         {
